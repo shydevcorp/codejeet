@@ -10,7 +10,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="font-medium hover:underline"
           >
-            ayush
+            Ayush Singh
           </a>{" "}
           •{" "}
           <a
