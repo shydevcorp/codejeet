@@ -63,27 +63,21 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
       children,
       ...props
     }: {
-      inline: boolean;
+      inline?: boolean;
       className?: string;
-      children: React.ReactNode;
+      children?: React.ReactNode; // Make `children` optional
     }) => {
-      const match = /language-(\w+)/.exec(className || "");
-      return !inline && match ? (
-        <SyntaxHighlighter
-          style={atomDark}
-          language={match[1]}
-          PreTag="div"
-          {...props}
-        >
-          {String(children).replace(/\n$/, "")}
+      if (inline) {
+        return (
+          <code className={className} {...props}>
+            {children}
+          </code>
+        );
+      }
+      return (
+        <SyntaxHighlighter style={atomDark} className={className} {...props}>
+          {String(children)}
         </SyntaxHighlighter>
-      ) : (
-        <code
-          className="bg-gray-800 px-1 py-0.5 rounded text-white text-xs"
-          {...props}
-        >
-          {children}
-        </code>
       );
     },
     h1: ({ children }) => <h1 className="font-bold text-xl">{children}</h1>,
