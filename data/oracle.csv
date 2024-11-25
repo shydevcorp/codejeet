@@ -1,0 +1,42 @@
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,4.0%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,32.4%,Medium,1.55%
+7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,1.68%
+12,Integer to Roman,/problems/integer-to-roman,N,61.5%,Medium,9.59%
+13,Roman to Integer,/problems/roman-to-integer,N,58.2%,Easy,3.58%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,55.7%,Medium,3.31%
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,1.99%
+22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,7.35%
+41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,4.68%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,3.24%
+48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,3.07%
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,5.37%
+53,Maximum Subarray,/problems/maximum-subarray,N,50.1%,Medium,1.38%
+54,Spiral Matrix,/problems/spiral-matrix,N,43.8%,Medium,3.49%
+56,Merge Intervals,/problems/merge-intervals,N,46.0%,Medium,2.58%
+71,Simplify Path,/problems/simplify-path,N,39.2%,Medium,13.64%
+76,Minimum Window Substring,/problems/minimum-window-substring,N,40.7%,Hard,11.16%
+78,Subsets,/problems/subsets,N,74.0%,Medium,3.69%
+88,Merge Sorted Array,/problems/merge-sorted-array,N,45.8%,Easy,4.01%
+103,Binary Tree Zigzag Level Order Traversal,/problems/binary-tree-zigzag-level-order-traversal,N,55.2%,Medium,6.43%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,3.88%
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,9.08%
+150,Evaluate Reverse Polish Notation,/problems/evaluate-reverse-polish-notation,N,44.1%,Medium,6.95%
+176,Second Highest Salary,/problems/second-highest-salary,N,36.6%,Medium,5.26%
+200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,2.21%
+206,Reverse Linked List,/problems/reverse-linked-list,N,72.5%,Easy,2.54%
+236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,11.23%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,Y,50.5%,Medium,7.86%
+268,Missing Number,/problems/missing-number,N,61.7%,Easy,2.71%
+283,Move Zeroes,/problems/move-zeroes,N,61.4%,Easy,2.04%
+316,Remove Duplicate Letters,/problems/remove-duplicate-letters,N,44.6%,Medium,73.1%
+387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,3.65%
+453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,55.7%,Medium,60.92%
+560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,4.67%
+694,Number of Distinct Islands,/problems/number-of-distinct-islands,Y,60.6%,Medium,34.02%
+430,Flatten a Multilevel Doubly Linked List,/problems/flatten-a-multilevel-doubly-linked-list,N,59.5%,Medium,19.0%
+987,Vertical Order Traversal of a Binary Tree,/problems/vertical-order-traversal-of-a-binary-tree,N,44.7%,Hard,14.06%
+1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,14.12%
+1472,Design Browser History,/problems/design-browser-history,N,76.1%,Medium,18.15%
+1740,Find Distance in a Binary Tree,/problems/find-distance-in-a-binary-tree,Y,68.8%,Medium,70.1%
+1802,Maximum Value at a Given Index in a Bounded Array,/problems/maximum-value-at-a-given-index-in-a-bounded-array,N,31.9%,Medium,100.0%

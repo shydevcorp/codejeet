@@ -1,0 +1,20 @@
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
+39,Combination Sum,/problems/combination-sum,N,67.8%,Medium,22.13%
+40,Combination Sum II,/problems/combination-sum-ii,N,53.3%,Medium,11.09%
+68,Text Justification,/problems/text-justification,N,36.8%,Hard,8.24%
+76,Minimum Window Substring,/problems/minimum-window-substring,N,40.7%,Hard,3.9%
+160,Intersection of Two Linked Lists,/problems/intersection-of-two-linked-lists,N,53.4%,Easy,5.25%
+251,Flatten 2D Vector,/problems/flatten-2d-vector,Y,48.9%,Medium,49.53%
+269,Alien Dictionary,/problems/alien-dictionary,Y,35.3%,Hard,86.47%
+336,Palindrome Pairs,/problems/palindrome-pairs,N,35.2%,Hard,63.06%
+341,Flatten Nested List Iterator,/problems/flatten-nested-list-iterator,N,61.6%,Medium,17.73%
+354,Russian Doll Envelopes,/problems/russian-doll-envelopes,N,38.3%,Hard,8.36%
+432,All O`one Data Structure,/problems/all-oone-data-structure,N,36.7%,Hard,36.95%
+751,IP to CIDR,/problems/ip-to-cidr,Y,54.7%,Medium,38.39%
+755,Pour Water,/problems/pour-water,Y,46.2%,Medium,100.0%
+773,Sliding Puzzle,/problems/sliding-puzzle,N,63.9%,Hard,67.68%
+787,Cheapest Flights Within K Stops,/problems/cheapest-flights-within-k-stops,N,35.9%,Medium,36.47%
+864,Shortest Path to Get All Keys,/problems/shortest-path-to-get-all-keys,N,45.4%,Hard,74.84%
+992,Subarrays with K Different Integers,/problems/subarrays-with-k-different-integers,N,54.4%,Hard,11.08%
+1257,Smallest Common Region,/problems/smallest-common-region,Y,64.2%,Medium,31.25%
+1235,Maximum Profit in Job Scheduling,/problems/maximum-profit-in-job-scheduling,N,51.2%,Hard,21.15%

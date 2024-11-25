@@ -1,0 +1,27 @@
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,0.16%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,3.31%
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,0.94%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,61.9%,Easy,0.49%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,1.53%
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,9.25%
+56,Merge Intervals,/problems/merge-intervals,N,46.0%,Medium,2.69%
+76,Minimum Window Substring,/problems/minimum-window-substring,N,40.7%,Hard,5.26%
+103,Binary Tree Zigzag Level Order Traversal,/problems/binary-tree-zigzag-level-order-traversal,N,55.2%,Medium,6.51%
+125,Valid Palindrome,/problems/valid-palindrome,N,43.7%,Easy,0.78%
+136,Single Number,/problems/single-number,N,70.1%,Easy,1.96%
+161,One Edit Distance,/problems/one-edit-distance,Y,34.1%,Medium,50.29%
+228,Summary Ranges,/problems/summary-ranges,N,46.9%,Easy,70.97%
+242,Valid Anagram,/problems/valid-anagram,N,62.8%,Easy,0.71%
+283,Move Zeroes,/problems/move-zeroes,N,61.4%,Easy,15.93%
+356,Line Reflection,/problems/line-reflection,Y,34.7%,Medium,98.95%
+392,Is Subsequence,/problems/is-subsequence,N,49.0%,Easy,1.13%
+438,Find All Anagrams in a String,/problems/find-all-anagrams-in-a-string,N,49.0%,Medium,10.83%
+443,String Compression,/problems/string-compression,N,48.9%,Medium,24.09%
+487,Max Consecutive Ones II,/problems/max-consecutive-ones-ii,Y,49.6%,Medium,19.09%
+557,Reverse Words in a String III,/problems/reverse-words-in-a-string-iii,N,81.6%,Easy,3.08%
+560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,8.15%
+567,Permutation in String,/problems/permutation-in-string,N,43.7%,Medium,23.88%
+849,Maximize Distance to Closest Person,/problems/maximize-distance-to-closest-person,N,47.6%,Medium,100.0%
+977,Squares of a Sorted Array,/problems/squares-of-a-sorted-array,N,71.9%,Easy,2.89%
+1493,Longest Subarray of 1's After Deleting One Element,/problems/longest-subarray-of-1s-after-deleting-one-element,N,60.2%,Medium,72.75%

@@ -1,0 +1,43 @@
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,0.09%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,0.51%
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,35.3%,Hard,3.17%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,32.4%,Medium,0.97%
+8,String to Integer (atoi),/problems/string-to-integer-atoi,N,16.6%,Medium,1.66%
+15,3Sum,/problems/3sum,N,32.3%,Medium,0.8%
+31,Next Permutation,/problems/next-permutation,N,37.2%,Medium,1.2%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,33.32%
+45,Jump Game II,/problems/jump-game-ii,N,38.6%,Medium,4.48%
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,1.51%
+64,Minimum Path Sum,/problems/minimum-path-sum,N,60.7%,Medium,2.05%
+118,Pascal's Triangle,/problems/pascals-triangle,N,69.3%,Easy,0.8%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,1.09%
+122,Best Time to Buy and Sell Stock II,/problems/best-time-to-buy-and-sell-stock-ii,N,63.4%,Medium,1.21%
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,1.17%
+166,Fraction to Recurring Decimal,/problems/fraction-to-recurring-decimal,N,24.1%,Medium,37.41%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,65.8%,Medium,1.08%
+338,Counting Bits,/problems/counting-bits,N,75.3%,Easy,4.18%
+387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,15.03%
+443,String Compression,/problems/string-compression,N,48.9%,Medium,14.36%
+457,Circular Array Loop,/problems/circular-array-loop,N,32.3%,Medium,20.28%
+532,K-diff Pairs in an Array,/problems/k-diff-pairs-in-an-array,N,40.8%,Medium,8.25%
+647,Palindromic Substrings,/problems/palindromic-substrings,N,66.4%,Medium,39.68%
+657,Robot Return to Origin,/problems/robot-return-to-origin,N,75.3%,Easy,6.39%
+696,Count Binary Substrings,/problems/count-binary-substrings,N,65.6%,Easy,62.56%
+724,Find Pivot Index,/problems/find-pivot-index,N,53.4%,Easy,1.98%
+730,Count Different Palindromic Subsequences,/problems/count-different-palindromic-subsequences,N,44.5%,Hard,91.15%
+740,Delete and Earn,/problems/delete-and-earn,N,57.4%,Medium,4.17%
+749,Contain Virus,/problems/contain-virus,N,50.9%,Hard,74.95%
+780,Reaching Points,/problems/reaching-points,N,32.4%,Hard,85.95%
+994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,1.44%
+1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,91.46%
+1086,High Five,/problems/high-five,Y,75.1%,Easy,61.23%
+1041,Robot Bounded In Circle,/problems/robot-bounded-in-circle,N,55.3%,Medium,69.56%
+1328,Break a Palindrome,/problems/break-a-palindrome,N,53.2%,Medium,100.0%
+1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.0%,Medium,52.55%
+1356,Sort Integers by The Number of 1 Bits,/problems/sort-integers-by-the-number-of-1-bits,N,72.0%,Easy,58.82%
+1395,Count Number of Teams,/problems/count-number-of-teams,N,68.0%,Medium,33.15%
+1413,Minimum Value to Get Positive Step by Step Sum,/problems/minimum-value-to-get-positive-step-by-step-sum,N,68.1%,Easy,14.46%
+1823,Find the Winner of the Circular Game,/problems/find-the-winner-of-the-circular-game,N,77.9%,Medium,5.89%
+1832,Check if the Sentence Is Pangram,/problems/check-if-the-sentence-is-pangram,N,83.9%,Easy,3.56%
+1836,Remove Duplicates From an Unsorted Linked List,/problems/remove-duplicates-from-an-unsorted-linked-list,Y,69.6%,Medium,71.36%
