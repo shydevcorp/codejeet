@@ -8,7 +8,7 @@ const Footer = () => {
             href="https://x.com/shydev69"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline bg-gradient-to-r from-cyan-500 to-purple-500 text-transparent bg-clip-text inline-flex items-center gap-1"
+            className="font-medium hover:underline"
           >
             ayush
           </a>{" "}

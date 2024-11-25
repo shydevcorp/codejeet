@@ -293,7 +293,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <TableHead className="text-right">Acceptance</TableHead>
                     <TableHead className="text-right">Frequency</TableHead>
                     <TableHead className="text-center">Premium</TableHead>
-                    <TableHead className="w-[50px]">Video</TableHead>
+                    <TableHead className="text-left">Solution</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
