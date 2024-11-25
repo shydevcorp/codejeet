@@ -65,18 +65,21 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
     }: {
       inline?: boolean;
       className?: string;
-      children?: React.ReactNode; // Make `children` optional
+      children?: React.ReactNode;
     }) => {
-      if (inline) {
-        return (
-          <code className={className} {...props}>
-            {children}
-          </code>
-        );
-      }
-      return (
-        <SyntaxHighlighter style={atomDark} className={className} {...props}>
-          {String(children)}
+      const match = /language-(\w+)/.exec(className || "");
+      return inline ? (
+        <code className={className} {...props}>
+          {children}
+        </code>
+      ) : (
+        <SyntaxHighlighter
+          style={atomDark}
+          language={match ? match[1] : "plaintext"}
+          PreTag="div"
+          {...props}
+        >
+          {String(children).trim()}
         </SyntaxHighlighter>
       );
     },
