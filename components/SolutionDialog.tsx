@@ -12,7 +12,6 @@ import { Book } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import ReactMarkdown, { Components } from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-// Import the desired dark theme
 import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 interface SolutionDialogProps {
@@ -58,7 +57,16 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
   };
 
   const renderers: Components = {
-    code({ inline, className, children, ...props }) {
+    code: ({
+      inline,
+      className,
+      children,
+      ...props
+    }: {
+      inline: boolean;
+      className?: string;
+      children: React.ReactNode;
+    }) => {
       const match = /language-(\w+)/.exec(className || "");
       return !inline && match ? (
         <SyntaxHighlighter
@@ -71,7 +79,7 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         </SyntaxHighlighter>
       ) : (
         <code
-          className="bg-gray-800 px-1 py-0.5 rounded text-white text-xs" // Changed to text-xs
+          className="bg-gray-800 px-1 py-0.5 rounded text-white text-xs"
           {...props}
         >
           {children}
