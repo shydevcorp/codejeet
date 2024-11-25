@@ -29,6 +29,8 @@ import { cn } from "@/lib/utils";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { capitalizeWords } from "@/utils/utils";
+import { VideoDialog } from "@/components/VideoDialog";
+import { SolutionDialog } from "@/components/SolutionDialog";
 
 interface Question {
   ID: string;
@@ -291,6 +293,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <TableHead className="text-right">Acceptance</TableHead>
                     <TableHead className="text-right">Frequency</TableHead>
                     <TableHead className="text-center">Premium</TableHead>
+                    <TableHead className="w-[50px]">Video</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -338,6 +341,13 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         ) : (
                           <X className="h-4 w-4 mx-auto text-red-600 dark:text-red-400" />
                         )}
+                      </TableCell>
+                      <TableCell className="flex items-center gap-2">
+                        <VideoDialog id={question.ID} title={question.Title} />
+                        <SolutionDialog
+                          questionId={question.ID}
+                          title={question.Title}
+                        />
                       </TableCell>
                     </TableRow>
                   ))}

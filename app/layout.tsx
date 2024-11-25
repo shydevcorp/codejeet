@@ -1,6 +1,7 @@
 import { Fira_Code, Inter, Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -26,9 +27,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="min-h-screen bg-background">
+          <div className="min-h-screen bg-background flex flex-col">
             <Navbar />
-            {children}
+            <main className="flex-1">{children}</main>
+            <Footer />
             <Analytics />
           </div>
         </ThemeProvider>
