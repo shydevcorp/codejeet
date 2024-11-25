@@ -24,9 +24,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Check, X } from "lucide-react";
+import { Check, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@/components/ui/button";
+import { capitalizeWords } from "@/utils/utils";
 
 interface Question {
   ID: string;
@@ -44,6 +46,8 @@ interface LeetCodeDashboardProps {
   companies: string[];
 }
 
+const ITEMS_PER_PAGE = 10;
+
 const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   questions = [],
   companies = [],
@@ -56,12 +60,11 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>(
     {}
   );
+  const [currentPage, setCurrentPage] = useState(1);
 
-  // Ensure we only run client-side code after component mounts
   useEffect(() => {
     setIsClient(true);
 
-    // Load from localStorage on client side
     const savedItems = localStorage.getItem("leetcode-checked-items");
     if (savedItems) {
       try {
@@ -73,7 +76,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
   }, []);
 
-  // Save to localStorage whenever checkedItems change
   useEffect(() => {
     if (isClient) {
       localStorage.setItem(
@@ -142,6 +144,22 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     return { total, easy, medium, hard };
   }, [filteredQuestions]);
 
+  const totalPages = Math.ceil(filteredQuestions.length / ITEMS_PER_PAGE);
+
+  const currentItems = useMemo(() => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    return filteredQuestions.slice(startIndex, endIndex);
+  }, [filteredQuestions, currentPage]);
+
+  const goToNextPage = () => {
+    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  };
+
+  const goToPreviousPage = () => {
+    setCurrentPage((prev) => Math.max(prev - 1, 1));
+  };
+
   interface DifficultyColorProps {
     difficulty: string;
   }
@@ -169,7 +187,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
   };
 
-  // Prevent rendering on server
   if (!isClient) {
     return null;
   }
@@ -277,7 +294,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {filteredQuestions.map((question) => (
+                  {currentItems.map((question) => (
                     <TableRow key={`${question.ID}-${question.company}`}>
                       <TableCell className="w-4">
                         <Checkbox
@@ -297,7 +314,11 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           {question.Title}
                         </a>
                       </TableCell>
-                      <TableCell>{question.company}</TableCell>
+                      <TableCell>
+                        <div className="capitalize">
+                          {capitalizeWords(question.company)}
+                        </div>
+                      </TableCell>
                       <TableCell>
                         <span
                           className={getDifficultyColor(question.Difficulty)}
@@ -322,6 +343,29 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   ))}
                 </TableBody>
               </Table>
+              <div className="flex items-center justify-end space-x-2 py-4">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={goToPreviousPage}
+                  disabled={currentPage === 1}
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                  Previous
+                </Button>
+                <div className="text-sm font-medium">
+                  Page {currentPage} of {totalPages}
+                </div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={goToNextPage}
+                  disabled={currentPage === totalPages}
+                >
+                  Next
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
+              </div>
             </div>
           </div>
         </CardContent>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "Fira Code", monospace;
+  font-family: "Inter", sans-serif;
 }
 
 @layer base {
