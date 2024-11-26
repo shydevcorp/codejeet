@@ -31,6 +31,8 @@ import { Button } from "@/components/ui/button";
 import { capitalizeWords } from "@/utils/utils";
 import { VideoDialog } from "@/components/VideoDialog";
 import { SolutionDialog } from "@/components/SolutionDialog";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@clerk/nextjs";
 
 interface Question {
   ID: string;
@@ -54,6 +56,17 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   questions = [],
   companies = [],
 }) => {
+  const router = useRouter();
+  const { isSignedIn } = useAuth();
+
+  const handleDashboardClick = () => {
+    if (isSignedIn) {
+      router.push("/dashboard");
+    } else {
+      router.push("/sign-in");
+    }
+  };
+
   const [isClient, setIsClient] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
@@ -380,6 +393,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
           </div>
         </CardContent>
       </Card>
+      <button onClick={handleDashboardClick}>Dashboard</button>
     </div>
   );
 };
