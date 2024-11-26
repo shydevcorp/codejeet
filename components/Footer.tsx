@@ -1,27 +1,34 @@
+import { AiFillHeart } from "react-icons/ai";
+import { BsTwitterX, BsGithub, BsSuitHeartFill } from "react-icons/bs";
+
 const Footer = () => {
   return (
-    <footer className="border-t py-4">
-      <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-        <p>
-          Developed by{" "}
-          <a
-            href="https://x.com/shydev69"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium hover:underline"
-          >
-            Ayush Singh
-          </a>{" "}
-          •{" "}
+    <footer className="py-4">
+      <div className="container mx-auto flex flex-row items-center justify-between px-4">
+        {/* Left Side */}
+        <div className="flex items-center space-x-2">
+          <span className="flex items-center">
+            Built with <BsSuitHeartFill className="ml-1 mr-1" />
+            by Ayush
+          </span>
+        </div>
+        {/* Right Side */}
+        <div className="flex items-center space-x-4">
           <a
             href="https://github.com/ayush-that/takeubackward"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium hover:underline"
           >
-            Source Code
+            <BsGithub size={24} />
           </a>
-        </p>
+          <a
+            href="https://twitter.com/shydev69"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTwitterX size={24} />
+          </a>
+        </div>
       </div>
     </footer>
   );

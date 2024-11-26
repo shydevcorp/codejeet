@@ -1,4 +1,3 @@
-// Navbar.tsx
 "use client";
 
 import {
@@ -6,9 +5,9 @@ import {
   NavigationMenuList,
   NavigationMenuItem,
   NavigationMenuLink,
-} from "@/components/ui/navigation-menu"; // Adjust the import path as needed
+} from "@/components/ui/navigation-menu";
 import { ModeToggle } from "./mode-toggle";
-import { UserButton } from "@clerk/clerk-react"; // Import UserButton
+import { UserButton } from "@clerk/clerk-react";
 
 const Navbar = () => {
   return (
