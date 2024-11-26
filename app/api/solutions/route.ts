@@ -1,8 +1,11 @@
 import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 
-const genAI = new GoogleGenerativeAI("AIzaSyBDSAkzsVL8TGDCze1Gvhbto0kU3AROBag");
-
+const apiKey = process.env.GEMINI_API_KEY;
+if (!apiKey) {
+  throw new Error("GEMINI_API_KEY is not configured");
+}
+const genAI = new GoogleGenerativeAI(apiKey);
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
