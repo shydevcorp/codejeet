@@ -1,4 +1,4 @@
-import { Raleway } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 
-const ibm = Raleway({
+const font = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
@@ -24,7 +24,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <body className={`${ibm.className}`}>
+        <body className={`${font.className}`} suppressHydrationWarning>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"

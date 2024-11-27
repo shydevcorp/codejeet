@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react';
-import Image from 'next/image';
-import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
+import React from "react";
+import Image from "next/image";
+import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 
 interface AnimatedImageProps {
   src: string;
@@ -12,13 +12,25 @@ interface AnimatedImageProps {
   className?: string;
 }
 
-const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, alt, width, height, className }) => {
+const AnimatedImage: React.FC<AnimatedImageProps> = ({
+  src,
+  alt,
+  width,
+  height,
+  className,
+}) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
   const springConfig = { stiffness: 300, damping: 30 };
-  const rotateX = useSpring(useTransform(y, [-300, 300], [5, -5]), springConfig);
-  const rotateY = useSpring(useTransform(x, [-300, 300], [-5, 5]), springConfig);
+  const rotateX = useSpring(
+    useTransform(y, [-300, 300], [5, -5]),
+    springConfig
+  );
+  const rotateY = useSpring(
+    useTransform(x, [-300, 300], [-5, 5]),
+    springConfig
+  );
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -34,7 +46,7 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, alt, width, height, 
   };
 
   return (
-    <motion.div 
+    <motion.div
       className="flex justify-center items-center overflow-visible p-10"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -55,7 +67,7 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, alt, width, height, 
           height={height}
           className={className}
           style={{ boxShadow: "0 4px 200px rgba(190, 24, 93, 0.5)" }}
-          priority 
+          priority
         />
       </motion.div>
     </motion.div>

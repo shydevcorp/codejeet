@@ -1,14 +1,8 @@
 "use client";
 
-import {
-  NavigationMenu,
-  NavigationMenuList,
-  NavigationMenuItem,
-  NavigationMenuLink,
-} from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./mode-toggle";
-import { UserButton } from "@clerk/clerk-react";
+import { UserButton, SignedIn, SignedOut } from "@clerk/clerk-react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -26,15 +20,17 @@ const Navbar = () => {
         </div>
         {/* Right Section */}
         <div className="flex items-center space-x-4 mt-2 md:mt-0">
-          <Button variant="outline" asChild>
-            <Link href="/dashboard" className="text-base">
-              Dashboard
-            </Link>
-          </Button>
-          <ModeToggle />
-          <Button variant="outline" size="icon">
+          <SignedOut>
+            <Button variant="outline" asChild>
+              <Link href="/dashboard" className="text-base">
+                Log In
+              </Link>
+            </Button>
+          </SignedOut>
+          <SignedIn>
             <UserButton afterSignOutUrl="/" />
-          </Button>
+          </SignedIn>
+          <ModeToggle />
         </div>
       </div>
     </div>

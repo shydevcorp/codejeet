@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import React from "react";
-import { Button } from "@/components/ui/button";
 import DotPattern from "@/components/magicui/dot-pattern";
 import { cn } from "@/lib/utils";
 import BlurIn from "@/components/magicui/blur-in";
 import AnimatedImage from "@/components/AnimatedImage";
-import NumberTicker from "@/components/ui/number-ticker";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -47,9 +47,18 @@ export default function Home() {
               className="text-xl text-opacity-60 tracking-normal text-center max-w-2xl mx-auto z-10"
               variants={itemVariants}
             >
-              Struggle through company-wise LeetCode questions like a true
+              {" "}
+              Let's struggle through company-wise LeetCode questions like a true
               Codejeet. Kyunki naukri ke liye sab kuch chalega!
             </motion.h2>
+
+            <motion.div variants={itemVariants} className="z-20">
+              <Link href="/dashboard">
+                <Button size="lg" className="shadow-2xl mb-10">
+                  Get Started
+                </Button>
+              </Link>
+            </motion.div>
 
             <motion.div variants={itemVariants}>
               <AnimatedImage
