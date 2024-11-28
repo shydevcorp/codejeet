@@ -1,3 +1,6 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,50.0%
-504,Base 7,/problems/base-7,N,48.0%,Easy,100.0%
+48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,50.00%
+504,Base 7,/problems/base-7,N,48.0%,Easy,100.00%
+46,Permutations, /problems/permutations,N,63.5%,Medium,0.00%
+4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.00%
+810,Chalkboard XOR Game, /problems/chalkboard-xor-game,N,48.2%,Hard,0.00%

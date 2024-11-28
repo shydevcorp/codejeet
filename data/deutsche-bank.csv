@@ -1,2 +1,5 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-2030,Smallest K-Length Subsequence With Occurrences of a Letter,/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter,N,38.7%,Hard,100.0%
+2030,Smallest K-Length Subsequence With Occurrences of a Letter,/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter,N,38.7%,Hard,100.00%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.02%
+76,Minimum Window Substring, /problems/minimum-window-substring,N,34.6%,Hard,0.02%
+121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.01%

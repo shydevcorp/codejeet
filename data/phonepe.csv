@@ -3,8 +3,9 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 134,Gas Station,/problems/gas-station,N,45.1%,Medium,7.37%
 919,Complete Binary Tree Inserter,/problems/complete-binary-tree-inserter,N,64.9%,Medium,72.51%
 968,Binary Tree Cameras,/problems/binary-tree-cameras,N,46.8%,Hard,30.11%
-1031,Maximum Sum of Two Non-Overlapping Subarrays,/problems/maximum-sum-of-two-non-overlapping-subarrays,N,59.4%,Medium,100.0%
+1031,Maximum Sum of Two Non-Overlapping Subarrays,/problems/maximum-sum-of-two-non-overlapping-subarrays,N,59.4%,Medium,100.00%
 1293,Shortest Path in a Grid with Obstacles Elimination,/problems/shortest-path-in-a-grid-with-obstacles-elimination,N,45.6%,Hard,37.63%
 1654,Minimum Jumps to Reach Home,/problems/minimum-jumps-to-reach-home,N,28.7%,Medium,45.03%
 1838,Frequency of the Most Frequent Element,/problems/frequency-of-the-most-frequent-element,N,38.6%,Medium,29.48%
 2035,Partition Array Into Two Arrays to Minimize Sum Difference,/problems/partition-array-into-two-arrays-to-minimize-sum-difference,N,18.3%,Hard,25.75%
+1202,Smallest String With Swaps, /problems/smallest-string-with-swaps,N,46.5%,Medium,0.10%

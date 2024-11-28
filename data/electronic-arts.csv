@@ -1,2 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,100.0%
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,100.00%
+42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.01%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.01%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.01%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.01%
+977,Squares of a Sorted Array, /problems/squares-of-a-sorted-array,N,72.1%,Easy,0.00%

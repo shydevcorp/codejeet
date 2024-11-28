@@ -1,13 +1,36 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1,Two Sum,/problems/two-sum,N,49.1%,Easy,1.24%
 34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,41.6%,Medium,9.43%
-49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,9.0%
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,9.00%
 124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,38.5%,Hard,20.17%
 143,Reorder List,/problems/reorder-list,N,51.2%,Medium,26.35%
-236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,19.0%
+236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,19.00%
 304,Range Sum Query 2D - Immutable,/problems/range-sum-query-2d-immutable,N,52.2%,Medium,77.98%
 312,Burst Balloons,/problems/burst-balloons,N,56.8%,Hard,99.64%
 322,Coin Change,/problems/coin-change,N,41.6%,Medium,10.28%
 329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,52.2%,Hard,42.69%
-407,Trapping Rain Water II,/problems/trapping-rain-water-ii,N,47.5%,Hard,100.0%
+407,Trapping Rain Water II,/problems/trapping-rain-water-ii,N,47.5%,Hard,100.00%
 1091,Shortest Path in Binary Matrix,/problems/shortest-path-in-binary-matrix,N,44.5%,Medium,56.33%
+572,Subtree of Another Tree, /problems/subtree-of-another-tree,N,44.1%,Easy,0.09%
+31,Next Permutation, /problems/next-permutation,N,32.6%,Medium,0.05%
+85,Maximal Rectangle, /problems/maximal-rectangle,N,37.7%,Hard,0.05%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.04%
+32,Longest Valid Parentheses, /problems/longest-valid-parentheses,N,28.4%,Hard,0.03%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.03%
+18,4Sum, /problems/4sum,N,33.7%,Medium,0.02%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%
+22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.02%
+876,Middle of the Linked List, /problems/middle-of-the-linked-list,N,68.4%,Easy,0.02%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
+3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%
+523,Continuous Subarray Sum, /problems/continuous-subarray-sum,N,24.6%,Medium,0.01%
+103,Binary Tree Zigzag Level Order Traversal, /problems/binary-tree-zigzag-level-order-traversal,N,48.3%,Medium,0.01%
+190,Reverse Bits, /problems/reverse-bits,N,39.8%,Easy,0.01%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.01%
+21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.00%
+653,Two Sum IV - Input is a BST, /problems/two-sum-iv-input-is-a-bst,N,55.5%,Easy,0.00%
+987,Vertical Order Traversal of a Binary Tree, /problems/vertical-order-traversal-of-a-binary-tree,N,36.6%,Medium,0.00%
+1301,Number of Paths with Max Score, /problems/number-of-paths-with-max-score,N,37.3%,Hard,0.00%
+1139,Largest 1-Bordered Square, /problems/largest-1-bordered-square,N,47.5%,Medium,0.00%
+1464,Maximum Product of Two Elements in an Array, /problems/maximum-product-of-two-elements-in-an-array,N,78.1%,Easy,0.00%
+1519,Number of Nodes in the Sub-Tree With the Same Label, /problems/number-of-nodes-in-the-sub-tree-with-the-same-label,N,35.2%,Medium,0.00%

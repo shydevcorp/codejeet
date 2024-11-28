@@ -5,16 +5,18 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,3.92%
 15,3Sum,/problems/3sum,N,32.3%,Medium,3.14%
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,8.32%
-62,Unique Paths,/problems/unique-paths,N,62.3%,Medium,8.2%
+62,Unique Paths,/problems/unique-paths,N,62.3%,Medium,8.20%
 121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,2.28%
 125,Valid Palindrome,/problems/valid-palindrome,N,43.7%,Easy,4.05%
-198,House Robber,/problems/house-robber,N,48.8%,Medium,14.7%
+198,House Robber,/problems/house-robber,N,48.8%,Medium,14.70%
 300,Longest Increasing Subsequence,/problems/longest-increasing-subsequence,N,51.6%,Medium,9.53%
-315,Count of Smaller Numbers After Self,/problems/count-of-smaller-numbers-after-self,N,42.8%,Hard,43.7%
+315,Count of Smaller Numbers After Self,/problems/count-of-smaller-numbers-after-self,N,42.8%,Hard,43.70%
 354,Russian Doll Envelopes,/problems/russian-doll-envelopes,N,38.3%,Hard,61.31%
 387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,9.24%
 540,Single Element in a Sorted Array,/problems/single-element-in-a-sorted-array,N,58.5%,Medium,27.11%
 560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,11.32%
-871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.0%
+871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.00%
 509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,24.15%
 2035,Partition Array Into Two Arrays to Minimize Sum Difference,/problems/partition-array-into-two-arrays-to-minimize-sum-difference,N,18.3%,Hard,80.65%
+1124,Longest Well-Performing Interval, /problems/longest-well-performing-interval,N,32.7%,Medium,0.00%
+1540,Can Convert String in K Moves, /problems/can-convert-string-in-k-moves,N,27.2%,Medium,0.00%

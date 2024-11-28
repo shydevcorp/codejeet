@@ -6,4 +6,13 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 191,Number of 1 Bits,/problems/number-of-1-bits,N,65.0%,Easy,70.67%
 236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,29.57%
 509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,14.57%
-1986,Minimum Number of Work Sessions to Finish the Tasks,/problems/minimum-number-of-work-sessions-to-finish-the-tasks,N,33.1%,Medium,100.0%
+1986,Minimum Number of Work Sessions to Finish the Tasks,/problems/minimum-number-of-work-sessions-to-finish-the-tasks,N,33.1%,Medium,100.00%
+160,Intersection of Two Linked Lists, /problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.06%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.04%
+72,Edit Distance, /problems/edit-distance,N,44.8%,Hard,0.04%
+237,Delete Node in a Linked List, /problems/delete-node-in-a-linked-list,N,63.8%,Easy,0.03%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.02%
+283,Move Zeroes, /problems/move-zeroes,N,57.8%,Easy,0.02%
+151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.01%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.01%
+1183,Maximum Number of Ones, /problems/maximum-number-of-ones,N,54.5%,Hard,0.00%

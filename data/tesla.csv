@@ -7,4 +7,15 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1189,Maximum Number of Balloons,/problems/maximum-number-of-balloons,N,61.8%,Easy,60.52%
 1578,Minimum Time to Make Rope Colorful,/problems/minimum-time-to-make-rope-colorful,N,63.7%,Medium,53.59%
 1570,Dot Product of Two Sparse Vectors,/problems/dot-product-of-two-sparse-vectors,Y,90.3%,Medium,65.27%
-1615,Maximal Network Rank,/problems/maximal-network-rank,N,58.1%,Medium,100.0%
+1615,Maximal Network Rank,/problems/maximal-network-rank,N,58.1%,Medium,100.00%
+1239,Maximum Length of a Concatenated String with Unique Characters, /problems/maximum-length-of-a-concatenated-string-with-unique-characters,N,47.8%,Medium,0.08%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.05%
+724,Find Pivot Index, /problems/find-pivot-index,N,44.0%,Easy,0.05%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.03%
+41,First Missing Positive, /problems/first-missing-positive,N,32.0%,Hard,0.03%
+728,Self Dividing Numbers, /problems/self-dividing-numbers,N,74.3%,Easy,0.02%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.01%
+767,Reorganize String, /problems/reorganize-string,N,48.7%,Medium,0.01%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.01%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.01%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.00%

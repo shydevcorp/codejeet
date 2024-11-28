@@ -9,6 +9,61 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 205,Isomorphic Strings,/problems/isomorphic-strings,N,42.6%,Easy,1.59%
 387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,6.19%
 848,Shifting Letters,/problems/shifting-letters,N,45.4%,Medium,38.13%
-1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,100.0%
+1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,100.00%
 1200,Minimum Absolute Difference,/problems/minimum-absolute-difference,N,69.7%,Easy,70.83%
-2380,Time Needed to Rearrange a Binary String,/problems/time-needed-to-rearrange-a-binary-string,N,48.2%,Medium,67.3%
+2380,Time Needed to Rearrange a Binary String,/problems/time-needed-to-rearrange-a-binary-string,N,48.2%,Medium,67.30%
+6,ZigZag Conversion, /problems/zigzag-conversion,N,36.3%,Medium,0.85%
+1473,Paint House III, /problems/paint-house-iii,N,48.1%,Hard,0.68%
+1041,Robot Bounded In Circle, /problems/robot-bounded-in-circle,N,49.6%,Medium,0.58%
+243,Shortest Word Distance, /problems/shortest-word-distance,N,61.0%,Easy,0.41%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.35%
+1497,Check If Array Pairs Are Divisible by k, /problems/check-if-array-pairs-are-divisible-by-k,N,41.1%,Medium,0.31%
+1297,Maximum Number of Occurrences of a Substring, /problems/maximum-number-of-occurrences-of-a-substring,N,47.3%,Medium,0.28%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.27%
+54,Spiral Matrix, /problems/spiral-matrix,N,34.1%,Medium,0.18%
+56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.14%
+224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,0.12%
+242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.12%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.11%
+68,Text Justification, /problems/text-justification,N,27.7%,Hard,0.11%
+977,Squares of a Sorted Array, /problems/squares-of-a-sorted-array,N,72.1%,Easy,0.08%
+532,K-diff Pairs in an Array, /problems/k-diff-pairs-in-an-array,N,31.6%,Easy,0.07%
+283,Move Zeroes, /problems/move-zeroes,N,57.8%,Easy,0.07%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.07%
+199,Binary Tree Right Side View, /problems/binary-tree-right-side-view,N,54.1%,Medium,0.07%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.06%
+25,Reverse Nodes in k-Group, /problems/reverse-nodes-in-k-group,N,42.1%,Hard,0.06%
+416,Partition Equal Subset Sum, /problems/partition-equal-subset-sum,N,43.7%,Medium,0.05%
+12,Integer to Roman, /problems/integer-to-roman,N,55.1%,Medium,0.05%
+82,Remove Duplicates from Sorted List II, /problems/remove-duplicates-from-sorted-list-ii,N,36.8%,Medium,0.05%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.05%
+240,Search a 2D Matrix II, /problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.05%
+236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.04%
+128,Longest Consecutive Sequence, /problems/longest-consecutive-sequence,N,45.1%,Hard,0.04%
+238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.03%
+75,Sort Colors, /problems/sort-colors,N,47.3%,Medium,0.03%
+134,Gas Station, /problems/gas-station,N,38.5%,Medium,0.03%
+344,Reverse String, /problems/reverse-string,N,68.5%,Easy,0.03%
+324,Wiggle Sort II, /problems/wiggle-sort-ii,N,29.9%,Medium,0.03%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
+73,Set Matrix Zeroes, /problems/set-matrix-zeroes,N,43.1%,Medium,0.03%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.03%
+735,Asteroid Collision, /problems/asteroid-collision,N,41.0%,Medium,0.02%
+3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.02%
+28,Implement strStr(), /problems/implement-strstr,N,34.5%,Easy,0.02%
+72,Edit Distance, /problems/edit-distance,N,44.8%,Hard,0.02%
+21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.02%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.02%
+253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.02%
+322,Coin Change, /problems/coin-change,N,35.5%,Medium,0.02%
+189,Rotate Array, /problems/rotate-array,N,34.7%,Easy,0.02%
+557,Reverse Words in a String III, /problems/reverse-words-in-a-string-iii,N,69.8%,Easy,0.01%
+1047,Remove All Adjacent Duplicates In String, /problems/remove-all-adjacent-duplicates-in-string,N,68.6%,Easy,0.01%
+227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.01%
+876,Middle of the Linked List, /problems/middle-of-the-linked-list,N,68.4%,Easy,0.01%
+973,K Closest Points to Origin, /problems/k-closest-points-to-origin,N,63.8%,Medium,0.01%
+167,Two Sum II - Input array is sorted, /problems/two-sum-ii-input-array-is-sorted,N,54.1%,Easy,0.01%
+207,Course Schedule, /problems/course-schedule,N,43.1%,Medium,0.00%
+104,Maximum Depth of Binary Tree, /problems/maximum-depth-of-binary-tree,N,66.0%,Easy,0.00%
+203,Remove Linked List Elements, /problems/remove-linked-list-elements,N,38.6%,Easy,0.00%
+1229,Meeting Scheduler, /problems/meeting-scheduler,N,52.7%,Medium,0.00%

@@ -1,7 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1,Two Sum,/problems/two-sum,N,49.1%,Easy,2.44%
 2,Add Two Numbers,/problems/add-two-numbers,N,39.8%,Medium,2.74%
-3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,1.1%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,1.10%
 14,Longest Common Prefix,/problems/longest-common-prefix,N,40.8%,Easy,1.65%
 21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,61.9%,Easy,1.43%
 49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,5.68%
@@ -10,13 +10,13 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 152,Maximum Product Subarray,/problems/maximum-product-subarray,N,34.9%,Medium,2.16%
 155,Min Stack,/problems/min-stack,N,51.9%,Medium,9.47%
 230,Kth Smallest Element in a BST,/problems/kth-smallest-element-in-a-bst,N,69.4%,Medium,6.39%
-336,Palindrome Pairs,/problems/palindrome-pairs,N,35.2%,Hard,100.0%
+336,Palindrome Pairs,/problems/palindrome-pairs,N,35.2%,Hard,100.00%
 416,Partition Equal Subset Sum,/problems/partition-equal-subset-sum,N,46.6%,Medium,14.42%
-443,String Compression,/problems/string-compression,N,48.9%,Medium,9.8%
+443,String Compression,/problems/string-compression,N,48.9%,Medium,9.80%
 455,Assign Cookies,/problems/assign-cookies,N,50.5%,Easy,51.54%
 468,Validate IP Address,/problems/validate-ip-address,N,26.5%,Medium,20.32%
 560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,10.54%
-695,Max Area of Island,/problems/max-area-of-island,N,71.7%,Medium,3.9%
+695,Max Area of Island,/problems/max-area-of-island,N,71.7%,Medium,3.90%
 992,Subarrays with K Different Integers,/problems/subarrays-with-k-different-integers,N,54.4%,Hard,36.12%
 1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,27.99%
 1197,Minimum Knight Moves,/problems/minimum-knight-moves,Y,39.7%,Medium,31.54%
@@ -24,3 +24,45 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1200,Minimum Absolute Difference,/problems/minimum-absolute-difference,N,69.7%,Easy,14.27%
 1326,Minimum Number of Taps to Open to Water a Garden,/problems/minimum-number-of-taps-to-open-to-water-a-garden,N,47.7%,Hard,70.87%
 1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,N,53.2%,Medium,90.19%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.53%
+974,Subarray Sums Divisible by K, /problems/subarray-sums-divisible-by-k,N,48.9%,Medium,0.45%
+73,Set Matrix Zeroes, /problems/set-matrix-zeroes,N,43.1%,Medium,0.37%
+1283,Find the Smallest Divisor Given a Threshold, /problems/find-the-smallest-divisor-given-a-threshold,N,47.6%,Medium,0.37%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.26%
+295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.24%
+37,Sudoku Solver, /problems/sudoku-solver,N,43.6%,Hard,0.20%
+451,Sort Characters By Frequency, /problems/sort-characters-by-frequency,N,63.0%,Medium,0.19%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.19%
+713,Subarray Product Less Than K, /problems/subarray-product-less-than-k,N,39.1%,Medium,0.15%
+973,K Closest Points to Origin, /problems/k-closest-points-to-origin,N,63.8%,Medium,0.14%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.13%
+88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.12%
+240,Search a 2D Matrix II, /problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.11%
+297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.11%
+121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.10%
+138,Copy List with Random Pointer, /problems/copy-list-with-random-pointer,N,36.4%,Medium,0.09%
+884,Uncommon Words from Two Sentences, /problems/uncommon-words-from-two-sentences,N,63.3%,Easy,0.08%
+198,House Robber, /problems/house-robber,N,42.0%,Easy,0.06%
+43,Multiply Strings, /problems/multiply-strings,N,33.9%,Medium,0.06%
+724,Find Pivot Index, /problems/find-pivot-index,N,44.0%,Easy,0.05%
+253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.05%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.04%
+404,Sum of Left Leaves, /problems/sum-of-left-leaves,N,50.9%,Easy,0.03%
+134,Gas Station, /problems/gas-station,N,38.5%,Medium,0.03%
+692,Top K Frequent Words, /problems/top-k-frequent-words,N,51.8%,Medium,0.03%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.02%
+739,Daily Temperatures, /problems/daily-temperatures,N,63.3%,Medium,0.02%
+96,Unique Binary Search Trees, /problems/unique-binary-search-trees,N,52.9%,Medium,0.02%
+160,Intersection of Two Linked Lists, /problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.02%
+314,Binary Tree Vertical Order Traversal, /problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.02%
+91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.01%
+242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.01%
+215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
+167,Two Sum II - Input array is sorted, /problems/two-sum-ii-input-array-is-sorted,N,54.1%,Easy,0.01%
+102,Binary Tree Level Order Traversal, /problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.00%
+611,Valid Triangle Number, /problems/valid-triangle-number,N,48.4%,Medium,0.00%
+1101,The Earliest Moment When Everyone Become Friends, /problems/the-earliest-moment-when-everyone-become-friends,N,66.3%,Medium,0.00%
+1151,Minimum Swaps to Group All 1's Together, /problems/minimum-swaps-to-group-all-1s-together,N,59.3%,Medium,0.00%
+1328,Break a Palindrome, /problems/break-a-palindrome,N,43.3%,Medium,0.00%
+1451,Rearrange Words in a Sentence, /problems/rearrange-words-in-a-sentence,N,54.8%,Medium,0.00%
+1492,The kth Factor of n, /problems/the-kth-factor-of-n,N,67.9%,Medium,0.00%

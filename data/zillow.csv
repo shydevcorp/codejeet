@@ -9,7 +9,35 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,11.94%
 240,Search a 2D Matrix II,/problems/search-a-2d-matrix-ii,N,50.6%,Medium,17.66%
 299,Bulls and Cows,/problems/bulls-and-cows,N,48.7%,Medium,33.89%
-387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,68.7%
-981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.4%,Medium,33.6%
+387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,68.70%
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.4%,Medium,33.60%
 1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.0%,Medium,37.41%
-1762,Buildings With an Ocean View,/problems/buildings-with-an-ocean-view,Y,79.2%,Medium,100.0%
+1762,Buildings With an Ocean View,/problems/buildings-with-an-ocean-view,Y,79.2%,Medium,100.00%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.38%
+236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.27%
+353,Design Snake Game, /problems/design-snake-game,N,34.2%,Medium,0.21%
+449,Serialize and Deserialize BST, /problems/serialize-and-deserialize-bst,N,52.0%,Medium,0.18%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.16%
+739,Daily Temperatures, /problems/daily-temperatures,N,63.3%,Medium,0.14%
+43,Multiply Strings, /problems/multiply-strings,N,33.9%,Medium,0.13%
+362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.09%
+139,Word Break, /problems/word-break,N,40.1%,Medium,0.07%
+437,Path Sum III, /problems/path-sum-iii,N,47.2%,Medium,0.07%
+112,Path Sum, /problems/path-sum,N,41.2%,Easy,0.06%
+443,String Compression, /problems/string-compression,N,41.3%,Easy,0.05%
+4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.03%
+121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.02%
+285,Inorder Successor in BST, /problems/inorder-successor-in-bst,N,40.4%,Medium,0.02%
+212,Word Search II, /problems/word-search-ii,N,34.9%,Hard,0.02%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%
+268,Missing Number, /problems/missing-number,N,51.7%,Easy,0.02%
+151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.02%
+289,Game of Life, /problems/game-of-life,N,54.5%,Medium,0.02%
+79,Word Search, /problems/word-search,N,35.6%,Medium,0.01%
+150,Evaluate Reverse Polish Notation, /problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.01%
+13,Roman to Integer, /problems/roman-to-integer,N,55.7%,Easy,0.01%
+695,Max Area of Island, /problems/max-area-of-island,N,62.7%,Medium,0.01%
+140,Word Break II, /problems/word-break-ii,N,32.6%,Hard,0.01%
+8,String to Integer (atoi), /problems/string-to-integer-atoi,N,15.4%,Medium,0.01%
+283,Move Zeroes, /problems/move-zeroes,N,57.8%,Easy,0.00%

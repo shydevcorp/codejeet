@@ -1,6 +1,9 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 67,Add Binary,/problems/add-binary,N,51.4%,Easy,1.29%
 410,Split Array Largest Sum,/problems/split-array-largest-sum,N,53.3%,Hard,7.66%
-722,Remove Comments,/problems/remove-comments,N,38.0%,Medium,69.6%
-1307,Verbal Arithmetic Puzzle,/problems/verbal-arithmetic-puzzle,N,34.8%,Hard,100.0%
+722,Remove Comments,/problems/remove-comments,N,38.0%,Medium,69.60%
+1307,Verbal Arithmetic Puzzle,/problems/verbal-arithmetic-puzzle,N,34.8%,Hard,100.00%
 2246,Longest Path With Different Adjacent Characters,/problems/longest-path-with-different-adjacent-characters,N,45.2%,Hard,38.63%
+1323,Maximum 69 Number, /problems/maximum-69-number,N,77.9%,Easy,0.02%
+1317,Convert Integer to the Sum of Two No-Zero Integers, /problems/convert-integer-to-the-sum-of-two-no-zero-integers,N,56.8%,Easy,0.00%
+1342,Number of Steps to Reduce a Number to Zero, /problems/number-of-steps-to-reduce-a-number-to-zero,N,86.3%,Easy,0.00%

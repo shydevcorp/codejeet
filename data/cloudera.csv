@@ -1,2 +1,10 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,46.4%,Easy,100.0%
+628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,46.4%,Easy,100.00%
+173,Binary Search Tree Iterator, /problems/binary-search-tree-iterator,N,56.6%,Medium,0.14%
+622,Design Circular Queue, /problems/design-circular-queue,N,43.7%,Medium,0.11%
+1188,Design Bounded Blocking Queue, /problems/design-bounded-blocking-queue,N,70.5%,Medium,0.09%
+476,Number Complement, /problems/number-complement,N,64.8%,Easy,0.06%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.04%
+339,Nested List Weight Sum, /problems/nested-list-weight-sum,N,74.0%,Easy,0.03%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.00%
+1009,Complement of Base 10 Integer, /problems/complement-of-base-10-integer,N,59.6%,Easy,0.00%

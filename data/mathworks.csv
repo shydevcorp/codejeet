@@ -5,11 +5,47 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 166,Fraction to Recurring Decimal,/problems/fraction-to-recurring-decimal,N,24.1%,Medium,19.52%
 322,Coin Change,/problems/coin-change,N,41.6%,Medium,3.75%
 453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,55.7%,Medium,47.57%
-526,Beautiful Arrangement,/problems/beautiful-arrangement,N,64.6%,Medium,100.0%
+526,Beautiful Arrangement,/problems/beautiful-arrangement,N,64.6%,Medium,100.00%
 560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,8.92%
 697,Degree of an Array,/problems/degree-of-an-array,N,55.9%,Easy,10.49%
 741,Cherry Pickup,/problems/cherry-pickup,N,36.3%,Hard,89.78%
-1004,Max Consecutive Ones III,/problems/max-consecutive-ones-iii,N,63.4%,Medium,3.7%
-1048,Longest String Chain,/problems/longest-string-chain,N,59.1%,Medium,23.9%
+1004,Max Consecutive Ones III,/problems/max-consecutive-ones-iii,N,63.4%,Medium,3.70%
+1048,Longest String Chain,/problems/longest-string-chain,N,59.1%,Medium,23.90%
 1356,Sort Integers by The Number of 1 Bits,/problems/sort-integers-by-the-number-of-1-bits,N,72.0%,Easy,8.47%
 1696,Jump Game VI,/problems/jump-game-vi,N,46.3%,Medium,66.11%
+1130,Minimum Cost Tree From Leaf Values, /problems/minimum-cost-tree-from-leaf-values,N,66.1%,Medium,2.45%
+255,Verify Preorder Sequence in Binary Search Tree, /problems/verify-preorder-sequence-in-binary-search-tree,N,45.7%,Medium,1.96%
+1163,Last Substring in Lexicographical Order, /problems/last-substring-in-lexicographical-order,N,33.9%,Hard,1.48%
+25,Reverse Nodes in k-Group, /problems/reverse-nodes-in-k-group,N,42.1%,Hard,1.29%
+500,Keyboard Row, /problems/keyboard-row,N,64.7%,Easy,0.96%
+317,Shortest Distance from All Buildings, /problems/shortest-distance-from-all-buildings,N,41.4%,Hard,0.77%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.61%
+319,Bulb Switcher, /problems/bulb-switcher,N,45.4%,Medium,0.32%
+63,Unique Paths II, /problems/unique-paths-ii,N,34.6%,Medium,0.27%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.23%
+199,Binary Tree Right Side View, /problems/binary-tree-right-side-view,N,54.1%,Medium,0.19%
+259,3Sum Smaller, /problems/3sum-smaller,N,47.6%,Medium,0.18%
+232,Implement Queue using Stacks, /problems/implement-queue-using-stacks,N,49.6%,Easy,0.13%
+338,Counting Bits, /problems/counting-bits,N,69.5%,Medium,0.13%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.07%
+225,Implement Stack using Queues, /problems/implement-stack-using-queues,N,45.1%,Easy,0.06%
+115,Distinct Subsequences, /problems/distinct-subsequences,N,38.3%,Hard,0.06%
+62,Unique Paths, /problems/unique-paths,N,54.1%,Medium,0.06%
+133,Clone Graph, /problems/clone-graph,N,34.8%,Medium,0.05%
+1319,Number of Operations to Make Network Connected, /problems/number-of-operations-to-make-network-connected,N,53.1%,Medium,0.05%
+314,Binary Tree Vertical Order Traversal, /problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.04%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.02%
+836,Rectangle Overlap, /problems/rectangle-overlap,N,48.6%,Easy,0.02%
+647,Palindromic Substrings, /problems/palindromic-substrings,N,60.6%,Medium,0.02%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.02%
+98,Validate Binary Search Tree, /problems/validate-binary-search-tree,N,27.8%,Medium,0.02%
+509,Fibonacci Number, /problems/fibonacci-number,N,67.2%,Easy,0.02%
+404,Sum of Left Leaves, /problems/sum-of-left-leaves,N,50.9%,Easy,0.01%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.01%
+695,Max Area of Island, /problems/max-area-of-island,N,62.7%,Medium,0.01%
+43,Multiply Strings, /problems/multiply-strings,N,33.9%,Medium,0.01%
+106,Construct Binary Tree from Inorder and Postorder Traversal, /problems/construct-binary-tree-from-inorder-and-postorder-traversal,N,47.2%,Medium,0.01%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
+23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.00%
+102,Binary Tree Level Order Traversal, /problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.00%
+566,Reshape the Matrix, /problems/reshape-the-matrix,N,60.5%,Easy,0.00%

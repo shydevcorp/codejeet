@@ -1,3 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,50.0%
-1840,Maximum Building Height,/problems/maximum-building-height,N,35.3%,Hard,100.0%
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,50.00%
+1840,Maximum Building Height,/problems/maximum-building-height,N,35.3%,Hard,100.00%
+57,Insert Interval, /problems/insert-interval,N,33.5%,Hard,0.06%
+56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.03%
+42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.03%
+885,Spiral Matrix III, /problems/spiral-matrix-iii,N,69.4%,Medium,0.00%

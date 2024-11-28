@@ -1,5 +1,29 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,67.29%
-75,Sort Colors,/problems/sort-colors,N,57.4%,Medium,56.5%
-206,Reverse Linked List,/problems/reverse-linked-list,N,72.5%,Easy,23.8%
-295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,51.5%,Hard,100.0%
+75,Sort Colors,/problems/sort-colors,N,57.4%,Medium,56.50%
+206,Reverse Linked List,/problems/reverse-linked-list,N,72.5%,Easy,23.80%
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,51.5%,Hard,100.00%
+706,Design HashMap, /problems/design-hashmap,N,61.3%,Easy,0.12%
+653,Two Sum IV - Input is a BST, /problems/two-sum-iv-input-is-a-bst,N,55.5%,Easy,0.09%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.06%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.06%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.04%
+238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.03%
+867,Transpose Matrix, /problems/transpose-matrix,N,62.8%,Easy,0.03%
+17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.03%
+1290,Convert Binary Number in a Linked List to Integer, /problems/convert-binary-number-in-a-linked-list-to-integer,N,80.4%,Easy,0.02%
+56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.02%
+921,Minimum Add to Make Parentheses Valid, /problems/minimum-add-to-make-parentheses-valid,N,73.7%,Medium,0.02%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.02%
+242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.02%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.02%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.01%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.01%
+155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.01%
+103,Binary Tree Zigzag Level Order Traversal, /problems/binary-tree-zigzag-level-order-traversal,N,48.3%,Medium,0.01%
+387,First Unique Character in a String, /problems/first-unique-character-in-a-string,N,53.4%,Easy,0.01%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.01%
+26,Remove Duplicates from Sorted Array, /problems/remove-duplicates-from-sorted-array,N,45.1%,Easy,0.01%
+268,Missing Number, /problems/missing-number,N,51.7%,Easy,0.00%
+42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.00%
+344,Reverse String, /problems/reverse-string,N,68.5%,Easy,0.00%

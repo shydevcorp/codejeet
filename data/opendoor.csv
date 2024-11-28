@@ -1,4 +1,6 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,61.0%,Medium,18.01%
-289,Game of Life,/problems/game-of-life,N,66.8%,Medium,59.0%
-631,Design Excel Sum Formula,/problems/design-excel-sum-formula,Y,43.4%,Hard,100.0%
+289,Game of Life,/problems/game-of-life,N,66.8%,Medium,59.00%
+631,Design Excel Sum Formula,/problems/design-excel-sum-formula,Y,43.4%,Hard,100.00%
+150,Evaluate Reverse Polish Notation, /problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.21%
+12,Integer to Roman, /problems/integer-to-roman,N,55.1%,Medium,0.01%

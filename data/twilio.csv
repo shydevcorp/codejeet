@@ -1,8 +1,22 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,55.7%,Medium,10.89%
-53,Maximum Subarray,/problems/maximum-subarray,N,50.1%,Medium,8.5%
-68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.0%
+53,Maximum Subarray,/problems/maximum-subarray,N,50.1%,Medium,8.50%
+68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.00%
 127,Word Ladder,/problems/word-ladder,N,36.7%,Hard,13.85%
 146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,22.26%
 359,Logger Rate Limiter,/problems/logger-rate-limiter,Y,75.5%,Easy,31.83%
 1636,Sort Array by Increasing Frequency,/problems/sort-array-by-increasing-frequency,N,68.7%,Easy,65.92%
+974,Subarray Sums Divisible by K, /problems/subarray-sums-divisible-by-k,N,48.9%,Medium,1.88%
+935,Knight Dialer, /problems/knight-dialer,N,45.2%,Medium,0.34%
+332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,0.25%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.09%
+225,Implement Stack using Queues, /problems/implement-stack-using-queues,N,45.1%,Easy,0.04%
+560,Subarray Sum Equals K, /problems/subarray-sum-equals-k,N,43.9%,Medium,0.03%
+532,K-diff Pairs in an Array, /problems/k-diff-pairs-in-an-array,N,31.6%,Easy,0.02%
+139,Word Break, /problems/word-break,N,40.1%,Medium,0.02%
+380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.01%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.01%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.01%
+14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.00%
+965,Univalued Binary Tree, /problems/univalued-binary-tree,N,67.7%,Easy,0.00%
+1507,Reformat Date, /problems/reformat-date,N,60.5%,Easy,0.00%

@@ -13,6 +13,13 @@ import { Skeleton } from "@/components/ui/skeleton";
 import ReactMarkdown, { Components } from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface SolutionDialogProps {
   questionId: string;
@@ -23,13 +30,16 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
   const [solution, setSolution] = React.useState<string>("");
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
+  const [language, setLanguage] = React.useState("cpp");
 
-  const fetchSolution = async () => {
+  const fetchSolution = async (selectedLang = language) => {
     setLoading(true);
     setError(null);
 
     try {
-      const response = await fetch(`/api/solutions?id=${questionId}`);
+      const response = await fetch(
+        `/api/solutions?id=${questionId}&language=${selectedLang}`
+      );
       const contentType = response.headers.get("content-type") || "";
 
       if (!contentType.includes("application/json")) {
@@ -77,6 +87,8 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
           style={atomDark}
           language={match ? match[1] : "plaintext"}
           PreTag="div"
+          wrapLongLines={true}
+          customStyle={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
           {...props}
         >
           {String(children).trim()}
@@ -91,12 +103,38 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
   return (
     <Dialog>
       <DialogTrigger>
-        <Book className="h-4 w-4 cursor-pointer" onClick={fetchSolution} />
+        <Book
+          className="h-4 w-4 cursor-pointer"
+          onClick={() => fetchSolution()}
+        />
       </DialogTrigger>
       <DialogContent className="max-w-4xl max-h-[70vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>{title} - Solution</DialogTitle>
+          <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
+
+        <div className="flex items-center gap-2 mb-4">
+          <span className="text-sm font-medium">Select Language:</span>
+          <Select
+            defaultValue="cpp"
+            onValueChange={(value) => {
+              setLanguage(value);
+              fetchSolution(value);
+            }}
+          >
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select Language" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="cpp">C++</SelectItem>
+              <SelectItem value="c">C</SelectItem>
+              <SelectItem value="java">Java</SelectItem>
+              <SelectItem value="python">Python</SelectItem>
+              <SelectItem value="javascript">JavaScript</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
         <div className="mt-4">
           {loading && <Skeleton className="h-20 w-full" />}
           {error && <div className="text-red-500">Error: {error}</div>}

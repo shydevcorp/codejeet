@@ -393,7 +393,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
           </div>
         </CardContent>
       </Card>
-      <button onClick={handleDashboardClick}>Dashboard</button>
     </div>
   );
 };

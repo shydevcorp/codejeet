@@ -1,3 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-238,Product of Array Except Self,/problems/product-of-array-except-self,N,64.7%,Medium,50.0%
-973,K Closest Points to Origin,/problems/k-closest-points-to-origin,N,65.8%,Medium,100.0%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,64.7%,Medium,50.00%
+973,K Closest Points to Origin,/problems/k-closest-points-to-origin,N,65.8%,Medium,100.00%
+98,Validate Binary Search Tree, /problems/validate-binary-search-tree,N,27.8%,Medium,0.30%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.20%
+50,Pow(x;n), /problems/powx-n,N,30.3%,Medium,0.01%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.01%

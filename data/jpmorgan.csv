@@ -8,16 +8,33 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,0.88%
 217,Contains Duplicate,/problems/contains-duplicate,N,61.3%,Easy,0.95%
 412,Fizz Buzz,/problems/fizz-buzz,N,68.9%,Easy,1.13%
-423,Reconstruct Original Digits from English,/problems/reconstruct-original-digits-from-english,N,51.3%,Medium,51.7%
+423,Reconstruct Original Digits from English,/problems/reconstruct-original-digits-from-english,N,51.3%,Medium,51.70%
 435,Non-overlapping Intervals,/problems/non-overlapping-intervals,N,49.9%,Medium,7.67%
 780,Reaching Points,/problems/reaching-points,N,32.4%,Hard,62.97%
-884,Uncommon Words from Two Sentences,/problems/uncommon-words-from-two-sentences,N,66.0%,Easy,13.3%
+884,Uncommon Words from Two Sentences,/problems/uncommon-words-from-two-sentences,N,66.0%,Easy,13.30%
 1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,32.33%
 1328,Break a Palindrome,/problems/break-a-palindrome,N,53.2%,Medium,80.97%
-1356,Sort Integers by The Number of 1 Bits,/problems/sort-integers-by-the-number-of-1-bits,N,72.0%,Easy,69.5%
-1353,Maximum Number of Events That Can Be Attended,/problems/maximum-number-of-events-that-can-be-attended,N,32.9%,Medium,42.2%
+1356,Sort Integers by The Number of 1 Bits,/problems/sort-integers-by-the-number-of-1-bits,N,72.0%,Easy,69.50%
+1353,Maximum Number of Events That Can Be Attended,/problems/maximum-number-of-events-that-can-be-attended,N,32.9%,Medium,42.20%
 1413,Minimum Value to Get Positive Step by Step Sum,/problems/minimum-value-to-get-positive-step-by-step-sum,N,68.1%,Easy,40.23%
 1481,Least Number of Unique Integers after K Removals,/problems/least-number-of-unique-integers-after-k-removals,N,57.0%,Medium,73.51%
 1529,Minimum Suffix Flips,/problems/minimum-suffix-flips,N,72.4%,Medium,34.63%
 1710,Maximum Units on a Truck,/problems/maximum-units-on-a-truck,N,73.9%,Easy,65.41%
-2038,Remove Colored Pieces if Both Neighbors are the Same Color,/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color,N,58.1%,Medium,100.0%
+2038,Remove Colored Pieces if Both Neighbors are the Same Color,/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color,N,58.1%,Medium,100.00%
+202,Happy Number, /problems/happy-number,N,50.4%,Easy,3.47%
+322,Coin Change, /problems/coin-change,N,35.5%,Medium,0.71%
+121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.25%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.10%
+9,Palindrome Number, /problems/palindrome-number,N,48.4%,Easy,0.09%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.08%
+7,Reverse Integer, /problems/reverse-integer,N,25.8%,Easy,0.05%
+17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.05%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.04%
+4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.03%
+349,Intersection of Two Arrays, /problems/intersection-of-two-arrays,N,62.5%,Easy,0.02%
+79,Word Search, /problems/word-search,N,35.6%,Medium,0.01%
+215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
+39,Combination Sum, /problems/combination-sum,N,56.1%,Medium,0.01%
+387,First Unique Character in a String, /problems/first-unique-character-in-a-string,N,53.4%,Easy,0.00%

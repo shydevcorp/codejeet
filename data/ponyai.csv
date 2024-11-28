@@ -2,4 +2,8 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,3.87%
 218,The Skyline Problem,/problems/the-skyline-problem,N,41.6%,Hard,54.76%
 236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,9.52%
-386,Lexicographical Numbers,/problems/lexicographical-numbers,N,60.7%,Medium,100.0%
+386,Lexicographical Numbers,/problems/lexicographical-numbers,N,60.7%,Medium,100.00%
+291,Word Pattern II, /problems/word-pattern-ii,N,43.4%,Hard,0.49%
+786,K-th Smallest Prime Fraction, /problems/k-th-smallest-prime-fraction,N,41.0%,Hard,0.26%
+301,Remove Invalid Parentheses, /problems/remove-invalid-parentheses,N,43.3%,Hard,0.03%
+1235,Maximum Profit in Job Scheduling, /problems/maximum-profit-in-job-scheduling,N,44.0%,Hard,0.00%

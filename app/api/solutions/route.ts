@@ -6,10 +6,21 @@ if (!apiKey) {
   throw new Error("GEMINI_API_KEY is not configured");
 }
 const genAI = new GoogleGenerativeAI(apiKey);
+
+const getLanguageSpecificInstructions = (language: string): string => {
+  switch (language.toLowerCase()) {
+    case "cpp":
+      return "Generate answer using namespace std. Do not mention the library imports and 'using namespace std;' at top and";
+    default:
+      return "";
+  }
+};
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const id = searchParams.get("id");
+    const language = searchParams.get("language") || "cpp";
 
     if (!id) {
       return NextResponse.json(
@@ -23,13 +34,13 @@ export async function GET(request: Request) {
     }
 
     const model: GenerativeModel = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
+      model: "gemini-1.5-pro",
     });
 
-    const prompt = `Provide the solution (in Java) without any comments for LeetCode problem #${id}.`;
+    const languageInstructions = getLanguageSpecificInstructions(language);
+    const prompt = `${languageInstructions} provide the solution (in ${language.toUpperCase()}) without any comments for LeetCode problem #${id}.`;
 
     const result = await model.generateContent(prompt);
-
     const solution = result?.response?.text?.();
 
     if (!solution) {
@@ -39,11 +50,9 @@ export async function GET(request: Request) {
     return NextResponse.json({ solution });
   } catch (error: any) {
     console.error("API Error:", error.message || error);
-
     const message =
       error.message ||
       "An unknown error occurred while generating the solution";
-
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

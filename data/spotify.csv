@@ -3,15 +3,26 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,0.65%
 20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,2.77%
 76,Minimum Window Substring,/problems/minimum-window-substring,N,40.7%,Hard,1.86%
-125,Valid Palindrome,/problems/valid-palindrome,N,43.7%,Easy,0.6%
-146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,1.5%
+125,Valid Palindrome,/problems/valid-palindrome,N,43.7%,Easy,0.60%
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,1.50%
 215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,65.8%,Medium,29.65%
 234,Palindrome Linked List,/problems/palindrome-linked-list,N,49.6%,Easy,1.93%
 242,Valid Anagram,/problems/valid-anagram,N,62.8%,Easy,2.12%
-346,Moving Average from Data Stream,/problems/moving-average-from-data-stream,Y,77.1%,Easy,100.0%
+346,Moving Average from Data Stream,/problems/moving-average-from-data-stream,Y,77.1%,Easy,100.00%
 383,Ransom Note,/problems/ransom-note,N,57.6%,Easy,18.52%
 480,Sliding Window Median,/problems/sliding-window-median,N,41.4%,Hard,57.55%
 509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,0.88%
 1152,Analyze User Website Visit Pattern,/problems/analyze-user-website-visit-pattern,Y,43.3%,Medium,85.45%
 1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.0%,Medium,17.73%
 1650,Lowest Common Ancestor of a Binary Tree III,/problems/lowest-common-ancestor-of-a-binary-tree-iii,Y,77.3%,Medium,23.31%
+128,Longest Consecutive Sequence, /problems/longest-consecutive-sequence,N,45.1%,Hard,0.12%
+286,Walls and Gates, /problems/walls-and-gates,N,54.5%,Medium,0.09%
+22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.05%
+443,String Compression, /problems/string-compression,N,41.3%,Easy,0.03%
+66,Plus One, /problems/plus-one,N,43.0%,Easy,0.03%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.03%
+784,Letter Case Permutation, /problems/letter-case-permutation,N,64.6%,Medium,0.02%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.01%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.01%
+412,Fizz Buzz, /problems/fizz-buzz,N,62.3%,Easy,0.01%
+347,Top K Frequent Elements, /problems/top-k-frequent-elements,N,61.2%,Medium,0.00%

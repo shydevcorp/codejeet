@@ -1,3 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-664,Strange Printer,/problems/strange-printer,N,46.8%,Hard,0.0%
-826,Most Profit Assigning Work,/problems/most-profit-assigning-work,N,44.5%,Medium,0.0%
+664,Strange Printer,/problems/strange-printer,N,46.8%,Hard,0.00%
+826,Most Profit Assigning Work,/problems/most-profit-assigning-work,N,44.5%,Medium,0.00%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.02%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.01%
+7,Reverse Integer, /problems/reverse-integer,N,25.8%,Easy,0.01%
+46,Permutations, /problems/permutations,N,63.5%,Medium,0.00%

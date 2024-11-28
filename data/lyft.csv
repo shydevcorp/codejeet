@@ -3,10 +3,53 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,5.86%
 76,Minimum Window Substring,/problems/minimum-window-substring,N,40.7%,Hard,22.74%
 91,Decode Ways,/problems/decode-ways,N,32.3%,Medium,6.17%
-158,Read N Characters Given read4 II - Call Multiple Times,/problems/read-n-characters-given-read4-ii-call-multiple-times,Y,41.4%,Hard,100.0%
+158,Read N Characters Given read4 II - Call Multiple Times,/problems/read-n-characters-given-read4-ii-call-multiple-times,Y,41.4%,Hard,100.00%
 304,Range Sum Query 2D - Immutable,/problems/range-sum-query-2d-immutable,N,52.2%,Medium,9.72%
 365,Water and Jug Problem,/problems/water-and-jug-problem,N,36.7%,Medium,74.31%
 642,Design Search Autocomplete System,/problems/design-search-autocomplete-system,Y,48.7%,Hard,48.63%
 716,Max Stack,/problems/max-stack,Y,45.3%,Hard,25.37%
 981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.4%,Medium,22.48%
-994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,13.78%
+994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,13.79%
+735,Asteroid Collision, /problems/asteroid-collision,N,41.0%,Medium,3.50%
+238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,2.88%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,1.31%
+42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,1.13%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.58%
+349,Intersection of Two Arrays, /problems/intersection-of-two-arrays,N,62.5%,Easy,0.55%
+68,Text Justification, /problems/text-justification,N,27.7%,Hard,0.45%
+126,Word Ladder II, /problems/word-ladder-ii,N,22.1%,Hard,0.37%
+426,Convert Binary Search Tree to Sorted Doubly Linked List, /problems/convert-binary-search-tree-to-sorted-doubly-linked-list,N,59.1%,Medium,0.33%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.26%
+279,Perfect Squares, /problems/perfect-squares,N,47.4%,Medium,0.25%
+251,Flatten 2D Vector, /problems/flatten-2d-vector,N,45.7%,Medium,0.24%
+17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.22%
+155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.16%
+652,Find Duplicate Subtrees, /problems/find-duplicate-subtrees,N,50.2%,Medium,0.15%
+333,Largest BST Subtree, /problems/largest-bst-subtree,N,35.8%,Medium,0.13%
+109,Convert Sorted List to Binary Search Tree, /problems/convert-sorted-list-to-binary-search-tree,N,47.7%,Medium,0.12%
+341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,0.12%
+10,Regular Expression Matching, /problems/regular-expression-matching,N,26.8%,Hard,0.11%
+11,Container With Most Water, /problems/container-with-most-water,N,50.8%,Medium,0.07%
+632,Smallest Range Covering Elements from K Lists, /problems/smallest-range-covering-elements-from-k-lists,N,52.4%,Hard,0.07%
+23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.06%
+78,Subsets, /problems/subsets,N,62.0%,Medium,0.04%
+121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.04%
+1094,Car Pooling, /problems/car-pooling,N,56.7%,Medium,0.04%
+79,Word Search, /problems/word-search,N,35.6%,Medium,0.03%
+694,Number of Distinct Islands, /problems/number-of-distinct-islands,N,56.0%,Medium,0.03%
+253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
+69,Sqrt(x), /problems/sqrtx,N,33.9%,Easy,0.03%
+48,Rotate Image, /problems/rotate-image,N,56.7%,Medium,0.03%
+7,Reverse Integer, /problems/reverse-integer,N,25.8%,Easy,0.03%
+88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.03%
+442,Find All Duplicates in an Array, /problems/find-all-duplicates-in-an-array,N,67.8%,Medium,0.03%
+162,Find Peak Element, /problems/find-peak-element,N,43.3%,Medium,0.03%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.02%
+283,Move Zeroes, /problems/move-zeroes,N,57.8%,Easy,0.02%
+239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.02%
+1060,Missing Element in Sorted Array, /problems/missing-element-in-sorted-array,N,54.5%,Medium,0.02%
+567,Permutation in String, /problems/permutation-in-string,N,44.4%,Medium,0.01%
+24,Swap Nodes in Pairs, /problems/swap-nodes-in-pairs,N,50.4%,Medium,0.01%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.01%
+21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.00%
+443,String Compression, /problems/string-compression,N,41.3%,Easy,0.00%

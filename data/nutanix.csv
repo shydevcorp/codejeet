@@ -1,2 +1,40 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-449,Serialize and Deserialize BST,/problems/serialize-and-deserialize-bst,N,56.8%,Medium,100.0%
+449,Serialize and Deserialize BST,/problems/serialize-and-deserialize-bst,N,56.8%,Medium,100.00%
+1052,Grumpy Bookstore Owner, /problems/grumpy-bookstore-owner,N,55.4%,Medium,0.84%
+991,Broken Calculator, /problems/broken-calculator,N,45.6%,Medium,0.73%
+45,Jump Game II, /problems/jump-game-ii,N,30.6%,Hard,0.57%
+457,Circular Array Loop, /problems/circular-array-loop,N,29.4%,Medium,0.43%
+403,Frog Jump, /problems/frog-jump,N,39.7%,Hard,0.28%
+402,Remove K Digits, /problems/remove-k-digits,N,28.4%,Medium,0.24%
+826,Most Profit Assigning Work, /problems/most-profit-assigning-work,N,38.5%,Medium,0.09%
+564,Find the Closest Palindrome, /problems/find-the-closest-palindrome,N,19.7%,Hard,0.08%
+316,Remove Duplicate Letters, /problems/remove-duplicate-letters,N,35.8%,Hard,0.07%
+202,Happy Number, /problems/happy-number,N,50.4%,Easy,0.06%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.05%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.05%
+238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.05%
+253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
+703,Kth Largest Element in a Stream, /problems/kth-largest-element-in-a-stream,N,49.7%,Easy,0.03%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.03%
+40,Combination Sum II, /problems/combination-sum-ii,N,48.2%,Medium,0.02%
+128,Longest Consecutive Sequence, /problems/longest-consecutive-sequence,N,45.1%,Hard,0.02%
+55,Jump Game, /problems/jump-game,N,34.6%,Medium,0.02%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.02%
+239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.02%
+17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.02%
+116,Populating Next Right Pointers in Each Node, /problems/populating-next-right-pointers-in-each-node,N,45.2%,Medium,0.02%
+977,Squares of a Sorted Array, /problems/squares-of-a-sorted-array,N,72.1%,Easy,0.02%
+621,Task Scheduler, /problems/task-scheduler,N,50.1%,Medium,0.01%
+76,Minimum Window Substring, /problems/minimum-window-substring,N,34.6%,Hard,0.01%
+138,Copy List with Random Pointer, /problems/copy-list-with-random-pointer,N,36.4%,Medium,0.01%
+210,Course Schedule II, /problems/course-schedule-ii,N,40.7%,Medium,0.01%
+283,Move Zeroes, /problems/move-zeroes,N,57.8%,Easy,0.01%
+207,Course Schedule, /problems/course-schedule,N,43.1%,Medium,0.01%
+234,Palindrome Linked List, /problems/palindrome-linked-list,N,39.3%,Easy,0.01%
+22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.01%
+208,Implement Trie (Prefix Tree), /problems/implement-trie-prefix-tree,N,49.4%,Medium,0.01%
+5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.00%
+1003,Check If Word Is Valid After Substitutions, /problems/check-if-word-is-valid-after-substitutions,N,55.3%,Medium,0.00%
+1156,Swap For Longest Repeated Character Substring, /problems/swap-for-longest-repeated-character-substring,N,49.0%,Medium,0.00%
+1157,Online Majority Element In Subarray, /problems/online-majority-element-in-subarray,N,39.0%,Hard,0.00%

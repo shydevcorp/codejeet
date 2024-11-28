@@ -5,8 +5,19 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,31.8%,Medium,4.96%
 300,Longest Increasing Subsequence,/problems/longest-increasing-subsequence,N,51.6%,Medium,9.62%
 443,String Compression,/problems/string-compression,N,48.9%,Medium,19.44%
-526,Beautiful Arrangement,/problems/beautiful-arrangement,N,64.6%,Medium,100.0%
+526,Beautiful Arrangement,/problems/beautiful-arrangement,N,64.6%,Medium,100.00%
 532,K-diff Pairs in an Array,/problems/k-diff-pairs-in-an-array,N,40.8%,Medium,66.57%
 1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,52.9%,Medium,33.15%
 1046,Last Stone Weight,/problems/last-stone-weight,N,64.7%,Easy,9.54%
 1290,Convert Binary Number in a Linked List to Integer,/problems/convert-binary-number-in-a-linked-list-to-integer,N,82.5%,Easy,13.23%
+761,Special Binary String, /problems/special-binary-string,N,54.7%,Hard,0.77%
+811,Subdomain Visit Count, /problems/subdomain-visit-count,N,69.9%,Easy,0.72%
+741,Cherry Pickup, /problems/cherry-pickup,N,33.9%,Hard,0.42%
+697,Degree of an Array, /problems/degree-of-an-array,N,53.8%,Easy,0.12%
+829,Consecutive Numbers Sum, /problems/consecutive-numbers-sum,N,37.5%,Hard,0.05%
+253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
+206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.03%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.03%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.01%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.00%
+1383,Maximum Performance of a Team, /problems/maximum-performance-of-a-team,N,31.9%,Hard,0.00%

@@ -1,9 +1,25 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,0.83%
-68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.0%
+68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.00%
 204,Count Primes,/problems/count-primes,N,33.1%,Medium,45.73%
 257,Binary Tree Paths,/problems/binary-tree-paths,N,60.7%,Easy,11.21%
 723,Candy Crush,/problems/candy-crush,Y,76.5%,Medium,40.47%
 1099,Two Sum Less Than K,/problems/two-sum-less-than-k,Y,60.8%,Easy,8.88%
 1229,Meeting Scheduler,/problems/meeting-scheduler,Y,55.4%,Medium,49.93%
 1861,Rotating the Box,/problems/rotating-the-box,N,64.7%,Medium,70.73%
+228,Summary Ranges, /problems/summary-ranges,N,39.5%,Medium,2.38%
+814,Binary Tree Pruning, /problems/binary-tree-pruning,N,74.5%,Medium,1.71%
+328,Odd Even Linked List, /problems/odd-even-linked-list,N,55.7%,Medium,1.51%
+138,Copy List with Random Pointer, /problems/copy-list-with-random-pointer,N,36.4%,Medium,1.39%
+290,Word Pattern, /problems/word-pattern,N,37.0%,Easy,1.30%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,1.25%
+322,Coin Change, /problems/coin-change,N,35.5%,Medium,1.08%
+412,Fizz Buzz, /problems/fizz-buzz,N,62.3%,Easy,0.42%
+1071,Greatest Common Divisor of Strings, /problems/greatest-common-divisor-of-strings,N,52.9%,Easy,0.42%
+273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.27%
+98,Validate Binary Search Tree, /problems/validate-binary-search-tree,N,27.8%,Medium,0.07%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.05%
+21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.01%
+66,Plus One, /problems/plus-one,N,43.0%,Easy,0.01%
+203,Remove Linked List Elements, /problems/remove-linked-list-elements,N,38.6%,Easy,0.01%
+1390,Four Divisors, /problems/four-divisors,N,38.1%,Medium,0.00%

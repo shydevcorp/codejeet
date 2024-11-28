@@ -1,5 +1,17 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 56,Merge Intervals,/problems/merge-intervals,N,46.0%,Medium,17.01%
 207,Course Schedule,/problems/course-schedule,N,45.4%,Medium,47.84%
-270,Closest Binary Search Tree Value,/problems/closest-binary-search-tree-value,Y,54.6%,Easy,100.0%
+270,Closest Binary Search Tree Value,/problems/closest-binary-search-tree-value,Y,54.6%,Easy,100.00%
 787,Cheapest Flights Within K Stops,/problems/cheapest-flights-within-k-stops,N,35.9%,Medium,69.17%
+1296,Divide Array in Sets of K Consecutive Numbers, /problems/divide-array-in-sets-of-k-consecutive-numbers,N,53.8%,Medium,0.07%
+759,Employee Free Time, /problems/employee-free-time,N,66.3%,Hard,0.05%
+114,Flatten Binary Tree to Linked List, /problems/flatten-binary-tree-to-linked-list,N,49.3%,Medium,0.03%
+394,Decode String, /problems/decode-string,N,50.0%,Medium,0.01%
+79,Word Search, /problems/word-search,N,35.6%,Medium,0.01%
+3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.00%
+78,Subsets, /problems/subsets,N,62.0%,Medium,0.00%
+139,Word Break, /problems/word-break,N,40.1%,Medium,0.00%
+340,Longest Substring with At Most K Distinct Characters, /problems/longest-substring-with-at-most-k-distinct-characters,N,44.1%,Hard,0.00%
+715,Range Module, /problems/range-module,N,38.5%,Hard,0.00%
+724,Find Pivot Index, /problems/find-pivot-index,N,44.0%,Easy,0.00%
+776,Split BST, /problems/split-bst,N,55.8%,Medium,0.00%

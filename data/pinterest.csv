@@ -1,8 +1,46 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,61.0%,Medium,10.53%
 621,Task Scheduler,/problems/task-scheduler,N,55.8%,Medium,8.27%
-632,Smallest Range Covering Elements from K Lists,/problems/smallest-range-covering-elements-from-k-lists,N,60.6%,Hard,55.7%
+632,Smallest Range Covering Elements from K Lists,/problems/smallest-range-covering-elements-from-k-lists,N,60.6%,Hard,55.70%
 759,Employee Free Time,/problems/employee-free-time,Y,71.7%,Hard,77.85%
 767,Reorganize String,/problems/reorganize-string,N,52.8%,Medium,31.12%
 1293,Shortest Path in a Grid with Obstacles Elimination,/problems/shortest-path-in-a-grid-with-obstacles-elimination,N,45.6%,Hard,50.39%
-2232,Minimize Result by Adding Parentheses to Expression,/problems/minimize-result-by-adding-parentheses-to-expression,N,65.0%,Medium,100.0%
+2232,Minimize Result by Adding Parentheses to Expression,/problems/minimize-result-by-adding-parentheses-to-expression,N,65.0%,Medium,100.00%
+811,Subdomain Visit Count, /problems/subdomain-visit-count,N,69.9%,Easy,1.99%
+277,Find the Celebrity, /problems/find-the-celebrity,N,41.8%,Medium,1.61%
+770,Basic Calculator IV, /problems/basic-calculator-iv,N,48.1%,Hard,0.96%
+269,Alien Dictionary, /problems/alien-dictionary,N,33.3%,Hard,0.66%
+362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.66%
+224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,0.57%
+68,Text Justification, /problems/text-justification,N,27.7%,Hard,0.37%
+564,Find the Closest Palindrome, /problems/find-the-closest-palindrome,N,19.7%,Hard,0.30%
+254,Factor Combinations, /problems/factor-combinations,N,46.7%,Medium,0.21%
+126,Word Ladder II, /problems/word-ladder-ii,N,22.1%,Hard,0.20%
+718,Maximum Length of Repeated Subarray, /problems/maximum-length-of-repeated-subarray,N,49.4%,Medium,0.17%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.15%
+158,Read N Characters Given Read4 II - Call multiple times, /problems/read-n-characters-given-read4-ii-call-multiple-times,N,33.8%,Hard,0.15%
+772,Basic Calculator III, /problems/basic-calculator-iii,N,41.3%,Hard,0.14%
+202,Happy Number, /problems/happy-number,N,50.4%,Easy,0.12%
+392,Is Subsequence, /problems/is-subsequence,N,49.2%,Easy,0.08%
+341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,0.08%
+726,Number of Atoms, /problems/number-of-atoms,N,49.0%,Hard,0.06%
+428,Serialize and Deserialize N-ary Tree, /problems/serialize-and-deserialize-n-ary-tree,N,59.4%,Hard,0.06%
+295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.05%
+36,Valid Sudoku, /problems/valid-sudoku,N,48.7%,Medium,0.04%
+935,Knight Dialer, /problems/knight-dialer,N,45.2%,Medium,0.04%
+56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.04%
+79,Word Search, /problems/word-search,N,35.6%,Medium,0.04%
+261,Graph Valid Tree, /problems/graph-valid-tree,N,42.2%,Medium,0.04%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.04%
+91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.02%
+698,Partition to K Equal Sum Subsets, /problems/partition-to-k-equal-sum-subsets,N,45.0%,Medium,0.02%
+139,Word Break, /problems/word-break,N,40.1%,Medium,0.02%
+986,Interval List Intersections, /problems/interval-list-intersections,N,67.3%,Medium,0.01%
+236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.01%
+380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.01%
+239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.01%
+14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.01%
+210,Course Schedule II, /problems/course-schedule-ii,N,40.7%,Medium,0.00%
+140,Word Break II, /problems/word-break-ii,N,32.6%,Hard,0.00%
+571,Find Median Given Frequency of Numbers, /problems/find-median-given-frequency-of-numbers,N,44.7%,Hard,0.00%
+720,Longest Word in Dictionary, /problems/longest-word-in-dictionary,N,48.2%,Easy,0.00%

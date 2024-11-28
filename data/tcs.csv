@@ -5,7 +5,7 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,30.59%
 9,Palindrome Number,/problems/palindrome-number,N,52.9%,Easy,19.61%
 13,Roman to Integer,/problems/roman-to-integer,N,58.2%,Easy,10.05%
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,9.8%
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,9.80%
 35,Search Insert Position,/problems/search-insert-position,N,42.0%,Easy,6.91%
 71,Simplify Path,/problems/simplify-path,N,39.2%,Medium,68.56%
 118,Pascal's Triangle,/problems/pascals-triangle,N,69.3%,Easy,14.04%
@@ -13,5 +13,5 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 136,Single Number,/problems/single-number,N,70.1%,Easy,9.97%
 176,Second Highest Salary,/problems/second-highest-salary,N,36.6%,Medium,24.99%
 383,Ransom Note,/problems/ransom-note,N,57.6%,Easy,17.98%
-871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.0%
+871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.00%
 509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,12.59%

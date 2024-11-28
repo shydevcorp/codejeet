@@ -5,7 +5,7 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 13,Roman to Integer,/problems/roman-to-integer,N,58.2%,Easy,0.32%
 15,3Sum,/problems/3sum,N,32.3%,Medium,0.45%
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,2.58%
-23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,1.3%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,1.30%
 25,Reverse Nodes in k-Group,/problems/reverse-nodes-in-k-group,N,53.7%,Hard,4.91%
 33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,38.7%,Medium,0.68%
 37,Sudoku Solver,/problems/sudoku-solver,N,56.8%,Hard,3.87%
@@ -18,7 +18,7 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 79,Word Search,/problems/word-search,N,39.8%,Medium,8.25%
 91,Decode Ways,/problems/decode-ways,N,32.3%,Medium,14.45%
 93,Restore IP Addresses,/problems/restore-ip-addresses,N,43.5%,Medium,15.12%
-124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,38.5%,Hard,1.9%
+124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,38.5%,Hard,1.90%
 131,Palindrome Partitioning,/problems/palindrome-partitioning,N,62.5%,Medium,3.12%
 139,Word Break,/problems/word-break,N,45.5%,Medium,1.57%
 146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,5.44%
@@ -30,14 +30,14 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 210,Course Schedule II,/problems/course-schedule-ii,N,48.0%,Medium,21.22%
 212,Word Search II,/problems/word-search-ii,N,36.9%,Hard,3.23%
 213,House Robber II,/problems/house-robber-ii,N,40.7%,Medium,4.63%
-221,Maximal Square,/problems/maximal-square,N,44.6%,Medium,19.3%
+221,Maximal Square,/problems/maximal-square,N,44.6%,Medium,19.30%
 227,Basic Calculator II,/problems/basic-calculator-ii,N,42.2%,Medium,9.95%
 236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,1.82%
 254,Factor Combinations,/problems/factor-combinations,Y,48.8%,Medium,18.17%
 261,Graph Valid Tree,/problems/graph-valid-tree,Y,46.9%,Medium,5.62%
-286,Walls and Gates,/problems/walls-and-gates,Y,60.3%,Medium,12.5%
+286,Walls and Gates,/problems/walls-and-gates,Y,60.3%,Medium,12.50%
 300,Longest Increasing Subsequence,/problems/longest-increasing-subsequence,N,51.6%,Medium,7.26%
-301,Remove Invalid Parentheses,/problems/remove-invalid-parentheses,N,47.1%,Hard,13.7%
+301,Remove Invalid Parentheses,/problems/remove-invalid-parentheses,N,47.1%,Hard,13.70%
 322,Coin Change,/problems/coin-change,N,41.6%,Medium,20.99%
 323,Number of Connected Components in an Undirected Graph,/problems/number-of-connected-components-in-an-undirected-graph,Y,62.1%,Medium,11.38%
 329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,52.2%,Hard,18.67%
@@ -45,15 +45,15 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,52.0%,Medium,3.33%
 387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,59.0%,Easy,1.28%
 394,Decode String,/problems/decode-string,N,57.6%,Medium,20.31%
-486,Predict the Winner,/problems/predict-the-winner,N,50.8%,Medium,10.7%
+486,Predict the Winner,/problems/predict-the-winner,N,50.8%,Medium,10.70%
 560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,1.64%
 658,Find K Closest Elements,/problems/find-k-closest-elements,N,46.8%,Medium,8.01%
-670,Maximum Swap,/problems/maximum-swap,N,47.9%,Medium,15.4%
+670,Maximum Swap,/problems/maximum-swap,N,47.9%,Medium,15.40%
 680,Valid Palindrome II,/problems/valid-palindrome-ii,N,39.3%,Easy,6.93%
 694,Number of Distinct Islands,/problems/number-of-distinct-islands,Y,60.6%,Medium,22.12%
-735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,19.8%
+735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,19.80%
 739,Daily Temperatures,/problems/daily-temperatures,N,66.6%,Medium,5.34%
-772,Basic Calculator III,/problems/basic-calculator-iii,Y,48.6%,Hard,28.7%
+772,Basic Calculator III,/problems/basic-calculator-iii,Y,48.6%,Hard,28.70%
 785,Is Graph Bipartite?,/problems/is-graph-bipartite,N,52.7%,Medium,5.05%
 787,Cheapest Flights Within K Stops,/problems/cheapest-flights-within-k-stops,N,35.9%,Medium,3.46%
 489,Robot Room Cleaner,/problems/robot-room-cleaner,Y,76.5%,Hard,18.79%
@@ -62,7 +62,7 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 968,Binary Tree Cameras,/problems/binary-tree-cameras,N,46.8%,Hard,14.22%
 992,Subarrays with K Different Integers,/problems/subarrays-with-k-different-integers,N,54.4%,Hard,11.13%
 993,Cousins in Binary Tree,/problems/cousins-in-binary-tree,N,54.2%,Easy,15.69%
-994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,3.9%
+994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,3.90%
 1004,Max Consecutive Ones III,/problems/max-consecutive-ones-iii,N,63.4%,Medium,3.67%
 1011,Capacity To Ship Packages Within D Days,/problems/capacity-to-ship-packages-within-d-days,N,64.6%,Medium,14.59%
 1099,Two Sum Less Than K,/problems/two-sum-less-than-k,Y,60.8%,Easy,3.03%
@@ -71,6 +71,6 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1293,Shortest Path in a Grid with Obstacles Elimination,/problems/shortest-path-in-a-grid-with-obstacles-elimination,N,45.6%,Hard,8.34%
 1352,Product of the Last K Numbers,/problems/product-of-the-last-k-numbers,N,49.7%,Medium,28.79%
 1366,Rank Teams by Votes,/problems/rank-teams-by-votes,N,58.6%,Medium,14.41%
-1444,Number of Ways of Cutting a Pizza,/problems/number-of-ways-of-cutting-a-pizza,N,58.0%,Hard,100.0%
+1444,Number of Ways of Cutting a Pizza,/problems/number-of-ways-of-cutting-a-pizza,N,58.0%,Hard,100.00%
 2096,Step-By-Step Directions From a Binary Tree Node to Another,/problems/step-by-step-directions-from-a-binary-tree-node-to-another,N,48.8%,Medium,7.82%
 2115,Find All Possible Recipes from Given Supplies,/problems/find-all-possible-recipes-from-given-supplies,N,48.4%,Medium,8.93%

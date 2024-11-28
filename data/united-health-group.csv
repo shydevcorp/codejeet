@@ -1,2 +1,4 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-1,Two Sum,/problems/two-sum,N,49.1%,Easy,100.0%
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,100.00%
+1185,Day of the Week, /problems/day-of-the-week,N,64.0%,Easy,0.00%
+1437,Check If All 1's Are at Least Length K Places Away, /problems/check-if-all-1s-are-at-least-length-k-places-away,N,63.3%,Medium,0.00%

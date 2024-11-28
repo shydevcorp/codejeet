@@ -15,6 +15,71 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 423,Reconstruct Original Digits from English,/problems/reconstruct-original-digits-from-english,N,51.3%,Medium,55.34%
 435,Non-overlapping Intervals,/problems/non-overlapping-intervals,N,49.9%,Medium,3.94%
 502,IPO,/problems/ipo,N,44.9%,Hard,60.97%
-691,Stickers to Spell Word,/problems/stickers-to-spell-word,N,46.3%,Hard,100.0%
-875,Koko Eating Bananas,/problems/koko-eating-bananas,N,52.2%,Medium,13.8%
+691,Stickers to Spell Word,/problems/stickers-to-spell-word,N,46.3%,Hard,100.00%
+875,Koko Eating Bananas,/problems/koko-eating-bananas,N,52.2%,Medium,13.80%
 994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,4.81%
+146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.80%
+780,Reaching Points, /problems/reaching-points,N,29.4%,Hard,0.61%
+17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.49%
+532,K-diff Pairs in an Array, /problems/k-diff-pairs-in-an-array,N,31.6%,Easy,0.39%
+706,Design HashMap, /problems/design-hashmap,N,61.3%,Easy,0.37%
+1283,Find the Smallest Divisor Given a Threshold, /problems/find-the-smallest-divisor-given-a-threshold,N,47.6%,Medium,0.37%
+460,LFU Cache, /problems/lfu-cache,N,34.2%,Hard,0.18%
+232,Implement Queue using Stacks, /problems/implement-queue-using-stacks,N,49.6%,Easy,0.17%
+642,Design Search Autocomplete System, /problems/design-search-autocomplete-system,N,44.7%,Hard,0.16%
+895,Maximum Frequency Stack, /problems/maximum-frequency-stack,N,60.6%,Hard,0.16%
+218,The Skyline Problem, /problems/the-skyline-problem,N,34.6%,Hard,0.15%
+251,Flatten 2D Vector, /problems/flatten-2d-vector,N,45.7%,Medium,0.14%
+1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.14%
+82,Remove Duplicates from Sorted List II, /problems/remove-duplicates-from-sorted-list-ii,N,36.8%,Medium,0.11%
+348,Design Tic-Tac-Toe, /problems/design-tic-tac-toe,N,54.3%,Medium,0.09%
+384,Shuffle an Array, /problems/shuffle-an-array,N,52.8%,Medium,0.09%
+127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.09%
+179,Largest Number, /problems/largest-number,N,28.8%,Medium,0.08%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.07%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.07%
+287,Find the Duplicate Number, /problems/find-the-duplicate-number,N,55.5%,Medium,0.07%
+23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.06%
+353,Design Snake Game, /problems/design-snake-game,N,34.2%,Medium,0.06%
+380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.06%
+236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.06%
+83,Remove Duplicates from Sorted List, /problems/remove-duplicates-from-sorted-list,N,45.4%,Easy,0.06%
+151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.05%
+394,Decode String, /problems/decode-string,N,50.0%,Medium,0.05%
+300,Longest Increasing Subsequence, /problems/longest-increasing-subsequence,N,42.6%,Medium,0.05%
+49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.05%
+205,Isomorphic Strings, /problems/isomorphic-strings,N,39.8%,Easy,0.05%
+153,Find Minimum in Rotated Sorted Array, /problems/find-minimum-in-rotated-sorted-array,N,45.1%,Medium,0.05%
+48,Rotate Image, /problems/rotate-image,N,56.7%,Medium,0.04%
+15,3Sum, /problems/3sum,N,26.8%,Medium,0.04%
+33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.04%
+212,Word Search II, /problems/word-search-ii,N,34.9%,Hard,0.04%
+22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.04%
+724,Find Pivot Index, /problems/find-pivot-index,N,44.0%,Easy,0.03%
+240,Search a 2D Matrix II, /problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.03%
+135,Candy, /problems/candy,N,31.6%,Hard,0.03%
+692,Top K Frequent Words, /problems/top-k-frequent-words,N,51.8%,Medium,0.03%
+297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.03%
+46,Permutations, /problems/permutations,N,63.5%,Medium,0.03%
+76,Minimum Window Substring, /problems/minimum-window-substring,N,34.6%,Hard,0.02%
+215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.02%
+211,Add and Search Word - Data structure design, /problems/add-and-search-word-data-structure-design,N,38.1%,Medium,0.02%
+226,Invert Binary Tree, /problems/invert-binary-tree,N,65.0%,Easy,0.02%
+295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.02%
+207,Course Schedule, /problems/course-schedule,N,43.1%,Medium,0.02%
+53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.02%
+314,Binary Tree Vertical Order Traversal, /problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.02%
+71,Simplify Path, /problems/simplify-path,N,32.6%,Medium,0.02%
+412,Fizz Buzz, /problems/fizz-buzz,N,62.3%,Easy,0.02%
+139,Word Break, /problems/word-break,N,40.1%,Medium,0.02%
+2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.02%
+557,Reverse Words in a String III, /problems/reverse-words-in-a-string-iii,N,69.8%,Easy,0.01%
+101,Symmetric Tree, /problems/symmetric-tree,N,46.8%,Easy,0.01%
+547,Friend Circles, /problems/friend-circles,N,58.6%,Medium,0.01%
+12,Integer to Roman, /problems/integer-to-roman,N,55.1%,Medium,0.01%
+36,Valid Sudoku, /problems/valid-sudoku,N,48.7%,Medium,0.01%
+73,Set Matrix Zeroes, /problems/set-matrix-zeroes,N,43.1%,Medium,0.01%
+3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%
+350,Intersection of Two Arrays II, /problems/intersection-of-two-arrays-ii,N,51.4%,Easy,0.01%
+1150,Check If a Number Is Majority Element in a Sorted Array, /problems/check-if-a-number-is-majority-element-in-a-sorted-array,N,59.2%,Easy,0.00%
+1051,Height Checker, /problems/height-checker,N,71.1%,Easy,0.00%

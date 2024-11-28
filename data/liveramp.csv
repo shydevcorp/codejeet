@@ -1,2 +1,9 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-529,Minesweeper,/problems/minesweeper,N,65.5%,Medium,100.0%
+529,Minesweeper,/problems/minesweeper,N,65.5%,Medium,100.00%
+575,Distribute Candies, /problems/distribute-candies,N,61.4%,Easy,0.08%
+581,Shortest Unsorted Continuous Subarray, /problems/shortest-unsorted-continuous-subarray,N,31.1%,Easy,0.05%
+785,Is Graph Bipartite?, /problems/is-graph-bipartite,N,47.5%,Medium,0.04%
+20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.01%
+200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.00%
+594,Longest Harmonious Subsequence, /problems/longest-harmonious-subsequence,N,46.6%,Easy,0.00%
+949,Largest Time for Given Digits, /problems/largest-time-for-given-digits,N,35.8%,Easy,0.00%
