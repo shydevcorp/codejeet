@@ -72,7 +72,7 @@ export default function Home() {
               variants={itemVariants}
             >
               {" "}
-              Struggle through <NumberTicker value={8000} />+ company-wise
+              Suffer from <NumberTicker value={8000} />+ company-wise
               LeetCode questions like a true Codejeet. Kyunki naukri ke liye sab
               kuch chalega!
             </motion.h2>
