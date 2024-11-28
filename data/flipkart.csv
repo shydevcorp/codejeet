@@ -1,15 +1,15 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1760,Minimum Limit of Balls in a Bag,/problems/minimum-limit-of-balls-in-a-bag,N,60.4%,Medium,100.00%
-741,Cherry Pickup, /problems/cherry-pickup,N,33.9%,Hard,0.15%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.10%
-380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.06%
-269,Alien Dictionary, /problems/alien-dictionary,N,33.3%,Hard,0.05%
-10,Regular Expression Matching, /problems/regular-expression-matching,N,26.8%,Hard,0.03%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.03%
-84,Largest Rectangle in Histogram, /problems/largest-rectangle-in-histogram,N,35.2%,Hard,0.02%
-123,Best Time to Buy and Sell Stock III, /problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.01%
-994,Rotting Oranges, /problems/rotting-oranges,N,49.2%,Medium,0.01%
-155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.00%
-967,Numbers With Same Consecutive Differences, /problems/numbers-with-same-consecutive-differences,N,39.4%,Medium,0.00%
-982,Triples with Bitwise AND Equal To Zero, /problems/triples-with-bitwise-and-equal-to-zero,N,55.6%,Hard,0.00%
-1423,Maximum Points You Can Obtain from Cards, /problems/maximum-points-you-can-obtain-from-cards,N,42.6%,Medium,0.00%
+741,Cherry Pickup,/problems/cherry-pickup,N,33.9%,Hard,0.15%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.10%
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.06%
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.05%
+10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.03%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.03%
+84,Largest Rectangle in Histogram,/problems/largest-rectangle-in-histogram,N,35.2%,Hard,0.02%
+123,Best Time to Buy and Sell Stock III,/problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.01%
+994,Rotting Oranges,/problems/rotting-oranges,N,49.2%,Medium,0.01%
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.00%
+967,Numbers With Same Consecutive Differences,/problems/numbers-with-same-consecutive-differences,N,39.4%,Medium,0.00%
+982,Triples with Bitwise AND Equal To Zero,/problems/triples-with-bitwise-and-equal-to-zero,N,55.6%,Hard,0.00%
+1423,Maximum Points You Can Obtain from Cards,/problems/maximum-points-you-can-obtain-from-cards,N,42.6%,Medium,0.00%

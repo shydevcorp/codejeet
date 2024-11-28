@@ -1,13 +1,13 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 593,Valid Square,/problems/valid-square,N,44.0%,Medium,100.00%
-647,Palindromic Substrings, /problems/palindromic-substrings,N,60.6%,Medium,1.41%
-730,Count Different Palindromic Subsequences, /problems/count-different-palindromic-subsequences,N,41.8%,Hard,0.80%
-203,Remove Linked List Elements, /problems/remove-linked-list-elements,N,38.6%,Easy,0.54%
-202,Happy Number, /problems/happy-number,N,50.4%,Easy,0.07%
-75,Sort Colors, /problems/sort-colors,N,47.3%,Medium,0.06%
-716,Max Stack, /problems/max-stack,N,42.6%,Easy,0.04%
-380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.02%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.02%
-155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.01%
-167,Two Sum II - Input array is sorted, /problems/two-sum-ii-input-array-is-sorted,N,54.1%,Easy,0.01%
-1206,Design Skiplist, /problems/design-skiplist,N,57.3%,Hard,0.00%
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,1.41%
+730,Count Different Palindromic Subsequences,/problems/count-different-palindromic-subsequences,N,41.8%,Hard,0.80%
+203,Remove Linked List Elements,/problems/remove-linked-list-elements,N,38.6%,Easy,0.54%
+202,Happy Number,/problems/happy-number,N,50.4%,Easy,0.07%
+75,Sort Colors,/problems/sort-colors,N,47.3%,Medium,0.06%
+716,Max Stack,/problems/max-stack,N,42.6%,Easy,0.04%
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.02%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.02%
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.01%
+167,Two Sum II - Input array is sorted,/problems/two-sum-ii-input-array-is-sorted,N,54.1%,Easy,0.01%
+1206,Design Skiplist,/problems/design-skiplist,N,57.3%,Hard,0.00%

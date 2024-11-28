@@ -12,5 +12,5 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1604,Alert Using Same Key-Card Three or More Times in a One Hour Period,/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,N,47.3%,Medium,68.32%
 1654,Minimum Jumps to Reach Home,/problems/minimum-jumps-to-reach-home,N,28.7%,Medium,13.28%
 2133,Check if Every Row and Column Contains All Numbers,/problems/check-if-every-row-and-column-contains-all-numbers,N,52.8%,Easy,17.11%
-224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,0.57%
-85,Maximal Rectangle, /problems/maximal-rectangle,N,37.7%,Hard,0.01%
+224,Basic Calculator,/problems/basic-calculator,N,36.8%,Hard,0.57%
+85,Maximal Rectangle,/problems/maximal-rectangle,N,37.7%,Hard,0.01%

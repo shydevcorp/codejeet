@@ -1,6 +1,6 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,100.00%
-29,Divide Two Integers, /problems/divide-two-integers,N,16.4%,Medium,0.14%
-495,Teemo Attacking, /problems/teemo-attacking,N,53.6%,Medium,0.09%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.04%
-37,Sudoku Solver, /problems/sudoku-solver,N,43.6%,Hard,0.02%
+29,Divide Two Integers,/problems/divide-two-integers,N,16.4%,Medium,0.14%
+495,Teemo Attacking,/problems/teemo-attacking,N,53.6%,Medium,0.09%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.04%
+37,Sudoku Solver,/problems/sudoku-solver,N,43.6%,Hard,0.02%

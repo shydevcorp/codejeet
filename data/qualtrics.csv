@@ -3,29 +3,29 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,Y,42.9%,Hard,100.00%
 394,Decode String,/problems/decode-string,N,57.6%,Medium,18.16%
 697,Degree of an Array,/problems/degree-of-an-array,N,55.9%,Easy,70.49%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.67%
-695,Max Area of Island, /problems/max-area-of-island,N,62.7%,Medium,0.53%
-449,Serialize and Deserialize BST, /problems/serialize-and-deserialize-bst,N,52.0%,Medium,0.51%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.36%
-173,Binary Search Tree Iterator, /problems/binary-search-tree-iterator,N,56.6%,Medium,0.27%
-138,Copy List with Random Pointer, /problems/copy-list-with-random-pointer,N,36.4%,Medium,0.23%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.19%
-139,Word Break, /problems/word-break,N,40.1%,Medium,0.13%
-1041,Robot Bounded In Circle, /problems/robot-bounded-in-circle,N,49.6%,Medium,0.11%
-733,Flood Fill, /problems/flood-fill,N,55.3%,Easy,0.10%
-13,Roman to Integer, /problems/roman-to-integer,N,55.7%,Easy,0.08%
-103,Binary Tree Zigzag Level Order Traversal, /problems/binary-tree-zigzag-level-order-traversal,N,48.3%,Medium,0.08%
-119,Pascal's Triangle II, /problems/pascals-triangle-ii,N,49.0%,Easy,0.07%
-332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,0.05%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.04%
-722,Remove Comments, /problems/remove-comments,N,34.6%,Medium,0.04%
-729,My Calendar I, /problems/my-calendar-i,N,51.8%,Medium,0.04%
-208,Implement Trie (Prefix Tree), /problems/implement-trie-prefix-tree,N,49.4%,Medium,0.04%
-131,Palindrome Partitioning, /problems/palindrome-partitioning,N,47.5%,Medium,0.03%
-297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%
-767,Reorganize String, /problems/reorganize-string,N,48.7%,Medium,0.01%
-543,Diameter of Binary Tree, /problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
-69,Sqrt(x), /problems/sqrtx,N,33.9%,Easy,0.01%
-295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.01%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.01%
-34,Find First and Last Position of Element in Sorted Array, /problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.00%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.67%
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.53%
+449,Serialize and Deserialize BST,/problems/serialize-and-deserialize-bst,N,52.0%,Medium,0.51%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.36%
+173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,56.6%,Medium,0.27%
+138,Copy List with Random Pointer,/problems/copy-list-with-random-pointer,N,36.4%,Medium,0.23%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.19%
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.13%
+1041,Robot Bounded In Circle,/problems/robot-bounded-in-circle,N,49.6%,Medium,0.11%
+733,Flood Fill,/problems/flood-fill,N,55.3%,Easy,0.10%
+13,Roman to Integer,/problems/roman-to-integer,N,55.7%,Easy,0.08%
+103,Binary Tree Zigzag Level Order Traversal,/problems/binary-tree-zigzag-level-order-traversal,N,48.3%,Medium,0.08%
+119,Pascal's Triangle II,/problems/pascals-triangle-ii,N,49.0%,Easy,0.07%
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.05%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.04%
+722,Remove Comments,/problems/remove-comments,N,34.6%,Medium,0.04%
+729,My Calendar I,/problems/my-calendar-i,N,51.8%,Medium,0.04%
+208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,49.4%,Medium,0.04%
+131,Palindrome Partitioning,/problems/palindrome-partitioning,N,47.5%,Medium,0.03%
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%
+767,Reorganize String,/problems/reorganize-string,N,48.7%,Medium,0.01%
+543,Diameter of Binary Tree,/problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
+69,Sqrt(x),/problems/sqrtx,N,33.9%,Easy,0.01%
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.01%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.01%
+34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.00%

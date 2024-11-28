@@ -644,328 +644,328 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 2405,Optimal Partition of String,/problems/optimal-partition-of-string,N,74.4%,Medium,7.35%
 2406,Divide Intervals Into Minimum Number of Groups,/problems/divide-intervals-into-minimum-number-of-groups,N,45.4%,Medium,18.53%
 2355,Maximum Number of Books You Can Take,/problems/maximum-number-of-books-you-can-take,Y,45.6%,Hard,90.06%
-957,Prison Cells After N Days, /problems/prison-cells-after-n-days,N,40.7%,Medium,3.85%
-675,Cut Off Trees for Golf Event, /problems/cut-off-trees-for-golf-event,N,34.6%,Hard,3.36%
-341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,2.75%
-535,Encode and Decode TinyURL, /problems/encode-and-decode-tinyurl,N,79.9%,Medium,2.65%
-866,Prime Palindrome, /problems/prime-palindrome,N,24.9%,Medium,2.43%
-505,The Maze II, /problems/the-maze-ii,N,47.7%,Medium,2.38%
-1000,Minimum Cost to Merge Stones, /problems/minimum-cost-to-merge-stones,N,39.8%,Hard,2.29%
-1102,Path With Maximum Minimum Value, /problems/path-with-maximum-minimum-value,N,49.2%,Medium,2.24%
-711,Number of Distinct Islands II, /problems/number-of-distinct-islands-ii,N,47.3%,Hard,2.20%
-631,Design Excel Sum Formula, /problems/design-excel-sum-formula,N,31.6%,Hard,2.07%
-384,Shuffle an Array, /problems/shuffle-an-array,N,52.8%,Medium,2.05%
-682,Baseball Game, /problems/baseball-game,N,63.7%,Easy,1.97%
-759,Employee Free Time, /problems/employee-free-time,N,66.2%,Hard,1.95%
-281,Zigzag Iterator, /problems/zigzag-iterator,N,58.4%,Medium,1.94%
-1120,Maximum Average Subtree, /problems/maximum-average-subtree,N,61.9%,Medium,1.92%
-564,Find the Closest Palindrome, /problems/find-the-closest-palindrome,N,19.7%,Hard,1.89%
-96,Unique Binary Search Trees, /problems/unique-binary-search-trees,N,52.9%,Medium,1.88%
-1279,Traffic Light Controlled Intersection, /problems/traffic-light-controlled-intersection,N,74.3%,Easy,1.87%
-640,Solve the Equation, /problems/solve-the-equation,N,42.0%,Medium,1.83%
-317,Shortest Distance from All Buildings, /problems/shortest-distance-from-all-buildings,N,41.4%,Hard,1.81%
-312,Burst Balloons, /problems/burst-balloons,N,51.8%,Hard,1.74%
-1155,Number of Dice Rolls With Target Sum, /problems/number-of-dice-rolls-with-target-sum,N,49.0%,Medium,1.72%
-388,Longest Absolute File Path, /problems/longest-absolute-file-path,N,41.8%,Medium,1.70%
-980,Unique Paths III, /problems/unique-paths-iii,N,73.3%,Hard,1.69%
-228,Summary Ranges, /problems/summary-ranges,N,39.5%,Medium,1.66%
-109,Convert Sorted List to Binary Search Tree, /problems/convert-sorted-list-to-binary-search-tree,N,47.7%,Medium,1.65%
-284,Peeking Iterator, /problems/peeking-iterator,N,45.7%,Medium,1.57%
-1135,Connecting Cities With Minimum Cost, /problems/connecting-cities-with-minimum-cost,N,57.5%,Medium,1.56%
-285,Inorder Successor in BST, /problems/inorder-successor-in-bst,N,40.4%,Medium,1.51%
-270,Closest Binary Search Tree Value, /problems/closest-binary-search-tree-value,N,48.5%,Easy,1.48%
-68,Text Justification, /problems/text-justification,N,27.7%,Hard,1.41%
-229,Majority Element II, /problems/majority-element-ii,N,35.6%,Medium,1.39%
-325,Maximum Size Subarray Sum Equals k, /problems/maximum-size-subarray-sum-equals-k,N,46.8%,Medium,1.37%
-44,Wildcard Matching, /problems/wildcard-matching,N,24.7%,Hard,1.36%
-770,Basic Calculator IV, /problems/basic-calculator-iv,N,48.1%,Hard,1.35%
-298,Binary Tree Longest Consecutive Sequence, /problems/binary-tree-longest-consecutive-sequence,N,47.1%,Medium,1.35%
-943,Find the Shortest Superstring, /problems/find-the-shortest-superstring,N,42.9%,Hard,1.34%
-369,Plus One Linked List, /problems/plus-one-linked-list,N,58.2%,Medium,1.34%
-1100,Find K-Length Substrings With No Repeated Characters, /problems/find-k-length-substrings-with-no-repeated-characters,N,72.7%,Medium,1.18%
-997,Find the Town Judge, /problems/find-the-town-judge,N,50.1%,Easy,1.17%
-805,Split Array With Same Average, /problems/split-array-with-same-average,N,26.4%,Hard,1.17%
-225,Implement Stack using Queues, /problems/implement-stack-using-queues,N,45.1%,Easy,1.16%
-854,K-Similar Strings, /problems/k-similar-strings,N,38.2%,Hard,1.16%
-726,Number of Atoms, /problems/number-of-atoms,N,49.0%,Hard,1.10%
-426,Convert Binary Search Tree to Sorted Doubly Linked List, /problems/convert-binary-search-tree-to-sorted-doubly-linked-list,N,59.1%,Medium,1.09%
-352,Data Stream as Disjoint Intervals, /problems/data-stream-as-disjoint-intervals,N,47.3%,Hard,1.09%
-794,Valid Tic-Tac-Toe State, /problems/valid-tic-tac-toe-state,N,32.6%,Medium,1.08%
-187,Repeated DNA Sequences, /problems/repeated-dna-sequences,N,38.9%,Medium,1.03%
-266,Palindrome Permutation, /problems/palindrome-permutation,N,61.9%,Easy,1.03%
-498,Diagonal Traverse, /problems/diagonal-traverse,N,48.2%,Medium,1.03%
-1219,Path with Maximum Gold, /problems/path-with-maximum-gold,N,65.1%,Medium,1.02%
-86,Partition List, /problems/partition-list,N,41.5%,Medium,1.01%
-508,Most Frequent Subtree Sum, /problems/most-frequent-subtree-sum,N,57.9%,Medium,0.99%
-1236,Web Crawler, /problems/web-crawler,N,64.3%,Medium,0.96%
-1214,Two Sum BSTs, /problems/two-sum-bsts,N,67.6%,Medium,0.95%
-635,Design Log Storage System, /problems/design-log-storage-system,N,58.6%,Medium,0.94%
-186,Reverse Words in a String II, /problems/reverse-words-in-a-string-ii,N,43.3%,Medium,0.94%
-272,Closest Binary Search Tree Value II, /problems/closest-binary-search-tree-value-ii,N,50.5%,Hard,0.92%
-166,Fraction to Recurring Decimal, /problems/fraction-to-recurring-decimal,N,21.6%,Medium,0.90%
-978,Longest Turbulent Subarray, /problems/longest-turbulent-subarray,N,46.6%,Medium,0.90%
-986,Interval List Intersections, /problems/interval-list-intersections,N,67.3%,Medium,0.84%
-699,Falling Squares, /problems/falling-squares,N,41.8%,Hard,0.84%
-708,Insert into a Sorted Circular Linked List, /problems/insert-into-a-sorted-circular-linked-list,N,31.6%,Medium,0.84%
-110,Balanced Binary Tree, /problems/balanced-binary-tree,N,43.5%,Easy,0.83%
-1024,Video Stitching, /problems/video-stitching,N,49.2%,Medium,0.83%
-361,Bomb Enemy, /problems/bomb-enemy,N,46.0%,Medium,0.80%
-233,Number of Digit One, /problems/number-of-digit-one,N,31.3%,Hard,0.80%
-351,Android Unlock Patterns, /problems/android-unlock-patterns,N,48.4%,Medium,0.79%
-843,Guess the Word, /problems/guess-the-word,N,46.1%,Hard,0.77%
-280,Wiggle Sort, /problems/wiggle-sort,N,63.8%,Medium,0.75%
-807,Max Increase to Keep City Skyline, /problems/max-increase-to-keep-city-skyline,N,83.7%,Medium,0.75%
-1083,Sales Analysis II, /problems/sales-analysis-ii,N,50.5%,Easy,0.73%
-1215,Stepping Numbers, /problems/stepping-numbers,N,41.6%,Medium,0.72%
-737,Sentence Similarity II, /problems/sentence-similarity-ii,N,45.8%,Medium,0.71%
-171,Excel Sheet Column Number, /problems/excel-sheet-column-number,N,55.9%,Easy,0.70%
-617,Merge Two Binary Trees, /problems/merge-two-binary-trees,N,74.1%,Easy,0.70%
-1086,High Five, /problems/high-five,N,79.7%,Easy,0.68%
-164,Maximum Gap, /problems/maximum-gap,N,35.5%,Hard,0.67%
-356,Line Reflection, /problems/line-reflection,N,31.8%,Medium,0.67%
-161,One Edit Distance, /problems/one-edit-distance,N,32.3%,Medium,0.65%
-517,Super Washing Machines, /problems/super-washing-machines,N,38.3%,Hard,0.63%
-1022,Sum of Root To Leaf Binary Numbers, /problems/sum-of-root-to-leaf-binary-numbers,N,67.2%,Easy,0.62%
-775,Global and Local Inversions, /problems/global-and-local-inversions,N,42.1%,Medium,0.60%
-634,Find the Derangement of An Array, /problems/find-the-derangement-of-an-array,N,40.1%,Medium,0.56%
-725,Split Linked List in Parts, /problems/split-linked-list-in-parts,N,52.2%,Medium,0.56%
-250,Count Univalue Subtrees, /problems/count-univalue-subtrees,N,52.0%,Medium,0.56%
-296,Best Meeting Point, /problems/best-meeting-point,N,57.5%,Hard,0.55%
-355,Design Twitter, /problems/design-twitter,N,30.3%,Medium,0.55%
-765,Couples Holding Hands, /problems/couples-holding-hands,N,54.3%,Hard,0.54%
-611,Valid Triangle Number, /problems/valid-triangle-number,N,48.4%,Medium,0.53%
-335,Self Crossing, /problems/self-crossing,N,28.0%,Hard,0.51%
-393,UTF-8 Validation, /problems/utf-8-validation,N,37.5%,Medium,0.51%
-192,Word Frequency, /problems/word-frequency,N,25.8%,Medium,0.51%
-1057,Campus Bikes, /problems/campus-bikes,N,57.7%,Medium,0.51%
-701,Insert into a Binary Search Tree, /problems/insert-into-a-binary-search-tree,N,77.7%,Medium,0.51%
-771,Jewels and Stones, /problems/jewels-and-stones,N,86.4%,Easy,0.51%
-686,Repeated String Match, /problems/repeated-string-match,N,32.3%,Easy,0.50%
-541,Reverse String II, /problems/reverse-string-ii,N,48.4%,Easy,0.50%
-637,Average of Levels in Binary Tree, /problems/average-of-levels-in-binary-tree,N,63.1%,Easy,0.50%
-163,Missing Ranges, /problems/missing-ranges,N,24.3%,Medium,0.49%
-365,Water and Jug Problem, /problems/water-and-jug-problem,N,30.6%,Medium,0.49%
-319,Bulb Switcher, /problems/bulb-switcher,N,45.4%,Medium,0.48%
-1031,Maximum Sum of Two Non-Overlapping Subarrays, /problems/maximum-sum-of-two-non-overlapping-subarrays,N,57.9%,Medium,0.47%
-1122,Relative Sort Array, /problems/relative-sort-array,N,67.7%,Easy,0.47%
-89,Gray Code, /problems/gray-code,N,49.1%,Medium,0.47%
-371,Sum of Two Integers, /problems/sum-of-two-integers,N,50.7%,Medium,0.47%
-558,Logical OR of Two Binary Grids Represented as Quad-Trees, /problems/logical-or-of-two-binary-grids-represented-as-quad-trees,N,44.6%,Medium,0.47%
-844,Backspace String Compare, /problems/backspace-string-compare,N,46.4%,Easy,0.47%
-1161,Maximum Level Sum of a Binary Tree, /problems/maximum-level-sum-of-a-binary-tree,N,72.2%,Medium,0.46%
-413,Arithmetic Slices, /problems/arithmetic-slices,N,57.9%,Medium,0.46%
-515,Find Largest Value in Each Tree Row, /problems/find-largest-value-in-each-tree-row,N,61.1%,Medium,0.46%
-427,Construct Quad Tree, /problems/construct-quad-tree,N,61.4%,Medium,0.46%
-468,Validate IP Address, /problems/validate-ip-address,N,24.1%,Medium,0.45%
-1002,Find Common Characters, /problems/find-common-characters,N,67.6%,Easy,0.44%
-1172,Dinner Plate Stacks, /problems/dinner-plate-stacks,N,38.2%,Hard,0.44%
-1019,Next Greater Node In Linked List, /problems/next-greater-node-in-linked-list,N,57.4%,Medium,0.44%
-473,Matchsticks to Square, /problems/matchsticks-to-square,N,37.7%,Medium,0.43%
-727,Minimum Window Subsequence, /problems/minimum-window-subsequence,N,41.8%,Hard,0.43%
-683,K Empty Slots, /problems/k-empty-slots,N,35.6%,Hard,0.42%
-1066,Campus Bikes II, /problems/campus-bikes-ii,N,54.2%,Medium,0.40%
-241,Different Ways to Add Parentheses, /problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.40%
-145,Binary Tree Postorder Traversal, /problems/binary-tree-postorder-traversal,N,55.0%,Hard,0.39%
-1373,Maximum Sum BST in Binary Tree, /problems/maximum-sum-bst-in-binary-tree,N,40.2%,Hard,0.39%
-687,Longest Univalue Path, /problems/longest-univalue-path,N,36.2%,Easy,0.39%
-1188,Design Bounded Blocking Queue, /problems/design-bounded-blocking-queue,N,70.5%,Medium,0.38%
-1074,Number of Submatrices That Sum to Target, /problems/number-of-submatrices-that-sum-to-target,N,60.4%,Hard,0.38%
-924,Minimize Malware Spread, /problems/minimize-malware-spread,N,42.0%,Hard,0.38%
-321,Create Maximum Number, /problems/create-maximum-number,N,27.0%,Hard,0.38%
-1084,Sales Analysis III, /problems/sales-analysis-iii,N,54.3%,Easy,0.38%
-969,Pancake Sorting, /problems/pancake-sorting,N,67.5%,Medium,0.37%
-115,Distinct Subsequences, /problems/distinct-subsequences,N,38.3%,Hard,0.37%
-1081,Smallest Subsequence of Distinct Characters, /problems/smallest-subsequence-of-distinct-characters,N,50.4%,Medium,0.37%
-214,Shortest Palindrome, /problems/shortest-palindrome,N,29.8%,Hard,0.35%
-345,Reverse Vowels of a String, /problems/reverse-vowels-of-a-string,N,44.2%,Easy,0.35%
-783,Minimum Distance Between BST Nodes, /problems/minimum-distance-between-bst-nodes,N,52.6%,Easy,0.35%
-264,Ugly Number II, /problems/ugly-number-ii,N,42.0%,Medium,0.35%
-905,Sort Array By Parity, /problems/sort-array-by-parity,N,74.1%,Easy,0.34%
-860,Lemonade Change, /problems/lemonade-change,N,51.6%,Easy,0.34%
-334,Increasing Triplet Subsequence, /problems/increasing-triplet-subsequence,N,40.0%,Medium,0.34%
-579,Find Cumulative Salary of an Employee, /problems/find-cumulative-salary-of-an-employee,N,37.0%,Hard,0.34%
-1315,Sum of Nodes with Even-Valued Grandparent, /problems/sum-of-nodes-with-even-valued-grandparent,N,83.5%,Medium,0.33%
-1062,Longest Repeating Substring, /problems/longest-repeating-substring,N,57.2%,Medium,0.33%
-447,Number of Boomerangs, /problems/number-of-boomerangs,N,51.8%,Easy,0.32%
-532,K-diff Pairs in an Array, /problems/k-diff-pairs-in-an-array,N,31.6%,Easy,0.32%
-1311,Get Watched Videos by Your Friends, /problems/get-watched-videos-by-your-friends,N,43.1%,Medium,0.32%
-290,Word Pattern, /problems/word-pattern,N,37.0%,Easy,0.32%
-710,Random Pick with Blacklist, /problems/random-pick-with-blacklist,N,32.5%,Hard,0.32%
-918,Maximum Sum Circular Subarray, /problems/maximum-sum-circular-subarray,N,33.7%,Medium,0.32%
-873,Length of Longest Fibonacci Subsequence, /problems/length-of-longest-fibonacci-subsequence,N,48.0%,Medium,0.31%
-586,Customer Placing the Largest Number of Orders, /problems/customer-placing-the-largest-number-of-orders,N,73.0%,Easy,0.31%
-174,Dungeon Game, /problems/dungeon-game,N,32.3%,Hard,0.31%
-1244,Design A Leaderboard, /problems/design-a-leaderboard,N,60.7%,Medium,0.30%
-938,Range Sum of BST, /problems/range-sum-of-bst,N,81.3%,Easy,0.30%
-359,Logger Rate Limiter, /problems/logger-rate-limiter,N,70.8%,Easy,0.29%
-919,Complete Binary Tree Inserter, /problems/complete-binary-tree-inserter,N,57.3%,Medium,0.29%
-559,Maximum Depth of N-ary Tree, /problems/maximum-depth-of-n-ary-tree,N,68.7%,Easy,0.29%
-158,Read N Characters Given Read4 II - Call multiple times, /problems/read-n-characters-given-read4-ii-call-multiple-times,N,33.8%,Hard,0.28%
-1104,Path In Zigzag Labelled Binary Tree, /problems/path-in-zigzag-labelled-binary-tree,N,72.0%,Medium,0.28%
-382,Linked List Random Node, /problems/linked-list-random-node,N,52.1%,Medium,0.28%
-732,My Calendar III, /problems/my-calendar-iii,N,60.0%,Hard,0.28%
-1007,Minimum Domino Rotations For Equal Row, /problems/minimum-domino-rotations-for-equal-row,N,50.0%,Medium,0.28%
-77,Combinations, /problems/combinations,N,54.7%,Medium,0.27%
-1108,Defanging an IP Address, /problems/defanging-an-ip-address,N,87.5%,Easy,0.27%
-1013,Partition Array Into Three Parts With Equal Sum, /problems/partition-array-into-three-parts-with-equal-sum,N,51.8%,Easy,0.26%
-1139,Largest 1-Bordered Square, /problems/largest-1-bordered-square,N,47.5%,Medium,0.26%
-466,Count The Repetitions, /problems/count-the-repetitions,N,28.2%,Hard,0.26%
-570,Managers with at Least 5 Direct Reports, /problems/managers-with-at-least-5-direct-reports,N,66.0%,Medium,0.26%
-762,Prime Number of Set Bits in Binary Representation, /problems/prime-number-of-set-bits-in-binary-representation,N,63.2%,Easy,0.25%
-368,Largest Divisible Subset, /problems/largest-divisible-subset,N,38.0%,Medium,0.24%
-881,Boats to Save People, /problems/boats-to-save-people,N,46.8%,Medium,0.24%
-731,My Calendar II, /problems/my-calendar-ii,N,49.1%,Medium,0.24%
-1270,All People Report to the Given Manager, /problems/all-people-report-to-the-given-manager,N,87.1%,Medium,0.23%
-507,Perfect Number, /problems/perfect-number,N,35.5%,Easy,0.23%
-811,Subdomain Visit Count, /problems/subdomain-visit-count,N,69.9%,Easy,0.23%
-311,Sparse Matrix Multiplication, /problems/sparse-matrix-multiplication,N,61.9%,Medium,0.23%
-939,Minimum Area Rectangle, /problems/minimum-area-rectangle,N,51.8%,Medium,0.22%
-626,Exchange Seats, /problems/exchange-seats,N,62.3%,Medium,0.21%
-741,Cherry Pickup, /problems/cherry-pickup,N,33.9%,Hard,0.21%
-604,Design Compressed String Iterator, /problems/design-compressed-string-iterator,N,37.5%,Easy,0.21%
-1254,Number of Closed Islands, /problems/number-of-closed-islands,N,60.5%,Medium,0.20%
-1375,Bulb Switcher III, /problems/bulb-switcher-iii,N,62.6%,Medium,0.20%
-601,Human Traffic of Stadium, /problems/human-traffic-of-stadium,N,41.7%,Hard,0.19%
-1198,Find Smallest Common Element in All Rows, /problems/find-smallest-common-element-in-all-rows,N,74.9%,Medium,0.19%
-756,Pyramid Transition Matrix, /problems/pyramid-transition-matrix,N,54.6%,Medium,0.19%
-358,Rearrange String k Distance Apart, /problems/rearrange-string-k-distance-apart,N,34.9%,Hard,0.19%
-995,Minimum Number of K Consecutive Bit Flips, /problems/minimum-number-of-k-consecutive-bit-flips,N,46.8%,Hard,0.19%
-864,Shortest Path to Get All Keys, /problems/shortest-path-to-get-all-keys,N,40.1%,Hard,0.19%
-549,Binary Tree Longest Consecutive Sequence II, /problems/binary-tree-longest-consecutive-sequence-ii,N,47.0%,Medium,0.19%
-900,RLE Iterator, /problems/rle-iterator,N,53.5%,Medium,0.19%
-536,Construct Binary Tree from String, /problems/construct-binary-tree-from-string,N,48.3%,Medium,0.18%
-1153,String Transforms Into Another String, /problems/string-transforms-into-another-string,N,35.8%,Hard,0.18%
-1245,Tree Diameter, /problems/tree-diameter,N,60.1%,Medium,0.18%
-486,Predict the Winner, /problems/predict-the-winner,N,47.9%,Medium,0.18%
-1027,Longest Arithmetic Sequence, /problems/longest-arithmetic-sequence,N,53.4%,Medium,0.18%
-1248,Count Number of Nice Subarrays, /problems/count-number-of-nice-subarrays,N,56.4%,Medium,0.17%
-561,Array Partition I, /problems/array-partition-i,N,72.0%,Easy,0.17%
-856,Score of Parentheses, /problems/score-of-parentheses,N,60.5%,Medium,0.17%
-707,Design Linked List, /problems/design-linked-list,N,24.5%,Medium,0.17%
-1162,As Far from Land as Possible, /problems/as-far-from-land-as-possible,N,43.5%,Medium,0.17%
-1430,Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree, /problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree,N,44.8%,Medium,0.17%
-963,Minimum Area Rectangle II, /problems/minimum-area-rectangle-ii,N,50.9%,Medium,0.17%
-338,Counting Bits, /problems/counting-bits,N,69.5%,Medium,0.16%
-720,Longest Word in Dictionary, /problems/longest-word-in-dictionary,N,48.2%,Easy,0.16%
-404,Sum of Left Leaves, /problems/sum-of-left-leaves,N,50.9%,Easy,0.16%
-1242,Web Crawler Multithreaded, /problems/web-crawler-multithreaded,N,45.9%,Medium,0.15%
-1395,Count Number of Teams, /problems/count-number-of-teams,N,82.0%,Medium,0.15%
-951,Flip Equivalent Binary Trees, /problems/flip-equivalent-binary-trees,N,65.8%,Medium,0.15%
-942,DI String Match, /problems/di-string-match,N,72.6%,Easy,0.15%
-714,Best Time to Buy and Sell Stock with Transaction Fee, /problems/best-time-to-buy-and-sell-stock-with-transaction-fee,N,54.7%,Medium,0.14%
-376,Wiggle Subsequence, /problems/wiggle-subsequence,N,39.6%,Medium,0.14%
-1005,Maximize Sum Of Array After K Negations, /problems/maximize-sum-of-array-after-k-negations,N,51.3%,Easy,0.14%
-855,Exam Room, /problems/exam-room,N,43.1%,Medium,0.14%
-702,Search in a Sorted Array of Unknown Size, /problems/search-in-a-sorted-array-of-unknown-size,N,66.9%,Medium,0.14%
-1479,Sales by Day of the Week, /problems/sales-by-day-of-the-week,N,83.4%,Hard,0.13%
-1160,Find Words That Can Be Formed by Characters, /problems/find-words-that-can-be-formed-by-characters,N,67.4%,Easy,0.13%
-974,Subarray Sums Divisible by K, /problems/subarray-sums-divisible-by-k,N,48.9%,Medium,0.13%
-1117,Building H2O, /problems/building-h2o,N,52.6%,Medium,0.13%
-1059,All Paths from Source Lead to Destination, /problems/all-paths-from-source-lead-to-destination,N,44.7%,Medium,0.13%
-1233,Remove Sub-Folders from the Filesystem, /problems/remove-sub-folders-from-the-filesystem,N,59.5%,Medium,0.12%
-890,Find and Replace Pattern, /problems/find-and-replace-pattern,N,73.4%,Medium,0.12%
-654,Maximum Binary Tree, /problems/maximum-binary-tree,N,79.9%,Medium,0.12%
-1114,Print in Order, /problems/print-in-order,N,65.7%,Easy,0.12%
-839,Similar String Groups, /problems/similar-string-groups,N,38.6%,Hard,0.12%
-144,Binary Tree Preorder Traversal, /problems/binary-tree-preorder-traversal,N,55.7%,Medium,0.12%
-679,24 Game, /problems/24-game,N,46.4%,Hard,0.12%
-671,Second Minimum Node In a Binary Tree, /problems/second-minimum-node-in-a-binary-tree,N,42.7%,Easy,0.11%
-1068,Product Sales Analysis I, /problems/product-sales-analysis-i,N,83.1%,Easy,0.11%
-842,Split Array into Fibonacci Sequence, /problems/split-array-into-fibonacci-sequence,N,36.3%,Medium,0.11%
-742,Closest Leaf in a Binary Tree, /problems/closest-leaf-in-a-binary-tree,N,43.6%,Medium,0.11%
-966,Vowel Spellchecker, /problems/vowel-spellchecker,N,47.2%,Medium,0.11%
-172,Factorial Trailing Zeroes, /problems/factorial-trailing-zeroes,N,37.8%,Easy,0.11%
-1266,Minimum Time Visiting All Points, /problems/minimum-time-visiting-all-points,N,79.6%,Easy,0.10%
-396,Rotate Function, /problems/rotate-function,N,36.3%,Medium,0.10%
-267,Palindrome Permutation II, /problems/palindrome-permutation-ii,N,36.4%,Medium,0.10%
-485,Max Consecutive Ones, /problems/max-consecutive-ones,N,54.6%,Easy,0.10%
-661,Image Smoother, /problems/image-smoother,N,51.5%,Easy,0.10%
-1023,Camelcase Matching, /problems/camelcase-matching,N,57.0%,Medium,0.10%
-461,Hamming Distance, /problems/hamming-distance,N,72.8%,Easy,0.10%
-605,Can Place Flowers, /problems/can-place-flowers,N,31.6%,Easy,0.09%
-791,Custom Sort String, /problems/custom-sort-string,N,65.7%,Medium,0.09%
-216,Combination Sum III, /problems/combination-sum-iii,N,56.6%,Medium,0.09%
-1247,Minimum Swaps to Make Strings Equal, /problems/minimum-swaps-to-make-strings-equal,N,60.1%,Medium,0.09%
-916,Word Subsets, /problems/word-subsets,N,47.8%,Medium,0.08%
-582,Kill Process, /problems/kill-process,N,60.8%,Medium,0.08%
-459,Repeated Substring Pattern, /problems/repeated-substring-pattern,N,42.2%,Easy,0.08%
-884,Uncommon Words from Two Sentences, /problems/uncommon-words-from-two-sentences,N,63.3%,Easy,0.08%
-705,Design HashSet, /problems/design-hashset,N,64.3%,Easy,0.07%
-674,Longest Continuous Increasing Subsequence, /problems/longest-continuous-increasing-subsequence,N,45.9%,Easy,0.07%
-1082,Sales Analysis I, /problems/sales-analysis-i,N,71.8%,Easy,0.07%
-260,Single Number III, /problems/single-number-iii,N,64.3%,Medium,0.07%
-1337,The K Weakest Rows in a Matrix, /problems/the-k-weakest-rows-in-a-matrix,N,68.8%,Easy,0.07%
-1495,Friendly Movies Streamed Last Month, /problems/friendly-movies-streamed-last-month,N,52.6%,Easy,0.07%
-872,Leaf-Similar Trees, /problems/leaf-similar-trees,N,64.5%,Easy,0.07%
-1332,Remove Palindromic Subsequences, /problems/remove-palindromic-subsequences,N,60.1%,Easy,0.07%
-1029,Two City Scheduling, /problems/two-city-scheduling,N,56.1%,Easy,0.06%
-1251,Average Selling Price, /problems/average-selling-price,N,81.6%,Easy,0.06%
-801,Minimum Swaps To Make Sequences Increasing, /problems/minimum-swaps-to-make-sequences-increasing,N,38.9%,Medium,0.06%
-1069,Product Sales Analysis II, /problems/product-sales-analysis-ii,N,82.9%,Easy,0.06%
-52,N-Queens II, /problems/n-queens-ii,N,57.9%,Hard,0.06%
-80,Remove Duplicates from Sorted Array II, /problems/remove-duplicates-from-sorted-array-ii,N,44.0%,Medium,0.06%
-922,Sort Array By Parity II, /problems/sort-array-by-parity-ii,N,69.3%,Easy,0.06%
-1221,Split a String in Balanced Strings, /problems/split-a-string-in-balanced-strings,N,83.3%,Easy,0.05%
-1303,Find the Team Size, /problems/find-the-team-size,N,87.8%,Easy,0.05%
-1128,Number of Equivalent Domino Pairs, /problems/number-of-equivalent-domino-pairs,N,47.3%,Easy,0.05%
-1267,Count Servers that Communicate, /problems/count-servers-that-communicate,N,57.9%,Medium,0.05%
-1051,Height Checker, /problems/height-checker,N,71.1%,Easy,0.05%
-1382,Balance a Binary Search Tree, /problems/balance-a-binary-search-tree,N,74.8%,Medium,0.04%
-1456,Maximum Number of Vowels in a Substring of Given Length, /problems/maximum-number-of-vowels-in-a-substring-of-given-length,N,52.4%,Medium,0.04%
-965,Univalued Binary Tree, /problems/univalued-binary-tree,N,67.7%,Easy,0.04%
-590,N-ary Tree Postorder Traversal, /problems/n-ary-tree-postorder-traversal,N,72.1%,Easy,0.04%
-1049,Last Stone Weight II, /problems/last-stone-weight-ii,N,44.2%,Medium,0.04%
-797,All Paths From Source to Target, /problems/all-paths-from-source-to-target,N,77.9%,Medium,0.04%
-1511,Customer Order Frequency, /problems/customer-order-frequency,N,76.8%,Easy,0.04%
-1304,Find N Unique Integers Sum up to Zero, /problems/find-n-unique-integers-sum-up-to-zero,N,76.3%,Easy,0.04%
-1325,Delete Leaves With a Given Value, /problems/delete-leaves-with-a-given-value,N,73.0%,Medium,0.03%
-501,Find Mode in Binary Search Tree, /problems/find-mode-in-binary-search-tree,N,42.4%,Easy,0.03%
-303,Range Sum Query - Immutable, /problems/range-sum-query-immutable,N,44.7%,Easy,0.03%
-1520,Maximum Number of Non-Overlapping Substrings, /problems/maximum-number-of-non-overlapping-substrings,N,32.8%,Hard,0.02%
-154,Find Minimum in Rotated Sorted Array II, /problems/find-minimum-in-rotated-sorted-array-ii,N,41.6%,Hard,0.02%
-389,Find the Difference, /problems/find-the-difference,N,55.3%,Easy,0.02%
-1351,Count Negative Numbers in a Sorted Matrix, /problems/count-negative-numbers-in-a-sorted-matrix,N,76.5%,Easy,0.01%
-663,Equal Tree Partition, /problems/equal-tree-partition,N,39.5%,Medium,0.00%
-537,Complex Number Multiplication, /problems/complex-number-multiplication,N,67.4%,Medium,0.00%
-553,Optimal Division, /problems/optimal-division,N,56.8%,Medium,0.00%
-738,Monotone Increasing Digits, /problems/monotone-increasing-digits,N,44.3%,Medium,0.00%
-776,Split BST, /problems/split-bst,N,55.8%,Medium,0.00%
-851,Loud and Rich, /problems/loud-and-rich,N,51.6%,Medium,0.00%
-899,Orderly Queue, /problems/orderly-queue,N,52.2%,Hard,0.00%
-902,Numbers At Most N Given Digit Set, /problems/numbers-at-most-n-given-digit-set,N,31.5%,Hard,0.00%
-1067,Digit Count in Range, /problems/digit-count-in-range,N,40.0%,Hard,0.00%
-1065,Index Pairs of a String, /problems/index-pairs-of-a-string,N,60.7%,Easy,0.00%
-1085,Sum of Digits in the Minimum Number, /problems/sum-of-digits-in-the-minimum-number,N,74.6%,Easy,0.00%
-1118,Number of Days in a Month, /problems/number-of-days-in-a-month,N,57.4%,Easy,0.00%
-1119,Remove Vowels from a String, /problems/remove-vowels-from-a-string,N,89.9%,Easy,0.00%
-1134,Armstrong Number, /problems/armstrong-number,N,78.2%,Easy,0.00%
-1028,Recover a Tree From Preorder Traversal, /problems/recover-a-tree-from-preorder-traversal,N,69.9%,Hard,0.00%
-1133,Largest Unique Number, /problems/largest-unique-number,N,66.8%,Easy,0.00%
-1035,Uncrossed Lines, /problems/uncrossed-lines,N,56.1%,Medium,0.00%
-1045,Customers Who Bought All Products, /problems/customers-who-bought-all-products,N,67.7%,Medium,0.00%
-1050,Actors and Directors Who Cooperated At Least Three Times, /problems/actors-and-directors-who-cooperated-at-least-three-times,N,71.7%,Easy,0.00%
-1054,Distant Barcodes, /problems/distant-barcodes,N,43.2%,Medium,0.00%
-1070,Product Sales Analysis III, /problems/product-sales-analysis-iii,N,48.9%,Medium,0.00%
-1080,Insufficient Nodes in Root to Leaf Paths, /problems/insufficient-nodes-in-root-to-leaf-paths,N,49.3%,Medium,0.00%
-1259,Handshakes That Don't Cross, /problems/handshakes-that-dont-cross,N,53.5%,Hard,0.00%
-1288,Remove Covered Intervals, /problems/remove-covered-intervals,N,57.9%,Medium,0.00%
-1129,Shortest Path with Alternating Colors, /problems/shortest-path-with-alternating-colors,N,38.9%,Medium,0.00%
-1362,Closest Divisors, /problems/closest-divisors,N,56.8%,Medium,0.00%
-1363,Largest Multiple of Three, /problems/largest-multiple-of-three,N,33.5%,Hard,0.00%
-1175,Prime Arrangements, /problems/prime-arrangements,N,51.0%,Easy,0.00%
-1176,Diet Plan Performance, /problems/diet-plan-performance,N,53.8%,Easy,0.00%
-1255,Maximum Score Words Formed by Letters, /problems/maximum-score-words-formed-by-letters,N,69.4%,Hard,0.00%
-1260,Shift 2D Grid, /problems/shift-2d-grid,N,61.4%,Easy,0.00%
-1305,All Elements in Two Binary Search Trees, /problems/all-elements-in-two-binary-search-trees,N,76.1%,Medium,0.00%
-1327,List the Products Ordered in a Period, /problems/list-the-products-ordered-in-a-period,N,76.4%,Easy,0.00%
-1350,Students With Invalid Departments, /problems/students-with-invalid-departments,N,89.5%,Easy,0.00%
-1404,Number of Steps to Reduce a Number in Binary Representation to One, /problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one,N,50.4%,Medium,0.00%
-1409,Queries on a Permutation With Key, /problems/queries-on-a-permutation-with-key,N,81.7%,Medium,0.00%
-1421,NPV Queries, /problems/npv-queries,N,80.6%,Medium,0.00%
-1457,Pseudo-Palindromic Paths in a Binary Tree, /problems/pseudo-palindromic-paths-in-a-binary-tree,N,67.3%,Medium,0.00%
-1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree, /problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,N,50.6%,Hard,0.00%
-1496,Path Crossing, /problems/path-crossing,N,55.9%,Easy,0.00%
-1485,Clone Binary Tree With Random Pointer, /problems/clone-binary-tree-with-random-pointer,N,81.0%,Medium,0.00%
-1502,Can Make Arithmetic Progression From Sequence, /problems/can-make-arithmetic-progression-from-sequence,N,73.3%,Easy,0.00%
-1490,Clone N-ary Tree, /problems/clone-n-ary-tree,N,84.5%,Medium,0.00%
-1533,Find the Index of the Large Integer, /problems/find-the-index-of-the-large-integer,N,57.1%,Medium,0.00%
+957,Prison Cells After N Days,/problems/prison-cells-after-n-days,N,40.7%,Medium,3.85%
+675,Cut Off Trees for Golf Event,/problems/cut-off-trees-for-golf-event,N,34.6%,Hard,3.36%
+341,Flatten Nested List Iterator,/problems/flatten-nested-list-iterator,N,52.9%,Medium,2.75%
+535,Encode and Decode TinyURL,/problems/encode-and-decode-tinyurl,N,79.9%,Medium,2.65%
+866,Prime Palindrome,/problems/prime-palindrome,N,24.9%,Medium,2.43%
+505,The Maze II,/problems/the-maze-ii,N,47.7%,Medium,2.38%
+1000,Minimum Cost to Merge Stones,/problems/minimum-cost-to-merge-stones,N,39.8%,Hard,2.29%
+1102,Path With Maximum Minimum Value,/problems/path-with-maximum-minimum-value,N,49.2%,Medium,2.24%
+711,Number of Distinct Islands II,/problems/number-of-distinct-islands-ii,N,47.3%,Hard,2.20%
+631,Design Excel Sum Formula,/problems/design-excel-sum-formula,N,31.6%,Hard,2.07%
+384,Shuffle an Array,/problems/shuffle-an-array,N,52.8%,Medium,2.05%
+682,Baseball Game,/problems/baseball-game,N,63.7%,Easy,1.97%
+759,Employee Free Time,/problems/employee-free-time,N,66.2%,Hard,1.95%
+281,Zigzag Iterator,/problems/zigzag-iterator,N,58.4%,Medium,1.94%
+1120,Maximum Average Subtree,/problems/maximum-average-subtree,N,61.9%,Medium,1.92%
+564,Find the Closest Palindrome,/problems/find-the-closest-palindrome,N,19.7%,Hard,1.89%
+96,Unique Binary Search Trees,/problems/unique-binary-search-trees,N,52.9%,Medium,1.88%
+1279,Traffic Light Controlled Intersection,/problems/traffic-light-controlled-intersection,N,74.3%,Easy,1.87%
+640,Solve the Equation,/problems/solve-the-equation,N,42.0%,Medium,1.83%
+317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,N,41.4%,Hard,1.81%
+312,Burst Balloons,/problems/burst-balloons,N,51.8%,Hard,1.74%
+1155,Number of Dice Rolls With Target Sum,/problems/number-of-dice-rolls-with-target-sum,N,49.0%,Medium,1.72%
+388,Longest Absolute File Path,/problems/longest-absolute-file-path,N,41.8%,Medium,1.70%
+980,Unique Paths III,/problems/unique-paths-iii,N,73.3%,Hard,1.69%
+228,Summary Ranges,/problems/summary-ranges,N,39.5%,Medium,1.66%
+109,Convert Sorted List to Binary Search Tree,/problems/convert-sorted-list-to-binary-search-tree,N,47.7%,Medium,1.65%
+284,Peeking Iterator,/problems/peeking-iterator,N,45.7%,Medium,1.57%
+1135,Connecting Cities With Minimum Cost,/problems/connecting-cities-with-minimum-cost,N,57.5%,Medium,1.56%
+285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,1.51%
+270,Closest Binary Search Tree Value,/problems/closest-binary-search-tree-value,N,48.5%,Easy,1.48%
+68,Text Justification,/problems/text-justification,N,27.7%,Hard,1.41%
+229,Majority Element II,/problems/majority-element-ii,N,35.6%,Medium,1.39%
+325,Maximum Size Subarray Sum Equals k,/problems/maximum-size-subarray-sum-equals-k,N,46.8%,Medium,1.37%
+44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,1.36%
+770,Basic Calculator IV,/problems/basic-calculator-iv,N,48.1%,Hard,1.35%
+298,Binary Tree Longest Consecutive Sequence,/problems/binary-tree-longest-consecutive-sequence,N,47.1%,Medium,1.35%
+943,Find the Shortest Superstring,/problems/find-the-shortest-superstring,N,42.9%,Hard,1.34%
+369,Plus One Linked List,/problems/plus-one-linked-list,N,58.2%,Medium,1.34%
+1100,Find K-Length Substrings With No Repeated Characters,/problems/find-k-length-substrings-with-no-repeated-characters,N,72.7%,Medium,1.18%
+997,Find the Town Judge,/problems/find-the-town-judge,N,50.1%,Easy,1.17%
+805,Split Array With Same Average,/problems/split-array-with-same-average,N,26.4%,Hard,1.17%
+225,Implement Stack using Queues,/problems/implement-stack-using-queues,N,45.1%,Easy,1.16%
+854,K-Similar Strings,/problems/k-similar-strings,N,38.2%,Hard,1.16%
+726,Number of Atoms,/problems/number-of-atoms,N,49.0%,Hard,1.10%
+426,Convert Binary Search Tree to Sorted Doubly Linked List,/problems/convert-binary-search-tree-to-sorted-doubly-linked-list,N,59.1%,Medium,1.09%
+352,Data Stream as Disjoint Intervals,/problems/data-stream-as-disjoint-intervals,N,47.3%,Hard,1.09%
+794,Valid Tic-Tac-Toe State,/problems/valid-tic-tac-toe-state,N,32.6%,Medium,1.08%
+187,Repeated DNA Sequences,/problems/repeated-dna-sequences,N,38.9%,Medium,1.03%
+266,Palindrome Permutation,/problems/palindrome-permutation,N,61.9%,Easy,1.03%
+498,Diagonal Traverse,/problems/diagonal-traverse,N,48.2%,Medium,1.03%
+1219,Path with Maximum Gold,/problems/path-with-maximum-gold,N,65.1%,Medium,1.02%
+86,Partition List,/problems/partition-list,N,41.5%,Medium,1.01%
+508,Most Frequent Subtree Sum,/problems/most-frequent-subtree-sum,N,57.9%,Medium,0.99%
+1236,Web Crawler,/problems/web-crawler,N,64.3%,Medium,0.96%
+1214,Two Sum BSTs,/problems/two-sum-bsts,N,67.6%,Medium,0.95%
+635,Design Log Storage System,/problems/design-log-storage-system,N,58.6%,Medium,0.94%
+186,Reverse Words in a String II,/problems/reverse-words-in-a-string-ii,N,43.3%,Medium,0.94%
+272,Closest Binary Search Tree Value II,/problems/closest-binary-search-tree-value-ii,N,50.5%,Hard,0.92%
+166,Fraction to Recurring Decimal,/problems/fraction-to-recurring-decimal,N,21.6%,Medium,0.90%
+978,Longest Turbulent Subarray,/problems/longest-turbulent-subarray,N,46.6%,Medium,0.90%
+986,Interval List Intersections,/problems/interval-list-intersections,N,67.3%,Medium,0.84%
+699,Falling Squares,/problems/falling-squares,N,41.8%,Hard,0.84%
+708,Insert into a Sorted Circular Linked List,/problems/insert-into-a-sorted-circular-linked-list,N,31.6%,Medium,0.84%
+110,Balanced Binary Tree,/problems/balanced-binary-tree,N,43.5%,Easy,0.83%
+1024,Video Stitching,/problems/video-stitching,N,49.2%,Medium,0.83%
+361,Bomb Enemy,/problems/bomb-enemy,N,46.0%,Medium,0.80%
+233,Number of Digit One,/problems/number-of-digit-one,N,31.3%,Hard,0.80%
+351,Android Unlock Patterns,/problems/android-unlock-patterns,N,48.4%,Medium,0.79%
+843,Guess the Word,/problems/guess-the-word,N,46.1%,Hard,0.77%
+280,Wiggle Sort,/problems/wiggle-sort,N,63.8%,Medium,0.75%
+807,Max Increase to Keep City Skyline,/problems/max-increase-to-keep-city-skyline,N,83.7%,Medium,0.75%
+1083,Sales Analysis II,/problems/sales-analysis-ii,N,50.5%,Easy,0.73%
+1215,Stepping Numbers,/problems/stepping-numbers,N,41.6%,Medium,0.72%
+737,Sentence Similarity II,/problems/sentence-similarity-ii,N,45.8%,Medium,0.71%
+171,Excel Sheet Column Number,/problems/excel-sheet-column-number,N,55.9%,Easy,0.70%
+617,Merge Two Binary Trees,/problems/merge-two-binary-trees,N,74.1%,Easy,0.70%
+1086,High Five,/problems/high-five,N,79.7%,Easy,0.68%
+164,Maximum Gap,/problems/maximum-gap,N,35.5%,Hard,0.67%
+356,Line Reflection,/problems/line-reflection,N,31.8%,Medium,0.67%
+161,One Edit Distance,/problems/one-edit-distance,N,32.3%,Medium,0.65%
+517,Super Washing Machines,/problems/super-washing-machines,N,38.3%,Hard,0.63%
+1022,Sum of Root To Leaf Binary Numbers,/problems/sum-of-root-to-leaf-binary-numbers,N,67.2%,Easy,0.62%
+775,Global and Local Inversions,/problems/global-and-local-inversions,N,42.1%,Medium,0.60%
+634,Find the Derangement of An Array,/problems/find-the-derangement-of-an-array,N,40.1%,Medium,0.56%
+725,Split Linked List in Parts,/problems/split-linked-list-in-parts,N,52.2%,Medium,0.56%
+250,Count Univalue Subtrees,/problems/count-univalue-subtrees,N,52.0%,Medium,0.56%
+296,Best Meeting Point,/problems/best-meeting-point,N,57.5%,Hard,0.55%
+355,Design Twitter,/problems/design-twitter,N,30.3%,Medium,0.55%
+765,Couples Holding Hands,/problems/couples-holding-hands,N,54.3%,Hard,0.54%
+611,Valid Triangle Number,/problems/valid-triangle-number,N,48.4%,Medium,0.53%
+335,Self Crossing,/problems/self-crossing,N,28.0%,Hard,0.51%
+393,UTF-8 Validation,/problems/utf-8-validation,N,37.5%,Medium,0.51%
+192,Word Frequency,/problems/word-frequency,N,25.8%,Medium,0.51%
+1057,Campus Bikes,/problems/campus-bikes,N,57.7%,Medium,0.51%
+701,Insert into a Binary Search Tree,/problems/insert-into-a-binary-search-tree,N,77.7%,Medium,0.51%
+771,Jewels and Stones,/problems/jewels-and-stones,N,86.4%,Easy,0.51%
+686,Repeated String Match,/problems/repeated-string-match,N,32.3%,Easy,0.50%
+541,Reverse String II,/problems/reverse-string-ii,N,48.4%,Easy,0.50%
+637,Average of Levels in Binary Tree,/problems/average-of-levels-in-binary-tree,N,63.1%,Easy,0.50%
+163,Missing Ranges,/problems/missing-ranges,N,24.3%,Medium,0.49%
+365,Water and Jug Problem,/problems/water-and-jug-problem,N,30.6%,Medium,0.49%
+319,Bulb Switcher,/problems/bulb-switcher,N,45.4%,Medium,0.48%
+1031,Maximum Sum of Two Non-Overlapping Subarrays,/problems/maximum-sum-of-two-non-overlapping-subarrays,N,57.9%,Medium,0.47%
+1122,Relative Sort Array,/problems/relative-sort-array,N,67.7%,Easy,0.47%
+89,Gray Code,/problems/gray-code,N,49.1%,Medium,0.47%
+371,Sum of Two Integers,/problems/sum-of-two-integers,N,50.7%,Medium,0.47%
+558,Logical OR of Two Binary Grids Represented as Quad-Trees,/problems/logical-or-of-two-binary-grids-represented-as-quad-trees,N,44.6%,Medium,0.47%
+844,Backspace String Compare,/problems/backspace-string-compare,N,46.4%,Easy,0.47%
+1161,Maximum Level Sum of a Binary Tree,/problems/maximum-level-sum-of-a-binary-tree,N,72.2%,Medium,0.46%
+413,Arithmetic Slices,/problems/arithmetic-slices,N,57.9%,Medium,0.46%
+515,Find Largest Value in Each Tree Row,/problems/find-largest-value-in-each-tree-row,N,61.1%,Medium,0.46%
+427,Construct Quad Tree,/problems/construct-quad-tree,N,61.4%,Medium,0.46%
+468,Validate IP Address,/problems/validate-ip-address,N,24.1%,Medium,0.45%
+1002,Find Common Characters,/problems/find-common-characters,N,67.6%,Easy,0.44%
+1172,Dinner Plate Stacks,/problems/dinner-plate-stacks,N,38.2%,Hard,0.44%
+1019,Next Greater Node In Linked List,/problems/next-greater-node-in-linked-list,N,57.4%,Medium,0.44%
+473,Matchsticks to Square,/problems/matchsticks-to-square,N,37.7%,Medium,0.43%
+727,Minimum Window Subsequence,/problems/minimum-window-subsequence,N,41.8%,Hard,0.43%
+683,K Empty Slots,/problems/k-empty-slots,N,35.6%,Hard,0.42%
+1066,Campus Bikes II,/problems/campus-bikes-ii,N,54.2%,Medium,0.40%
+241,Different Ways to Add Parentheses,/problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.40%
+145,Binary Tree Postorder Traversal,/problems/binary-tree-postorder-traversal,N,55.0%,Hard,0.39%
+1373,Maximum Sum BST in Binary Tree,/problems/maximum-sum-bst-in-binary-tree,N,40.2%,Hard,0.39%
+687,Longest Univalue Path,/problems/longest-univalue-path,N,36.2%,Easy,0.39%
+1188,Design Bounded Blocking Queue,/problems/design-bounded-blocking-queue,N,70.5%,Medium,0.38%
+1074,Number of Submatrices That Sum to Target,/problems/number-of-submatrices-that-sum-to-target,N,60.4%,Hard,0.38%
+924,Minimize Malware Spread,/problems/minimize-malware-spread,N,42.0%,Hard,0.38%
+321,Create Maximum Number,/problems/create-maximum-number,N,27.0%,Hard,0.38%
+1084,Sales Analysis III,/problems/sales-analysis-iii,N,54.3%,Easy,0.38%
+969,Pancake Sorting,/problems/pancake-sorting,N,67.5%,Medium,0.37%
+115,Distinct Subsequences,/problems/distinct-subsequences,N,38.3%,Hard,0.37%
+1081,Smallest Subsequence of Distinct Characters,/problems/smallest-subsequence-of-distinct-characters,N,50.4%,Medium,0.37%
+214,Shortest Palindrome,/problems/shortest-palindrome,N,29.8%,Hard,0.35%
+345,Reverse Vowels of a String,/problems/reverse-vowels-of-a-string,N,44.2%,Easy,0.35%
+783,Minimum Distance Between BST Nodes,/problems/minimum-distance-between-bst-nodes,N,52.6%,Easy,0.35%
+264,Ugly Number II,/problems/ugly-number-ii,N,42.0%,Medium,0.35%
+905,Sort Array By Parity,/problems/sort-array-by-parity,N,74.1%,Easy,0.34%
+860,Lemonade Change,/problems/lemonade-change,N,51.6%,Easy,0.34%
+334,Increasing Triplet Subsequence,/problems/increasing-triplet-subsequence,N,40.0%,Medium,0.34%
+579,Find Cumulative Salary of an Employee,/problems/find-cumulative-salary-of-an-employee,N,37.0%,Hard,0.34%
+1315,Sum of Nodes with Even-Valued Grandparent,/problems/sum-of-nodes-with-even-valued-grandparent,N,83.5%,Medium,0.33%
+1062,Longest Repeating Substring,/problems/longest-repeating-substring,N,57.2%,Medium,0.33%
+447,Number of Boomerangs,/problems/number-of-boomerangs,N,51.8%,Easy,0.32%
+532,K-diff Pairs in an Array,/problems/k-diff-pairs-in-an-array,N,31.6%,Easy,0.32%
+1311,Get Watched Videos by Your Friends,/problems/get-watched-videos-by-your-friends,N,43.1%,Medium,0.32%
+290,Word Pattern,/problems/word-pattern,N,37.0%,Easy,0.32%
+710,Random Pick with Blacklist,/problems/random-pick-with-blacklist,N,32.5%,Hard,0.32%
+918,Maximum Sum Circular Subarray,/problems/maximum-sum-circular-subarray,N,33.7%,Medium,0.32%
+873,Length of Longest Fibonacci Subsequence,/problems/length-of-longest-fibonacci-subsequence,N,48.0%,Medium,0.31%
+586,Customer Placing the Largest Number of Orders,/problems/customer-placing-the-largest-number-of-orders,N,73.0%,Easy,0.31%
+174,Dungeon Game,/problems/dungeon-game,N,32.3%,Hard,0.31%
+1244,Design A Leaderboard,/problems/design-a-leaderboard,N,60.7%,Medium,0.30%
+938,Range Sum of BST,/problems/range-sum-of-bst,N,81.3%,Easy,0.30%
+359,Logger Rate Limiter,/problems/logger-rate-limiter,N,70.8%,Easy,0.29%
+919,Complete Binary Tree Inserter,/problems/complete-binary-tree-inserter,N,57.3%,Medium,0.29%
+559,Maximum Depth of N-ary Tree,/problems/maximum-depth-of-n-ary-tree,N,68.7%,Easy,0.29%
+158,Read N Characters Given Read4 II - Call multiple times,/problems/read-n-characters-given-read4-ii-call-multiple-times,N,33.8%,Hard,0.28%
+1104,Path In Zigzag Labelled Binary Tree,/problems/path-in-zigzag-labelled-binary-tree,N,72.0%,Medium,0.28%
+382,Linked List Random Node,/problems/linked-list-random-node,N,52.1%,Medium,0.28%
+732,My Calendar III,/problems/my-calendar-iii,N,60.0%,Hard,0.28%
+1007,Minimum Domino Rotations For Equal Row,/problems/minimum-domino-rotations-for-equal-row,N,50.0%,Medium,0.28%
+77,Combinations,/problems/combinations,N,54.7%,Medium,0.27%
+1108,Defanging an IP Address,/problems/defanging-an-ip-address,N,87.5%,Easy,0.27%
+1013,Partition Array Into Three Parts With Equal Sum,/problems/partition-array-into-three-parts-with-equal-sum,N,51.8%,Easy,0.26%
+1139,Largest 1-Bordered Square,/problems/largest-1-bordered-square,N,47.5%,Medium,0.26%
+466,Count The Repetitions,/problems/count-the-repetitions,N,28.2%,Hard,0.26%
+570,Managers with at Least 5 Direct Reports,/problems/managers-with-at-least-5-direct-reports,N,66.0%,Medium,0.26%
+762,Prime Number of Set Bits in Binary Representation,/problems/prime-number-of-set-bits-in-binary-representation,N,63.2%,Easy,0.25%
+368,Largest Divisible Subset,/problems/largest-divisible-subset,N,38.0%,Medium,0.24%
+881,Boats to Save People,/problems/boats-to-save-people,N,46.8%,Medium,0.24%
+731,My Calendar II,/problems/my-calendar-ii,N,49.1%,Medium,0.24%
+1270,All People Report to the Given Manager,/problems/all-people-report-to-the-given-manager,N,87.1%,Medium,0.23%
+507,Perfect Number,/problems/perfect-number,N,35.5%,Easy,0.23%
+811,Subdomain Visit Count,/problems/subdomain-visit-count,N,69.9%,Easy,0.23%
+311,Sparse Matrix Multiplication,/problems/sparse-matrix-multiplication,N,61.9%,Medium,0.23%
+939,Minimum Area Rectangle,/problems/minimum-area-rectangle,N,51.8%,Medium,0.22%
+626,Exchange Seats,/problems/exchange-seats,N,62.3%,Medium,0.21%
+741,Cherry Pickup,/problems/cherry-pickup,N,33.9%,Hard,0.21%
+604,Design Compressed String Iterator,/problems/design-compressed-string-iterator,N,37.5%,Easy,0.21%
+1254,Number of Closed Islands,/problems/number-of-closed-islands,N,60.5%,Medium,0.20%
+1375,Bulb Switcher III,/problems/bulb-switcher-iii,N,62.6%,Medium,0.20%
+601,Human Traffic of Stadium,/problems/human-traffic-of-stadium,N,41.7%,Hard,0.19%
+1198,Find Smallest Common Element in All Rows,/problems/find-smallest-common-element-in-all-rows,N,74.9%,Medium,0.19%
+756,Pyramid Transition Matrix,/problems/pyramid-transition-matrix,N,54.6%,Medium,0.19%
+358,Rearrange String k Distance Apart,/problems/rearrange-string-k-distance-apart,N,34.9%,Hard,0.19%
+995,Minimum Number of K Consecutive Bit Flips,/problems/minimum-number-of-k-consecutive-bit-flips,N,46.8%,Hard,0.19%
+864,Shortest Path to Get All Keys,/problems/shortest-path-to-get-all-keys,N,40.1%,Hard,0.19%
+549,Binary Tree Longest Consecutive Sequence II,/problems/binary-tree-longest-consecutive-sequence-ii,N,47.0%,Medium,0.19%
+900,RLE Iterator,/problems/rle-iterator,N,53.5%,Medium,0.19%
+536,Construct Binary Tree from String,/problems/construct-binary-tree-from-string,N,48.3%,Medium,0.18%
+1153,String Transforms Into Another String,/problems/string-transforms-into-another-string,N,35.8%,Hard,0.18%
+1245,Tree Diameter,/problems/tree-diameter,N,60.1%,Medium,0.18%
+486,Predict the Winner,/problems/predict-the-winner,N,47.9%,Medium,0.18%
+1027,Longest Arithmetic Sequence,/problems/longest-arithmetic-sequence,N,53.4%,Medium,0.18%
+1248,Count Number of Nice Subarrays,/problems/count-number-of-nice-subarrays,N,56.4%,Medium,0.17%
+561,Array Partition I,/problems/array-partition-i,N,72.0%,Easy,0.17%
+856,Score of Parentheses,/problems/score-of-parentheses,N,60.5%,Medium,0.17%
+707,Design Linked List,/problems/design-linked-list,N,24.5%,Medium,0.17%
+1162,As Far from Land as Possible,/problems/as-far-from-land-as-possible,N,43.5%,Medium,0.17%
+1430,Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree,/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree,N,44.8%,Medium,0.17%
+963,Minimum Area Rectangle II,/problems/minimum-area-rectangle-ii,N,50.9%,Medium,0.17%
+338,Counting Bits,/problems/counting-bits,N,69.5%,Medium,0.16%
+720,Longest Word in Dictionary,/problems/longest-word-in-dictionary,N,48.2%,Easy,0.16%
+404,Sum of Left Leaves,/problems/sum-of-left-leaves,N,50.9%,Easy,0.16%
+1242,Web Crawler Multithreaded,/problems/web-crawler-multithreaded,N,45.9%,Medium,0.15%
+1395,Count Number of Teams,/problems/count-number-of-teams,N,82.0%,Medium,0.15%
+951,Flip Equivalent Binary Trees,/problems/flip-equivalent-binary-trees,N,65.8%,Medium,0.15%
+942,DI String Match,/problems/di-string-match,N,72.6%,Easy,0.15%
+714,Best Time to Buy and Sell Stock with Transaction Fee,/problems/best-time-to-buy-and-sell-stock-with-transaction-fee,N,54.7%,Medium,0.14%
+376,Wiggle Subsequence,/problems/wiggle-subsequence,N,39.6%,Medium,0.14%
+1005,Maximize Sum Of Array After K Negations,/problems/maximize-sum-of-array-after-k-negations,N,51.3%,Easy,0.14%
+855,Exam Room,/problems/exam-room,N,43.1%,Medium,0.14%
+702,Search in a Sorted Array of Unknown Size,/problems/search-in-a-sorted-array-of-unknown-size,N,66.9%,Medium,0.14%
+1479,Sales by Day of the Week,/problems/sales-by-day-of-the-week,N,83.4%,Hard,0.13%
+1160,Find Words That Can Be Formed by Characters,/problems/find-words-that-can-be-formed-by-characters,N,67.4%,Easy,0.13%
+974,Subarray Sums Divisible by K,/problems/subarray-sums-divisible-by-k,N,48.9%,Medium,0.13%
+1117,Building H2O,/problems/building-h2o,N,52.6%,Medium,0.13%
+1059,All Paths from Source Lead to Destination,/problems/all-paths-from-source-lead-to-destination,N,44.7%,Medium,0.13%
+1233,Remove Sub-Folders from the Filesystem,/problems/remove-sub-folders-from-the-filesystem,N,59.5%,Medium,0.12%
+890,Find and Replace Pattern,/problems/find-and-replace-pattern,N,73.4%,Medium,0.12%
+654,Maximum Binary Tree,/problems/maximum-binary-tree,N,79.9%,Medium,0.12%
+1114,Print in Order,/problems/print-in-order,N,65.7%,Easy,0.12%
+839,Similar String Groups,/problems/similar-string-groups,N,38.6%,Hard,0.12%
+144,Binary Tree Preorder Traversal,/problems/binary-tree-preorder-traversal,N,55.7%,Medium,0.12%
+679,24 Game,/problems/24-game,N,46.4%,Hard,0.12%
+671,Second Minimum Node In a Binary Tree,/problems/second-minimum-node-in-a-binary-tree,N,42.7%,Easy,0.11%
+1068,Product Sales Analysis I,/problems/product-sales-analysis-i,N,83.1%,Easy,0.11%
+842,Split Array into Fibonacci Sequence,/problems/split-array-into-fibonacci-sequence,N,36.3%,Medium,0.11%
+742,Closest Leaf in a Binary Tree,/problems/closest-leaf-in-a-binary-tree,N,43.6%,Medium,0.11%
+966,Vowel Spellchecker,/problems/vowel-spellchecker,N,47.2%,Medium,0.11%
+172,Factorial Trailing Zeroes,/problems/factorial-trailing-zeroes,N,37.8%,Easy,0.11%
+1266,Minimum Time Visiting All Points,/problems/minimum-time-visiting-all-points,N,79.6%,Easy,0.10%
+396,Rotate Function,/problems/rotate-function,N,36.3%,Medium,0.10%
+267,Palindrome Permutation II,/problems/palindrome-permutation-ii,N,36.4%,Medium,0.10%
+485,Max Consecutive Ones,/problems/max-consecutive-ones,N,54.6%,Easy,0.10%
+661,Image Smoother,/problems/image-smoother,N,51.5%,Easy,0.10%
+1023,Camelcase Matching,/problems/camelcase-matching,N,57.0%,Medium,0.10%
+461,Hamming Distance,/problems/hamming-distance,N,72.8%,Easy,0.10%
+605,Can Place Flowers,/problems/can-place-flowers,N,31.6%,Easy,0.09%
+791,Custom Sort String,/problems/custom-sort-string,N,65.7%,Medium,0.09%
+216,Combination Sum III,/problems/combination-sum-iii,N,56.6%,Medium,0.09%
+1247,Minimum Swaps to Make Strings Equal,/problems/minimum-swaps-to-make-strings-equal,N,60.1%,Medium,0.09%
+916,Word Subsets,/problems/word-subsets,N,47.8%,Medium,0.08%
+582,Kill Process,/problems/kill-process,N,60.8%,Medium,0.08%
+459,Repeated Substring Pattern,/problems/repeated-substring-pattern,N,42.2%,Easy,0.08%
+884,Uncommon Words from Two Sentences,/problems/uncommon-words-from-two-sentences,N,63.3%,Easy,0.08%
+705,Design HashSet,/problems/design-hashset,N,64.3%,Easy,0.07%
+674,Longest Continuous Increasing Subsequence,/problems/longest-continuous-increasing-subsequence,N,45.9%,Easy,0.07%
+1082,Sales Analysis I,/problems/sales-analysis-i,N,71.8%,Easy,0.07%
+260,Single Number III,/problems/single-number-iii,N,64.3%,Medium,0.07%
+1337,The K Weakest Rows in a Matrix,/problems/the-k-weakest-rows-in-a-matrix,N,68.8%,Easy,0.07%
+1495,Friendly Movies Streamed Last Month,/problems/friendly-movies-streamed-last-month,N,52.6%,Easy,0.07%
+872,Leaf-Similar Trees,/problems/leaf-similar-trees,N,64.5%,Easy,0.07%
+1332,Remove Palindromic Subsequences,/problems/remove-palindromic-subsequences,N,60.1%,Easy,0.07%
+1029,Two City Scheduling,/problems/two-city-scheduling,N,56.1%,Easy,0.06%
+1251,Average Selling Price,/problems/average-selling-price,N,81.6%,Easy,0.06%
+801,Minimum Swaps To Make Sequences Increasing,/problems/minimum-swaps-to-make-sequences-increasing,N,38.9%,Medium,0.06%
+1069,Product Sales Analysis II,/problems/product-sales-analysis-ii,N,82.9%,Easy,0.06%
+52,N-Queens II,/problems/n-queens-ii,N,57.9%,Hard,0.06%
+80,Remove Duplicates from Sorted Array II,/problems/remove-duplicates-from-sorted-array-ii,N,44.0%,Medium,0.06%
+922,Sort Array By Parity II,/problems/sort-array-by-parity-ii,N,69.3%,Easy,0.06%
+1221,Split a String in Balanced Strings,/problems/split-a-string-in-balanced-strings,N,83.3%,Easy,0.05%
+1303,Find the Team Size,/problems/find-the-team-size,N,87.8%,Easy,0.05%
+1128,Number of Equivalent Domino Pairs,/problems/number-of-equivalent-domino-pairs,N,47.3%,Easy,0.05%
+1267,Count Servers that Communicate,/problems/count-servers-that-communicate,N,57.9%,Medium,0.05%
+1051,Height Checker,/problems/height-checker,N,71.1%,Easy,0.05%
+1382,Balance a Binary Search Tree,/problems/balance-a-binary-search-tree,N,74.8%,Medium,0.04%
+1456,Maximum Number of Vowels in a Substring of Given Length,/problems/maximum-number-of-vowels-in-a-substring-of-given-length,N,52.4%,Medium,0.04%
+965,Univalued Binary Tree,/problems/univalued-binary-tree,N,67.7%,Easy,0.04%
+590,N-ary Tree Postorder Traversal,/problems/n-ary-tree-postorder-traversal,N,72.1%,Easy,0.04%
+1049,Last Stone Weight II,/problems/last-stone-weight-ii,N,44.2%,Medium,0.04%
+797,All Paths From Source to Target,/problems/all-paths-from-source-to-target,N,77.9%,Medium,0.04%
+1511,Customer Order Frequency,/problems/customer-order-frequency,N,76.8%,Easy,0.04%
+1304,Find N Unique Integers Sum up to Zero,/problems/find-n-unique-integers-sum-up-to-zero,N,76.3%,Easy,0.04%
+1325,Delete Leaves With a Given Value,/problems/delete-leaves-with-a-given-value,N,73.0%,Medium,0.03%
+501,Find Mode in Binary Search Tree,/problems/find-mode-in-binary-search-tree,N,42.4%,Easy,0.03%
+303,Range Sum Query - Immutable,/problems/range-sum-query-immutable,N,44.7%,Easy,0.03%
+1520,Maximum Number of Non-Overlapping Substrings,/problems/maximum-number-of-non-overlapping-substrings,N,32.8%,Hard,0.02%
+154,Find Minimum in Rotated Sorted Array II,/problems/find-minimum-in-rotated-sorted-array-ii,N,41.6%,Hard,0.02%
+389,Find the Difference,/problems/find-the-difference,N,55.3%,Easy,0.02%
+1351,Count Negative Numbers in a Sorted Matrix,/problems/count-negative-numbers-in-a-sorted-matrix,N,76.5%,Easy,0.01%
+663,Equal Tree Partition,/problems/equal-tree-partition,N,39.5%,Medium,0.00%
+537,Complex Number Multiplication,/problems/complex-number-multiplication,N,67.4%,Medium,0.00%
+553,Optimal Division,/problems/optimal-division,N,56.8%,Medium,0.00%
+738,Monotone Increasing Digits,/problems/monotone-increasing-digits,N,44.3%,Medium,0.00%
+776,Split BST,/problems/split-bst,N,55.8%,Medium,0.00%
+851,Loud and Rich,/problems/loud-and-rich,N,51.6%,Medium,0.00%
+899,Orderly Queue,/problems/orderly-queue,N,52.2%,Hard,0.00%
+902,Numbers At Most N Given Digit Set,/problems/numbers-at-most-n-given-digit-set,N,31.5%,Hard,0.00%
+1067,Digit Count in Range,/problems/digit-count-in-range,N,40.0%,Hard,0.00%
+1065,Index Pairs of a String,/problems/index-pairs-of-a-string,N,60.7%,Easy,0.00%
+1085,Sum of Digits in the Minimum Number,/problems/sum-of-digits-in-the-minimum-number,N,74.6%,Easy,0.00%
+1118,Number of Days in a Month,/problems/number-of-days-in-a-month,N,57.4%,Easy,0.00%
+1119,Remove Vowels from a String,/problems/remove-vowels-from-a-string,N,89.9%,Easy,0.00%
+1134,Armstrong Number,/problems/armstrong-number,N,78.2%,Easy,0.00%
+1028,Recover a Tree From Preorder Traversal,/problems/recover-a-tree-from-preorder-traversal,N,69.9%,Hard,0.00%
+1133,Largest Unique Number,/problems/largest-unique-number,N,66.8%,Easy,0.00%
+1035,Uncrossed Lines,/problems/uncrossed-lines,N,56.1%,Medium,0.00%
+1045,Customers Who Bought All Products,/problems/customers-who-bought-all-products,N,67.7%,Medium,0.00%
+1050,Actors and Directors Who Cooperated At Least Three Times,/problems/actors-and-directors-who-cooperated-at-least-three-times,N,71.7%,Easy,0.00%
+1054,Distant Barcodes,/problems/distant-barcodes,N,43.2%,Medium,0.00%
+1070,Product Sales Analysis III,/problems/product-sales-analysis-iii,N,48.9%,Medium,0.00%
+1080,Insufficient Nodes in Root to Leaf Paths,/problems/insufficient-nodes-in-root-to-leaf-paths,N,49.3%,Medium,0.00%
+1259,Handshakes That Don't Cross,/problems/handshakes-that-dont-cross,N,53.5%,Hard,0.00%
+1288,Remove Covered Intervals,/problems/remove-covered-intervals,N,57.9%,Medium,0.00%
+1129,Shortest Path with Alternating Colors,/problems/shortest-path-with-alternating-colors,N,38.9%,Medium,0.00%
+1362,Closest Divisors,/problems/closest-divisors,N,56.8%,Medium,0.00%
+1363,Largest Multiple of Three,/problems/largest-multiple-of-three,N,33.5%,Hard,0.00%
+1175,Prime Arrangements,/problems/prime-arrangements,N,51.0%,Easy,0.00%
+1176,Diet Plan Performance,/problems/diet-plan-performance,N,53.8%,Easy,0.00%
+1255,Maximum Score Words Formed by Letters,/problems/maximum-score-words-formed-by-letters,N,69.4%,Hard,0.00%
+1260,Shift 2D Grid,/problems/shift-2d-grid,N,61.4%,Easy,0.00%
+1305,All Elements in Two Binary Search Trees,/problems/all-elements-in-two-binary-search-trees,N,76.1%,Medium,0.00%
+1327,List the Products Ordered in a Period,/problems/list-the-products-ordered-in-a-period,N,76.4%,Easy,0.00%
+1350,Students With Invalid Departments,/problems/students-with-invalid-departments,N,89.5%,Easy,0.00%
+1404,Number of Steps to Reduce a Number in Binary Representation to One,/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one,N,50.4%,Medium,0.00%
+1409,Queries on a Permutation With Key,/problems/queries-on-a-permutation-with-key,N,81.7%,Medium,0.00%
+1421,NPV Queries,/problems/npv-queries,N,80.6%,Medium,0.00%
+1457,Pseudo-Palindromic Paths in a Binary Tree,/problems/pseudo-palindromic-paths-in-a-binary-tree,N,67.3%,Medium,0.00%
+1489,Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree,/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree,N,50.6%,Hard,0.00%
+1496,Path Crossing,/problems/path-crossing,N,55.9%,Easy,0.00%
+1485,Clone Binary Tree With Random Pointer,/problems/clone-binary-tree-with-random-pointer,N,81.0%,Medium,0.00%
+1502,Can Make Arithmetic Progression From Sequence,/problems/can-make-arithmetic-progression-from-sequence,N,73.3%,Easy,0.00%
+1490,Clone N-ary Tree,/problems/clone-n-ary-tree,N,84.5%,Medium,0.00%
+1533,Find the Index of the Large Integer,/problems/find-the-index-of-the-large-integer,N,57.1%,Medium,0.00%

@@ -1,7 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 757,Set Intersection Size At Least Two,/problems/set-intersection-size-at-least-two,N,43.8%,Hard,100.00%
-453,Minimum Moves to Equal Array Elements, /problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,0.26%
-547,Friend Circles, /problems/friend-circles,N,58.6%,Medium,0.03%
-54,Spiral Matrix, /problems/spiral-matrix,N,34.1%,Medium,0.01%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.01%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.00%
+453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,0.26%
+547,Friend Circles,/problems/friend-circles,N,58.6%,Medium,0.03%
+54,Spiral Matrix,/problems/spiral-matrix,N,34.1%,Medium,0.01%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.01%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.00%

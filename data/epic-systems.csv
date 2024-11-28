@@ -1,7 +1,7 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 306,Additive Number,/problems/additive-number,N,30.9%,Medium,100.00%
-54,Spiral Matrix, /problems/spiral-matrix,N,34.1%,Medium,0.43%
-38,Count and Say, /problems/count-and-say,N,44.6%,Easy,0.18%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.02%
-728,Self Dividing Numbers, /problems/self-dividing-numbers,N,74.3%,Easy,0.00%
-1215,Stepping Numbers, /problems/stepping-numbers,N,41.6%,Medium,0.00%
+54,Spiral Matrix,/problems/spiral-matrix,N,34.1%,Medium,0.43%
+38,Count and Say,/problems/count-and-say,N,44.6%,Easy,0.18%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.02%
+728,Self Dividing Numbers,/problems/self-dividing-numbers,N,74.3%,Easy,0.00%
+1215,Stepping Numbers,/problems/stepping-numbers,N,41.6%,Medium,0.00%

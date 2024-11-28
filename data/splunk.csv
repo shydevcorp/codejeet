@@ -1,20 +1,20 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,58.1%,Medium,100.00%
 283,Move Zeroes,/problems/move-zeroes,N,61.4%,Easy,50.00%
-130,Surrounded Regions, /problems/surrounded-regions,N,28.1%,Medium,0.23%
-498,Diagonal Traverse, /problems/diagonal-traverse,N,48.2%,Medium,0.15%
-317,Shortest Distance from All Buildings, /problems/shortest-distance-from-all-buildings,N,41.4%,Hard,0.08%
-341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,0.04%
-273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.03%
-143,Reorder List, /problems/reorder-list,N,37.1%,Medium,0.02%
-622,Design Circular Queue, /problems/design-circular-queue,N,43.8%,Medium,0.02%
-133,Clone Graph, /problems/clone-graph,N,34.8%,Medium,0.02%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.02%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.02%
-977,Squares of a Sorted Array, /problems/squares-of-a-sorted-array,N,72.1%,Easy,0.01%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.01%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.01%
-173,Binary Search Tree Iterator, /problems/binary-search-tree-iterator,N,56.6%,Medium,0.01%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.00%
-14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.00%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.00%
+130,Surrounded Regions,/problems/surrounded-regions,N,28.1%,Medium,0.23%
+498,Diagonal Traverse,/problems/diagonal-traverse,N,48.2%,Medium,0.15%
+317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,N,41.4%,Hard,0.08%
+341,Flatten Nested List Iterator,/problems/flatten-nested-list-iterator,N,52.9%,Medium,0.04%
+273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,0.03%
+143,Reorder List,/problems/reorder-list,N,37.1%,Medium,0.02%
+622,Design Circular Queue,/problems/design-circular-queue,N,43.8%,Medium,0.02%
+133,Clone Graph,/problems/clone-graph,N,34.8%,Medium,0.02%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.02%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.02%
+977,Squares of a Sorted Array,/problems/squares-of-a-sorted-array,N,72.1%,Easy,0.01%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.01%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.01%
+173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,56.6%,Medium,0.01%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.00%
+14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.00%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.00%

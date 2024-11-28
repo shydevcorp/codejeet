@@ -24,54 +24,54 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 809,Expressive Words,/problems/expressive-words,N,46.3%,Medium,49.32%
 1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.0%,Medium,7.30%
 2016,Maximum Difference Between Increasing Elements,/problems/maximum-difference-between-increasing-elements,N,53.5%,Easy,48.54%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.51%
-1235,Maximum Profit in Job Scheduling, /problems/maximum-profit-in-job-scheduling,N,44.0%,Hard,0.41%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.29%
-1290,Convert Binary Number in a Linked List to Integer, /problems/convert-binary-number-in-a-linked-list-to-integer,N,80.4%,Easy,0.28%
-909,Snakes and Ladders, /problems/snakes-and-ladders,N,38.4%,Medium,0.22%
-344,Reverse String, /problems/reverse-string,N,68.5%,Easy,0.21%
-246,Strobogrammatic Number, /problems/strobogrammatic-number,N,45.0%,Easy,0.19%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.19%
-235,Lowest Common Ancestor of a Binary Search Tree, /problems/lowest-common-ancestor-of-a-binary-search-tree,N,49.9%,Easy,0.15%
-191,Number of 1 Bits, /problems/number-of-1-bits,N,49.8%,Easy,0.14%
-25,Reverse Nodes in k-Group, /problems/reverse-nodes-in-k-group,N,42.1%,Hard,0.12%
-247,Strobogrammatic Number II, /problems/strobogrammatic-number-ii,N,47.6%,Medium,0.10%
-88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.10%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.10%
-905,Sort Array By Parity, /problems/sort-array-by-parity,N,74.1%,Easy,0.08%
-143,Reorder List, /problems/reorder-list,N,37.1%,Medium,0.07%
-237,Delete Node in a Linked List, /problems/delete-node-in-a-linked-list,N,63.8%,Easy,0.06%
-160,Intersection of Two Linked Lists, /problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.06%
-14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.05%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.05%
-23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.05%
-445,Add Two Numbers II, /problems/add-two-numbers-ii,N,54.5%,Medium,0.05%
-26,Remove Duplicates from Sorted Array, /problems/remove-duplicates-from-sorted-array,N,45.1%,Easy,0.05%
-8,String to Integer (atoi), /problems/string-to-integer-atoi,N,15.4%,Medium,0.05%
-102,Binary Tree Level Order Traversal, /problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.04%
-241,Different Ways to Add Parentheses, /problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.04%
-628,Maximum Product of Three Numbers, /problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.04%
-242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.04%
-189,Rotate Array, /problems/rotate-array,N,34.7%,Easy,0.04%
-21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.04%
-108,Convert Sorted Array to Binary Search Tree, /problems/convert-sorted-array-to-binary-search-tree,N,57.9%,Easy,0.03%
-384,Shuffle an Array, /problems/shuffle-an-array,N,52.8%,Medium,0.03%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.03%
-125,Valid Palindrome, /problems/valid-palindrome,N,36.7%,Easy,0.02%
-605,Can Place Flowers, /problems/can-place-flowers,N,31.6%,Easy,0.02%
-151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.02%
-144,Binary Tree Preorder Traversal, /problems/binary-tree-preorder-traversal,N,55.7%,Medium,0.02%
-19,Remove Nth Node From End of List, /problems/remove-nth-node-from-end-of-list,N,35.2%,Medium,0.02%
-450,Delete Node in a BST, /problems/delete-node-in-a-bst,N,43.1%,Medium,0.02%
-234,Palindrome Linked List, /problems/palindrome-linked-list,N,39.3%,Easy,0.02%
-110,Balanced Binary Tree, /problems/balanced-binary-tree,N,43.5%,Easy,0.02%
-7,Reverse Integer, /problems/reverse-integer,N,25.8%,Easy,0.01%
-207,Course Schedule, /problems/course-schedule,N,43.1%,Medium,0.01%
-739,Daily Temperatures, /problems/daily-temperatures,N,63.3%,Medium,0.01%
-22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.01%
-46,Permutations, /problems/permutations,N,63.5%,Medium,0.01%
-279,Perfect Squares, /problems/perfect-squares,N,47.4%,Medium,0.01%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.01%
-173,Binary Search Tree Iterator, /problems/binary-search-tree-iterator,N,56.6%,Medium,0.01%
-876,Middle of the Linked List, /problems/middle-of-the-linked-list,N,68.4%,Easy,0.01%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.51%
+1235,Maximum Profit in Job Scheduling,/problems/maximum-profit-in-job-scheduling,N,44.0%,Hard,0.41%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.29%
+1290,Convert Binary Number in a Linked List to Integer,/problems/convert-binary-number-in-a-linked-list-to-integer,N,80.4%,Easy,0.28%
+909,Snakes and Ladders,/problems/snakes-and-ladders,N,38.4%,Medium,0.22%
+344,Reverse String,/problems/reverse-string,N,68.5%,Easy,0.21%
+246,Strobogrammatic Number,/problems/strobogrammatic-number,N,45.0%,Easy,0.19%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.19%
+235,Lowest Common Ancestor of a Binary Search Tree,/problems/lowest-common-ancestor-of-a-binary-search-tree,N,49.9%,Easy,0.15%
+191,Number of 1 Bits,/problems/number-of-1-bits,N,49.8%,Easy,0.14%
+25,Reverse Nodes in k-Group,/problems/reverse-nodes-in-k-group,N,42.1%,Hard,0.12%
+247,Strobogrammatic Number II,/problems/strobogrammatic-number-ii,N,47.6%,Medium,0.10%
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.10%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.10%
+905,Sort Array By Parity,/problems/sort-array-by-parity,N,74.1%,Easy,0.08%
+143,Reorder List,/problems/reorder-list,N,37.1%,Medium,0.07%
+237,Delete Node in a Linked List,/problems/delete-node-in-a-linked-list,N,63.8%,Easy,0.06%
+160,Intersection of Two Linked Lists,/problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.06%
+14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.05%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.05%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.05%
+445,Add Two Numbers II,/problems/add-two-numbers-ii,N,54.5%,Medium,0.05%
+26,Remove Duplicates from Sorted Array,/problems/remove-duplicates-from-sorted-array,N,45.1%,Easy,0.05%
+8,String to Integer (atoi),/problems/string-to-integer-atoi,N,15.4%,Medium,0.05%
+102,Binary Tree Level Order Traversal,/problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.04%
+241,Different Ways to Add Parentheses,/problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.04%
+628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.04%
+242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.04%
+189,Rotate Array,/problems/rotate-array,N,34.7%,Easy,0.04%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,53.5%,Easy,0.04%
+108,Convert Sorted Array to Binary Search Tree,/problems/convert-sorted-array-to-binary-search-tree,N,57.9%,Easy,0.03%
+384,Shuffle an Array,/problems/shuffle-an-array,N,52.8%,Medium,0.03%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.03%
+125,Valid Palindrome,/problems/valid-palindrome,N,36.7%,Easy,0.02%
+605,Can Place Flowers,/problems/can-place-flowers,N,31.6%,Easy,0.02%
+151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.02%
+144,Binary Tree Preorder Traversal,/problems/binary-tree-preorder-traversal,N,55.7%,Medium,0.02%
+19,Remove Nth Node From End of List,/problems/remove-nth-node-from-end-of-list,N,35.2%,Medium,0.02%
+450,Delete Node in a BST,/problems/delete-node-in-a-bst,N,43.1%,Medium,0.02%
+234,Palindrome Linked List,/problems/palindrome-linked-list,N,39.3%,Easy,0.02%
+110,Balanced Binary Tree,/problems/balanced-binary-tree,N,43.5%,Easy,0.02%
+7,Reverse Integer,/problems/reverse-integer,N,25.8%,Easy,0.01%
+207,Course Schedule,/problems/course-schedule,N,43.1%,Medium,0.01%
+739,Daily Temperatures,/problems/daily-temperatures,N,63.3%,Medium,0.01%
+22,Generate Parentheses,/problems/generate-parentheses,N,62.7%,Medium,0.01%
+46,Permutations,/problems/permutations,N,63.5%,Medium,0.01%
+279,Perfect Squares,/problems/perfect-squares,N,47.4%,Medium,0.01%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.01%
+173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,56.6%,Medium,0.01%
+876,Middle of the Linked List,/problems/middle-of-the-linked-list,N,68.4%,Easy,0.01%

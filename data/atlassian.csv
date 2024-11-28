@@ -11,53 +11,53 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1366,Rank Teams by Votes,/problems/rank-teams-by-votes,N,58.6%,Medium,100.00%
 1381,Design a Stack With Increment Operation,/problems/design-a-stack-with-increment-operation,N,77.3%,Medium,19.50%
 1639,Number of Ways to Form a Target String Given a Dictionary,/problems/number-of-ways-to-form-a-target-string-given-a-dictionary,N,42.8%,Hard,64.34%
-366,Find Leaves of Binary Tree, /problems/find-leaves-of-binary-tree,N,70.6%,Medium,0.53%
-981,Time Based Key-Value Store, /problems/time-based-key-value-store,N,53.1%,Medium,0.40%
-860,Lemonade Change, /problems/lemonade-change,N,51.6%,Easy,0.40%
-1120,Maximum Average Subtree, /problems/maximum-average-subtree,N,61.9%,Medium,0.27%
-1071,Greatest Common Divisor of Strings, /problems/greatest-common-divisor-of-strings,N,52.9%,Easy,0.26%
-821,Shortest Distance to a Character, /problems/shortest-distance-to-a-character,N,66.9%,Easy,0.24%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.22%
-362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.21%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.12%
-284,Peeking Iterator, /problems/peeking-iterator,N,45.7%,Medium,0.12%
-1223,Dice Roll Simulation, /problems/dice-roll-simulation,N,45.6%,Medium,0.10%
-300,Longest Increasing Subsequence, /problems/longest-increasing-subsequence,N,42.6%,Medium,0.10%
-23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.10%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.09%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.07%
-706,Design HashMap, /problems/design-hashmap,N,61.3%,Easy,0.07%
-98,Validate Binary Search Tree, /problems/validate-binary-search-tree,N,27.8%,Medium,0.06%
-540,Single Element in a Sorted Array, /problems/single-element-in-a-sorted-array,N,57.9%,Medium,0.04%
-844,Backspace String Compare, /problems/backspace-string-compare,N,46.4%,Easy,0.04%
-31,Next Permutation, /problems/next-permutation,N,32.6%,Medium,0.04%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.03%
-150,Evaluate Reverse Polish Notation, /problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.03%
-547,Friend Circles, /problems/friend-circles,N,58.6%,Medium,0.03%
-123,Best Time to Buy and Sell Stock III, /problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.03%
-713,Subarray Product Less Than K, /problems/subarray-product-less-than-k,N,39.1%,Medium,0.02%
-647,Palindromic Substrings, /problems/palindromic-substrings,N,60.6%,Medium,0.02%
-199,Binary Tree Right Side View, /problems/binary-tree-right-side-view,N,54.1%,Medium,0.02%
-101,Symmetric Tree, /problems/symmetric-tree,N,46.8%,Easy,0.02%
-341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,0.02%
-53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.02%
-173,Binary Search Tree Iterator, /problems/binary-search-tree-iterator,N,56.6%,Medium,0.02%
-872,Leaf-Similar Trees, /problems/leaf-similar-trees,N,64.5%,Easy,0.02%
-46,Permutations, /problems/permutations,N,63.5%,Medium,0.02%
-680,Valid Palindrome II, /problems/valid-palindrome-ii,N,36.6%,Easy,0.02%
-701,Insert into a Binary Search Tree, /problems/insert-into-a-binary-search-tree,N,77.7%,Medium,0.02%
-528,Random Pick with Weight, /problems/random-pick-with-weight,N,43.9%,Medium,0.01%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.01%
-543,Diameter of Binary Tree, /problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
-3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%
-295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.01%
-21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.01%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
-78,Subsets, /problems/subsets,N,62.0%,Medium,0.01%
-102,Binary Tree Level Order Traversal, /problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.01%
-136,Single Number, /problems/single-number,N,65.5%,Easy,0.01%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.00%
-236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.00%
-22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.00%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.00%
-1307,Verbal Arithmetic Puzzle, /problems/verbal-arithmetic-puzzle,N,37.7%,Hard,0.00%
+366,Find Leaves of Binary Tree,/problems/find-leaves-of-binary-tree,N,70.6%,Medium,0.53%
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.40%
+860,Lemonade Change,/problems/lemonade-change,N,51.6%,Easy,0.40%
+1120,Maximum Average Subtree,/problems/maximum-average-subtree,N,61.9%,Medium,0.27%
+1071,Greatest Common Divisor of Strings,/problems/greatest-common-divisor-of-strings,N,52.9%,Easy,0.26%
+821,Shortest Distance to a Character,/problems/shortest-distance-to-a-character,N,66.9%,Easy,0.24%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.22%
+362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.21%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.12%
+284,Peeking Iterator,/problems/peeking-iterator,N,45.7%,Medium,0.12%
+1223,Dice Roll Simulation,/problems/dice-roll-simulation,N,45.6%,Medium,0.10%
+300,Longest Increasing Subsequence,/problems/longest-increasing-subsequence,N,42.6%,Medium,0.10%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.10%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.09%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.07%
+706,Design HashMap,/problems/design-hashmap,N,61.3%,Easy,0.07%
+98,Validate Binary Search Tree,/problems/validate-binary-search-tree,N,27.8%,Medium,0.06%
+540,Single Element in a Sorted Array,/problems/single-element-in-a-sorted-array,N,57.9%,Medium,0.04%
+844,Backspace String Compare,/problems/backspace-string-compare,N,46.4%,Easy,0.04%
+31,Next Permutation,/problems/next-permutation,N,32.6%,Medium,0.04%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.03%
+150,Evaluate Reverse Polish Notation,/problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.03%
+547,Friend Circles,/problems/friend-circles,N,58.6%,Medium,0.03%
+123,Best Time to Buy and Sell Stock III,/problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.03%
+713,Subarray Product Less Than K,/problems/subarray-product-less-than-k,N,39.1%,Medium,0.02%
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.02%
+199,Binary Tree Right Side View,/problems/binary-tree-right-side-view,N,54.1%,Medium,0.02%
+101,Symmetric Tree,/problems/symmetric-tree,N,46.8%,Easy,0.02%
+341,Flatten Nested List Iterator,/problems/flatten-nested-list-iterator,N,52.9%,Medium,0.02%
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.02%
+173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,56.6%,Medium,0.02%
+872,Leaf-Similar Trees,/problems/leaf-similar-trees,N,64.5%,Easy,0.02%
+46,Permutations,/problems/permutations,N,63.5%,Medium,0.02%
+680,Valid Palindrome II,/problems/valid-palindrome-ii,N,36.6%,Easy,0.02%
+701,Insert into a Binary Search Tree,/problems/insert-into-a-binary-search-tree,N,77.7%,Medium,0.02%
+528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.01%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.01%
+543,Diameter of Binary Tree,/problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.01%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,53.5%,Easy,0.01%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
+78,Subsets,/problems/subsets,N,62.0%,Medium,0.01%
+102,Binary Tree Level Order Traversal,/problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.01%
+136,Single Number,/problems/single-number,N,65.5%,Easy,0.01%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.00%
+236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.00%
+22,Generate Parentheses,/problems/generate-parentheses,N,62.7%,Medium,0.00%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.00%
+1307,Verbal Arithmetic Puzzle,/problems/verbal-arithmetic-puzzle,N,37.7%,Hard,0.00%

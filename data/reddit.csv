@@ -3,8 +3,8 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 40,Combination Sum II,/problems/combination-sum-ii,N,53.3%,Medium,52.62%
 88,Merge Sorted Array,/problems/merge-sorted-array,N,45.8%,Easy,2.70%
 362,Design Hit Counter,/problems/design-hit-counter,Y,68.4%,Medium,100.00%
-289,Game of Life, /problems/game-of-life,N,54.5%,Medium,0.21%
-314,Binary Tree Vertical Order Traversal, /problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.15%
-706,Design HashMap, /problems/design-hashmap,N,61.3%,Easy,0.10%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.05%
-987,Vertical Order Traversal of a Binary Tree, /problems/vertical-order-traversal-of-a-binary-tree,N,36.6%,Medium,0.01%
+289,Game of Life,/problems/game-of-life,N,54.5%,Medium,0.21%
+314,Binary Tree Vertical Order Traversal,/problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.15%
+706,Design HashMap,/problems/design-hashmap,N,61.3%,Easy,0.10%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.05%
+987,Vertical Order Traversal of a Binary Tree,/problems/vertical-order-traversal-of-a-binary-tree,N,36.6%,Medium,0.01%

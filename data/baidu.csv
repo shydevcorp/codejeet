@@ -9,18 +9,18 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 576,Out of Boundary Paths,/problems/out-of-boundary-paths,N,44.3%,Medium,0.00%
 588,Design In-Memory File System,/problems/design-in-memory-file-system,Y,48.8%,Hard,0.00%
 873,Length of Longest Fibonacci Subsequence,/problems/length-of-longest-fibonacci-subsequence,N,48.6%,Medium,0.00%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.70%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.52%
-72,Edit Distance, /problems/edit-distance,N,44.8%,Hard,0.43%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.42%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.32%
-871,Minimum Number of Refueling Stops, /problems/minimum-number-of-refueling-stops,N,31.4%,Hard,0.29%
-3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.29%
-70,Climbing Stairs, /problems/climbing-stairs,N,47.8%,Easy,0.25%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.07%
-88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.05%
-240,Search a 2D Matrix II, /problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.04%
-113,Path Sum II, /problems/path-sum-ii,N,46.7%,Medium,0.04%
-91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.02%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.02%
-543,Diameter of Binary Tree, /problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.70%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.52%
+72,Edit Distance,/problems/edit-distance,N,44.8%,Hard,0.43%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.42%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.32%
+871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,31.4%,Hard,0.29%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.29%
+70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.25%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.07%
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.05%
+240,Search a 2D Matrix II,/problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.04%
+113,Path Sum II,/problems/path-sum-ii,N,46.7%,Medium,0.04%
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.02%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.02%
+543,Diameter of Binary Tree,/problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%

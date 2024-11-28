@@ -5,13 +5,13 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 191,Number of 1 Bits,/problems/number-of-1-bits,N,65.0%,Easy,67.88%
 217,Contains Duplicate,/problems/contains-duplicate,N,61.3%,Easy,10.25%
 1006,Clumsy Factorial,/problems/clumsy-factorial,N,55.0%,Medium,100.00%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.19%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.12%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.06%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.06%
-204,Count Primes, /problems/count-primes,N,31.5%,Easy,0.04%
-53,Maximum Subarray, /problems/maximum-subarray,N,46.5%,Easy,0.04%
-234,Palindrome Linked List, /problems/palindrome-linked-list,N,39.3%,Easy,0.01%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.01%
-21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.01%
-543,Diameter of Binary Tree, /problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.19%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.12%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.06%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.06%
+204,Count Primes,/problems/count-primes,N,31.5%,Easy,0.04%
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.04%
+234,Palindrome Linked List,/problems/palindrome-linked-list,N,39.3%,Easy,0.01%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.01%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,53.5%,Easy,0.01%
+543,Diameter of Binary Tree,/problems/diameter-of-binary-tree,N,48.4%,Easy,0.01%

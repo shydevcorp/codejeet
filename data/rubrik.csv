@@ -2,11 +2,11 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,20.07%
 72,Edit Distance,/problems/edit-distance,N,52.7%,Hard,100.00%
 678,Valid Parenthesis String,/problems/valid-parenthesis-string,N,33.9%,Medium,60.03%
-166,Fraction to Recurring Decimal, /problems/fraction-to-recurring-decimal,N,21.6%,Medium,0.32%
-51,N-Queens, /problems/n-queens,N,46.6%,Hard,0.18%
-123,Best Time to Buy and Sell Stock III, /problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.04%
-528,Random Pick with Weight, /problems/random-pick-with-weight,N,43.9%,Medium,0.01%
-31,Next Permutation, /problems/next-permutation,N,32.6%,Medium,0.01%
-4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.01%
-64,Minimum Path Sum, /problems/minimum-path-sum,N,54.5%,Medium,0.01%
-723,Candy Crush, /problems/candy-crush,N,69.2%,Medium,0.00%
+166,Fraction to Recurring Decimal,/problems/fraction-to-recurring-decimal,N,21.6%,Medium,0.32%
+51,N-Queens,/problems/n-queens,N,46.6%,Hard,0.18%
+123,Best Time to Buy and Sell Stock III,/problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.04%
+528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.01%
+31,Next Permutation,/problems/next-permutation,N,32.6%,Medium,0.01%
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.01%
+64,Minimum Path Sum,/problems/minimum-path-sum,N,54.5%,Medium,0.01%
+723,Candy Crush,/problems/candy-crush,N,69.2%,Medium,0.00%

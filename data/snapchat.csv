@@ -2,90 +2,90 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,5.22%
 399,Evaluate Division,/problems/evaluate-division,N,59.6%,Medium,52.61%
 432,All O`one Data Structure,/problems/all-oone-data-structure,N,36.7%,Hard,100.00%
-296,Best Meeting Point, /problems/best-meeting-point,N,57.5%,Hard,1.06%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.94%
-212,Word Search II, /problems/word-search-ii,N,34.9%,Hard,0.79%
-68,Text Justification, /problems/text-justification,N,27.7%,Hard,0.78%
-527,Word Abbreviation, /problems/word-abbreviation,N,54.3%,Hard,0.74%
-36,Valid Sudoku, /problems/valid-sudoku,N,48.7%,Medium,0.59%
-772,Basic Calculator III, /problems/basic-calculator-iii,N,41.3%,Hard,0.59%
-439,Ternary Expression Parser, /problems/ternary-expression-parser,N,55.9%,Medium,0.57%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.55%
-332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,0.52%
-403,Frog Jump, /problems/frog-jump,N,39.7%,Hard,0.50%
-289,Game of Life, /problems/game-of-life,N,54.5%,Medium,0.49%
-317,Shortest Distance from All Buildings, /problems/shortest-distance-from-all-buildings,N,41.4%,Hard,0.48%
-127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.43%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.42%
-139,Word Break, /problems/word-break,N,40.1%,Medium,0.33%
-460,LFU Cache, /problems/lfu-cache,N,34.2%,Hard,0.33%
-224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,0.29%
-37,Sudoku Solver, /problems/sudoku-solver,N,43.6%,Hard,0.26%
-415,Add Strings, /problems/add-strings,N,47.5%,Easy,0.24%
-269,Alien Dictionary, /problems/alien-dictionary,N,33.3%,Hard,0.23%
-635,Design Log Storage System, /problems/design-log-storage-system,N,58.6%,Medium,0.22%
-161,One Edit Distance, /problems/one-edit-distance,N,32.3%,Medium,0.21%
-295,Find Median from Data Stream, /problems/find-median-from-data-stream,N,44.3%,Hard,0.20%
-632,Smallest Range Covering Elements from K Lists, /problems/smallest-range-covering-elements-from-k-lists,N,52.4%,Hard,0.15%
-169,Majority Element, /problems/majority-element,N,58.7%,Easy,0.13%
-839,Similar String Groups, /problems/similar-string-groups,N,38.6%,Hard,0.12%
-79,Word Search, /problems/word-search,N,35.6%,Medium,0.11%
-140,Word Break II, /problems/word-break-ii,N,32.6%,Hard,0.11%
-311,Sparse Matrix Multiplication, /problems/sparse-matrix-multiplication,N,61.9%,Medium,0.11%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.10%
-54,Spiral Matrix, /problems/spiral-matrix,N,34.1%,Medium,0.10%
-282,Expression Add Operators, /problems/expression-add-operators,N,35.5%,Hard,0.09%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.08%
-341,Flatten Nested List Iterator, /problems/flatten-nested-list-iterator,N,52.9%,Medium,0.08%
-480,Sliding Window Median, /problems/sliding-window-median,N,37.2%,Hard,0.07%
-986,Interval List Intersections, /problems/interval-list-intersections,N,67.3%,Medium,0.07%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.07%
-1146,Snapshot Array, /problems/snapshot-array,N,37.0%,Medium,0.07%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.06%
-340,Longest Substring with At Most K Distinct Characters, /problems/longest-substring-with-at-most-k-distinct-characters,N,44.1%,Hard,0.06%
-305,Number of Islands II, /problems/number-of-islands-ii,N,40.1%,Hard,0.06%
-362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.06%
-653,Two Sum IV - Input is a BST, /problems/two-sum-iv-input-is-a-bst,N,55.5%,Easy,0.06%
-76,Minimum Window Substring, /problems/minimum-window-substring,N,34.6%,Hard,0.05%
-310,Minimum Height Trees, /problems/minimum-height-trees,N,32.3%,Medium,0.05%
-39,Combination Sum, /problems/combination-sum,N,56.1%,Medium,0.05%
-242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.05%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.05%
-733,Flood Fill, /problems/flood-fill,N,55.3%,Easy,0.04%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.04%
-642,Design Search Autocomplete System, /problems/design-search-autocomplete-system,N,44.7%,Hard,0.04%
-716,Max Stack, /problems/max-stack,N,42.6%,Easy,0.04%
-314,Binary Tree Vertical Order Traversal, /problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.04%
-1031,Maximum Sum of Two Non-Overlapping Subarrays, /problems/maximum-sum-of-two-non-overlapping-subarrays,N,57.9%,Medium,0.04%
-658,Find K Closest Elements, /problems/find-k-closest-elements,N,40.9%,Medium,0.04%
-91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.04%
-96,Unique Binary Search Trees, /problems/unique-binary-search-trees,N,52.9%,Medium,0.04%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.03%
-44,Wildcard Matching, /problems/wildcard-matching,N,24.7%,Hard,0.03%
-210,Course Schedule II, /problems/course-schedule-ii,N,40.7%,Medium,0.03%
-329,Longest Increasing Path in a Matrix, /problems/longest-increasing-path-in-a-matrix,N,43.4%,Hard,0.03%
-155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.03%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.03%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.03%
-377,Combination Sum IV, /problems/combination-sum-iv,N,45.3%,Medium,0.02%
-14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.02%
-3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.02%
-234,Palindrome Linked List, /problems/palindrome-linked-list,N,39.3%,Easy,0.02%
-22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.02%
-297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.02%
-557,Reverse Words in a String III, /problems/reverse-words-in-a-string-iii,N,69.8%,Easy,0.01%
-62,Unique Paths, /problems/unique-paths,N,54.1%,Medium,0.01%
-560,Subarray Sum Equals K, /problems/subarray-sum-equals-k,N,43.9%,Medium,0.01%
-347,Top K Frequent Elements, /problems/top-k-frequent-elements,N,61.2%,Medium,0.01%
-63,Unique Paths II, /problems/unique-paths-ii,N,34.6%,Medium,0.01%
-344,Reverse String, /problems/reverse-string,N,68.5%,Easy,0.01%
-189,Rotate Array, /problems/rotate-array,N,34.7%,Easy,0.00%
-151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
-270,Closest Binary Search Tree Value, /problems/closest-binary-search-tree-value,N,48.5%,Easy,0.00%
-40,Combination Sum II, /problems/combination-sum-ii,N,48.2%,Medium,0.00%
-312,Burst Balloons, /problems/burst-balloons,N,51.8%,Hard,0.00%
-402,Remove K Digits, /problems/remove-k-digits,N,28.4%,Medium,0.00%
-443,String Compression, /problems/string-compression,N,41.3%,Easy,0.00%
-964,Least Operators to Express Number, /problems/least-operators-to-express-number,N,43.8%,Hard,0.00%
+296,Best Meeting Point,/problems/best-meeting-point,N,57.5%,Hard,1.06%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.94%
+212,Word Search II,/problems/word-search-ii,N,34.9%,Hard,0.79%
+68,Text Justification,/problems/text-justification,N,27.7%,Hard,0.78%
+527,Word Abbreviation,/problems/word-abbreviation,N,54.3%,Hard,0.74%
+36,Valid Sudoku,/problems/valid-sudoku,N,48.7%,Medium,0.59%
+772,Basic Calculator III,/problems/basic-calculator-iii,N,41.3%,Hard,0.59%
+439,Ternary Expression Parser,/problems/ternary-expression-parser,N,55.9%,Medium,0.57%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.55%
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.52%
+403,Frog Jump,/problems/frog-jump,N,39.7%,Hard,0.50%
+289,Game of Life,/problems/game-of-life,N,54.5%,Medium,0.49%
+317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,N,41.4%,Hard,0.48%
+127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.43%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.42%
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.33%
+460,LFU Cache,/problems/lfu-cache,N,34.2%,Hard,0.33%
+224,Basic Calculator,/problems/basic-calculator,N,36.8%,Hard,0.29%
+37,Sudoku Solver,/problems/sudoku-solver,N,43.6%,Hard,0.26%
+415,Add Strings,/problems/add-strings,N,47.5%,Easy,0.24%
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.23%
+635,Design Log Storage System,/problems/design-log-storage-system,N,58.6%,Medium,0.22%
+161,One Edit Distance,/problems/one-edit-distance,N,32.3%,Medium,0.21%
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.20%
+632,Smallest Range Covering Elements from K Lists,/problems/smallest-range-covering-elements-from-k-lists,N,52.4%,Hard,0.15%
+169,Majority Element,/problems/majority-element,N,58.7%,Easy,0.13%
+839,Similar String Groups,/problems/similar-string-groups,N,38.6%,Hard,0.12%
+79,Word Search,/problems/word-search,N,35.6%,Medium,0.11%
+140,Word Break II,/problems/word-break-ii,N,32.6%,Hard,0.11%
+311,Sparse Matrix Multiplication,/problems/sparse-matrix-multiplication,N,61.9%,Medium,0.11%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.10%
+54,Spiral Matrix,/problems/spiral-matrix,N,34.1%,Medium,0.10%
+282,Expression Add Operators,/problems/expression-add-operators,N,35.5%,Hard,0.09%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.08%
+341,Flatten Nested List Iterator,/problems/flatten-nested-list-iterator,N,52.9%,Medium,0.08%
+480,Sliding Window Median,/problems/sliding-window-median,N,37.2%,Hard,0.07%
+986,Interval List Intersections,/problems/interval-list-intersections,N,67.3%,Medium,0.07%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.07%
+1146,Snapshot Array,/problems/snapshot-array,N,37.0%,Medium,0.07%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.06%
+340,Longest Substring with At Most K Distinct Characters,/problems/longest-substring-with-at-most-k-distinct-characters,N,44.1%,Hard,0.06%
+305,Number of Islands II,/problems/number-of-islands-ii,N,40.1%,Hard,0.06%
+362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.06%
+653,Two Sum IV - Input is a BST,/problems/two-sum-iv-input-is-a-bst,N,55.5%,Easy,0.06%
+76,Minimum Window Substring,/problems/minimum-window-substring,N,34.6%,Hard,0.05%
+310,Minimum Height Trees,/problems/minimum-height-trees,N,32.3%,Medium,0.05%
+39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.05%
+242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.05%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.05%
+733,Flood Fill,/problems/flood-fill,N,55.3%,Easy,0.04%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.04%
+642,Design Search Autocomplete System,/problems/design-search-autocomplete-system,N,44.7%,Hard,0.04%
+716,Max Stack,/problems/max-stack,N,42.6%,Easy,0.04%
+314,Binary Tree Vertical Order Traversal,/problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.04%
+1031,Maximum Sum of Two Non-Overlapping Subarrays,/problems/maximum-sum-of-two-non-overlapping-subarrays,N,57.9%,Medium,0.04%
+658,Find K Closest Elements,/problems/find-k-closest-elements,N,40.9%,Medium,0.04%
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.04%
+96,Unique Binary Search Trees,/problems/unique-binary-search-trees,N,52.9%,Medium,0.04%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.03%
+44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,0.03%
+210,Course Schedule II,/problems/course-schedule-ii,N,40.7%,Medium,0.03%
+329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,43.4%,Hard,0.03%
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.03%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.03%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.03%
+377,Combination Sum IV,/problems/combination-sum-iv,N,45.3%,Medium,0.02%
+14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.02%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.02%
+234,Palindrome Linked List,/problems/palindrome-linked-list,N,39.3%,Easy,0.02%
+22,Generate Parentheses,/problems/generate-parentheses,N,62.7%,Medium,0.02%
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.02%
+557,Reverse Words in a String III,/problems/reverse-words-in-a-string-iii,N,69.8%,Easy,0.01%
+62,Unique Paths,/problems/unique-paths,N,54.1%,Medium,0.01%
+560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,43.9%,Medium,0.01%
+347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,61.2%,Medium,0.01%
+63,Unique Paths II,/problems/unique-paths-ii,N,34.6%,Medium,0.01%
+344,Reverse String,/problems/reverse-string,N,68.5%,Easy,0.01%
+189,Rotate Array,/problems/rotate-array,N,34.7%,Easy,0.00%
+151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
+270,Closest Binary Search Tree Value,/problems/closest-binary-search-tree-value,N,48.5%,Easy,0.00%
+40,Combination Sum II,/problems/combination-sum-ii,N,48.2%,Medium,0.00%
+312,Burst Balloons,/problems/burst-balloons,N,51.8%,Hard,0.00%
+402,Remove K Digits,/problems/remove-k-digits,N,28.4%,Medium,0.00%
+443,String Compression,/problems/string-compression,N,41.3%,Easy,0.00%
+964,Least Operators to Express Number,/problems/least-operators-to-express-number,N,43.8%,Hard,0.00%

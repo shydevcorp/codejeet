@@ -4,4 +4,4 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,36.12%
 146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,68.06%
 839,Similar String Groups,/problems/similar-string-groups,N,47.7%,Hard,100.00%
-1047,Remove All Adjacent Duplicates In String, /problems/remove-all-adjacent-duplicates-in-string,N,68.6%,Easy,0.00%
+1047,Remove All Adjacent Duplicates In String,/problems/remove-all-adjacent-duplicates-in-string,N,68.6%,Easy,0.00%

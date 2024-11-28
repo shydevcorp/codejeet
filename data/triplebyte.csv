@@ -1,5 +1,5 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 712,Minimum ASCII Delete Sum for Two Strings,/problems/minimum-ascii-delete-sum-for-two-strings,N,62.3%,Medium,100.00%
-348,Design Tic-Tac-Toe, /problems/design-tic-tac-toe,N,54.3%,Medium,1.06%
-230,Kth Smallest Element in a BST, /problems/kth-smallest-element-in-a-bst,N,60.2%,Medium,0.34%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.01%
+348,Design Tic-Tac-Toe,/problems/design-tic-tac-toe,N,54.3%,Medium,1.06%
+230,Kth Smallest Element in a BST,/problems/kth-smallest-element-in-a-bst,N,60.2%,Medium,0.34%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.01%

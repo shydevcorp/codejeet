@@ -16,22 +16,22 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 622,Design Circular Queue,/problems/design-circular-queue,N,51.8%,Medium,82.46%
 994,Rotting Oranges,/problems/rotting-oranges,N,52.5%,Medium,12.04%
 1315,Sum of Nodes with Even-Valued Grandparent,/problems/sum-of-nodes-with-even-valued-grandparent,N,85.6%,Medium,69.50%
-770,Basic Calculator IV, /problems/basic-calculator-iv,N,48.1%,Hard,2.28%
-68,Text Justification, /problems/text-justification,N,27.7%,Hard,1.87%
-224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,1.20%
-729,My Calendar I, /problems/my-calendar-i,N,51.8%,Medium,0.37%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.18%
-759,Employee Free Time, /problems/employee-free-time,N,66.3%,Hard,0.18%
-79,Word Search, /problems/word-search,N,35.6%,Medium,0.17%
-409,Longest Palindrome, /problems/longest-palindrome,N,50.3%,Easy,0.15%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.10%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.08%
-124,Binary Tree Maximum Path Sum, /problems/binary-tree-maximum-path-sum,N,34.3%,Hard,0.07%
-695,Max Area of Island, /problems/max-area-of-island,N,62.7%,Medium,0.05%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.03%
-236,Lowest Common Ancestor of a Binary Tree, /problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.02%
-155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.01%
-72,Edit Distance, /problems/edit-distance,N,44.8%,Hard,0.01%
-287,Find the Duplicate Number, /problems/find-the-duplicate-number,N,55.5%,Medium,0.01%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.00%
-628,Maximum Product of Three Numbers, /problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.00%
+770,Basic Calculator IV,/problems/basic-calculator-iv,N,48.1%,Hard,2.28%
+68,Text Justification,/problems/text-justification,N,27.7%,Hard,1.87%
+224,Basic Calculator,/problems/basic-calculator,N,36.8%,Hard,1.20%
+729,My Calendar I,/problems/my-calendar-i,N,51.8%,Medium,0.37%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.18%
+759,Employee Free Time,/problems/employee-free-time,N,66.3%,Hard,0.18%
+79,Word Search,/problems/word-search,N,35.6%,Medium,0.17%
+409,Longest Palindrome,/problems/longest-palindrome,N,50.3%,Easy,0.15%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.10%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.08%
+124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,34.3%,Hard,0.07%
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.05%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.03%
+236,Lowest Common Ancestor of a Binary Tree,/problems/lowest-common-ancestor-of-a-binary-tree,N,45.7%,Medium,0.02%
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.01%
+72,Edit Distance,/problems/edit-distance,N,44.8%,Hard,0.01%
+287,Find the Duplicate Number,/problems/find-the-duplicate-number,N,55.5%,Medium,0.01%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.00%
+628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.00%

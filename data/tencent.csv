@@ -2,29 +2,29 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,35.3%,Hard,42.95%
 72,Edit Distance,/problems/edit-distance,N,52.7%,Hard,85.90%
 442,Find All Duplicates in an Array,/problems/find-all-duplicates-in-an-array,N,73.4%,Medium,100.00%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.62%
-169,Majority Element, /problems/majority-element,N,58.7%,Easy,0.52%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.51%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.40%
-8,String to Integer (atoi), /problems/string-to-integer-atoi,N,15.4%,Medium,0.35%
-21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.24%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.22%
-160,Intersection of Two Linked Lists, /problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.14%
-20,Valid Parentheses, /problems/valid-parentheses,N,39.0%,Easy,0.11%
-136,Single Number, /problems/single-number,N,65.5%,Easy,0.08%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.08%
-240,Search a 2D Matrix II, /problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.05%
-143,Reorder List, /problems/reorder-list,N,37.1%,Medium,0.05%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.04%
-256,Paint House, /problems/paint-house,N,52.1%,Easy,0.04%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.03%
-287,Find the Duplicate Number, /problems/find-the-duplicate-number,N,55.5%,Medium,0.03%
-543,Diameter of Binary Tree, /problems/diameter-of-binary-tree,N,48.4%,Easy,0.03%
-1143,Longest Common Subsequence, /problems/longest-common-subsequence,N,58.4%,Medium,0.02%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.02%
-76,Minimum Window Substring, /problems/minimum-window-substring,N,34.6%,Hard,0.01%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.01%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.00%
-190,Reverse Bits, /problems/reverse-bits,N,39.8%,Easy,0.00%
-546,Remove Boxes, /problems/remove-boxes,N,42.7%,Hard,0.00%
-625,Minimum Factorization, /problems/minimum-factorization,N,32.8%,Medium,0.00%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.62%
+169,Majority Element,/problems/majority-element,N,58.7%,Easy,0.52%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.51%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.40%
+8,String to Integer (atoi),/problems/string-to-integer-atoi,N,15.4%,Medium,0.35%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,53.5%,Easy,0.24%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.22%
+160,Intersection of Two Linked Lists,/problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.14%
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.11%
+136,Single Number,/problems/single-number,N,65.5%,Easy,0.08%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.08%
+240,Search a 2D Matrix II,/problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.05%
+143,Reorder List,/problems/reorder-list,N,37.1%,Medium,0.05%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.04%
+256,Paint House,/problems/paint-house,N,52.1%,Easy,0.04%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.03%
+287,Find the Duplicate Number,/problems/find-the-duplicate-number,N,55.5%,Medium,0.03%
+543,Diameter of Binary Tree,/problems/diameter-of-binary-tree,N,48.4%,Easy,0.03%
+1143,Longest Common Subsequence,/problems/longest-common-subsequence,N,58.4%,Medium,0.02%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.02%
+76,Minimum Window Substring,/problems/minimum-window-substring,N,34.6%,Hard,0.01%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.01%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.00%
+190,Reverse Bits,/problems/reverse-bits,N,39.8%,Easy,0.00%
+546,Remove Boxes,/problems/remove-boxes,N,42.7%,Hard,0.00%
+625,Minimum Factorization,/problems/minimum-factorization,N,32.8%,Medium,0.00%

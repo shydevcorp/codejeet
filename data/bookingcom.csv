@@ -4,8 +4,8 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 399,Evaluate Division,/problems/evaluate-division,N,59.6%,Medium,100.00%
 844,Backspace String Compare,/problems/backspace-string-compare,N,48.0%,Easy,15.35%
 1481,Least Number of Unique Integers after K Removals,/problems/least-number-of-unique-integers-after-k-removals,N,57.0%,Medium,62.70%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.05%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
-362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.03%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.01%
-140,Word Break II, /problems/word-break-ii,N,32.6%,Hard,0.01%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.05%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.03%
+362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.03%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.01%
+140,Word Break II,/problems/word-break-ii,N,32.6%,Hard,0.01%

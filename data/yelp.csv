@@ -1,38 +1,38 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1333,"Filter Restaurants by Vegan-Friendly, Price and Distance",/problems/filter-restaurants-by-vegan-friendly-price-and-distance,N,59.6%,Medium,100.00%
 1436,Destination City,/problems/destination-city,N,77.6%,Easy,50.00%
-599,Minimum Index Sum of Two Lists, /problems/minimum-index-sum-of-two-lists,N,50.7%,Easy,2.31%
-564,Find the Closest Palindrome, /problems/find-the-closest-palindrome,N,19.7%,Hard,1.69%
-273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,1.06%
-332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,1.04%
-355,Design Twitter, /problems/design-twitter,N,30.3%,Medium,1.03%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.99%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.44%
-692,Top K Frequent Words, /problems/top-k-frequent-words,N,51.8%,Medium,0.44%
-139,Word Break, /problems/word-break,N,40.1%,Medium,0.36%
-218,The Skyline Problem, /problems/the-skyline-problem,N,34.6%,Hard,0.35%
-347,Top K Frequent Elements, /problems/top-k-frequent-elements,N,61.2%,Medium,0.34%
-1126,Active Businesses, /problems/active-businesses,N,68.5%,Medium,0.32%
-528,Random Pick with Weight, /problems/random-pick-with-weight,N,43.9%,Medium,0.32%
-253,Meeting Rooms II, /problems/meeting-rooms-ii,N,45.7%,Medium,0.29%
-127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.29%
-3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.20%
-14,Longest Common Prefix, /problems/longest-common-prefix,N,35.4%,Easy,0.17%
-205,Isomorphic Strings, /problems/isomorphic-strings,N,39.8%,Easy,0.17%
-126,Word Ladder II, /problems/word-ladder-ii,N,22.1%,Hard,0.15%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.14%
-22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.12%
-207,Course Schedule, /problems/course-schedule,N,43.1%,Medium,0.12%
-192,Word Frequency, /problems/word-frequency,N,25.8%,Medium,0.10%
-380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.09%
-784,Letter Case Permutation, /problems/letter-case-permutation,N,64.6%,Medium,0.08%
-39,Combination Sum, /problems/combination-sum,N,56.1%,Medium,0.05%
-239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.03%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.02%
-349,Intersection of Two Arrays, /problems/intersection-of-two-arrays,N,62.5%,Easy,0.02%
-242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.01%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.01%
-151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
-381,Insert Delete GetRandom O(1) - Duplicates allowed, /problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.00%
-443,String Compression, /problems/string-compression,N,41.3%,Easy,0.00%
-1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence, /problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,N,64.6%,Easy,0.00%
+599,Minimum Index Sum of Two Lists,/problems/minimum-index-sum-of-two-lists,N,50.7%,Easy,2.31%
+564,Find the Closest Palindrome,/problems/find-the-closest-palindrome,N,19.7%,Hard,1.69%
+273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,1.06%
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,1.04%
+355,Design Twitter,/problems/design-twitter,N,30.3%,Medium,1.03%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.99%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.44%
+692,Top K Frequent Words,/problems/top-k-frequent-words,N,51.8%,Medium,0.44%
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.36%
+218,The Skyline Problem,/problems/the-skyline-problem,N,34.6%,Hard,0.35%
+347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,61.2%,Medium,0.34%
+1126,Active Businesses,/problems/active-businesses,N,68.5%,Medium,0.32%
+528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.32%
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.29%
+127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.29%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.20%
+14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.17%
+205,Isomorphic Strings,/problems/isomorphic-strings,N,39.8%,Easy,0.17%
+126,Word Ladder II,/problems/word-ladder-ii,N,22.1%,Hard,0.15%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.14%
+22,Generate Parentheses,/problems/generate-parentheses,N,62.7%,Medium,0.12%
+207,Course Schedule,/problems/course-schedule,N,43.1%,Medium,0.12%
+192,Word Frequency,/problems/word-frequency,N,25.8%,Medium,0.10%
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.09%
+784,Letter Case Permutation,/problems/letter-case-permutation,N,64.6%,Medium,0.08%
+39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.05%
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.03%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.02%
+349,Intersection of Two Arrays,/problems/intersection-of-two-arrays,N,62.5%,Easy,0.02%
+242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.01%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.01%
+151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
+381,Insert Delete GetRandom O(1) - Duplicates allowed,/problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.00%
+443,String Compression,/problems/string-compression,N,41.3%,Easy,0.00%
+1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,N,64.6%,Easy,0.00%

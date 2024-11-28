@@ -9,11 +9,11 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 232,Implement Queue using Stacks,/problems/implement-queue-using-stacks,N,61.3%,Easy,32.96%
 529,Minesweeper,/problems/minesweeper,N,65.5%,Medium,100.00%
 836,Rectangle Overlap,/problems/rectangle-overlap,N,43.6%,Easy,9.32%
-92,Reverse Linked List II, /problems/reverse-linked-list-ii,N,38.8%,Medium,0.06%
-49,Group Anagrams, /problems/group-anagrams,N,56.9%,Medium,0.06%
-71,Simplify Path, /problems/simplify-path,N,32.6%,Medium,0.04%
-73,Set Matrix Zeroes, /problems/set-matrix-zeroes,N,43.1%,Medium,0.03%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.01%
-242,Valid Anagram, /problems/valid-anagram,N,56.9%,Easy,0.00%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.00%
-79,Word Search, /problems/word-search,N,35.6%,Medium,0.00%
+92,Reverse Linked List II,/problems/reverse-linked-list-ii,N,38.8%,Medium,0.06%
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.06%
+71,Simplify Path,/problems/simplify-path,N,32.6%,Medium,0.04%
+73,Set Matrix Zeroes,/problems/set-matrix-zeroes,N,43.1%,Medium,0.03%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.01%
+242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.00%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.00%
+79,Word Search,/problems/word-search,N,35.6%,Medium,0.00%

@@ -1,18 +1,18 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,50.00%
 62,Unique Paths,/problems/unique-paths,N,62.3%,Medium,100.00%
-1258,Synonymous Sentences, /problems/synonymous-sentences,N,64.4%,Medium,0.67%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.62%
-529,Minesweeper, /problems/minesweeper,N,59.1%,Medium,0.42%
-281,Zigzag Iterator, /problems/zigzag-iterator,N,58.4%,Medium,0.23%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.20%
-304,Range Sum Query 2D - Immutable, /problems/range-sum-query-2d-immutable,N,38.6%,Medium,0.05%
-56,Merge Intervals, /problems/merge-intervals,N,39.3%,Medium,0.05%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.03%
-44,Wildcard Matching, /problems/wildcard-matching,N,24.7%,Hard,0.03%
-695,Max Area of Island, /problems/max-area-of-island,N,62.7%,Medium,0.03%
-986,Interval List Intersections, /problems/interval-list-intersections,N,67.3%,Medium,0.03%
-23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.02%
-79,Word Search, /problems/word-search,N,35.6%,Medium,0.01%
-63,Unique Paths II, /problems/unique-paths-ii,N,34.6%,Medium,0.01%
-36,Valid Sudoku, /problems/valid-sudoku,N,48.7%,Medium,0.01%
+1258,Synonymous Sentences,/problems/synonymous-sentences,N,64.4%,Medium,0.67%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.62%
+529,Minesweeper,/problems/minesweeper,N,59.1%,Medium,0.42%
+281,Zigzag Iterator,/problems/zigzag-iterator,N,58.4%,Medium,0.23%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.20%
+304,Range Sum Query 2D - Immutable,/problems/range-sum-query-2d-immutable,N,38.6%,Medium,0.05%
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.05%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.03%
+44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,0.03%
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.03%
+986,Interval List Intersections,/problems/interval-list-intersections,N,67.3%,Medium,0.03%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.02%
+79,Word Search,/problems/word-search,N,35.6%,Medium,0.01%
+63,Unique Paths II,/problems/unique-paths-ii,N,34.6%,Medium,0.01%
+36,Valid Sudoku,/problems/valid-sudoku,N,48.7%,Medium,0.01%

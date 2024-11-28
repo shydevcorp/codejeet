@@ -21,20 +21,20 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1529,Minimum Suffix Flips,/problems/minimum-suffix-flips,N,72.4%,Medium,34.63%
 1710,Maximum Units on a Truck,/problems/maximum-units-on-a-truck,N,73.9%,Easy,65.41%
 2038,Remove Colored Pieces if Both Neighbors are the Same Color,/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color,N,58.1%,Medium,100.00%
-202,Happy Number, /problems/happy-number,N,50.4%,Easy,3.47%
-322,Coin Change, /problems/coin-change,N,35.5%,Medium,0.71%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.25%
-273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.10%
-9,Palindrome Number, /problems/palindrome-number,N,48.4%,Easy,0.09%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.08%
-7,Reverse Integer, /problems/reverse-integer,N,25.8%,Easy,0.05%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.05%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.04%
-4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.03%
-349,Intersection of Two Arrays, /problems/intersection-of-two-arrays,N,62.5%,Easy,0.02%
-79,Word Search, /problems/word-search,N,35.6%,Medium,0.01%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
-39,Combination Sum, /problems/combination-sum,N,56.1%,Medium,0.01%
-387,First Unique Character in a String, /problems/first-unique-character-in-a-string,N,53.4%,Easy,0.00%
+202,Happy Number,/problems/happy-number,N,50.4%,Easy,3.47%
+322,Coin Change,/problems/coin-change,N,35.5%,Medium,0.71%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.25%
+273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,0.10%
+9,Palindrome Number,/problems/palindrome-number,N,48.4%,Easy,0.09%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.08%
+7,Reverse Integer,/problems/reverse-integer,N,25.8%,Easy,0.05%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.05%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.04%
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.03%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.03%
+349,Intersection of Two Arrays,/problems/intersection-of-two-arrays,N,62.5%,Easy,0.02%
+79,Word Search,/problems/word-search,N,35.6%,Medium,0.01%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
+39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.01%
+387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,53.4%,Easy,0.00%

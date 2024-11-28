@@ -8,27 +8,27 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 1366,Rank Teams by Votes,/problems/rank-teams-by-votes,N,58.6%,Medium,25.76%
 1790,Check if One String Swap Can Make Strings Equal,/problems/check-if-one-string-swap-can-make-strings-equal,N,45.6%,Easy,21.92%
 2296,Design a Text Editor,/problems/design-a-text-editor,N,39.9%,Hard,100.00%
-72,Edit Distance, /problems/edit-distance,N,44.8%,Hard,0.83%
-271,Encode and Decode Strings, /problems/encode-and-decode-strings,N,31.5%,Medium,0.65%
-969,Pancake Sorting, /problems/pancake-sorting,N,67.5%,Medium,0.59%
-336,Palindrome Pairs, /problems/palindrome-pairs,N,33.7%,Hard,0.57%
-999,Available Captures for Rook, /problems/available-captures-for-rook,N,66.7%,Easy,0.49%
-91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.32%
-269,Alien Dictionary, /problems/alien-dictionary,N,33.3%,Hard,0.15%
-273,Integer to English Words, /problems/integer-to-english-words,N,27.1%,Hard,0.10%
-165,Compare Version Numbers, /problems/compare-version-numbers,N,27.4%,Medium,0.09%
-415,Add Strings, /problems/add-strings,N,47.5%,Easy,0.09%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.09%
-277,Find the Celebrity, /problems/find-the-celebrity,N,41.8%,Medium,0.07%
-208,Implement Trie (Prefix Tree), /problems/implement-trie-prefix-tree,N,49.4%,Medium,0.06%
-127,Word Ladder, /problems/word-ladder,N,29.6%,Medium,0.05%
-105,Construct Binary Tree from Preorder and Inorder Traversal, /problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.05%
-824,Goat Latin, /problems/goat-latin,N,63.4%,Easy,0.03%
-332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,0.03%
-981,Time Based Key-Value Store, /problems/time-based-key-value-store,N,53.1%,Medium,0.02%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.01%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.01%
-139,Word Break, /problems/word-break,N,40.1%,Medium,0.01%
-39,Combination Sum, /problems/combination-sum,N,56.1%,Medium,0.01%
-573,Squirrel Simulation, /problems/squirrel-simulation,N,55.6%,Medium,0.00%
-699,Falling Squares, /problems/falling-squares,N,41.8%,Hard,0.00%
+72,Edit Distance,/problems/edit-distance,N,44.8%,Hard,0.83%
+271,Encode and Decode Strings,/problems/encode-and-decode-strings,N,31.5%,Medium,0.65%
+969,Pancake Sorting,/problems/pancake-sorting,N,67.5%,Medium,0.59%
+336,Palindrome Pairs,/problems/palindrome-pairs,N,33.7%,Hard,0.57%
+999,Available Captures for Rook,/problems/available-captures-for-rook,N,66.7%,Easy,0.49%
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.32%
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.15%
+273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,0.10%
+165,Compare Version Numbers,/problems/compare-version-numbers,N,27.4%,Medium,0.09%
+415,Add Strings,/problems/add-strings,N,47.5%,Easy,0.09%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.09%
+277,Find the Celebrity,/problems/find-the-celebrity,N,41.8%,Medium,0.07%
+208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,49.4%,Medium,0.06%
+127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.05%
+105,Construct Binary Tree from Preorder and Inorder Traversal,/problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.05%
+824,Goat Latin,/problems/goat-latin,N,63.4%,Easy,0.03%
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.03%
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.02%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.01%
+39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.01%
+573,Squirrel Simulation,/problems/squirrel-simulation,N,55.6%,Medium,0.00%
+699,Falling Squares,/problems/falling-squares,N,41.8%,Hard,0.00%

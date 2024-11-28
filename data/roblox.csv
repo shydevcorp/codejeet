@@ -6,25 +6,25 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 528,Random Pick with Weight,/problems/random-pick-with-weight,N,46.1%,Medium,29.91%
 1419,Minimum Number of Frogs Croaking,/problems/minimum-number-of-frogs-croaking,N,50.1%,Medium,100.00%
 1472,Design Browser History,/problems/design-browser-history,N,76.1%,Medium,64.96%
-811,Subdomain Visit Count, /problems/subdomain-visit-count,N,69.9%,Easy,2.45%
-770,Basic Calculator IV, /problems/basic-calculator-iv,N,48.1%,Hard,1.99%
-829,Consecutive Numbers Sum, /problems/consecutive-numbers-sum,N,37.5%,Hard,1.59%
-224,Basic Calculator, /problems/basic-calculator,N,36.8%,Hard,1.14%
-1163,Last Substring in Lexicographical Order, /problems/last-substring-in-lexicographical-order,N,33.9%,Hard,0.73%
-1297,Maximum Number of Occurrences of a Substring, /problems/maximum-number-of-occurrences-of-a-substring,N,47.3%,Medium,0.41%
-1328,Break a Palindrome, /problems/break-a-palindrome,N,43.3%,Medium,0.22%
-1248,Count Number of Nice Subarrays, /problems/count-number-of-nice-subarrays,N,56.4%,Medium,0.17%
-1290,Convert Binary Number in a Linked List to Integer, /problems/convert-binary-number-in-a-linked-list-to-integer,N,80.4%,Easy,0.09%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.07%
-212,Word Search II, /problems/word-search-ii,N,34.9%,Hard,0.06%
-239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.05%
-647,Palindromic Substrings, /problems/palindromic-substrings,N,60.6%,Medium,0.04%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.04%
-37,Sudoku Solver, /problems/sudoku-solver,N,43.6%,Hard,0.02%
-36,Valid Sudoku, /problems/valid-sudoku,N,48.7%,Medium,0.02%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.00%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.00%
-1282,Group the People Given the Group Size They Belong To, /problems/group-the-people-given-the-group-size-they-belong-to,N,83.9%,Medium,0.00%
-1280,Students and Examinations, /problems/students-and-examinations,N,72.2%,Easy,0.00%
-1364,Number of Trusted Contacts of a Customer, /problems/number-of-trusted-contacts-of-a-customer,N,75.5%,Medium,0.00%
+811,Subdomain Visit Count,/problems/subdomain-visit-count,N,69.9%,Easy,2.45%
+770,Basic Calculator IV,/problems/basic-calculator-iv,N,48.1%,Hard,1.99%
+829,Consecutive Numbers Sum,/problems/consecutive-numbers-sum,N,37.5%,Hard,1.59%
+224,Basic Calculator,/problems/basic-calculator,N,36.8%,Hard,1.14%
+1163,Last Substring in Lexicographical Order,/problems/last-substring-in-lexicographical-order,N,33.9%,Hard,0.73%
+1297,Maximum Number of Occurrences of a Substring,/problems/maximum-number-of-occurrences-of-a-substring,N,47.3%,Medium,0.41%
+1328,Break a Palindrome,/problems/break-a-palindrome,N,43.3%,Medium,0.22%
+1248,Count Number of Nice Subarrays,/problems/count-number-of-nice-subarrays,N,56.4%,Medium,0.17%
+1290,Convert Binary Number in a Linked List to Integer,/problems/convert-binary-number-in-a-linked-list-to-integer,N,80.4%,Easy,0.09%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.07%
+212,Word Search II,/problems/word-search-ii,N,34.9%,Hard,0.06%
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.05%
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.04%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.04%
+37,Sudoku Solver,/problems/sudoku-solver,N,43.6%,Hard,0.02%
+36,Valid Sudoku,/problems/valid-sudoku,N,48.7%,Medium,0.02%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.00%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.00%
+1282,Group the People Given the Group Size They Belong To,/problems/group-the-people-given-the-group-size-they-belong-to,N,83.9%,Medium,0.00%
+1280,Students and Examinations,/problems/students-and-examinations,N,72.2%,Easy,0.00%
+1364,Number of Trusted Contacts of a Customer,/problems/number-of-trusted-contacts-of-a-customer,N,75.5%,Medium,0.00%

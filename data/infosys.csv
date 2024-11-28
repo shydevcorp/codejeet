@@ -18,5 +18,5 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.00%
 509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,24.15%
 2035,Partition Array Into Two Arrays to Minimize Sum Difference,/problems/partition-array-into-two-arrays-to-minimize-sum-difference,N,18.3%,Hard,80.65%
-1124,Longest Well-Performing Interval, /problems/longest-well-performing-interval,N,32.7%,Medium,0.00%
-1540,Can Convert String in K Moves, /problems/can-convert-string-in-k-moves,N,27.2%,Medium,0.00%
+1124,Longest Well-Performing Interval,/problems/longest-well-performing-interval,N,32.7%,Medium,0.00%
+1540,Can Convert String in K Moves,/problems/can-convert-string-in-k-moves,N,27.2%,Medium,0.00%

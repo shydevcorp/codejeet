@@ -4,6 +4,6 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 14,Longest Common Prefix,/problems/longest-common-prefix,N,40.8%,Easy,80.03%
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,100.00%
 66,Plus One,/problems/plus-one,N,43.4%,Easy,55.19%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.01%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.00%
-1275,Find Winner on a Tic Tac Toe Game, /problems/find-winner-on-a-tic-tac-toe-game,N,52.8%,Easy,0.00%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.01%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.00%
+1275,Find Winner on a Tic Tac Toe Game,/problems/find-winner-on-a-tic-tac-toe-game,N,52.8%,Easy,0.00%

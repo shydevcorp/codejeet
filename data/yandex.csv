@@ -25,34 +25,34 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 849,Maximize Distance to Closest Person,/problems/maximize-distance-to-closest-person,N,47.6%,Medium,100.00%
 977,Squares of a Sorted Array,/problems/squares-of-a-sorted-array,N,71.9%,Easy,2.89%
 1493,Longest Subarray of 1's After Deleting One Element,/problems/longest-subarray-of-1s-after-deleting-one-element,N,60.2%,Medium,72.75%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.46%
-206,Reverse Linked List, /problems/reverse-linked-list,N,62.5%,Easy,0.44%
-22,Generate Parentheses, /problems/generate-parentheses,N,62.7%,Medium,0.38%
-23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.25%
-281,Zigzag Iterator, /problems/zigzag-iterator,N,58.4%,Medium,0.23%
-1004,Max Consecutive Ones III, /problems/max-consecutive-ones-iii,N,59.1%,Medium,0.15%
-98,Validate Binary Search Tree, /problems/validate-binary-search-tree,N,27.8%,Medium,0.15%
-380,Insert Delete GetRandom O(1), /problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.14%
-232,Implement Queue using Stacks, /problems/implement-queue-using-stacks,N,49.6%,Easy,0.12%
-59,Spiral Matrix II, /problems/spiral-matrix-ii,N,53.9%,Medium,0.09%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.08%
-88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.07%
-101,Symmetric Tree, /problems/symmetric-tree,N,46.8%,Easy,0.06%
-332,Reconstruct Itinerary, /problems/reconstruct-itinerary,N,36.7%,Medium,0.05%
-933,Number of Recent Calls, /problems/number-of-recent-calls,N,71.9%,Easy,0.04%
-4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
-974,Subarray Sums Divisible by K, /problems/subarray-sums-divisible-by-k,N,48.9%,Medium,0.03%
-204,Count Primes, /problems/count-primes,N,31.5%,Easy,0.03%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.03%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.03%
-449,Serialize and Deserialize BST, /problems/serialize-and-deserialize-bst,N,52.0%,Medium,0.02%
-48,Rotate Image, /problems/rotate-image,N,56.7%,Medium,0.02%
-33,Search in Rotated Sorted Array, /problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%
-19,Remove Nth Node From End of List, /problems/remove-nth-node-from-end-of-list,N,35.2%,Medium,0.02%
-71,Simplify Path, /problems/simplify-path,N,32.6%,Medium,0.02%
-150,Evaluate Reverse Polish Notation, /problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.01%
-350,Intersection of Two Arrays II, /problems/intersection-of-two-arrays-ii,N,51.4%,Easy,0.01%
-34,Find First and Last Position of Element in Sorted Array, /problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.01%
-279,Perfect Squares, /problems/perfect-squares,N,47.4%,Medium,0.01%
-28,Implement strStr(), /problems/implement-strstr,N,34.5%,Easy,0.01%
-16,3Sum Closest, /problems/3sum-closest,N,46.0%,Medium,0.01%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.46%
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.44%
+22,Generate Parentheses,/problems/generate-parentheses,N,62.7%,Medium,0.38%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.25%
+281,Zigzag Iterator,/problems/zigzag-iterator,N,58.4%,Medium,0.23%
+1004,Max Consecutive Ones III,/problems/max-consecutive-ones-iii,N,59.1%,Medium,0.15%
+98,Validate Binary Search Tree,/problems/validate-binary-search-tree,N,27.8%,Medium,0.15%
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.14%
+232,Implement Queue using Stacks,/problems/implement-queue-using-stacks,N,49.6%,Easy,0.12%
+59,Spiral Matrix II,/problems/spiral-matrix-ii,N,53.9%,Medium,0.09%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.08%
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.07%
+101,Symmetric Tree,/problems/symmetric-tree,N,46.8%,Easy,0.06%
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.05%
+933,Number of Recent Calls,/problems/number-of-recent-calls,N,71.9%,Easy,0.04%
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.03%
+974,Subarray Sums Divisible by K,/problems/subarray-sums-divisible-by-k,N,48.9%,Medium,0.03%
+204,Count Primes,/problems/count-primes,N,31.5%,Easy,0.03%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.03%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.03%
+449,Serialize and Deserialize BST,/problems/serialize-and-deserialize-bst,N,52.0%,Medium,0.02%
+48,Rotate Image,/problems/rotate-image,N,56.7%,Medium,0.02%
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%
+19,Remove Nth Node From End of List,/problems/remove-nth-node-from-end-of-list,N,35.2%,Medium,0.02%
+71,Simplify Path,/problems/simplify-path,N,32.6%,Medium,0.02%
+150,Evaluate Reverse Polish Notation,/problems/evaluate-reverse-polish-notation,N,36.3%,Medium,0.01%
+350,Intersection of Two Arrays II,/problems/intersection-of-two-arrays-ii,N,51.4%,Easy,0.01%
+34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.01%
+279,Perfect Squares,/problems/perfect-squares,N,47.4%,Medium,0.01%
+28,Implement strStr(),/problems/implement-strstr,N,34.5%,Easy,0.01%
+16,3Sum Closest,/problems/3sum-closest,N,46.0%,Medium,0.01%

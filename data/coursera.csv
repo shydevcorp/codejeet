@@ -1,16 +1,16 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.00%
-920,Number of Music Playlists, /problems/number-of-music-playlists,N,46.5%,Hard,2.16%
-453,Minimum Moves to Equal Array Elements, /problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,1.64%
-761,Special Binary String, /problems/special-binary-string,N,54.7%,Hard,1.38%
-10,Regular Expression Matching, /problems/regular-expression-matching,N,26.8%,Hard,0.86%
-713,Subarray Product Less Than K, /problems/subarray-product-less-than-k,N,39.1%,Medium,0.62%
-780,Reaching Points, /problems/reaching-points,N,29.4%,Hard,0.36%
-239,Sliding Window Maximum, /problems/sliding-window-maximum,N,43.0%,Hard,0.14%
-44,Wildcard Matching, /problems/wildcard-matching,N,24.7%,Hard,0.11%
-1112,Highest Grade For Each Student, /problems/highest-grade-for-each-student,N,69.5%,Medium,0.06%
-647,Palindromic Substrings, /problems/palindromic-substrings,N,60.6%,Medium,0.04%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.01%
-392,Is Subsequence, /problems/is-subsequence,N,49.2%,Easy,0.01%
-945,Minimum Increment to Make Array Unique, /problems/minimum-increment-to-make-array-unique,N,46.3%,Medium,0.00%
-1137,N-th Tribonacci Number, /problems/n-th-tribonacci-number,N,55.9%,Easy,0.00%
+920,Number of Music Playlists,/problems/number-of-music-playlists,N,46.5%,Hard,2.16%
+453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,1.64%
+761,Special Binary String,/problems/special-binary-string,N,54.7%,Hard,1.38%
+10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.86%
+713,Subarray Product Less Than K,/problems/subarray-product-less-than-k,N,39.1%,Medium,0.62%
+780,Reaching Points,/problems/reaching-points,N,29.4%,Hard,0.36%
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.14%
+44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,0.11%
+1112,Highest Grade For Each Student,/problems/highest-grade-for-each-student,N,69.5%,Medium,0.06%
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.04%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
+392,Is Subsequence,/problems/is-subsequence,N,49.2%,Easy,0.01%
+945,Minimum Increment to Make Array Unique,/problems/minimum-increment-to-make-array-unique,N,46.3%,Medium,0.00%
+1137,N-th Tribonacci Number,/problems/n-th-tribonacci-number,N,55.9%,Easy,0.00%

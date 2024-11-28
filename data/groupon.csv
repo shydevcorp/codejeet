@@ -1,10 +1,10 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 2087,Minimum Cost Homecoming of a Robot in a Grid,/problems/minimum-cost-homecoming-of-a-robot-in-a-grid,N,51.3%,Medium,100.00%
-297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.05%
-146,LRU Cache, /problems/lru-cache,N,33.2%,Medium,0.04%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.03%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.02%
-48,Rotate Image, /problems/rotate-image,N,56.7%,Medium,0.02%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.02%
-155,Min Stack, /problems/min-stack,N,44.5%,Easy,0.01%
-15,3Sum, /problems/3sum,N,26.8%,Medium,0.01%
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.05%
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.04%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.03%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.02%
+48,Rotate Image,/problems/rotate-image,N,56.7%,Medium,0.02%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.02%
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.01%
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%

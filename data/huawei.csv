@@ -1,19 +1,19 @@
 ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,100.00%
-221,Maximal Square, /problems/maximal-square,N,37.7%,Medium,0.15%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.12%
-45,Jump Game II, /problems/jump-game-ii,N,30.6%,Hard,0.08%
-43,Multiply Strings, /problems/multiply-strings,N,33.9%,Medium,0.08%
-3,Longest Substring Without Repeating Characters, /problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.06%
-394,Decode String, /problems/decode-string,N,50.0%,Medium,0.05%
-617,Merge Two Binary Trees, /problems/merge-two-binary-trees,N,74.1%,Easy,0.02%
-387,First Unique Character in a String, /problems/first-unique-character-in-a-string,N,53.4%,Easy,0.02%
-4,Median of Two Sorted Arrays, /problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.01%
-5,Longest Palindromic Substring, /problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
-91,Decode Ways, /problems/decode-ways,N,24.7%,Medium,0.01%
-69,Sqrt(x), /problems/sqrtx,N,33.9%,Easy,0.01%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.01%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.01%
-70,Climbing Stairs, /problems/climbing-stairs,N,47.8%,Easy,0.01%
-151,Reverse Words in a String, /problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
-21,Merge Two Sorted Lists, /problems/merge-two-sorted-lists,N,53.5%,Easy,0.00%
+221,Maximal Square,/problems/maximal-square,N,37.7%,Medium,0.15%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.12%
+45,Jump Game II,/problems/jump-game-ii,N,30.6%,Hard,0.08%
+43,Multiply Strings,/problems/multiply-strings,N,33.9%,Medium,0.08%
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.06%
+394,Decode String,/problems/decode-string,N,50.0%,Medium,0.05%
+617,Merge Two Binary Trees,/problems/merge-two-binary-trees,N,74.1%,Easy,0.02%
+387,First Unique Character in a String,/problems/first-unique-character-in-a-string,N,53.4%,Easy,0.02%
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.01%
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.01%
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.01%
+69,Sqrt(x),/problems/sqrtx,N,33.9%,Easy,0.01%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.01%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.01%
+70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.01%
+151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.00%
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,53.5%,Easy,0.00%

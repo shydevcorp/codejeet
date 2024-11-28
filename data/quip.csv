@@ -2,12 +2,12 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 761,Special Binary String,/problems/special-binary-string,N,60.4%,Hard,50.00%
 855,Exam Room,/problems/exam-room,N,43.4%,Medium,100.00%
 1309,Decrypt String from Alphabet to Integer Mapping,/problems/decrypt-string-from-alphabet-to-integer-mapping,N,79.5%,Easy,0.00%
-708,Insert into a Sorted Circular Linked List, /problems/insert-into-a-sorted-circular-linked-list,N,31.6%,Medium,0.70%
-510,Inorder Successor in BST II, /problems/inorder-successor-in-bst-ii,N,58.0%,Medium,0.33%
-362,Design Hit Counter, /problems/design-hit-counter,N,63.7%,Medium,0.27%
-285,Inorder Successor in BST, /problems/inorder-successor-in-bst,N,40.4%,Medium,0.09%
-88,Merge Sorted Array, /problems/merge-sorted-array,N,39.4%,Easy,0.01%
-17,Letter Combinations of a Phone Number, /problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.01%
-208,Implement Trie (Prefix Tree), /problems/implement-trie-prefix-tree,N,49.4%,Medium,0.01%
-54,Spiral Matrix, /problems/spiral-matrix,N,34.1%,Medium,0.01%
-34,Find First and Last Position of Element in Sorted Array, /problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.00%
+708,Insert into a Sorted Circular Linked List,/problems/insert-into-a-sorted-circular-linked-list,N,31.6%,Medium,0.70%
+510,Inorder Successor in BST II,/problems/inorder-successor-in-bst-ii,N,58.0%,Medium,0.33%
+362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.27%
+285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,0.09%
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.01%
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.01%
+208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,49.4%,Medium,0.01%
+54,Spiral Matrix,/problems/spiral-matrix,N,34.1%,Medium,0.01%
+34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.00%

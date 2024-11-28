@@ -3,5 +3,5 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 707,Design Linked List,/problems/design-linked-list,N,27.5%,Medium,37.92%
 1180,Count Substrings with Only One Distinct Letter,/problems/count-substrings-with-only-one-distinct-letter,Y,79.0%,Easy,71.18%
 1243,Array Transformation,/problems/array-transformation,Y,50.7%,Easy,100.00%
-1271,Hexspeak, /problems/hexspeak,N,54.2%,Easy,0.74%
-1196,How Many Apples Can You Put into the Basket, /problems/how-many-apples-can-you-put-into-the-basket,N,67.9%,Easy,0.67%
+1271,Hexspeak,/problems/hexspeak,N,54.2%,Easy,0.74%
+1196,How Many Apples Can You Put into the Basket,/problems/how-many-apples-can-you-put-into-the-basket,N,67.9%,Easy,0.67%

@@ -4,15 +4,15 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 75,Sort Colors,/problems/sort-colors,N,57.4%,Medium,4.64%
 1253,Reconstruct a 2-Row Binary Matrix,/problems/reconstruct-a-2-row-binary-matrix,N,43.8%,Medium,52.32%
 1375,Number of Times Binary String Is Prefix-Aligned,/problems/number-of-times-binary-string-is-prefix-aligned,N,65.9%,Medium,100.00%
-984,String Without AAA or BBB, /problems/string-without-aaa-or-bbb,N,37.7%,Medium,0.50%
-915,Partition Array into Disjoint Intervals, /problems/partition-array-into-disjoint-intervals,N,45.4%,Medium,0.37%
-983,Minimum Cost For Tickets, /problems/minimum-cost-for-tickets,N,60.5%,Medium,0.27%
-527,Word Abbreviation, /problems/word-abbreviation,N,54.3%,Hard,0.24%
-1017,Convert to Base -2, /problems/convert-to-base-2,N,59.0%,Medium,0.18%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.04%
-2,Add Two Numbers, /problems/add-two-numbers,N,33.9%,Medium,0.02%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.01%
-234,Palindrome Linked List, /problems/palindrome-linked-list,N,39.3%,Easy,0.00%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.00%
-215,Kth Largest Element in an Array, /problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.00%
-1073,Adding Two Negabinary Numbers, /problems/adding-two-negabinary-numbers,N,34.2%,Medium,0.00%
+984,String Without AAA or BBB,/problems/string-without-aaa-or-bbb,N,37.7%,Medium,0.50%
+915,Partition Array into Disjoint Intervals,/problems/partition-array-into-disjoint-intervals,N,45.4%,Medium,0.37%
+983,Minimum Cost For Tickets,/problems/minimum-cost-for-tickets,N,60.5%,Medium,0.27%
+527,Word Abbreviation,/problems/word-abbreviation,N,54.3%,Hard,0.24%
+1017,Convert to Base -2,/problems/convert-to-base-2,N,59.0%,Medium,0.18%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.04%
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.02%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.01%
+234,Palindrome Linked List,/problems/palindrome-linked-list,N,39.3%,Easy,0.00%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.00%
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.00%
+1073,Adding Two Negabinary Numbers,/problems/adding-two-negabinary-numbers,N,34.2%,Medium,0.00%

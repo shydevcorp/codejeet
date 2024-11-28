@@ -4,15 +4,15 @@ ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
 273,Integer to English Words,/problems/integer-to-english-words,N,29.9%,Hard,49.08%
 460,LFU Cache,/problems/lfu-cache,N,40.4%,Hard,58.73%
 609,Find Duplicate File in System,/problems/find-duplicate-file-in-system,N,67.8%,Medium,100.00%
-238,Product of Array Except Self, /problems/product-of-array-except-self,N,60.1%,Medium,0.19%
-51,N-Queens, /problems/n-queens,N,46.6%,Hard,0.10%
-218,The Skyline Problem, /problems/the-skyline-problem,N,34.6%,Hard,0.10%
-706,Design HashMap, /problems/design-hashmap,N,61.3%,Easy,0.07%
-297,Serialize and Deserialize Binary Tree, /problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.06%
-227,Basic Calculator II, /problems/basic-calculator-ii,N,36.9%,Medium,0.03%
-200,Number of Islands, /problems/number-of-islands,N,46.8%,Medium,0.03%
-121,Best Time to Buy and Sell Stock, /problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.02%
-23,Merge k Sorted Lists, /problems/merge-k-sorted-lists,N,40.2%,Hard,0.02%
-57,Insert Interval, /problems/insert-interval,N,33.5%,Hard,0.01%
-1,Two Sum, /problems/two-sum,N,45.6%,Easy,0.01%
-42,Trapping Rain Water, /problems/trapping-rain-water,N,48.9%,Hard,0.00%
+238,Product of Array Except Self,/problems/product-of-array-except-self,N,60.1%,Medium,0.19%
+51,N-Queens,/problems/n-queens,N,46.6%,Hard,0.10%
+218,The Skyline Problem,/problems/the-skyline-problem,N,34.6%,Hard,0.10%
+706,Design HashMap,/problems/design-hashmap,N,61.3%,Easy,0.07%
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.06%
+227,Basic Calculator II,/problems/basic-calculator-ii,N,36.9%,Medium,0.03%
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.03%
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.02%
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.02%
+57,Insert Interval,/problems/insert-interval,N,33.5%,Hard,0.01%
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.01%
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.00%
