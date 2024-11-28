@@ -34,7 +34,7 @@ export async function GET(request: Request) {
     }
 
     const model: GenerativeModel = genAI.getGenerativeModel({
-      model: "gemini-1.5-pro",
+      model: "gemini-1.5-flash",
     });
 
     const languageInstructions = getLanguageSpecificInstructions(language);
