@@ -1,5 +1,4 @@
-import { AiFillHeart } from "react-icons/ai";
-import { BsTwitterX, BsGithub, BsSuitHeartFill } from "react-icons/bs";
+import { BsTwitterX, BsSuitHeartFill } from "react-icons/bs";
 
 const Footer = () => {
   return (

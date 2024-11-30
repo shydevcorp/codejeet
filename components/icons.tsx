@@ -1,6 +1,5 @@
 // components/icons.tsx
 import {
-  LucideProps,
   BookOpen,
   Building,
   LineChart,
