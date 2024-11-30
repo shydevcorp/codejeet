@@ -2,37 +2,51 @@
 
 import { useEffect, useState } from "react";
 import LeetCodeDashboard from "@/components/LeetCodeDashboard";
-import { ClipLoader } from "react-spinners";
 import { useAuth } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
 
 export default function DashboardPage() {
   const { userId } = useAuth();
+  const router = useRouter();
 
   const [questions, setQuestions] = useState([]);
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!userId) return;
-
-    fetch("/api/questions")
-      .then((res) => res.json())
-      .then((data) => {
-        setQuestions(data.questions);
-        setCompanies(data.companies);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error loading questions:", error);
-        setLoading(false);
-      });
+    if (userId) {
+      fetch("/api/questions")
+        .then((res) => res.json())
+        .then((data) => {
+          setQuestions(data.questions);
+          setCompanies(data.companies);
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.error("Error loading questions:", error);
+          setLoading(false);
+        });
+    }
   }, [userId]);
 
-  if (loading) {
+  useEffect(() => {
+    if (!userId && !loading) {
+      router.push("/");
+    }
+  }, [userId, loading, router]);
+
+  if (loading || !userId) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <ClipLoader size={35} color="#FFFFFF" loading={true} />
-        <div className="text-lg ml-2">Loading questions...</div>
+      <div className="container mx-auto py-8">
+        <div className="space-y-6">
+          <div className="w-48 h-8 bg-muted animate-pulse rounded-md" />
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            {[...Array(4)].map((_, i) => (
+              <div key={i} className="h-24 bg-muted animate-pulse rounded-lg" />
+            ))}
+          </div>
+          <div className="h-[600px] bg-muted animate-pulse rounded-lg" />
+        </div>
       </div>
     );
   }
