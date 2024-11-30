@@ -1,2 +1,2 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-96,Unique Binary Search Trees,/problems/unique-binary-search-trees,N,59.3%,Medium,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+96,Unique Binary Search Trees,/problems/unique-binary-search-trees,N,59.3%,Medium,100.00%,"Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree"

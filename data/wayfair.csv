@@ -1,24 +1,24 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-811,Subdomain Visit Count,/problems/subdomain-visit-count,N,75.2%,Medium,100.00%
-1212,Team Scores in Football Tournament,/problems/team-scores-in-football-tournament,N,55.8%,Medium,1.16%
-840,Magic Squares In Grid,/problems/magic-squares-in-grid,N,37.3%,Easy,0.79%
-1194,Tournament Winners,/problems/tournament-winners,N,52.9%,Hard,0.41%
-1204,Last Person to Fit in the Elevator,/problems/last-person-to-fit-in-the-elevator,N,69.8%,Medium,0.30%
-1189,Maximum Number of Balloons,/problems/maximum-number-of-balloons,N,61.2%,Easy,0.12%
-759,Employee Free Time,/problems/employee-free-time,N,66.3%,Hard,0.10%
-1014,Best Sightseeing Pair,/problems/best-sightseeing-pair,N,52.5%,Medium,0.09%
-443,String Compression,/problems/string-compression,N,41.3%,Easy,0.05%
-85,Maximal Rectangle,/problems/maximal-rectangle,N,37.7%,Hard,0.05%
-5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.03%
-412,Fizz Buzz,/problems/fizz-buzz,N,62.3%,Easy,0.03%
-718,Maximum Length of Repeated Subarray,/problems/maximum-length-of-repeated-subarray,N,49.4%,Medium,0.03%
-125,Valid Palindrome,/problems/valid-palindrome,N,36.7%,Easy,0.02%
-184,Department Highest Salary,/problems/department-highest-salary,N,36.7%,Medium,0.02%
-56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.01%
-69,Sqrt(x),/problems/sqrtx,N,33.9%,Easy,0.01%
-53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.01%
-41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%
-210,Course Schedule II,/problems/course-schedule-ii,N,40.7%,Medium,0.00%
-1244,Design A Leaderboard,/problems/design-a-leaderboard,N,60.7%,Medium,0.00%
-1405,Longest Happy String,/problems/longest-happy-string,N,49.0%,Medium,0.00%
-1193,Monthly Transactions I,/problems/monthly-transactions-i,N,68.3%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+811,Subdomain Visit Count,/problems/subdomain-visit-count,N,75.2%,Medium,100.00%,"Array, Hash Table, String, Counting"
+1212,Team Scores in Football Tournament,/problems/team-scores-in-football-tournament,N,55.8%,Medium,1.16%,No Topics Found
+840,Magic Squares In Grid,/problems/magic-squares-in-grid,N,37.3%,Easy,0.79%,"Array, Hash Table, Math, Matrix"
+1194,Tournament Winners,/problems/tournament-winners,N,52.9%,Hard,0.41%,No Topics Found
+1204,Last Person to Fit in the Elevator,/problems/last-person-to-fit-in-the-elevator,N,69.8%,Medium,0.30%,No Topics Found
+1189,Maximum Number of Balloons,/problems/maximum-number-of-balloons,N,61.2%,Easy,0.12%,
+759,Employee Free Time,/problems/employee-free-time,N,66.3%,Hard,0.10%,No Topics Found
+1014,Best Sightseeing Pair,/problems/best-sightseeing-pair,N,52.5%,Medium,0.09%,"Array, Dynamic Programming"
+443,String Compression,/problems/string-compression,N,41.3%,Easy,0.05%,"Two Pointers, String"
+85,Maximal Rectangle,/problems/maximal-rectangle,N,37.7%,Hard,0.05%,"Array, Dynamic Programming, Stack, Matrix, Monotonic Stack"
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,29.5%,Medium,0.03%,"Two Pointers, String, Dynamic Programming"
+412,Fizz Buzz,/problems/fizz-buzz,N,62.3%,Easy,0.03%,"Math, String, Simulation"
+718,Maximum Length of Repeated Subarray,/problems/maximum-length-of-repeated-subarray,N,49.4%,Medium,0.03%,No Topics Found
+125,Valid Palindrome,/problems/valid-palindrome,N,36.7%,Easy,0.02%,"Two Pointers, String"
+184,Department Highest Salary,/problems/department-highest-salary,N,36.7%,Medium,0.02%,Database
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.01%,"Array, Sorting"
+69,Sqrt(x),/problems/sqrtx,N,33.9%,Easy,0.01%,"Math, Binary Search"
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.01%,"Array, Divide and Conquer, Dynamic Programming"
+41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%,"Array, Hash Table"
+210,Course Schedule II,/problems/course-schedule-ii,N,40.7%,Medium,0.00%,"Depth-First Search, Breadth-First Search, Graph, Topological Sort"
+1244,Design A Leaderboard,/problems/design-a-leaderboard,N,60.7%,Medium,0.00%,No Topics Found
+1405,Longest Happy String,/problems/longest-happy-string,N,49.0%,Medium,0.00%,"String, Greedy, Heap (Priority Queue)"
+1193,Monthly Transactions I,/problems/monthly-transactions-i,N,68.3%,Medium,0.00%,Database

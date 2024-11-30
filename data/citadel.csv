@@ -1,54 +1,54 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-12,Integer to Roman,/problems/integer-to-roman,N,61.5%,Medium,1.62%
-46,Permutations,/problems/permutations,N,74.9%,Medium,1.17%
-121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,0.36%
-209,Minimum Size Subarray Sum,/problems/minimum-size-subarray-sum,N,44.5%,Medium,1.95%
-239,Sliding Window Maximum,/problems/sliding-window-maximum,N,46.6%,Hard,3.97%
-370,Range Addition,/problems/range-addition,Y,70.9%,Medium,65.03%
-380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,52.0%,Medium,3.49%
-490,The Maze,/problems/the-maze,Y,55.4%,Medium,14.18%
-560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,1.72%
-735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,4.44%
-867,Transpose Matrix,/problems/transpose-matrix,N,63.4%,Easy,6.95%
-910,Smallest Range II,/problems/smallest-range-ii,N,34.6%,Medium,49.16%
-974,Subarray Sums Divisible by K,/problems/subarray-sums-divisible-by-k,N,53.6%,Medium,100.00%
-2361,Minimum Costs Using the Train Line,/problems/minimum-costs-using-the-train-line,Y,76.9%,Hard,59.48%
-829,Consecutive Numbers Sum,/problems/consecutive-numbers-sum,N,37.5%,Hard,1.73%
-1048,Longest String Chain,/problems/longest-string-chain,N,54.7%,Medium,1.02%
-241,Different Ways to Add Parentheses,/problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.30%
-647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.19%
-285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,0.19%
-32,Longest Valid Parentheses,/problems/longest-valid-parentheses,N,28.4%,Hard,0.14%
-935,Knight Dialer,/problems/knight-dialer,N,45.2%,Medium,0.10%
-42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.08%
-122,Best Time to Buy and Sell Stock II,/problems/best-time-to-buy-and-sell-stock-ii,N,57.0%,Easy,0.07%
-221,Maximal Square,/problems/maximal-square,N,37.7%,Medium,0.06%
-20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.06%
-295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.05%
-622,Design Circular Queue,/problems/design-circular-queue,N,43.7%,Medium,0.05%
-240,Search a 2D Matrix II,/problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.05%
-146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.04%
-724,Find Pivot Index,/problems/find-pivot-index,N,44.0%,Easy,0.03%
-332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.03%
-123,Best Time to Buy and Sell Stock III,/problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.03%
-199,Binary Tree Right Side View,/problems/binary-tree-right-side-view,N,54.1%,Medium,0.02%
-105,Construct Binary Tree from Preorder and Inorder Traversal,/problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.02%
-628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.02%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.02%
-225,Implement Stack using Queues,/problems/implement-stack-using-queues,N,45.1%,Easy,0.02%
-340,Longest Substring with At Most K Distinct Characters,/problems/longest-substring-with-at-most-k-distinct-characters,N,44.1%,Hard,0.02%
-297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%
-15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
-53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.01%
-85,Maximal Rectangle,/problems/maximal-rectangle,N,37.7%,Hard,0.01%
-200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%
-232,Implement Queue using Stacks,/problems/implement-queue-using-stacks,N,49.6%,Easy,0.01%
-212,Word Search II,/problems/word-search-ii,N,34.9%,Hard,0.01%
-70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.01%
-28,Implement strStr(),/problems/implement-strstr,N,34.5%,Easy,0.01%
-253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.01%
-151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.01%
-8,String to Integer (atoi),/problems/string-to-integer-atoi,N,15.4%,Medium,0.00%
-102,Binary Tree Level Order Traversal,/problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.00%
-718,Maximum Length of Repeated Subarray,/problems/maximum-length-of-repeated-subarray,N,49.4%,Medium,0.00%
-1515,Best Position for a Service Centre,/problems/best-position-for-a-service-centre,N,35.9%,Hard,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+12,Integer to Roman,/problems/integer-to-roman,N,61.5%,Medium,1.62%,"Hash Table, Math, String"
+46,Permutations,/problems/permutations,N,74.9%,Medium,1.17%,"Array, Backtracking"
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,0.36%,"Array, Dynamic Programming"
+209,Minimum Size Subarray Sum,/problems/minimum-size-subarray-sum,N,44.5%,Medium,1.95%,"Array, Binary Search, Sliding Window, Prefix Sum"
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,46.6%,Hard,3.97%,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue"
+370,Range Addition,/problems/range-addition,Y,70.9%,Medium,65.03%,No Topics Found
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,52.0%,Medium,3.49%,"Array, Hash Table, Math, Design, Randomized"
+490,The Maze,/problems/the-maze,Y,55.4%,Medium,14.18%,No Topics Found
+560,Subarray Sum Equals K,/problems/subarray-sum-equals-k,N,44.0%,Medium,1.72%,"Array, Hash Table, Prefix Sum"
+735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,4.44%,"Array, Stack, Simulation"
+867,Transpose Matrix,/problems/transpose-matrix,N,63.4%,Easy,6.95%,"Array, Matrix, Simulation"
+910,Smallest Range II,/problems/smallest-range-ii,N,34.6%,Medium,49.16%,"Array, Math, Greedy, Sorting"
+974,Subarray Sums Divisible by K,/problems/subarray-sums-divisible-by-k,N,53.6%,Medium,100.00%,"Array, Hash Table, Prefix Sum"
+2361,Minimum Costs Using the Train Line,/problems/minimum-costs-using-the-train-line,Y,76.9%,Hard,59.48%,No Topics Found
+829,Consecutive Numbers Sum,/problems/consecutive-numbers-sum,N,37.5%,Hard,1.73%,"Math, Enumeration"
+1048,Longest String Chain,/problems/longest-string-chain,N,54.7%,Medium,1.02%,"Array, Hash Table, Two Pointers, String, Dynamic Programming, Sorting"
+241,Different Ways to Add Parentheses,/problems/different-ways-to-add-parentheses,N,55.2%,Medium,0.30%,"Math, String, Dynamic Programming, Recursion, Memoization"
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.19%,"Two Pointers, String, Dynamic Programming"
+285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,0.19%,No Topics Found
+32,Longest Valid Parentheses,/problems/longest-valid-parentheses,N,28.4%,Hard,0.14%,"String, Dynamic Programming, Stack"
+935,Knight Dialer,/problems/knight-dialer,N,45.2%,Medium,0.10%,Dynamic Programming
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.08%,No Topics Found
+122,Best Time to Buy and Sell Stock II,/problems/best-time-to-buy-and-sell-stock-ii,N,57.0%,Easy,0.07%,"Array, Dynamic Programming, Greedy"
+221,Maximal Square,/problems/maximal-square,N,37.7%,Medium,0.06%,"Array, Dynamic Programming, Matrix"
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.06%,"String, Stack"
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.05%,"Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream"
+622,Design Circular Queue,/problems/design-circular-queue,N,43.7%,Medium,0.05%,"Array, Linked List, Design, Queue"
+240,Search a 2D Matrix II,/problems/search-a-2d-matrix-ii,N,43.2%,Medium,0.05%,"Array, Binary Search, Divide and Conquer, Matrix"
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.04%,"Hash Table, Linked List, Design, Doubly-Linked List"
+724,Find Pivot Index,/problems/find-pivot-index,N,44.0%,Easy,0.03%,"Array, Prefix Sum"
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.03%,"Depth-First Search, Graph, Eulerian Circuit"
+123,Best Time to Buy and Sell Stock III,/problems/best-time-to-buy-and-sell-stock-iii,N,37.5%,Hard,0.03%,"Array, Dynamic Programming"
+199,Binary Tree Right Side View,/problems/binary-tree-right-side-view,N,54.1%,Medium,0.02%,"Tree, Depth-First Search, Breadth-First Search, Binary Tree"
+105,Construct Binary Tree from Preorder and Inorder Traversal,/problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.02%,"Array, Hash Table, Divide and Conquer, Tree, Binary Tree"
+628,Maximum Product of Three Numbers,/problems/maximum-product-of-three-numbers,N,47.1%,Easy,0.02%,"Array, Math, Sorting"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.02%,"Array, Hash Table"
+225,Implement Stack using Queues,/problems/implement-stack-using-queues,N,45.1%,Easy,0.02%,"Stack, Design, Queue"
+340,Longest Substring with At Most K Distinct Characters,/problems/longest-substring-with-at-most-k-distinct-characters,N,44.1%,Hard,0.02%,No Topics Found
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,47.5%,Hard,0.02%,"String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree"
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%,"Array, Two Pointers, Sorting"
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.01%,"Array, Divide and Conquer, Dynamic Programming"
+85,Maximal Rectangle,/problems/maximal-rectangle,N,37.7%,Hard,0.01%,"Array, Dynamic Programming, Stack, Matrix, Monotonic Stack"
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+232,Implement Queue using Stacks,/problems/implement-queue-using-stacks,N,49.6%,Easy,0.01%,"Stack, Design, Queue"
+212,Word Search II,/problems/word-search-ii,N,34.9%,Hard,0.01%,"Array, String, Backtracking, Trie, Matrix"
+70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.01%,"Math, Dynamic Programming, Memoization"
+28,Implement strStr(),/problems/implement-strstr,N,34.5%,Easy,0.01%,"Two Pointers, String, String Matching"
+253,Meeting Rooms II,/problems/meeting-rooms-ii,N,45.7%,Medium,0.01%,No Topics Found
+151,Reverse Words in a String,/problems/reverse-words-in-a-string,N,21.9%,Medium,0.01%,"Two Pointers, String"
+8,String to Integer (atoi),/problems/string-to-integer-atoi,N,15.4%,Medium,0.00%,String
+102,Binary Tree Level Order Traversal,/problems/binary-tree-level-order-traversal,N,54.6%,Medium,0.00%,"Tree, Breadth-First Search, Binary Tree"
+718,Maximum Length of Repeated Subarray,/problems/maximum-length-of-repeated-subarray,N,49.4%,Medium,0.00%,No Topics Found
+1515,Best Position for a Service Centre,/problems/best-position-for-a-service-centre,N,35.9%,Hard,0.00%,"Array, Math, Geometry, Randomized"

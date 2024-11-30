@@ -1,34 +1,34 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,1.93%
-359,Logger Rate Limiter,/problems/logger-rate-limiter,Y,75.5%,Easy,14.38%
-394,Decode String,/problems/decode-string,N,57.6%,Medium,4.15%
-490,The Maze,/problems/the-maze,Y,55.4%,Medium,62.88%
-804,Unique Morse Code Words,/problems/unique-morse-code-words,N,82.7%,Easy,12.84%
-859,Buddy Strings,/problems/buddy-strings,N,29.1%,Easy,12.84%
-1366,Rank Teams by Votes,/problems/rank-teams-by-votes,N,58.6%,Medium,25.76%
-1790,Check if One String Swap Can Make Strings Equal,/problems/check-if-one-string-swap-can-make-strings-equal,N,45.6%,Easy,21.92%
-2296,Design a Text Editor,/problems/design-a-text-editor,N,39.9%,Hard,100.00%
-72,Edit Distance,/problems/edit-distance,N,44.8%,Hard,0.83%
-271,Encode and Decode Strings,/problems/encode-and-decode-strings,N,31.5%,Medium,0.65%
-969,Pancake Sorting,/problems/pancake-sorting,N,67.5%,Medium,0.59%
-336,Palindrome Pairs,/problems/palindrome-pairs,N,33.7%,Hard,0.57%
-999,Available Captures for Rook,/problems/available-captures-for-rook,N,66.7%,Easy,0.49%
-91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.32%
-269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.15%
-273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,0.10%
-165,Compare Version Numbers,/problems/compare-version-numbers,N,27.4%,Medium,0.09%
-415,Add Strings,/problems/add-strings,N,47.5%,Easy,0.09%
-17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.09%
-277,Find the Celebrity,/problems/find-the-celebrity,N,41.8%,Medium,0.07%
-208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,49.4%,Medium,0.06%
-127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.05%
-105,Construct Binary Tree from Preorder and Inorder Traversal,/problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.05%
-824,Goat Latin,/problems/goat-latin,N,63.4%,Easy,0.03%
-332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.03%
-981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.02%
-15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
-200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%
-139,Word Break,/problems/word-break,N,40.1%,Medium,0.01%
-39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.01%
-573,Squirrel Simulation,/problems/squirrel-simulation,N,55.6%,Medium,0.00%
-699,Falling Squares,/problems/falling-squares,N,41.8%,Hard,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,1.93%,"Array, Math, Matrix"
+359,Logger Rate Limiter,/problems/logger-rate-limiter,Y,75.5%,Easy,14.38%,No Topics Found
+394,Decode String,/problems/decode-string,N,57.6%,Medium,4.15%,"String, Stack, Recursion"
+490,The Maze,/problems/the-maze,Y,55.4%,Medium,62.88%,No Topics Found
+804,Unique Morse Code Words,/problems/unique-morse-code-words,N,82.7%,Easy,12.84%,"Array, Hash Table, String"
+859,Buddy Strings,/problems/buddy-strings,N,29.1%,Easy,12.84%,No Topics Found
+1366,Rank Teams by Votes,/problems/rank-teams-by-votes,N,58.6%,Medium,25.76%,"Array, Hash Table, String, Sorting, Counting"
+1790,Check if One String Swap Can Make Strings Equal,/problems/check-if-one-string-swap-can-make-strings-equal,N,45.6%,Easy,21.92%,"Hash Table, String, Counting"
+2296,Design a Text Editor,/problems/design-a-text-editor,N,39.9%,Hard,100.00%,"Linked List, String, Stack, Design, Simulation, Doubly-Linked List"
+72,Edit Distance,/problems/edit-distance,N,44.8%,Hard,0.83%,No Topics Found
+271,Encode and Decode Strings,/problems/encode-and-decode-strings,N,31.5%,Medium,0.65%,No Topics Found
+969,Pancake Sorting,/problems/pancake-sorting,N,67.5%,Medium,0.59%,"Array, Two Pointers, Greedy, Sorting"
+336,Palindrome Pairs,/problems/palindrome-pairs,N,33.7%,Hard,0.57%,"Array, Hash Table, String, Trie"
+999,Available Captures for Rook,/problems/available-captures-for-rook,N,66.7%,Easy,0.49%,"Array, Matrix, Simulation"
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.32%,"String, Dynamic Programming"
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.15%,No Topics Found
+273,Integer to English Words,/problems/integer-to-english-words,N,27.1%,Hard,0.10%,"Math, String, Recursion"
+165,Compare Version Numbers,/problems/compare-version-numbers,N,27.4%,Medium,0.09%,"Two Pointers, String"
+415,Add Strings,/problems/add-strings,N,47.5%,Easy,0.09%,"Math, String, Simulation"
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.09%,"Hash Table, String, Backtracking"
+277,Find the Celebrity,/problems/find-the-celebrity,N,41.8%,Medium,0.07%,No Topics Found
+208,Implement Trie (Prefix Tree),/problems/implement-trie-prefix-tree,N,49.4%,Medium,0.06%,"Hash Table, String, Design, Trie"
+127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.05%,"Hash Table, String, Breadth-First Search"
+105,Construct Binary Tree from Preorder and Inorder Traversal,/problems/construct-binary-tree-from-preorder-and-inorder-traversal,N,48.8%,Medium,0.05%,"Array, Hash Table, Divide and Conquer, Tree, Binary Tree"
+824,Goat Latin,/problems/goat-latin,N,63.4%,Easy,0.03%,String
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,36.7%,Medium,0.03%,"Depth-First Search, Graph, Eulerian Circuit"
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.02%,"Hash Table, String, Binary Search, Design"
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%,"Array, Two Pointers, Sorting"
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.01%,"Array, Hash Table, String, Dynamic Programming, Trie, Memoization"
+39,Combination Sum,/problems/combination-sum,N,56.1%,Medium,0.01%,"Array, Backtracking"
+573,Squirrel Simulation,/problems/squirrel-simulation,N,55.6%,Medium,0.00%,No Topics Found
+699,Falling Squares,/problems/falling-squares,N,41.8%,Hard,0.00%,"Array, Segment Tree, Ordered Set"

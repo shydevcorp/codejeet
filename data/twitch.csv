@@ -1,22 +1,22 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-1,Two Sum,/problems/two-sum,N,49.1%,Easy,0.26%
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,0.69%
-68,Text Justification,/problems/text-justification,N,36.8%,Hard,18.43%
-146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,3.25%
-200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,1.73%
-207,Course Schedule,/problems/course-schedule,N,45.4%,Medium,2.69%
-419,Battleships in a Board,/problems/battleships-in-a-board,N,74.7%,Medium,22.15%
-729,My Calendar I,/problems/my-calendar-i,N,57.2%,Medium,61.07%
-929,Unique Email Addresses,/problems/unique-email-addresses,N,67.2%,Easy,100.00%
-828,Count Unique Characters of All Substrings of a Given String,/problems/count-unique-characters-of-all-substrings-of-a-given-string,N,45.2%,Hard,0.41%
-695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.28%
-723,Candy Crush,/problems/candy-crush,N,69.2%,Medium,0.15%
-56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.03%
-977,Squares of a Sorted Array,/problems/squares-of-a-sorted-array,N,72.1%,Easy,0.02%
-41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%
-767,Reorganize String,/problems/reorganize-string,N,48.7%,Medium,0.01%
-3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%
-33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.01%
-1230,Toss Strange Coins,/problems/toss-strange-coins,N,48.7%,Medium,0.00%
-1435,Create a Session Bar Chart,/problems/create-a-session-bar-chart,N,76.9%,Easy,0.00%
-1500,Design a File Sharing System,/problems/design-a-file-sharing-system,N,45.8%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,0.26%,"Array, Hash Table"
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,0.69%,"String, Stack"
+68,Text Justification,/problems/text-justification,N,36.8%,Hard,18.43%,"Array, String, Simulation"
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,3.25%,"Hash Table, Linked List, Design, Doubly-Linked List"
+200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,1.73%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+207,Course Schedule,/problems/course-schedule,N,45.4%,Medium,2.69%,"Depth-First Search, Breadth-First Search, Graph, Topological Sort"
+419,Battleships in a Board,/problems/battleships-in-a-board,N,74.7%,Medium,22.15%,"Array, Depth-First Search, Matrix"
+729,My Calendar I,/problems/my-calendar-i,N,57.2%,Medium,61.07%,"Array, Binary Search, Design, Segment Tree, Ordered Set"
+929,Unique Email Addresses,/problems/unique-email-addresses,N,67.2%,Easy,100.00%,"Array, Hash Table, String"
+828,Count Unique Characters of All Substrings of a Given String,/problems/count-unique-characters-of-all-substrings-of-a-given-string,N,45.2%,Hard,0.41%,"Hash Table, String, Dynamic Programming"
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.28%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+723,Candy Crush,/problems/candy-crush,N,69.2%,Medium,0.15%,No Topics Found
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.03%,"Array, Sorting"
+977,Squares of a Sorted Array,/problems/squares-of-a-sorted-array,N,72.1%,Easy,0.02%,"Array, Two Pointers, Sorting"
+41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%,"Array, Hash Table"
+767,Reorganize String,/problems/reorganize-string,N,48.7%,Medium,0.01%,"Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting"
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.01%,"Hash Table, String, Sliding Window"
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.01%,"Array, Binary Search"
+1230,Toss Strange Coins,/problems/toss-strange-coins,N,48.7%,Medium,0.00%,No Topics Found
+1435,Create a Session Bar Chart,/problems/create-a-session-bar-chart,N,76.9%,Easy,0.00%,No Topics Found
+1500,Design a File Sharing System,/problems/design-a-file-sharing-system,N,45.8%,Medium,0.00%,No Topics Found

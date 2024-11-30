@@ -1,16 +1,16 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.00%
-920,Number of Music Playlists,/problems/number-of-music-playlists,N,46.5%,Hard,2.16%
-453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,1.64%
-761,Special Binary String,/problems/special-binary-string,N,54.7%,Hard,1.38%
-10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.86%
-713,Subarray Product Less Than K,/problems/subarray-product-less-than-k,N,39.1%,Medium,0.62%
-780,Reaching Points,/problems/reaching-points,N,29.4%,Hard,0.36%
-239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.14%
-44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,0.11%
-1112,Highest Grade For Each Student,/problems/highest-grade-for-each-student,N,69.5%,Medium,0.06%
-647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.04%
-15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
-392,Is Subsequence,/problems/is-subsequence,N,49.2%,Easy,0.01%
-945,Minimum Increment to Make Array Unique,/problems/minimum-increment-to-make-array-unique,N,46.3%,Medium,0.00%
-1137,N-th Tribonacci Number,/problems/n-th-tribonacci-number,N,55.9%,Easy,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+68,Text Justification,/problems/text-justification,N,36.8%,Hard,100.00%,"Array, String, Simulation"
+920,Number of Music Playlists,/problems/number-of-music-playlists,N,46.5%,Hard,2.16%,"Math, Dynamic Programming, Combinatorics"
+453,Minimum Moves to Equal Array Elements,/problems/minimum-moves-to-equal-array-elements,N,50.2%,Easy,1.64%,"Array, Math"
+761,Special Binary String,/problems/special-binary-string,N,54.7%,Hard,1.38%,"String, Recursion"
+10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.86%,"String, Dynamic Programming, Recursion"
+713,Subarray Product Less Than K,/problems/subarray-product-less-than-k,N,39.1%,Medium,0.62%,"Array, Binary Search, Sliding Window, Prefix Sum"
+780,Reaching Points,/problems/reaching-points,N,29.4%,Hard,0.36%,Math
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.14%,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue"
+44,Wildcard Matching,/problems/wildcard-matching,N,24.7%,Hard,0.11%,"String, Dynamic Programming, Greedy, Recursion"
+1112,Highest Grade For Each Student,/problems/highest-grade-for-each-student,N,69.5%,Medium,0.06%,No Topics Found
+647,Palindromic Substrings,/problems/palindromic-substrings,N,60.6%,Medium,0.04%,"Two Pointers, String, Dynamic Programming"
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%,"Array, Two Pointers, Sorting"
+392,Is Subsequence,/problems/is-subsequence,N,49.2%,Easy,0.01%,"Two Pointers, String, Dynamic Programming"
+945,Minimum Increment to Make Array Unique,/problems/minimum-increment-to-make-array-unique,N,46.3%,Medium,0.00%,"Array, Greedy, Sorting, Counting"
+1137,N-th Tribonacci Number,/problems/n-th-tribonacci-number,N,55.9%,Easy,0.00%,"Math, Dynamic Programming, Memoization"

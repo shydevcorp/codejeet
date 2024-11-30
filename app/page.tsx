@@ -60,7 +60,7 @@ export default function Home() {
                 word={
                   <>
                     Padhlo <SparkleText className="inline" text="DSA" /> kahin
-                    se, selection hoga yahi se.
+                    se, practice hogi yahi se.
                   </>
                 }
                 className="font-display text-center text-4xl font-bold w-full lg:w-auto max-w-4xl mx-auto -z-10"

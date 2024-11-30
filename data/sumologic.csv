@@ -1,9 +1,9 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,100.00%
-558,Logical OR of Two Binary Grids Represented as Quad-Trees,/problems/logical-or-of-two-binary-grids-represented-as-quad-trees,N,44.6%,Medium,1.30%
-981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.82%
-850,Rectangle Area II,/problems/rectangle-area-ii,N,47.5%,Hard,0.33%
-31,Next Permutation,/problems/next-permutation,N,32.6%,Medium,0.20%
-990,Satisfiability of Equality Equations,/problems/satisfiability-of-equality-equations,N,45.0%,Medium,0.15%
-56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.01%
-200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,100.00%,"Hash Table, String, Sliding Window"
+558,Logical OR of Two Binary Grids Represented as Quad-Trees,/problems/logical-or-of-two-binary-grids-represented-as-quad-trees,N,44.6%,Medium,1.30%,"Divide and Conquer, Tree"
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.82%,"Hash Table, String, Binary Search, Design"
+850,Rectangle Area II,/problems/rectangle-area-ii,N,47.5%,Hard,0.33%,"Array, Segment Tree, Line Sweep, Ordered Set"
+31,Next Permutation,/problems/next-permutation,N,32.6%,Medium,0.20%,"Array, Two Pointers"
+990,Satisfiability of Equality Equations,/problems/satisfiability-of-equality-equations,N,45.0%,Medium,0.15%,"Array, String, Union Find, Graph"
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.01%,"Array, Sorting"
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.01%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"

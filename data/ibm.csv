@@ -1,20 +1,20 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-2,Add Two Numbers,/problems/add-two-numbers,N,39.8%,Medium,45.53%
-7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,11.06%
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,13.07%
-41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,30.82%
-56,Merge Intervals,/problems/merge-intervals,N,46.0%,Medium,17.00%
-135,Candy,/problems/candy,N,40.8%,Hard,72.08%
-412,Fizz Buzz,/problems/fizz-buzz,N,68.9%,Easy,41.17%
-692,Top K Frequent Words,/problems/top-k-frequent-words,N,56.9%,Medium,73.44%
-697,Degree of an Array,/problems/degree-of-an-array,N,55.9%,Easy,100.00%
-134,Gas Station,/problems/gas-station,N,38.5%,Medium,0.13%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.13%
-268,Missing Number,/problems/missing-number,N,51.7%,Easy,0.09%
-259,3Sum Smaller,/problems/3sum-smaller,N,47.6%,Medium,0.09%
-700,Search in a Binary Search Tree,/problems/search-in-a-binary-search-tree,N,73.1%,Easy,0.05%
-15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%
-14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.01%
-88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.01%
-53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.00%
-1355,Activity Participants,/problems/activity-participants,N,69.4%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+2,Add Two Numbers,/problems/add-two-numbers,N,39.8%,Medium,45.53%,"Linked List, Math, Recursion"
+7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,11.06%,No Topics Found
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,13.07%,"String, Stack"
+41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,30.82%,"Array, Hash Table"
+56,Merge Intervals,/problems/merge-intervals,N,46.0%,Medium,17.00%,"Array, Sorting"
+135,Candy,/problems/candy,N,40.8%,Hard,72.08%,"Array, Greedy"
+412,Fizz Buzz,/problems/fizz-buzz,N,68.9%,Easy,41.17%,"Math, String, Simulation"
+692,Top K Frequent Words,/problems/top-k-frequent-words,N,56.9%,Medium,73.44%,"Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting"
+697,Degree of an Array,/problems/degree-of-an-array,N,55.9%,Easy,100.00%,
+134,Gas Station,/problems/gas-station,N,38.5%,Medium,0.13%,"Array, Greedy"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.13%,"Array, Hash Table"
+268,Missing Number,/problems/missing-number,N,51.7%,Easy,0.09%,"Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting"
+259,3Sum Smaller,/problems/3sum-smaller,N,47.6%,Medium,0.09%,No Topics Found
+700,Search in a Binary Search Tree,/problems/search-in-a-binary-search-tree,N,73.1%,Easy,0.05%,"Tree, Binary Search Tree, Binary Tree"
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.01%,"Array, Two Pointers, Sorting"
+14,Longest Common Prefix,/problems/longest-common-prefix,N,35.4%,Easy,0.01%,"String, Trie"
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.01%,"Array, Two Pointers, Sorting"
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.00%,"Array, Divide and Conquer, Dynamic Programming"
+1355,Activity Participants,/problems/activity-participants,N,69.4%,Medium,0.00%,

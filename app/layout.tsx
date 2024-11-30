@@ -6,6 +6,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -25,19 +26,21 @@ export default function RootLayout({
     >
       <html lang="en">
         <body className={`${font.className}`} suppressHydrationWarning>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <div className="min-h-screen bg-background flex flex-col">
-              <Navbar />
-              <main className="flex-1">{children}</main>
-              <Footer />
-              <Analytics />
-            </div>
-          </ThemeProvider>
+          <LanguageProvider>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="dark"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <div className="min-h-screen bg-background flex flex-col">
+                <Navbar />
+                <main className="flex-1">{children}</main>
+                <Footer />
+                <Analytics />
+              </div>
+            </ThemeProvider>
+          </LanguageProvider>
         </body>
       </html>
     </ClerkProvider>

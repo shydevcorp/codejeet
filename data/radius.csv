@@ -1,3 +1,3 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-724,Find Pivot Index,/problems/find-pivot-index,N,53.4%,Easy,0.00%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.01%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+724,Find Pivot Index,/problems/find-pivot-index,N,53.4%,Easy,0.00%,"Array, Prefix Sum"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.01%,"Array, Hash Table"

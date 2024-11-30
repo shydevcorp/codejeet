@@ -1,2 +1,2 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-206,Reverse Linked List,/problems/reverse-linked-list,N,72.5%,Easy,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+206,Reverse Linked List,/problems/reverse-linked-list,N,72.5%,Easy,100.00%,"Linked List, Recursion"

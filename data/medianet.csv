@@ -1,13 +1,13 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,1.34%
-33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,38.7%,Medium,3.99%
-92,Reverse Linked List II,/problems/reverse-linked-list-ii,N,45.4%,Medium,10.81%
-97,Interleaving String,/problems/interleaving-string,N,37.1%,Medium,16.19%
-99,Recover Binary Search Tree,/problems/recover-binary-search-tree,N,50.4%,Medium,43.50%
-146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,1.44%
-173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,69.2%,Medium,33.69%
-1787,Make the XOR of All Segments Equal to Zero,/problems/make-the-xor-of-all-segments-equal-to-zero,N,39.6%,Hard,100.00%
-1977,Number of Ways to Separate Numbers,/problems/number-of-ways-to-separate-numbers,N,20.9%,Hard,73.02%
-1994,The Number of Good Subsets,/problems/the-number-of-good-subsets,N,34.1%,Hard,70.48%
-1222,Queens That Can Attack the King,/problems/queens-that-can-attack-the-king,N,68.8%,Medium,0.00%
-1266,Minimum Time Visiting All Points,/problems/minimum-time-visiting-all-points,N,79.6%,Easy,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,1.34%,"Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort"
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,38.7%,Medium,3.99%,"Array, Binary Search"
+92,Reverse Linked List II,/problems/reverse-linked-list-ii,N,45.4%,Medium,10.81%,Linked List
+97,Interleaving String,/problems/interleaving-string,N,37.1%,Medium,16.19%,"String, Dynamic Programming"
+99,Recover Binary Search Tree,/problems/recover-binary-search-tree,N,50.4%,Medium,43.50%,"Tree, Depth-First Search, Binary Search Tree, Binary Tree"
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,1.44%,"Hash Table, Linked List, Design, Doubly-Linked List"
+173,Binary Search Tree Iterator,/problems/binary-search-tree-iterator,N,69.2%,Medium,33.69%,"Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator"
+1787,Make the XOR of All Segments Equal to Zero,/problems/make-the-xor-of-all-segments-equal-to-zero,N,39.6%,Hard,100.00%,"Array, Dynamic Programming, Bit Manipulation"
+1977,Number of Ways to Separate Numbers,/problems/number-of-ways-to-separate-numbers,N,20.9%,Hard,73.02%,
+1994,The Number of Good Subsets,/problems/the-number-of-good-subsets,N,34.1%,Hard,70.48%,
+1222,Queens That Can Attack the King,/problems/queens-that-can-attack-the-king,N,68.8%,Medium,0.00%,
+1266,Minimum Time Visiting All Points,/problems/minimum-time-visiting-all-points,N,79.6%,Easy,0.00%,"Array, Math, Geometry"

@@ -1,18 +1,18 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,100.00%
-274,H-Index,/problems/h-index,N,36.1%,Medium,0.19%
-146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.15%
-149,Max Points on a Line,/problems/max-points-on-a-line,N,16.9%,Hard,0.14%
-1213,Intersection of Three Sorted Arrays,/problems/intersection-of-three-sorted-arrays,N,78.9%,Easy,0.10%
-73,Set Matrix Zeroes,/problems/set-matrix-zeroes,N,43.1%,Medium,0.08%
-692,Top K Frequent Words,/problems/top-k-frequent-words,N,51.8%,Medium,0.06%
-528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.06%
-65,Valid Number,/problems/valid-number,N,15.3%,Hard,0.05%
-206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.04%
-98,Validate Binary Search Tree,/problems/validate-binary-search-tree,N,27.8%,Medium,0.03%
-1002,Find Common Characters,/problems/find-common-characters,N,67.7%,Easy,0.03%
-33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%
-384,Shuffle an Array,/problems/shuffle-an-array,N,52.8%,Medium,0.01%
-101,Symmetric Tree,/problems/symmetric-tree,N,46.8%,Easy,0.01%
-70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.01%
-139,Word Break,/problems/word-break,N,40.1%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,100.00%,"String, Dynamic Programming, Backtracking"
+274,H-Index,/problems/h-index,N,36.1%,Medium,0.19%,"Array, Sorting, Counting Sort"
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.15%,"Hash Table, Linked List, Design, Doubly-Linked List"
+149,Max Points on a Line,/problems/max-points-on-a-line,N,16.9%,Hard,0.14%,"Array, Hash Table, Math, Geometry"
+1213,Intersection of Three Sorted Arrays,/problems/intersection-of-three-sorted-arrays,N,78.9%,Easy,0.10%,No Topics Found
+73,Set Matrix Zeroes,/problems/set-matrix-zeroes,N,43.1%,Medium,0.08%,"Array, Hash Table, Matrix"
+692,Top K Frequent Words,/problems/top-k-frequent-words,N,51.8%,Medium,0.06%,"Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting"
+528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.06%,"Array, Math, Binary Search, Prefix Sum, Randomized"
+65,Valid Number,/problems/valid-number,N,15.3%,Hard,0.05%,String
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.04%,"Linked List, Recursion"
+98,Validate Binary Search Tree,/problems/validate-binary-search-tree,N,27.8%,Medium,0.03%,"Tree, Depth-First Search, Binary Search Tree, Binary Tree"
+1002,Find Common Characters,/problems/find-common-characters,N,67.7%,Easy,0.03%,"Array, Hash Table, String"
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,34.5%,Medium,0.02%,"Array, Binary Search"
+384,Shuffle an Array,/problems/shuffle-an-array,N,52.8%,Medium,0.01%,No Topics Found
+101,Symmetric Tree,/problems/symmetric-tree,N,46.8%,Easy,0.01%,"Tree, Depth-First Search, Breadth-First Search, Binary Tree"
+70,Climbing Stairs,/problems/climbing-stairs,N,47.8%,Easy,0.01%,"Math, Dynamic Programming, Memoization"
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.00%,"Array, Hash Table, String, Dynamic Programming, Trie, Memoization"

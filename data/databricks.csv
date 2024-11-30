@@ -1,24 +1,24 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-213,House Robber II,/problems/house-robber-ii,N,40.7%,Medium,2.17%
-311,Sparse Matrix Multiplication,/problems/sparse-matrix-multiplication,Y,67.1%,Medium,17.73%
-362,Design Hit Counter,/problems/design-hit-counter,Y,68.4%,Medium,59.99%
-420,Strong Password Checker,/problems/strong-password-checker,N,14.3%,Hard,13.32%
-751,IP to CIDR,/problems/ip-to-cidr,Y,54.7%,Medium,100.00%
-981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.4%,Medium,9.99%
-1242,Web Crawler Multithreaded,/problems/web-crawler-multithreaded,Y,49.1%,Medium,57.74%
-742,Closest Leaf in a Binary Tree,/problems/closest-leaf-in-a-binary-tree,N,43.6%,Medium,1.18%
-380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.98%
-41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.97%
-314,Binary Tree Vertical Order Traversal,/problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.91%
-722,Remove Comments,/problems/remove-comments,N,34.6%,Medium,0.71%
-91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.54%
-218,The Skyline Problem,/problems/the-skyline-problem,N,34.6%,Hard,0.42%
-614,Second Degree Follower,/problems/second-degree-follower,N,30.3%,Medium,0.30%
-239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.18%
-426,Convert Binary Search Tree to Sorted Doubly Linked List,/problems/convert-binary-search-tree-to-sorted-doubly-linked-list,N,59.1%,Medium,0.09%
-381,Insert Delete GetRandom O(1) - Duplicates allowed,/problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.09%
-987,Vertical Order Traversal of a Binary Tree,/problems/vertical-order-traversal-of-a-binary-tree,N,36.6%,Medium,0.07%
-42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.07%
-350,Intersection of Two Arrays II,/problems/intersection-of-two-arrays-ii,N,51.4%,Easy,0.01%
-10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.01%
-114,Flatten Binary Tree to Linked List,/problems/flatten-binary-tree-to-linked-list,N,49.3%,Medium,0.01%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+213,House Robber II,/problems/house-robber-ii,N,40.7%,Medium,2.17%,"Array, Dynamic Programming"
+311,Sparse Matrix Multiplication,/problems/sparse-matrix-multiplication,Y,67.1%,Medium,17.73%,No Topics Found
+362,Design Hit Counter,/problems/design-hit-counter,Y,68.4%,Medium,59.99%,No Topics Found
+420,Strong Password Checker,/problems/strong-password-checker,N,14.3%,Hard,13.32%,"String, Greedy, Heap (Priority Queue)"
+751,IP to CIDR,/problems/ip-to-cidr,Y,54.7%,Medium,100.00%,No Topics Found
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.4%,Medium,9.99%,"Hash Table, String, Binary Search, Design"
+1242,Web Crawler Multithreaded,/problems/web-crawler-multithreaded,Y,49.1%,Medium,57.74%,No Topics Found
+742,Closest Leaf in a Binary Tree,/problems/closest-leaf-in-a-binary-tree,N,43.6%,Medium,1.18%,No Topics Found
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.98%,"Array, Hash Table, Math, Design, Randomized"
+41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.97%,"Array, Hash Table"
+314,Binary Tree Vertical Order Traversal,/problems/binary-tree-vertical-order-traversal,N,45.3%,Medium,0.91%,No Topics Found
+722,Remove Comments,/problems/remove-comments,N,34.6%,Medium,0.71%,
+91,Decode Ways,/problems/decode-ways,N,24.7%,Medium,0.54%,"String, Dynamic Programming"
+218,The Skyline Problem,/problems/the-skyline-problem,N,34.6%,Hard,0.42%,"Array, Divide and Conquer, Binary Indexed Tree, Segment Tree, Line Sweep, Heap (Priority Queue), Ordered Set"
+614,Second Degree Follower,/problems/second-degree-follower,N,30.3%,Medium,0.30%,No Topics Found
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,43.0%,Hard,0.18%,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue"
+426,Convert Binary Search Tree to Sorted Doubly Linked List,/problems/convert-binary-search-tree-to-sorted-doubly-linked-list,N,59.1%,Medium,0.09%,No Topics Found
+381,Insert Delete GetRandom O(1) - Duplicates allowed,/problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.09%,"Array, Hash Table, Math, Design, Randomized"
+987,Vertical Order Traversal of a Binary Tree,/problems/vertical-order-traversal-of-a-binary-tree,N,36.6%,Medium,0.07%,"Hash Table, Tree, Depth-First Search, Breadth-First Search, Sorting, Binary Tree"
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.07%,No Topics Found
+350,Intersection of Two Arrays II,/problems/intersection-of-two-arrays-ii,N,51.4%,Easy,0.01%,"Array, Hash Table, Two Pointers, Binary Search, Sorting"
+10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.01%,"String, Dynamic Programming, Recursion"
+114,Flatten Binary Tree to Linked List,/problems/flatten-binary-tree-to-linked-list,N,49.3%,Medium,0.01%,"Linked List, Stack, Tree, Depth-First Search, Binary Tree"

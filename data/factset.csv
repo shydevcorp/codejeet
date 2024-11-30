@@ -1,9 +1,9 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-179,Largest Number,/problems/largest-number,N,34.1%,Medium,100.00%
-881,Boats to Save People,/problems/boats-to-save-people,N,46.8%,Medium,0.14%
-168,Excel Sheet Column Title,/problems/excel-sheet-column-title,N,31.1%,Easy,0.13%
-171,Excel Sheet Column Number,/problems/excel-sheet-column-number,N,55.9%,Easy,0.08%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.03%
-206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.01%
-1081,Smallest Subsequence of Distinct Characters,/problems/smallest-subsequence-of-distinct-characters,N,50.4%,Medium,0.00%
-1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.9%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+179,Largest Number,/problems/largest-number,N,34.1%,Medium,100.00%,"Array, String, Greedy, Sorting"
+881,Boats to Save People,/problems/boats-to-save-people,N,46.8%,Medium,0.14%,"Array, Two Pointers, Greedy, Sorting"
+168,Excel Sheet Column Title,/problems/excel-sheet-column-title,N,31.1%,Easy,0.13%,"Math, String"
+171,Excel Sheet Column Number,/problems/excel-sheet-column-number,N,55.9%,Easy,0.08%,"Math, String"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.03%,"Array, Hash Table"
+206,Reverse Linked List,/problems/reverse-linked-list,N,62.5%,Easy,0.01%,"Linked List, Recursion"
+1081,Smallest Subsequence of Distinct Characters,/problems/smallest-subsequence-of-distinct-characters,N,50.4%,Medium,0.00%,"String, Stack, Greedy, Monotonic Stack"
+1209,Remove All Adjacent Duplicates in String II,/problems/remove-all-adjacent-duplicates-in-string-ii,N,56.9%,Medium,0.00%,"String, Stack"

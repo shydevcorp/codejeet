@@ -1,17 +1,17 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-1,Two Sum,/problems/two-sum,N,49.1%,Easy,2.36%
-88,Merge Sorted Array,/problems/merge-sorted-array,N,45.8%,Easy,5.37%
-121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,2.87%
-564,Find the Closest Palindrome,/problems/find-the-closest-palindrome,N,21.9%,Hard,53.96%
-871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.00%
-509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,7.91%
-160,Intersection of Two Linked Lists,/problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.06%
-17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.04%
-20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.04%
-53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.03%
-146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.02%
-242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.02%
-41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%
-50,Pow(x;n),/problems/powx-n,N,30.3%,Medium,0.01%
-155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.00%
-1217,Play with Chips,/problems/play-with-chips,N,64.2%,Easy,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,2.36%,"Array, Hash Table"
+88,Merge Sorted Array,/problems/merge-sorted-array,N,45.8%,Easy,5.37%,"Array, Two Pointers, Sorting"
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,2.87%,"Array, Dynamic Programming"
+564,Find the Closest Palindrome,/problems/find-the-closest-palindrome,N,21.9%,Hard,53.96%,"Math, String"
+871,Minimum Number of Refueling Stops,/problems/minimum-number-of-refueling-stops,N,39.9%,Hard,100.00%,"Array, Dynamic Programming, Greedy, Heap (Priority Queue)"
+509,Fibonacci Number,/problems/fibonacci-number,N,69.2%,Easy,7.91%,"Math, Dynamic Programming, Recursion, Memoization"
+160,Intersection of Two Linked Lists,/problems/intersection-of-two-linked-lists,N,40.6%,Easy,0.06%,No Topics Found
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,46.8%,Medium,0.04%,"Hash Table, String, Backtracking"
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.04%,"String, Stack"
+53,Maximum Subarray,/problems/maximum-subarray,N,46.5%,Easy,0.03%,"Array, Divide and Conquer, Dynamic Programming"
+146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.02%,"Hash Table, Linked List, Design, Doubly-Linked List"
+242,Valid Anagram,/problems/valid-anagram,N,56.9%,Easy,0.02%,"Hash Table, String, Sorting"
+41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.01%,"Array, Hash Table"
+50,Pow(x;n),/problems/powx-n,N,30.3%,Medium,0.01%,"Math, Recursion"
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.00%,"Stack, Design"
+1217,Play with Chips,/problems/play-with-chips,N,64.2%,Easy,0.00%,"Array, Math, Greedy"

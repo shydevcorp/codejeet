@@ -1,2 +1,2 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-64,Minimum Path Sum,/problems/minimum-path-sum,N,60.7%,Medium,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+64,Minimum Path Sum,/problems/minimum-path-sum,N,60.7%,Medium,100.00%,"Array, Dynamic Programming, Matrix"

@@ -1,64 +1,64 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-45,Jump Game II,/problems/jump-game-ii,N,38.6%,Medium,2.74%
-84,Largest Rectangle in Histogram,/problems/largest-rectangle-in-histogram,N,42.2%,Hard,4.36%
-113,Path Sum II,/problems/path-sum-ii,N,56.7%,Medium,6.11%
-124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,38.5%,Hard,55.11%
-146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,9.23%
-200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,0.65%
-224,Basic Calculator,/problems/basic-calculator,N,41.2%,Hard,6.95%
-227,Basic Calculator II,/problems/basic-calculator-ii,N,42.2%,Medium,8.30%
-239,Sliding Window Maximum,/problems/sliding-window-maximum,N,46.6%,Hard,5.37%
-273,Integer to English Words,/problems/integer-to-english-words,N,29.9%,Hard,14.25%
-286,Walls and Gates,/problems/walls-and-gates,Y,60.3%,Medium,79.36%
-289,Game of Life,/problems/game-of-life,N,66.8%,Medium,12.77%
-297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,55.0%,Hard,9.55%
-317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,Y,42.9%,Hard,45.09%
-329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,52.2%,Hard,32.99%
-463,Island Perimeter,/problems/island-perimeter,N,69.5%,Easy,3.85%
-542,01 Matrix,/problems/01-matrix,N,44.2%,Medium,2.07%
-1730,Shortest Path to Get Food,/problems/shortest-path-to-get-food,Y,54.1%,Medium,25.85%
-556,Next Greater Element III,/problems/next-greater-element-iii,N,34.1%,Medium,23.70%
-588,Design In-Memory File System,/problems/design-in-memory-file-system,Y,48.8%,Hard,28.10%
-658,Find K Closest Elements,/problems/find-k-closest-elements,N,46.8%,Medium,3.21%
-694,Number of Distinct Islands,/problems/number-of-distinct-islands,Y,60.6%,Medium,9.98%
-735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,16.53%
-428,Serialize and Deserialize N-ary Tree,/problems/serialize-and-deserialize-n-ary-tree,Y,65.5%,Hard,14.45%
-778,Swim in Rising Water,/problems/swim-in-rising-water,N,59.7%,Hard,40.17%
-826,Most Profit Assigning Work,/problems/most-profit-assigning-work,N,44.5%,Medium,52.66%
-827,Making A Large Island,/problems/making-a-large-island,N,44.7%,Hard,21.16%
-838,Push Dominoes,/problems/push-dominoes,N,57.0%,Medium,14.45%
-859,Buddy Strings,/problems/buddy-strings,N,29.1%,Easy,78.40%
-875,Koko Eating Bananas,/problems/koko-eating-bananas,N,52.2%,Medium,13.32%
-886,Possible Bipartition,/problems/possible-bipartition,N,48.4%,Medium,16.27%
-1029,Two City Scheduling,/problems/two-city-scheduling,N,64.7%,Medium,6.23%
-1102,Path With Maximum Minimum Value,/problems/path-with-maximum-minimum-value,Y,53.3%,Medium,21.16%
-1166,Design File System,/problems/design-file-system,Y,62.0%,Medium,100.00%
-1143,Longest Common Subsequence,/problems/longest-common-subsequence,N,58.8%,Medium,7.07%
-1235,Maximum Profit in Job Scheduling,/problems/maximum-profit-in-job-scheduling,N,51.2%,Hard,53.29%
-1268,Search Suggestions System,/problems/search-suggestions-system,N,66.5%,Medium,17.36%
-1293,Shortest Path in a Grid with Obstacles Elimination,/problems/shortest-path-in-a-grid-with-obstacles-elimination,N,45.6%,Hard,6.96%
-1359,Count All Valid Pickup and Delivery Options,/problems/count-all-valid-pickup-and-delivery-options,N,62.9%,Hard,23.39%
-1347,Minimum Number of Steps to Make Two Strings Anagram,/problems/minimum-number-of-steps-to-make-two-strings-anagram,N,77.4%,Medium,75.76%
-1472,Design Browser History,/problems/design-browser-history,N,76.1%,Medium,5.32%
-1779,Find Nearest Point That Has the Same X or Y Coordinate,/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate,N,67.2%,Easy,29.64%
-1790,Check if One String Swap Can Make Strings Equal,/problems/check-if-one-string-swap-can-make-strings-equal,N,45.6%,Easy,10.23%
-2065,Maximum Path Quality of a Graph,/problems/maximum-path-quality-of-a-graph,N,57.7%,Hard,43.35%
-2444,Count Subarrays With Fixed Bounds,/problems/count-subarrays-with-fixed-bounds,N,43.0%,Hard,24.86%
-759,Employee Free Time,/problems/employee-free-time,N,66.3%,Hard,1.43%
-695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,1.09%
-1229,Meeting Scheduler,/problems/meeting-scheduler,N,52.7%,Medium,0.75%
-355,Design Twitter,/problems/design-twitter,N,30.3%,Medium,0.67%
-121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.33%
-210,Course Schedule II,/problems/course-schedule-ii,N,40.7%,Medium,0.13%
-1174,Immediate Food Delivery II,/problems/immediate-food-delivery-ii,N,58.5%,Medium,0.13%
-56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.07%
-1173,Immediate Food Delivery I,/problems/immediate-food-delivery-i,N,80.4%,Easy,0.07%
-37,Sudoku Solver,/problems/sudoku-solver,N,43.6%,Hard,0.04%
-528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.03%
-15,3Sum,/problems/3sum,N,26.8%,Medium,0.03%
-348,Design Tic-Tac-Toe,/problems/design-tic-tac-toe,N,54.3%,Medium,0.02%
-269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.01%
-986,Interval List Intersections,/problems/interval-list-intersections,N,67.3%,Medium,0.01%
-36,Valid Sudoku,/problems/valid-sudoku,N,48.7%,Medium,0.01%
-20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.00%
-772,Basic Calculator III,/problems/basic-calculator-iii,N,41.3%,Hard,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+45,Jump Game II,/problems/jump-game-ii,N,38.6%,Medium,2.74%,"Array, Dynamic Programming, Greedy"
+84,Largest Rectangle in Histogram,/problems/largest-rectangle-in-histogram,N,42.2%,Hard,4.36%,"Array, Stack, Monotonic Stack"
+113,Path Sum II,/problems/path-sum-ii,N,56.7%,Medium,6.11%,"Backtracking, Tree, Depth-First Search, Binary Tree"
+124,Binary Tree Maximum Path Sum,/problems/binary-tree-maximum-path-sum,N,38.5%,Hard,55.11%,"Dynamic Programming, Tree, Depth-First Search, Binary Tree"
+146,LRU Cache,/problems/lru-cache,N,40.5%,Medium,9.23%,"Hash Table, Linked List, Design, Doubly-Linked List"
+200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,0.65%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+224,Basic Calculator,/problems/basic-calculator,N,41.2%,Hard,6.95%,"Math, String, Stack, Recursion"
+227,Basic Calculator II,/problems/basic-calculator-ii,N,42.2%,Medium,8.30%,"Math, String, Stack"
+239,Sliding Window Maximum,/problems/sliding-window-maximum,N,46.6%,Hard,5.37%,"Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue"
+273,Integer to English Words,/problems/integer-to-english-words,N,29.9%,Hard,14.25%,"Math, String, Recursion"
+286,Walls and Gates,/problems/walls-and-gates,Y,60.3%,Medium,79.36%,No Topics Found
+289,Game of Life,/problems/game-of-life,N,66.8%,Medium,12.77%,"Array, Matrix, Simulation"
+297,Serialize and Deserialize Binary Tree,/problems/serialize-and-deserialize-binary-tree,N,55.0%,Hard,9.55%,"String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree"
+317,Shortest Distance from All Buildings,/problems/shortest-distance-from-all-buildings,Y,42.9%,Hard,45.09%,No Topics Found
+329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,52.2%,Hard,32.99%,"Array, Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Topological Sort, Memoization, Matrix"
+463,Island Perimeter,/problems/island-perimeter,N,69.5%,Easy,3.85%,"Array, Depth-First Search, Breadth-First Search, Matrix"
+542,01 Matrix,/problems/01-matrix,N,44.2%,Medium,2.07%,"Array, Dynamic Programming, Breadth-First Search, Matrix"
+1730,Shortest Path to Get Food,/problems/shortest-path-to-get-food,Y,54.1%,Medium,25.85%,No Topics Found
+556,Next Greater Element III,/problems/next-greater-element-iii,N,34.1%,Medium,23.70%,"Math, Two Pointers, String"
+588,Design In-Memory File System,/problems/design-in-memory-file-system,Y,48.8%,Hard,28.10%,No Topics Found
+658,Find K Closest Elements,/problems/find-k-closest-elements,N,46.8%,Medium,3.21%,"Array, Two Pointers, Binary Search, Sliding Window, Sorting, Heap (Priority Queue)"
+694,Number of Distinct Islands,/problems/number-of-distinct-islands,Y,60.6%,Medium,9.98%,No Topics Found
+735,Asteroid Collision,/problems/asteroid-collision,N,44.4%,Medium,16.53%,"Array, Stack, Simulation"
+428,Serialize and Deserialize N-ary Tree,/problems/serialize-and-deserialize-n-ary-tree,Y,65.5%,Hard,14.45%,No Topics Found
+778,Swim in Rising Water,/problems/swim-in-rising-water,N,59.7%,Hard,40.17%,"Array, Binary Search, Depth-First Search, Breadth-First Search, Union Find, Heap (Priority Queue), Matrix"
+826,Most Profit Assigning Work,/problems/most-profit-assigning-work,N,44.5%,Medium,52.66%,"Array, Two Pointers, Binary Search, Greedy, Sorting"
+827,Making A Large Island,/problems/making-a-large-island,N,44.7%,Hard,21.16%,No Topics Found
+838,Push Dominoes,/problems/push-dominoes,N,57.0%,Medium,14.45%,"Two Pointers, String, Dynamic Programming"
+859,Buddy Strings,/problems/buddy-strings,N,29.1%,Easy,78.40%,No Topics Found
+875,Koko Eating Bananas,/problems/koko-eating-bananas,N,52.2%,Medium,13.32%,"Array, Binary Search"
+886,Possible Bipartition,/problems/possible-bipartition,N,48.4%,Medium,16.27%,"Depth-First Search, Breadth-First Search, Union Find, Graph"
+1029,Two City Scheduling,/problems/two-city-scheduling,N,64.7%,Medium,6.23%,"Array, Greedy, Sorting"
+1102,Path With Maximum Minimum Value,/problems/path-with-maximum-minimum-value,Y,53.3%,Medium,21.16%,No Topics Found
+1166,Design File System,/problems/design-file-system,Y,62.0%,Medium,100.00%,No Topics Found
+1143,Longest Common Subsequence,/problems/longest-common-subsequence,N,58.8%,Medium,7.07%,"String, Dynamic Programming"
+1235,Maximum Profit in Job Scheduling,/problems/maximum-profit-in-job-scheduling,N,51.2%,Hard,53.29%,"Array, Binary Search, Dynamic Programming, Sorting"
+1268,Search Suggestions System,/problems/search-suggestions-system,N,66.5%,Medium,17.36%,"Array, String, Binary Search, Trie, Sorting, Heap (Priority Queue)"
+1293,Shortest Path in a Grid with Obstacles Elimination,/problems/shortest-path-in-a-grid-with-obstacles-elimination,N,45.6%,Hard,6.96%,"Array, Breadth-First Search, Matrix"
+1359,Count All Valid Pickup and Delivery Options,/problems/count-all-valid-pickup-and-delivery-options,N,62.9%,Hard,23.39%,"Math, Dynamic Programming, Combinatorics"
+1347,Minimum Number of Steps to Make Two Strings Anagram,/problems/minimum-number-of-steps-to-make-two-strings-anagram,N,77.4%,Medium,75.76%,"Hash Table, String, Counting"
+1472,Design Browser History,/problems/design-browser-history,N,76.1%,Medium,5.32%,"Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream"
+1779,Find Nearest Point That Has the Same X or Y Coordinate,/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate,N,67.2%,Easy,29.64%,Array
+1790,Check if One String Swap Can Make Strings Equal,/problems/check-if-one-string-swap-can-make-strings-equal,N,45.6%,Easy,10.23%,"Hash Table, String, Counting"
+2065,Maximum Path Quality of a Graph,/problems/maximum-path-quality-of-a-graph,N,57.7%,Hard,43.35%,"Array, Backtracking, Graph"
+2444,Count Subarrays With Fixed Bounds,/problems/count-subarrays-with-fixed-bounds,N,43.0%,Hard,24.86%,"Array, Queue, Sliding Window, Monotonic Queue"
+759,Employee Free Time,/problems/employee-free-time,N,66.3%,Hard,1.43%,No Topics Found
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,1.09%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+1229,Meeting Scheduler,/problems/meeting-scheduler,N,52.7%,Medium,0.75%,No Topics Found
+355,Design Twitter,/problems/design-twitter,N,30.3%,Medium,0.67%,"Hash Table, Linked List, Design, Heap (Priority Queue)"
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,50.5%,Easy,0.33%,"Array, Dynamic Programming"
+210,Course Schedule II,/problems/course-schedule-ii,N,40.7%,Medium,0.13%,"Depth-First Search, Breadth-First Search, Graph, Topological Sort"
+1174,Immediate Food Delivery II,/problems/immediate-food-delivery-ii,N,58.5%,Medium,0.13%,Database
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.07%,"Array, Sorting"
+1173,Immediate Food Delivery I,/problems/immediate-food-delivery-i,N,80.4%,Easy,0.07%,No Topics Found
+37,Sudoku Solver,/problems/sudoku-solver,N,43.6%,Hard,0.04%,"Array, Hash Table, Backtracking, Matrix"
+528,Random Pick with Weight,/problems/random-pick-with-weight,N,43.9%,Medium,0.03%,"Array, Math, Binary Search, Prefix Sum, Randomized"
+15,3Sum,/problems/3sum,N,26.8%,Medium,0.03%,"Array, Two Pointers, Sorting"
+348,Design Tic-Tac-Toe,/problems/design-tic-tac-toe,N,54.3%,Medium,0.02%,No Topics Found
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.01%,No Topics Found
+986,Interval List Intersections,/problems/interval-list-intersections,N,67.3%,Medium,0.01%,"Array, Two Pointers"
+36,Valid Sudoku,/problems/valid-sudoku,N,48.7%,Medium,0.01%,"Array, Hash Table, Matrix"
+20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.00%,"String, Stack"
+772,Basic Calculator III,/problems/basic-calculator-iii,N,41.3%,Hard,0.00%,No Topics Found

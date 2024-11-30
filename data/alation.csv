@@ -1,5 +1,5 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,62.77%
-121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,25.55%
-274,H-Index,/problems/h-index,N,38.2%,Medium,100.00%
-3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.14%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,62.77%,"Array, Hash Table, String, Sorting"
+121,Best Time to Buy and Sell Stock,/problems/best-time-to-buy-and-sell-stock,N,54.4%,Easy,25.55%,"Array, Dynamic Programming"
+274,H-Index,/problems/h-index,N,38.2%,Medium,100.00%,"Array, Sorting, Counting Sort"
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,30.4%,Medium,0.14%,"Hash Table, String, Sliding Window"

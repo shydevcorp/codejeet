@@ -1,2 +1,2 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,100.00%,"Array, Math, Matrix"

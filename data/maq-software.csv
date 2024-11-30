@@ -1,3 +1,3 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-84,Largest Rectangle in Histogram,/problems/largest-rectangle-in-histogram,N,42.2%,Hard,100.00%
-467,Unique Substrings in Wraparound String,/problems/unique-substrings-in-wraparound-string,N,35.6%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+84,Largest Rectangle in Histogram,/problems/largest-rectangle-in-histogram,N,42.2%,Hard,100.00%,"Array, Stack, Monotonic Stack"
+467,Unique Substrings in Wraparound String,/problems/unique-substrings-in-wraparound-string,N,35.6%,Medium,0.00%,

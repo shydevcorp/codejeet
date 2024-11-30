@@ -1,11 +1,11 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,50.00%
-332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,41.0%,Hard,100.00%
-981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.07%
-185,Department Top Three Salaries,/problems/department-top-three-salaries,N,34.5%,Hard,0.07%
-56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.06%
-295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.04%
-362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.03%
-34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.01%
-155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.00%
-88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,50.00%,"String, Stack"
+332,Reconstruct Itinerary,/problems/reconstruct-itinerary,N,41.0%,Hard,100.00%,"Depth-First Search, Graph, Eulerian Circuit"
+981,Time Based Key-Value Store,/problems/time-based-key-value-store,N,53.1%,Medium,0.07%,"Hash Table, String, Binary Search, Design"
+185,Department Top Three Salaries,/problems/department-top-three-salaries,N,34.5%,Hard,0.07%,Database
+56,Merge Intervals,/problems/merge-intervals,N,39.3%,Medium,0.06%,"Array, Sorting"
+295,Find Median from Data Stream,/problems/find-median-from-data-stream,N,44.3%,Hard,0.04%,"Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream"
+362,Design Hit Counter,/problems/design-hit-counter,N,63.7%,Medium,0.03%,No Topics Found
+34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,36.2%,Medium,0.01%,"Array, Binary Search"
+155,Min Stack,/problems/min-stack,N,44.5%,Easy,0.00%,"Stack, Design"
+88,Merge Sorted Array,/problems/merge-sorted-array,N,39.4%,Easy,0.00%,"Array, Two Pointers, Sorting"

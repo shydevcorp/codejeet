@@ -1,20 +1,6 @@
 import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
 import { NextResponse } from "next/server";
-
-const apiKey = process.env.GEMINI_API_KEY;
-if (!apiKey) {
-  throw new Error("GEMINI_API_KEY is not configured");
-}
-const genAI = new GoogleGenerativeAI(apiKey);
-
-const getLanguageSpecificInstructions = (language: string): string => {
-  switch (language.toLowerCase()) {
-    case "cpp":
-      return "Generate answer using namespace std. Do not mention the library imports and 'using namespace std;' at top and";
-    default:
-      return "";
-  }
-};
+import { Headers } from "node-fetch";
 
 export async function GET(request: Request) {
   try {
@@ -33,9 +19,26 @@ export async function GET(request: Request) {
       throw new Error("GEMINI_API_KEY is not configured");
     }
 
+    const apiKey =
+      new Headers(request.headers).get("x-gemini-key") ||
+      process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+      throw new Error("GEMINI_API_KEY is not configured");
+    }
+    const genAI = new GoogleGenerativeAI(apiKey);
+
     const model: GenerativeModel = genAI.getGenerativeModel({
       model: "gemini-1.5-flash",
     });
+
+    const getLanguageSpecificInstructions = (language: string): string => {
+      switch (language.toLowerCase()) {
+        case "cpp":
+          return "Generate answer using namespace std. Do not mention the library imports and 'using namespace std;' at top and";
+        default:
+          return "";
+      }
+    };
 
     const languageInstructions = getLanguageSpecificInstructions(language);
     const prompt = `${languageInstructions} provide the solution (in ${language.toUpperCase()}) without any comments for LeetCode problem #${id}.`;

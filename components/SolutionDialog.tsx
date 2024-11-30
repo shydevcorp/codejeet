@@ -13,13 +13,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import ReactMarkdown, { Components } from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface SolutionDialogProps {
   questionId: string;
@@ -30,15 +24,22 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
   const [solution, setSolution] = React.useState<string>("");
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
-  const [language, setLanguage] = React.useState("cpp");
+  const { preferredLanguage } = useLanguage();
 
-  const fetchSolution = async (selectedLang = language) => {
+  const fetchSolution = async () => {
     setLoading(true);
     setError(null);
 
     try {
+      const geminiKey = localStorage.getItem("gemini-key");
+      const headers: HeadersInit = {};
+      if (geminiKey) {
+        headers["x-gemini-key"] = geminiKey;
+      }
+
       const response = await fetch(
-        `/api/solutions?id=${questionId}&language=${selectedLang}`
+        `/api/solutions?id=${questionId}&language=${preferredLanguage}`,
+        { headers }
       );
       const contentType = response.headers.get("content-type") || "";
 
@@ -112,28 +113,6 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>
-
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-sm font-medium">Select Language:</span>
-          <Select
-            defaultValue="cpp"
-            onValueChange={(value) => {
-              setLanguage(value);
-              fetchSolution(value);
-            }}
-          >
-            <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder="Select Language" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="cpp">C++</SelectItem>
-              <SelectItem value="c">C</SelectItem>
-              <SelectItem value="java">Java</SelectItem>
-              <SelectItem value="python">Python</SelectItem>
-              <SelectItem value="javascript">JavaScript</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
 
         <div className="mt-4">
           {loading && <Skeleton className="h-20 w-full" />}

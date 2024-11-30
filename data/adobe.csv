@@ -1,42 +1,42 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-1,Two Sum,/problems/two-sum,N,49.1%,Easy,90.26%
-2,Add Two Numbers,/problems/add-two-numbers,N,39.8%,Medium,40.33%
-3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,22.79%
-4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,35.3%,Hard,26.71%
-5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,32.4%,Medium,15.35%
-7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,20.13%
-8,String to Integer (atoi),/problems/string-to-integer-atoi,N,16.6%,Medium,7.17%
-9,Palindrome Number,/problems/palindrome-number,N,52.9%,Easy,1.50%
-11,Container With Most Water,/problems/container-with-most-water,N,54.3%,Medium,12.25%
-12,Integer to Roman,/problems/integer-to-roman,N,61.5%,Medium,3.09%
-13,Roman to Integer,/problems/roman-to-integer,N,58.2%,Easy,87.14%
-14,Longest Common Prefix,/problems/longest-common-prefix,N,40.8%,Easy,5.12%
-15,3Sum,/problems/3sum,N,32.3%,Medium,22.29%
-16,3Sum Closest,/problems/3sum-closest,N,46.1%,Medium,39.64%
-17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,55.7%,Medium,5.10%
-19,Remove Nth Node From End of List,/problems/remove-nth-node-from-end-of-list,N,40.0%,Medium,10.75%
-20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,33.38%
-21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,61.9%,Easy,10.79%
-22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,35.20%
-23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,5.68%
-24,Swap Nodes in Pairs,/problems/swap-nodes-in-pairs,N,60.5%,Medium,26.58%
-25,Reverse Nodes in k-Group,/problems/reverse-nodes-in-k-group,N,53.7%,Hard,16.43%
-26,Remove Duplicates from Sorted Array,/problems/remove-duplicates-from-sorted-array,N,50.9%,Easy,3.61%
-27,Remove Element,/problems/remove-element,N,52.2%,Easy,1.36%
-28,Find the Index of the First Occurrence in a String,/problems/find-the-index-of-the-first-occurrence-in-a-string,N,37.6%,Medium,2.30%
-29,Divide Two Integers,/problems/divide-two-integers,N,17.3%,Medium,2.70%
-30,Substring with Concatenation of All Words,/problems/substring-with-concatenation-of-all-words,N,30.9%,Hard,9.92%
-31,Next Permutation,/problems/next-permutation,N,37.2%,Medium,22.62%
-33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,38.7%,Medium,7.98%
-34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,41.6%,Medium,15.89%
-35,Search Insert Position,/problems/search-insert-position,N,42.0%,Easy,1.03%
-36,Valid Sudoku,/problems/valid-sudoku,N,56.9%,Medium,5.40%
-37,Sudoku Solver,/problems/sudoku-solver,N,56.8%,Hard,7.73%
-38,Count and Say,/problems/count-and-say,N,51.3%,Medium,24.09%
-41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,7.15%
-42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,17.83%
-44,Wildcard Matching,/problems/wildcard-matching,N,26.8%,Hard,7.11%
-45,Jump Game II,/problems/jump-game-ii,N,38.6%,Medium,6.57%
-46,Permutations,/problems/permutations,N,74.9%,Medium,8.46%
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,44.09%
-49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,18.05%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+1,Two Sum,/problems/two-sum,N,49.1%,Easy,90.26%,"Array, Hash Table"
+2,Add Two Numbers,/problems/add-two-numbers,N,39.8%,Medium,40.33%,"Linked List, Math, Recursion"
+3,Longest Substring Without Repeating Characters,/problems/longest-substring-without-repeating-characters,N,33.8%,Medium,22.79%,"Hash Table, String, Sliding Window"
+4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,35.3%,Hard,26.71%,"Array, Binary Search, Divide and Conquer"
+5,Longest Palindromic Substring,/problems/longest-palindromic-substring,N,32.4%,Medium,15.35%,"Two Pointers, String, Dynamic Programming"
+7,Reverse Integer,/problems/reverse-integer,N,27.2%,Medium,20.13%,No Topics Found
+8,String to Integer (atoi),/problems/string-to-integer-atoi,N,16.6%,Medium,7.17%,String
+9,Palindrome Number,/problems/palindrome-number,N,52.9%,Easy,1.50%,Math
+11,Container With Most Water,/problems/container-with-most-water,N,54.3%,Medium,12.25%,"Array, Two Pointers, Greedy"
+12,Integer to Roman,/problems/integer-to-roman,N,61.5%,Medium,3.09%,"Hash Table, Math, String"
+13,Roman to Integer,/problems/roman-to-integer,N,58.2%,Easy,87.14%,"Hash Table, Math, String"
+14,Longest Common Prefix,/problems/longest-common-prefix,N,40.8%,Easy,5.12%,"String, Trie"
+15,3Sum,/problems/3sum,N,32.3%,Medium,22.29%,"Array, Two Pointers, Sorting"
+16,3Sum Closest,/problems/3sum-closest,N,46.1%,Medium,39.64%,No Topics Found
+17,Letter Combinations of a Phone Number,/problems/letter-combinations-of-a-phone-number,N,55.7%,Medium,5.10%,"Hash Table, String, Backtracking"
+19,Remove Nth Node From End of List,/problems/remove-nth-node-from-end-of-list,N,40.0%,Medium,10.75%,"Linked List, Two Pointers"
+20,Valid Parentheses,/problems/valid-parentheses,N,40.6%,Easy,33.38%,"String, Stack"
+21,Merge Two Sorted Lists,/problems/merge-two-sorted-lists,N,61.9%,Easy,10.79%,"Linked List, Recursion"
+22,Generate Parentheses,/problems/generate-parentheses,N,71.9%,Medium,35.20%,"String, Dynamic Programming, Backtracking"
+23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,48.5%,Hard,5.68%,"Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort"
+24,Swap Nodes in Pairs,/problems/swap-nodes-in-pairs,N,60.5%,Medium,26.58%,"Linked List, Recursion"
+25,Reverse Nodes in k-Group,/problems/reverse-nodes-in-k-group,N,53.7%,Hard,16.43%,"Linked List, Recursion"
+26,Remove Duplicates from Sorted Array,/problems/remove-duplicates-from-sorted-array,N,50.9%,Easy,3.61%,"Array, Two Pointers"
+27,Remove Element,/problems/remove-element,N,52.2%,Easy,1.36%,"Array, Two Pointers"
+28,Find the Index of the First Occurrence in a String,/problems/find-the-index-of-the-first-occurrence-in-a-string,N,37.6%,Medium,2.30%,"Two Pointers, String, String Matching"
+29,Divide Two Integers,/problems/divide-two-integers,N,17.3%,Medium,2.70%,"Math, Bit Manipulation"
+30,Substring with Concatenation of All Words,/problems/substring-with-concatenation-of-all-words,N,30.9%,Hard,9.92%,"Hash Table, String, Sliding Window"
+31,Next Permutation,/problems/next-permutation,N,37.2%,Medium,22.62%,"Array, Two Pointers"
+33,Search in Rotated Sorted Array,/problems/search-in-rotated-sorted-array,N,38.7%,Medium,7.98%,"Array, Binary Search"
+34,Find First and Last Position of Element in Sorted Array,/problems/find-first-and-last-position-of-element-in-sorted-array,N,41.6%,Medium,15.89%,"Array, Binary Search"
+35,Search Insert Position,/problems/search-insert-position,N,42.0%,Easy,1.03%,"Array, Binary Search"
+36,Valid Sudoku,/problems/valid-sudoku,N,56.9%,Medium,5.40%,"Array, Hash Table, Matrix"
+37,Sudoku Solver,/problems/sudoku-solver,N,56.8%,Hard,7.73%,"Array, Hash Table, Backtracking, Matrix"
+38,Count and Say,/problems/count-and-say,N,51.3%,Medium,24.09%,String
+41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,7.15%,"Array, Hash Table"
+42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,17.83%,No Topics Found
+44,Wildcard Matching,/problems/wildcard-matching,N,26.8%,Hard,7.11%,"String, Dynamic Programming, Greedy, Recursion"
+45,Jump Game II,/problems/jump-game-ii,N,38.6%,Medium,6.57%,"Array, Dynamic Programming, Greedy"
+46,Permutations,/problems/permutations,N,74.9%,Medium,8.46%,"Array, Backtracking"
+48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,44.09%,"Array, Math, Matrix"
+49,Group Anagrams,/problems/group-anagrams,N,66.5%,Medium,18.05%,"Array, Hash Table, String, Sorting"

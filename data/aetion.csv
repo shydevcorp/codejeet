@@ -1,4 +1,4 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-413,Arithmetic Slices,/problems/arithmetic-slices,N,65.1%,Medium,100.00%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.05%
-2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.02%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+413,Arithmetic Slices,/problems/arithmetic-slices,N,65.1%,Medium,100.00%,"Array, Dynamic Programming, Sliding Window"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.05%,"Array, Hash Table"
+2,Add Two Numbers,/problems/add-two-numbers,N,33.9%,Medium,0.02%,"Linked List, Math, Recursion"

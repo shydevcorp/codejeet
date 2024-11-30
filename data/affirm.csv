@@ -1,13 +1,13 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-362,Design Hit Counter,/problems/design-hit-counter,Y,68.4%,Medium,100.00%
-380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,52.0%,Medium,50.00%
-736,Parse Lisp Expression,/problems/parse-lisp-expression,N,47.5%,Hard,1.01%
-381,Insert Delete GetRandom O(1) - Duplicates allowed,/problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.69%
-695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.52%
-49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.09%
-42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.08%
-127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.07%
-200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.05%
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.04%
-322,Coin Change,/problems/coin-change,N,35.5%,Medium,0.02%
-230,Kth Smallest Element in a BST,/problems/kth-smallest-element-in-a-bst,N,60.2%,Medium,0.01%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+362,Design Hit Counter,/problems/design-hit-counter,Y,68.4%,Medium,100.00%,No Topics Found
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,52.0%,Medium,50.00%,"Array, Hash Table, Math, Design, Randomized"
+736,Parse Lisp Expression,/problems/parse-lisp-expression,N,47.5%,Hard,1.01%,"Hash Table, String, Stack, Recursion"
+381,Insert Delete GetRandom O(1) - Duplicates allowed,/problems/insert-delete-getrandom-o1-duplicates-allowed,N,34.1%,Hard,0.69%,"Array, Hash Table, Math, Design, Randomized"
+695,Max Area of Island,/problems/max-area-of-island,N,62.7%,Medium,0.52%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+49,Group Anagrams,/problems/group-anagrams,N,56.9%,Medium,0.09%,"Array, Hash Table, String, Sorting"
+42,Trapping Rain Water,/problems/trapping-rain-water,N,48.9%,Hard,0.08%,No Topics Found
+127,Word Ladder,/problems/word-ladder,N,29.6%,Medium,0.07%,"Hash Table, String, Breadth-First Search"
+200,Number of Islands,/problems/number-of-islands,N,46.8%,Medium,0.05%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
+1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.04%,"Array, Hash Table"
+322,Coin Change,/problems/coin-change,N,35.5%,Medium,0.02%,"Array, Dynamic Programming, Breadth-First Search"
+230,Kth Smallest Element in a BST,/problems/kth-smallest-element-in-a-bst,N,60.2%,Medium,0.01%,"Tree, Depth-First Search, Binary Search Tree, Binary Tree"

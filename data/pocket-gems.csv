@@ -1,25 +1,25 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-221,Maximal Square,/problems/maximal-square,N,44.6%,Medium,9.03%
-1428,Leftmost Column with at Least a One,/problems/leftmost-column-with-at-least-a-one,Y,53.0%,Medium,54.52%
-1761,Minimum Degree of a Connected Trio in a Graph,/problems/minimum-degree-of-a-connected-trio-in-a-graph,N,41.7%,Hard,100.00%
-740,Delete and Earn,/problems/delete-and-earn,N,48.6%,Medium,2.05%
-366,Find Leaves of Binary Tree,/problems/find-leaves-of-binary-tree,N,70.6%,Medium,1.49%
-547,Friend Circles,/problems/friend-circles,N,58.6%,Medium,0.94%
-1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,47.4%,Easy,0.81%
-41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.52%
-28,Implement strStr(),/problems/implement-strstr,N,34.5%,Easy,0.49%
-133,Clone Graph,/problems/clone-graph,N,34.8%,Medium,0.45%
-75,Sort Colors,/problems/sort-colors,N,47.3%,Medium,0.42%
-285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,0.36%
-10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.16%
-214,Shortest Palindrome,/problems/shortest-palindrome,N,29.8%,Hard,0.07%
-347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,61.2%,Medium,0.05%
-139,Word Break,/problems/word-break,N,40.1%,Medium,0.03%
-269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.03%
-215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%
-772,Basic Calculator III,/problems/basic-calculator-iii,N,41.3%,Hard,0.00%
-442,Find All Duplicates in an Array,/problems/find-all-duplicates-in-an-array,N,67.8%,Medium,0.00%
-380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.00%
-424,Longest Repeating Character Replacement,/problems/longest-repeating-character-replacement,N,47.0%,Medium,0.00%
-600,Non-negative Integers without Consecutive Ones,/problems/non-negative-integers-without-consecutive-ones,N,34.1%,Hard,0.00%
-692,Top K Frequent Words,/problems/top-k-frequent-words,N,51.8%,Medium,0.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+221,Maximal Square,/problems/maximal-square,N,44.6%,Medium,9.03%,"Array, Dynamic Programming, Matrix"
+1428,Leftmost Column with at Least a One,/problems/leftmost-column-with-at-least-a-one,Y,53.0%,Medium,54.52%,No Topics Found
+1761,Minimum Degree of a Connected Trio in a Graph,/problems/minimum-degree-of-a-connected-trio-in-a-graph,N,41.7%,Hard,100.00%,No Topics Found
+740,Delete and Earn,/problems/delete-and-earn,N,48.6%,Medium,2.05%,"Array, Hash Table, Dynamic Programming"
+366,Find Leaves of Binary Tree,/problems/find-leaves-of-binary-tree,N,70.6%,Medium,1.49%,No Topics Found
+547,Friend Circles,/problems/friend-circles,N,58.6%,Medium,0.94%,"Depth-First Search, Breadth-First Search, Union Find, Graph"
+1010,Pairs of Songs With Total Durations Divisible by 60,/problems/pairs-of-songs-with-total-durations-divisible-by-60,N,47.4%,Easy,0.81%,"Array, Hash Table, Counting"
+41,First Missing Positive,/problems/first-missing-positive,N,32.0%,Hard,0.52%,"Array, Hash Table"
+28,Implement strStr(),/problems/implement-strstr,N,34.5%,Easy,0.49%,"Two Pointers, String, String Matching"
+133,Clone Graph,/problems/clone-graph,N,34.8%,Medium,0.45%,"Hash Table, Depth-First Search, Breadth-First Search, Graph"
+75,Sort Colors,/problems/sort-colors,N,47.3%,Medium,0.42%,"Array, Two Pointers, Sorting"
+285,Inorder Successor in BST,/problems/inorder-successor-in-bst,N,40.4%,Medium,0.36%,No Topics Found
+10,Regular Expression Matching,/problems/regular-expression-matching,N,26.8%,Hard,0.16%,"String, Dynamic Programming, Recursion"
+214,Shortest Palindrome,/problems/shortest-palindrome,N,29.8%,Hard,0.07%,"String, Rolling Hash, String Matching, Hash Function"
+347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,61.2%,Medium,0.05%,"Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect"
+139,Word Break,/problems/word-break,N,40.1%,Medium,0.03%,"Array, Hash Table, String, Dynamic Programming, Trie, Memoization"
+269,Alien Dictionary,/problems/alien-dictionary,N,33.3%,Hard,0.03%,No Topics Found
+215,Kth Largest Element in an Array,/problems/kth-largest-element-in-an-array,N,55.4%,Medium,0.01%,"Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect"
+772,Basic Calculator III,/problems/basic-calculator-iii,N,41.3%,Hard,0.00%,No Topics Found
+442,Find All Duplicates in an Array,/problems/find-all-duplicates-in-an-array,N,67.8%,Medium,0.00%,"Array, Hash Table"
+380,Insert Delete GetRandom O(1),/problems/insert-delete-getrandom-o1,N,47.5%,Medium,0.00%,"Array, Hash Table, Math, Design, Randomized"
+424,Longest Repeating Character Replacement,/problems/longest-repeating-character-replacement,N,47.0%,Medium,0.00%,"Hash Table, String, Sliding Window"
+600,Non-negative Integers without Consecutive Ones,/problems/non-negative-integers-without-consecutive-ones,N,34.1%,Hard,0.00%,No Topics Found
+692,Top K Frequent Words,/problems/top-k-frequent-words,N,51.8%,Medium,0.00%,"Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting"

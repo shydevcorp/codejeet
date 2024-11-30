@@ -1,2 +1,2 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,64.8%,Medium,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+347,Top K Frequent Elements,/problems/top-k-frequent-elements,N,64.8%,Medium,100.00%,"Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect"

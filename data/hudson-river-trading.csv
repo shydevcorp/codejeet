@@ -1,6 +1,6 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %
-41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,1.82%
-67,Add Binary,/problems/add-binary,N,51.4%,Easy,3.14%
-410,Split Array Largest Sum,/problems/split-array-largest-sum,N,53.3%,Hard,25.56%
-722,Remove Comments,/problems/remove-comments,N,38.0%,Medium,62.78%
-1307,Verbal Arithmetic Puzzle,/problems/verbal-arithmetic-puzzle,N,34.8%,Hard,100.00%
+ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
+41,First Missing Positive,/problems/first-missing-positive,N,36.6%,Hard,1.82%,"Array, Hash Table"
+67,Add Binary,/problems/add-binary,N,51.4%,Easy,3.14%,No Topics Found
+410,Split Array Largest Sum,/problems/split-array-largest-sum,N,53.3%,Hard,25.56%,"Array, Binary Search, Dynamic Programming, Greedy, Prefix Sum"
+722,Remove Comments,/problems/remove-comments,N,38.0%,Medium,62.78%,
+1307,Verbal Arithmetic Puzzle,/problems/verbal-arithmetic-puzzle,N,34.8%,Hard,100.00%,"Array, Math, String, Backtracking"

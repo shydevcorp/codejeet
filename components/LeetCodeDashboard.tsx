@@ -33,6 +33,7 @@ import { VideoDialog } from "@/components/VideoDialog";
 import { SolutionDialog } from "@/components/SolutionDialog";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@clerk/nextjs";
+import { DifficultyBadge } from "@/components/ui/difficulty-badge";
 
 interface Question {
   ID: string;
@@ -43,6 +44,7 @@ interface Question {
   "Acceptance %": string;
   "Frequency %": string;
   "Is Premium": string;
+  Topics: string;
 }
 
 interface LeetCodeDashboardProps {
@@ -168,39 +170,21 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   }, [filteredQuestions, currentPage]);
 
   const goToNextPage = () => {
-    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+    setCurrentPage((prev) => {
+      const nextPage = Math.min(prev + 1, totalPages);
+      return nextPage > totalPages ? totalPages : nextPage;
+    });
   };
 
   const goToPreviousPage = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 1));
   };
 
-  interface DifficultyColorProps {
-    difficulty: string;
-  }
-
-  const getDifficultyColor = (difficulty: string): string => {
-    const baseStyles = "px-2 py-1 rounded-full text-xs font-semibold";
-    switch (difficulty.toLowerCase()) {
-      case "easy":
-        return cn(
-          baseStyles,
-          "bg-green-500/20 text-green-700 dark:text-green-400"
-        );
-      case "medium":
-        return cn(
-          baseStyles,
-          "bg-yellow-500/20 text-yellow-700 dark:text-yellow-400"
-        );
-      case "hard":
-        return cn(baseStyles, "bg-red-500/20 text-red-700 dark:text-red-400");
-      default:
-        return cn(
-          baseStyles,
-          "bg-gray-500/20 text-gray-700 dark:text-gray-400"
-        );
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
     }
-  };
+  }, [totalPages]);
 
   if (!isClient) {
     return null;
@@ -211,7 +195,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       <Card className="w-full">
         <CardHeader>
           <CardTitle className="text-3xl font-bold">
-            Questions Dashboard
+            Practice Questions
           </CardTitle>
           <CardDescription>
             Browse through {totalQuestions.toLocaleString()} LeetCode questions
@@ -303,6 +287,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <TableHead>Title</TableHead>
                     <TableHead>Company</TableHead>
                     <TableHead>Difficulty</TableHead>
+                    <TableHead>Topics</TableHead>
                     <TableHead className="text-right">Acceptance</TableHead>
                     <TableHead className="text-right">Frequency</TableHead>
                     <TableHead className="text-center">Premium</TableHead>
@@ -336,11 +321,23 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         </div>
                       </TableCell>
                       <TableCell>
-                        <span
-                          className={getDifficultyColor(question.Difficulty)}
-                        >
-                          {question.Difficulty}
-                        </span>
+                        <DifficultyBadge
+                          difficulty={
+                            question.Difficulty as "Easy" | "Medium" | "Hard"
+                          }
+                        />
+                      </TableCell>
+                      <TableCell>
+                        <div className="flex flex-wrap gap-1">
+                          {question.Topics.split(",").map((topic, index) => (
+                            <span
+                              key={index}
+                              className="px-2 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-700 dark:text-blue-400"
+                            >
+                              {topic.trim()}
+                            </span>
+                          ))}
+                        </div>
                       </TableCell>
                       <TableCell className="text-right">
                         {question["Acceptance %"]}
