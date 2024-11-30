@@ -54,7 +54,7 @@ export default function Home() {
                 "absolute inset-0 z-0 [mask-image:radial-gradient(50vw_circle_at_center,white,transparent)]"
               )}
             />
-            <AnimatedGradientText>🎉 | Beta is Out </AnimatedGradientText>
+            <AnimatedGradientText>🐧 | Proudly Open Source </AnimatedGradientText>
             <motion.div variants={itemVariants}>
               <BlurIn
                 word={
