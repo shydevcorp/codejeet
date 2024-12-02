@@ -26,6 +26,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const Navbar = () => {
   const [geminiKey, setGeminiKey] = useState("");
+  const [geminiVersion, setGeminiVersion] = useState("gemini 1.5 flash");
   const { preferredLanguage, setPreferredLanguage } = useLanguage();
   const { setTheme } = useTheme();
   const { toast } = useToast();
@@ -33,11 +34,16 @@ const Navbar = () => {
   useEffect(() => {
     const savedKey = localStorage.getItem("gemini-key") || "";
     setGeminiKey(savedKey);
+
+    const savedVersion =
+      localStorage.getItem("gemini-version") || "gemini 1.5 flash";
+    setGeminiVersion(savedVersion);
   }, []);
 
   const handleSaveSettings = () => {
     localStorage.setItem("gemini-key", geminiKey);
     localStorage.setItem("preferred-language", preferredLanguage);
+    localStorage.setItem("gemini-version", geminiVersion);
 
     toast({
       title: "Settings saved",
@@ -89,8 +95,6 @@ const Navbar = () => {
                     />
                   </div>
 
-                  <DropdownMenuSeparator />
-
                   <div className="space-y-2">
                     <label className="text-sm font-medium">
                       Preferred Language
@@ -108,6 +112,28 @@ const Navbar = () => {
                         <SelectItem value="python">Python</SelectItem>
                         <SelectItem value="javascript">JavaScript</SelectItem>
                         <SelectItem value="c">C</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium">
+                      Gemini Version
+                    </label>
+                    <Select
+                      value={geminiVersion}
+                      onValueChange={setGeminiVersion}
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder="Select Gemini Version" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="gemini 1.5 flash">
+                          Gemini 1.5 Flash
+                        </SelectItem>
+                        <SelectItem value="gemini 1.5 pro">
+                          Gemini 1.5 Pro
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

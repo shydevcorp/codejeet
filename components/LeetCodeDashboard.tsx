@@ -27,6 +27,7 @@ import {
 import { Check, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
 import { capitalizeWords } from "@/utils/utils";
 import { VideoDialog } from "@/components/VideoDialog";
 import { SolutionDialog } from "@/components/SolutionDialog";
@@ -146,19 +147,50 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   ]);
 
   const statistics = useMemo(() => {
-    const total = filteredQuestions.length;
-    const easy = filteredQuestions.filter(
-      (q) => q.Difficulty === "Easy"
-    ).length;
-    const medium = filteredQuestions.filter(
-      (q) => q.Difficulty === "Medium"
-    ).length;
-    const hard = filteredQuestions.filter(
-      (q) => q.Difficulty === "Hard"
-    ).length;
+    const uniqueQuestions = Array.from(new Set(filteredQuestions.map(q => q.ID)));
+    const total = uniqueQuestions.length;
 
-    return { total, easy, medium, hard };
-  }, [filteredQuestions]);
+    const solvedQuestions = new Set(
+      filteredQuestions
+        .filter(q => checkedItems[q.ID])
+        .map(q => q.ID)
+    );
+    
+    const totalSolved = solvedQuestions.size;
+
+    const easyQuestions = new Set(filteredQuestions.filter(q => q.Difficulty === "Easy").map(q => q.ID));
+    const mediumQuestions = new Set(filteredQuestions.filter(q => q.Difficulty === "Medium").map(q => q.ID));
+    const hardQuestions = new Set(filteredQuestions.filter(q => q.Difficulty === "Hard").map(q => q.ID));
+
+    const easySolved = new Set(
+      filteredQuestions
+        .filter(q => q.Difficulty === "Easy" && checkedItems[q.ID])
+        .map(q => q.ID)
+    ).size;
+
+    const mediumSolved = new Set(
+      filteredQuestions
+        .filter(q => q.Difficulty === "Medium" && checkedItems[q.ID])
+        .map(q => q.ID)
+    ).size;
+
+    const hardSolved = new Set(
+      filteredQuestions
+        .filter(q => q.Difficulty === "Hard" && checkedItems[q.ID])
+        .map(q => q.ID)
+    ).size;
+
+    return {
+      total,
+      totalSolved,
+      easy: easyQuestions.size,
+      easySolved,
+      medium: mediumQuestions.size,
+      mediumSolved,
+      hard: hardQuestions.size,
+      hardSolved,
+    };
+  }, [filteredQuestions, checkedItems]);
 
   const totalPages = Math.ceil(filteredQuestions.length / ITEMS_PER_PAGE);
 
@@ -207,34 +239,70 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
-                  <div className="text-2xl font-bold">{statistics.total}</div>
+                  <div className="flex justify-between items-baseline">
+                    <div className="text-2xl font-bold">{statistics.totalSolved}</div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.total}</div>
+                  </div>
                   <div className="text-sm text-muted-foreground">
-                    Total Questions
+                    Total Solved
+                  </div>
+                  <div className="mt-2">
+                    <Progress 
+                      value={(statistics.totalSolved / statistics.total) * 100} 
+                      className="h-2"
+                    />
                   </div>
                 </CardContent>
               </Card>
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
-                  <div className="text-2xl font-bold text-green-600 dark:text-green-400">
-                    {statistics.easy}
+                  <div className="flex justify-between items-baseline">
+                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">
+                      {statistics.easySolved}
+                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.easy}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Easy</div>
+                  <div className="mt-2">
+                    <Progress 
+                      value={(statistics.easySolved / statistics.easy) * 100} 
+                      className="h-2 [&>div]:bg-green-600 dark:[&>div]:bg-green-400 bg-green-200 dark:bg-green-950"
+                    />
+                  </div>
                 </CardContent>
               </Card>
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
-                  <div className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">
-                    {statistics.medium}
+                  <div className="flex justify-between items-baseline">
+                    <div className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">
+                      {statistics.mediumSolved}
+                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.medium}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Medium</div>
+                  <div className="mt-2">
+                    <Progress 
+                      value={(statistics.mediumSolved / statistics.medium) * 100} 
+                      className="h-2 [&>div]:bg-yellow-600 dark:[&>div]:bg-yellow-400 bg-yellow-200 dark:bg-yellow-950"
+                    />
+                  </div>
                 </CardContent>
               </Card>
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
-                  <div className="text-2xl font-bold text-red-600 dark:text-red-400">
-                    {statistics.hard}
+                  <div className="flex justify-between items-baseline">
+                    <div className="text-2xl font-bold text-red-600 dark:text-red-400">
+                      {statistics.hardSolved}
+                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.hard}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Hard</div>
+                  <div className="mt-2">
+                    <Progress 
+                      value={(statistics.hardSolved / statistics.hard) * 100} 
+                      className="h-2 [&>div]:bg-red-600 dark:[&>div]:bg-red-400 bg-red-200 dark:bg-red-950"
+                    />
+                  </div>
                 </CardContent>
               </Card>
             </div>
