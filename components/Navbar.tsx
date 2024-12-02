@@ -69,7 +69,7 @@ const Navbar = () => {
 
         {/* Right Section - Controls */}
         <div className="flex items-center space-x-4">
-          <Button variant="outline" onClick={handleStarProject}>
+          <Button variant="outline" onClick={handleStarProject} className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground">
             <AiFillStar className="mr-1" />
             Star this project
           </Button>
