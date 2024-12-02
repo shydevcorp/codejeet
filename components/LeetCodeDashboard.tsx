@@ -377,7 +377,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           href={`https://leetcode.com${question.URL}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-600 dark:text-blue-400 hover:underline"
+                          className="text-foreground hover:text-primary hover:underline"
                         >
                           {question.Title}
                         </a>
