@@ -26,24 +26,36 @@ import { AiFillStar } from "react-icons/ai";
 
 const Navbar = () => {
   const [geminiKey, setGeminiKey] = useState("");
+  const [pendingGeminiKey, setPendingGeminiKey] = useState("");
   const [geminiVersion, setGeminiVersion] = useState("gemini 1.5 flash");
+  const [pendingGeminiVersion, setPendingGeminiVersion] =
+    useState("gemini 1.5 flash");
   const { preferredLanguage, setPreferredLanguage } = useLanguage();
+  const [pendingLanguage, setPendingLanguage] = useState(preferredLanguage);
   const { setTheme } = useTheme();
   const { toast } = useToast();
 
   useEffect(() => {
     const savedKey = localStorage.getItem("gemini-key") || "";
     setGeminiKey(savedKey);
+    setPendingGeminiKey(savedKey);
 
     const savedVersion =
       localStorage.getItem("gemini-version") || "gemini 1.5 flash";
     setGeminiVersion(savedVersion);
-  }, []);
+    setPendingGeminiVersion(savedVersion);
+
+    setPendingLanguage(preferredLanguage);
+  }, [preferredLanguage]);
 
   const handleSaveSettings = () => {
-    localStorage.setItem("gemini-key", geminiKey);
-    localStorage.setItem("preferred-language", preferredLanguage);
-    localStorage.setItem("gemini-version", geminiVersion);
+    setGeminiKey(pendingGeminiKey);
+    setGeminiVersion(pendingGeminiVersion);
+    setPreferredLanguage(pendingLanguage);
+
+    localStorage.setItem("gemini-key", pendingGeminiKey);
+    localStorage.setItem("preferred-language", pendingLanguage);
+    localStorage.setItem("gemini-version", pendingGeminiVersion);
 
     toast({
       title: "Settings saved",
@@ -69,7 +81,11 @@ const Navbar = () => {
 
         {/* Right Section - Controls */}
         <div className="flex items-center space-x-4">
-          <Button variant="outline" onClick={handleStarProject} className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground">
+          <Button
+            variant="outline"
+            onClick={handleStarProject}
+            className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
+          >
             <AiFillStar className="mr-1" />
             Star this project
           </Button>
@@ -89,8 +105,8 @@ const Navbar = () => {
                     </label>
                     <Input
                       type="password"
-                      value={geminiKey}
-                      onChange={(e) => setGeminiKey(e.target.value)}
+                      value={pendingGeminiKey}
+                      onChange={(e) => setPendingGeminiKey(e.target.value)}
                       placeholder="Enter your Gemini API key"
                     />
                   </div>
@@ -100,8 +116,8 @@ const Navbar = () => {
                       Preferred Language
                     </label>
                     <Select
-                      value={preferredLanguage}
-                      onValueChange={setPreferredLanguage}
+                      value={pendingLanguage}
+                      onValueChange={setPendingLanguage}
                     >
                       <SelectTrigger>
                         <SelectValue placeholder="Select Language" />
@@ -121,8 +137,8 @@ const Navbar = () => {
                       Gemini Version
                     </label>
                     <Select
-                      value={geminiVersion}
-                      onValueChange={setGeminiVersion}
+                      value={pendingGeminiVersion}
+                      onValueChange={setPendingGeminiVersion}
                     >
                       <SelectTrigger>
                         <SelectValue placeholder="Select Gemini Version" />

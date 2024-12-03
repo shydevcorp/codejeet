@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Inter", sans-serif;
-}
-
 :root {
   --color-1: 0 100% 63%;
   --color-2: 270 100% 63%;
