@@ -313,7 +313,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 <Input
                   placeholder="Search companies..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    setCurrentPage(1);
+                  }}
                   className="w-full"
                 />
               </div>
@@ -346,6 +349,11 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             </div>
 
             {/* Questions Table */}
+            { filteredQuestions.length === 0 ? (
+                <div className="p-4 text-center text-muted-foreground">
+                  No questions found , maybe look for some other company?
+                </div>
+              ) : (
             <div className="rounded-md border">
               <Table>
                 <TableHeader>
@@ -454,6 +462,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 </Button>
               </div>
             </div>
+            )}
           </div>
         </CardContent>
       </Card>
