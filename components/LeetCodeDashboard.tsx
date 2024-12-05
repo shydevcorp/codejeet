@@ -79,6 +79,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     {}
   );
   const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
+  const [goToPage, setGoToPage] = useState("");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   useEffect(() => {
@@ -220,13 +222,32 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     };
   }, [filteredQuestions, checkedItems]);
 
-  const totalPages = Math.ceil(filteredQuestions.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(filteredQuestions.length / itemsPerPage);
 
   const currentItems = useMemo(() => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
     return filteredQuestions.slice(startIndex, endIndex);
-  }, [filteredQuestions, currentPage]);
+  }, [filteredQuestions, currentPage, itemsPerPage]);
+
+  const goToFirstPage = () => setCurrentPage(1);
+  const goToLastPage = () => setCurrentPage(totalPages);
+
+  const handleGoToPage = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      const pageNumber = parseInt(goToPage);
+      if (!isNaN(pageNumber) && pageNumber >= 1 && pageNumber <= totalPages) {
+        setCurrentPage(pageNumber);
+        setGoToPage("");
+      }
+    }
+  };
+
+  const handleItemsPerPageChange = (value: string) => {
+    const newItemsPerPage = parseInt(value);
+    setItemsPerPage(newItemsPerPage);
+    setCurrentPage(1); // Reset to first page when changing items per page
+  };
 
   const goToNextPage = () => {
     setCurrentPage((prev) => {
@@ -341,7 +362,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
             {/* Filters */}
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="flex-1">
+              <div className="md:w-[200px]">
                 <Input
                   placeholder="Search companies..."
                   value={searchQuery}
@@ -476,28 +497,81 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   ))}
                 </TableBody>
               </Table>
-              <div className="flex items-center justify-end space-x-2 py-4">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={goToPreviousPage}
-                  disabled={currentPage === 1}
-                >
-                  <ChevronLeft className="h-4 w-4" />
-                  Previous
-                </Button>
-                <div className="text-sm font-medium">
-                  Page {currentPage} of {totalPages}
+              <div className="flex items-center justify-between py-4 px-2">
+                <div className="flex items-center space-x-2">
+                  <p className="text-sm text-muted-foreground">Items per page</p>
+                  <Select
+                    value={itemsPerPage.toString()}
+                    onValueChange={handleItemsPerPageChange}
+                  >
+                    <SelectTrigger className="w-[70px]">
+                      <SelectValue placeholder={itemsPerPage} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {[5, 10, 20, 50, 100].map((size) => (
+                        <SelectItem key={size} value={size.toString()}>
+                          {size}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                 </div>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={goToNextPage}
-                  disabled={currentPage === totalPages}
-                >
-                  Next
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
+
+                <div className="flex items-center space-x-6">
+                  <div className="flex items-center space-x-2">
+                    <p className="text-sm text-muted-foreground">Go to page</p>
+                    <Input
+                      type="number"
+                      min={1}
+                      max={totalPages}
+                      value={goToPage}
+                      onChange={(e) => setGoToPage(e.target.value)}
+                      onKeyDown={handleGoToPage}
+                      className="w-[70px]"
+                      placeholder={currentPage.toString()}
+                    />
+                  </div>
+
+                  <div className="flex items-center space-x-2">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={goToFirstPage}
+                      disabled={currentPage === 1}
+                    >
+                      <ChevronLeft className="h-4 w-4 mr-2" />
+                      First
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={goToPreviousPage}
+                      disabled={currentPage === 1}
+                    >
+                      Previous
+                    </Button>
+                    <div className="text-sm font-medium">
+                      Page {currentPage} of {totalPages}
+                    </div>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={goToNextPage}
+                      disabled={currentPage === totalPages}
+                    >
+                      Next
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={goToLastPage}
+                      disabled={currentPage === totalPages}
+                    >
+                      Last
+                      <ChevronRight className="h-4 w-4 ml-2" />
+                    </Button>
+                  </div>
+                </div>
               </div>
             </div>
             )}
