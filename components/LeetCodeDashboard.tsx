@@ -34,6 +34,7 @@ import { SolutionDialog } from "@/components/SolutionDialog";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@clerk/nextjs";
 import { DifficultyBadge } from "@/components/ui/difficulty-badge";
+import TopicDropdown from "@/components/TopicDropdown";
 
 interface Question {
   ID: string;
@@ -78,6 +79,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     {}
   );
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   useEffect(() => {
     setIsClient(true);
@@ -120,11 +122,27 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       .sort((a, b) => b.count - a.count);
   }, [questions, companies]);
 
+  const uniqueTopics = useMemo(() => {
+    const topicsSet = new Set<string>();
+    questions.forEach((question) => {
+      question.Topics.split(",").forEach((topic) => {
+        const trimmedTopic = topic.trim();
+        if (trimmedTopic) {
+          topicsSet.add(trimmedTopic);
+        }
+      });
+    });
+    return Array.from(topicsSet);
+  }, [questions]);
+
   const filteredQuestions = useMemo(() => {
+    const queryWords = searchQuery.trim().toLowerCase().split(/\s+/);
     return questions.filter((question) => {
-      const matchesSearch = question.company
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase());
+      const matchesSearch = queryWords.every((word) =>
+        question.Title.toLowerCase().includes(word) ||
+        question.company.toLowerCase().includes(word) ||
+        question.Topics.toLowerCase().split(',').some(topic => topic.trim().includes(word))
+      );
       const matchesDifficulty =
         difficultyFilter === "all" || question.Difficulty === difficultyFilter;
       const matchesPremium =
@@ -133,9 +151,18 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         (premiumFilter === "premium" && question["Is Premium"] === "Y");
       const matchesCompany =
         !selectedCompany || question.company === selectedCompany;
+      const matchesTopic =
+        selectedTopics.length === 0 ||
+        selectedTopics.every((topic) =>
+          question.Topics.split(",").map((t) => t.trim()).includes(topic)
+        );
 
       return (
-        matchesSearch && matchesDifficulty && matchesPremium && matchesCompany
+        matchesSearch &&
+        matchesDifficulty &&
+        matchesPremium &&
+        matchesCompany &&
+        matchesTopic
       );
     });
   }, [
@@ -144,6 +171,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     difficultyFilter,
     premiumFilter,
     selectedCompany,
+    selectedTopics,
   ]);
 
   const statistics = useMemo(() => {
@@ -155,7 +183,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         .filter(q => checkedItems[q.ID])
         .map(q => q.ID)
     );
-    
+
     const totalSolved = solvedQuestions.size;
 
     const easyQuestions = new Set(filteredQuestions.filter(q => q.Difficulty === "Easy").map(q => q.ID));
@@ -216,6 +244,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       setCurrentPage(totalPages);
     }
   }, [totalPages]);
+
+  useEffect(() => {
+    setCurrentPage(1); 
+  }, [filteredQuestions]);
 
   if (!isClient) {
     return null;
@@ -346,12 +378,18 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   <SelectItem value="premium">Premium Only</SelectItem>
                 </SelectContent>
               </Select>
+
+              <TopicDropdown
+                options={uniqueTopics}
+                selectedOptions={selectedTopics}
+                setSelectedOptions={setSelectedTopics}
+              />
             </div>
 
             {/* Questions Table */}
             { filteredQuestions.length === 0 ? (
                 <div className="p-4 text-center text-muted-foreground">
-                  No questions found , maybe look for some other company?
+                  No questions found , try some other filters?
                 </div>
               ) : (
             <div className="rounded-md border">
