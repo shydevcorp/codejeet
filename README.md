@@ -1,32 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# codejeet.xyz
 
-## Getting Started
+🧑🏻‍💻 8,000+ company-wise, topic-wise LeetCode questions with text solutions and video explanations. FOR FREE.
 
-First, run the development server:
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Authentication**: [Clerk](https://clerk.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**:
+  - [shadcn/ui](https://ui.shadcn.com/)
+  - [Framer Motion](https://www.framer.com/motion/)
+- **AI Integration**: [Google Gemini](https://gemini.google.com/)
+- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
+
+## Run Locally
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [yarn](https://yarnpkg.com/)
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/ayush-that/codejeet
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd codejeet
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies
 
-## Learn More
+```bash
+  yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Copy .env (Make sure to change env vars in this file)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  cp .env.example .env
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the dev server
 
-## Deploy on Vercel
+```bash
+  yarn dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Environment Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To run this project, you will need to add the following environment variables to your .env file
+
+`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+
+`CLERK_SECRET_KEY`
+
+`GEMINI_API_KEY` (Optional)
+
+## License
+
+[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
