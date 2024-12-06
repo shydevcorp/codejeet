@@ -12,7 +12,7 @@ import { Book } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import ReactMarkdown, { Components } from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { nightOwl } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 interface SolutionDialogProps {
@@ -85,11 +85,22 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         </code>
       ) : (
         <SyntaxHighlighter
-          style={atomDark}
+          style={nightOwl}
           language={match ? match[1] : "plaintext"}
           PreTag="div"
+          showLineNumbers={true}
           wrapLongLines={true}
-          customStyle={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}
+          customStyle={{
+            whiteSpace: "pre-wrap",
+            wordBreak: "break-word",
+            margin: "1em 0",
+          }}
+          lineNumberStyle={{
+            minWidth: "3em",
+            paddingRight: "1em",
+            textAlign: "right",
+            userSelect: "none",
+          }}
           {...props}
         >
           {String(children).trim()}
