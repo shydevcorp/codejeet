@@ -20,8 +20,13 @@ interface SolutionDialogProps {
   title: string;
 }
 
+interface SolutionData {
+  hints: string[];
+  solution: string;
+}
+
 export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
-  const [solution, setSolution] = React.useState<string>("");
+  const [solutionData, setSolutionData] = React.useState<SolutionData>({ hints: [], solution: "" });
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const { preferredLanguage } = useLanguage();
@@ -55,13 +60,13 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         throw new Error(data.error || `HTTP error! status: ${response.status}`);
       }
 
-      setSolution(data.solution);
+      setSolutionData(data);
     } catch (error) {
       const message =
         error instanceof Error ? error.message : "Failed to load solution";
       console.error("Error fetching solution:", error);
       setError(message);
-      setSolution("");
+      setSolutionData({ hints: [], solution: "" });
     } finally {
       setLoading(false);
     }
@@ -128,13 +133,24 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         <div className="mt-4">
           {loading && <Skeleton className="h-20 w-full" />}
           {error && <div className="text-red-500">Error: {error}</div>}
-          {!loading && !error && solution && (
-            <ReactMarkdown
-              components={renderers}
-              className="prose dark:prose-invert"
-            >
-              {solution}
-            </ReactMarkdown>
+          {!loading && !error && (solutionData.hints.length > 0 || solutionData.solution) && (
+            <div className="space-y-4">
+              {solutionData.hints.length > 0 && (
+                <div className="bg-muted p-4 rounded-md">
+                  <h3 className="font-semibold mb-2">Hints:</h3>
+                  <ul className="list-disc list-inside space-y-1">
+                    {solutionData.hints.map((hint, index) => (
+                      <li key={index}>{hint}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {solutionData.solution && (
+                <ReactMarkdown components={renderers} className="prose dark:prose-invert">
+                  {solutionData.solution}
+                </ReactMarkdown>
+              )}
+            </div>
           )}
         </div>
       </DialogContent>

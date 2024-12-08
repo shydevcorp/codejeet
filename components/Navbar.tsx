@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/select";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { AiFillStar } from "react-icons/ai";
+import { BiCoffee } from "react-icons/bi";
 
 const Navbar = () => {
   const [geminiKey, setGeminiKey] = useState("");
@@ -81,6 +82,14 @@ const Navbar = () => {
 
         {/* Right Section - Controls */}
         <div className="flex items-center space-x-4">
+          <Button
+            variant="outline"
+            onClick={() => window.open("https://www.buymeacoffee.com/shydev69", "_blank")}
+            className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
+            size="icon"
+          >
+            <BiCoffee className="h-5 w-5" />
+          </Button>
           <Button
             variant="outline"
             onClick={handleStarProject}
