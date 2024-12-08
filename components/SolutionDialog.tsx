@@ -133,24 +133,26 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         <div className="mt-4">
           {loading && <Skeleton className="h-20 w-full" />}
           {error && <div className="text-red-500">Error: {error}</div>}
-          {!loading && !error && (solutionData.hints.length > 0 || solutionData.solution) && (
-            <div className="space-y-4">
-              {solutionData.hints.length > 0 && (
-                <div className="bg-muted p-4 rounded-md">
-                  <h3 className="font-semibold mb-2">Hints:</h3>
-                  <ul className="list-disc list-inside space-y-1">
-                    {solutionData.hints.map((hint, index) => (
-                      <li key={index}>{hint}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-              {solutionData.solution && (
-                <ReactMarkdown components={renderers} className="prose dark:prose-invert">
-                  {solutionData.solution}
-                </ReactMarkdown>
-              )}
-            </div>
+          {!loading && !error && (
+            (solutionData?.hints?.length > 0 || solutionData?.solution) && (
+              <div className="space-y-4">
+                {solutionData.hints?.length > 0 && (
+                  <div className="bg-muted p-4 rounded-md">
+                    <h3 className="font-semibold mb-2">Hints:</h3>
+                    <ul className="list-disc list-inside space-y-1">
+                      {solutionData.hints.map((hint, index) => (
+                        <li key={index}>{hint}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {solutionData.solution && (
+                  <ReactMarkdown components={renderers} className="prose dark:prose-invert">
+                    {solutionData.solution}
+                  </ReactMarkdown>
+                )}
+              </div>
+            )
           )}
         </div>
       </DialogContent>
