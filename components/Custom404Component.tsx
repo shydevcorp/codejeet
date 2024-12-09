@@ -5,10 +5,10 @@ import { useSearchParams } from "next/navigation";
 
 const Custom404Component: React.FC = () => {
   const searchParams = useSearchParams();
-  const referrer = searchParams.get("ref");
+  const referrer = searchParams?.get("ref");
 
   return (
-    <div className="mt-8">
+    <div className="mt-8 text-center">
       {referrer ? (
         <p>Oops! It seems like there was an issue coming from {referrer}.</p>
       ) : (

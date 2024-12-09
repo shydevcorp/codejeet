@@ -1,7 +1,7 @@
 "use client";
 
 import React, { Suspense } from "react";
-import Custom404Component from "@/components/404";
+import Custom404Component from "@/components/Custom404Component";
 
 export default function NotFound() {
   return (
