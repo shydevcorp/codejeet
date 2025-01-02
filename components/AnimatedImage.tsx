@@ -47,7 +47,7 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({
 
   return (
     <motion.div
-      className="flex justify-center items-center overflow-visible p-10"
+      className="flex justify-center items-center overflow-visible p-0 sm:p-10 w-full"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{ perspective: 1000 }}
@@ -57,6 +57,7 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({
           rotateX,
           rotateY,
           transformStyle: "preserve-3d",
+          width: "100%",
         }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
@@ -66,7 +67,11 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({
           width={width}
           height={height}
           className={className}
-          style={{ boxShadow: "0 4px 200px rgba(190, 24, 93, 0.5)" }}
+          style={{
+            boxShadow: "0 4px 200px rgba(190, 24, 93, 0.5)",
+            width: "100%",
+            height: "auto",
+          }}
           priority
         />
       </motion.div>

@@ -92,7 +92,7 @@ export default function Home() {
                 alt="Image"
                 width={1200}
                 height={900}
-                className="w-full h-auto max-w-6xl mx-auto rounded-2xl shadow-lg"
+                className="w-full h-auto max-w-6xl mx-auto rounded-2xl shadow-lg px-0 sm:px-4"
               />
             </motion.div>
           </motion.div>

@@ -84,8 +84,10 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <Button
             variant="outline"
-            onClick={() => window.open("https://www.buymeacoffee.com/shydev69", "_blank")}
-            className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
+            onClick={() =>
+              window.open("https://www.buymeacoffee.com/shydev69", "_blank")
+            }
+            className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
             size="icon"
           >
             <BiCoffee className="h-5 w-5" />
@@ -93,7 +95,7 @@ const Navbar = () => {
           <Button
             variant="outline"
             onClick={handleStarProject}
-            className="bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
+            className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
           >
             <AiFillStar className="mr-1" />
             Star this project
