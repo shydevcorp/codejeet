@@ -11,12 +11,14 @@
 }
 
 .rainbow-button {
-  background: linear-gradient(to right,
-      hsl(var(--color-1)),
-      hsl(var(--color-2)),
-      hsl(var(--color-3)),
-      hsl(var(--color-4)),
-      hsl(var(--color-5)));
+  background: linear-gradient(
+    to right,
+    hsl(var(--color-1)),
+    hsl(var(--color-2)),
+    hsl(var(--color-3)),
+    hsl(var(--color-4)),
+    hsl(var(--color-5))
+  );
   background-size: 200% 100%;
   animation: rainbow 5s linear infinite;
 }

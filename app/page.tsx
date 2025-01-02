@@ -12,6 +12,7 @@ import SparkleText from "@/components/magic-ui/sparkles-text";
 import NumberTicker from "@/components/magic-ui/number-ticker";
 import { RainbowButton } from "@/components/magic-ui/rainbow-button";
 import AnimatedGradientText from "@/components/magic-ui/animated-gradient-text";
+import Image from "next/image";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -24,14 +25,14 @@ const itemVariants = {
 };
 
 const exampleTweets = [
-  "1861510338404921559",
   "1861987857000169750",
   "1861400396104892872",
+  "1862122993960526278",
   "1861397853446242485",
   "1861322291566780487",
   "1861507058027372906",
-  "1861322976513139079",
   "1861330077453295859",
+  "1861322460978983416",
   "1861417007289086141",
 ];
 
@@ -95,32 +96,63 @@ export default function Home() {
               />
             </motion.div>
           </motion.div>
+
+          {/* Testimonials section */}
           <motion.div
             ref={testimonialsRef}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
             transition={{ duration: 0.6 }}
-            className="w-full max-w-7xl mx-auto px-4 py-16"
+            className="w-full max-w-7xl mx-auto px-4 pt-32 pb-16"
           >
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-4xl font-bold mb-12"
+              className="text-4xl font-bold mb-16"
             >
-              <p className="text-center text-5xl pt-16 md:mp-32 pb-8">
-                Kuch To लोग Kahenge 🤭
-              </p>
+              <p className="text-center text-5xl">Kuch To लोग Kahenge 🤭</p>
             </motion.h2>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-            >
-              <TweetGrid columns={3} tweets={exampleTweets} />
-            </motion.div>
-          </motion.div>{" "}
+            <div className="max-w-6xl mx-auto space-y-8">
+              {/* DM Screenshots */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="grid grid-cols-1 md:grid-cols-3 gap-8"
+              >
+                {[1, 2, 3].map((index) => (
+                  <div
+                    key={index}
+                    className="relative aspect-square rounded-xl overflow-hidden bg-black/5 backdrop-blur-sm border border-white/10 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/5 to-black/10" />
+                    <Image
+                      src={`/dm-${index}.jpg`}
+                      alt={`Twitter DM ${index}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ))}
+              </motion.div>
+
+              {/* Tweets */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <TweetGrid
+                  columns={3}
+                  tweets={exampleTweets}
+                  spacing="lg"
+                  className="!max-w-none !px-0"
+                />
+              </motion.div>
+            </div>
+          </motion.div>
         </div>
       </main>
     </div>

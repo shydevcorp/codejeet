@@ -8,7 +8,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { LanguageProvider } from "@/contexts/LanguageContext";
-import { FirebaseAnalytics } from '@/components/FirebaseAnalytics';
 
 const font = Poppins({
   subsets: ["latin"],
@@ -40,7 +39,6 @@ export default function RootLayout({
                 <main className="flex-1">{children}</main>
                 <Footer />
                 <Analytics />
-                <FirebaseAnalytics />
                 <Toaster />
               </div>
             </ThemeProvider>
