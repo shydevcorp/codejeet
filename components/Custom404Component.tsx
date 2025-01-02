@@ -1,19 +1,29 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
-const Custom404Component: React.FC = () => {
+const SearchParamsContent: React.FC = () => {
   const searchParams = useSearchParams();
   const referrer = searchParams?.get("ref");
 
   return (
-    <div className="mt-8 text-center">
+    <>
       {referrer ? (
         <p>Oops! It seems like there was an issue coming from {referrer}.</p>
       ) : (
         <p>It looks like nothing was found at this location.</p>
       )}
+    </>
+  );
+};
+
+const Custom404Component: React.FC = () => {
+  return (
+    <div className="mt-8 text-center">
+      <Suspense fallback={<p>Loading...</p>}>
+        <SearchParamsContent />
+      </Suspense>
     </div>
   );
 };
