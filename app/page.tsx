@@ -115,29 +115,6 @@ export default function Home() {
             </motion.h2>
 
             <div className="max-w-6xl mx-auto space-y-8">
-              {/* DM Screenshots */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="grid grid-cols-1 md:grid-cols-3 gap-8"
-              >
-                {[1, 2, 3].map((index) => (
-                  <div
-                    key={index}
-                    className="relative aspect-square rounded-xl overflow-hidden bg-black/5 backdrop-blur-sm border border-white/10 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
-                  >
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/5 to-black/10" />
-                    <Image
-                      src={`/dm-${index}.jpg`}
-                      alt={`Twitter DM ${index}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </motion.div>
-
               {/* Tweets */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
