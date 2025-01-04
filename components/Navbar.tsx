@@ -74,8 +74,8 @@ const Navbar = () => {
         {/* Left Section - Logo */}
         <div className="font-bold text-2xl flex-1">
           <Link href="/" className="flex items-center">
-            <span className="inline bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg">
-              codejeet🏆
+            <span className="inline bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg font-poppins">
+              CodeJeet🏆
             </span>
           </Link>
         </div>

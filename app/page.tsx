@@ -12,7 +12,9 @@ import SparkleText from "@/components/magic-ui/sparkles-text";
 import NumberTicker from "@/components/magic-ui/number-ticker";
 import { RainbowButton } from "@/components/magic-ui/rainbow-button";
 import AnimatedGradientText from "@/components/magic-ui/animated-gradient-text";
-import Image from "next/image";
+import { Outfit } from "next/font/google";
+
+const outfit = Outfit({ subsets: ["latin"] });
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -30,7 +32,7 @@ const exampleTweets = [
   "1862122993960526278",
   "1861397853446242485",
   "1861322291566780487",
-  "1861507058027372906",
+  "1863872908596224255",
   "1861330077453295859",
   "1861322460978983416",
   "1861417007289086141",
@@ -41,11 +43,11 @@ export default function Home() {
   const isInView = useInView(testimonialsRef, { once: true, margin: "-100px" });
 
   return (
-    <div>
+    <div className={outfit.className}>
       <main>
         <div className="z-0 relative min-h-screen w-full pb-40 overflow-hidden ">
           <motion.div
-            className="relative z-10 flex flex-col items-center justify-start min-h-screen space-y-6 px-4 pt-24"
+            className="relative z-10 flex flex-col items-center justify-start min-h-screen space-y-4 px-4 pt-12"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -81,7 +83,7 @@ export default function Home() {
             </motion.h2>
             <motion.div variants={itemVariants} className="z-20">
               <Link href="/dashboard">
-                <RainbowButton className={cn("shadow-2xl mb-10")}>
+                <RainbowButton className={cn("shadow-2xl mb-4")}>
                   Get Started
                 </RainbowButton>
               </Link>

@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 interface AnimatedImageProps {
   src: string;
@@ -61,19 +62,22 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({
         }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
-        <Image
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-          className={className}
-          style={{
-            boxShadow: "0 4px 200px rgba(190, 24, 93, 0.5)",
-            width: "100%",
-            height: "auto",
-          }}
-          priority
-        />
+        <div className="relative w-full">
+          <div className="absolute inset-0 bg-primary/50 dark:bg-primary/70 blur-[150px] rounded-full scale-110" />
+          <div className="absolute inset-0 bg-primary/30 dark:bg-primary/50 blur-[100px] rounded-full scale-95" />
+          <Image
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+            className={cn("relative z-10", className)}
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+            priority
+          />
+        </div>
       </motion.div>
     </motion.div>
   );
