@@ -1,32 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌟 Project Title
+Codejeet
 
-## Getting Started
+📖 Description
+Codejeet is a powerful tool designed to enhance coding productivity and streamline the development process. It provides a suite of features that assist developers in writing, testing, and managing their code efficiently.
 
-First, run the development server:
+🚀 Features
+Code Snippet Management: Save and organize your frequently used code snippets.
+Syntax Highlighting: Supports multiple programming languages for better readability.
+Version Control Integration: Seamlessly integrates with Git for version management.
+Collaboration Tools: Share your code snippets with team members easily.
+Customizable Themes: Personalize your coding environment with various themes.
+🛠️ Installation
+To install Codejeet, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/ayush-that/codejeet.git
+Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+cd codejeet
+Install the required dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm install
+Start the application:
 
-## Learn More
+npm start
+💡 Usage
+Open Codejeet and create a new project.
+Use the code snippet manager to save your snippets.
+Collaborate with your team using the sharing features.
+Customize your environment through the settings menu.
+🤝 Contributing
+We welcome contributions to Codejeet! To contribute:
 
-To learn more about Next.js, take a look at the following resources:
+Fork the repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a new branch:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+git checkout -b feature/YourFeature
+Make your changes and commit them:
+git commit -m "Add your message here"
+Push to the branch:
 
-## Deploy on Vercel
+git push origin feature/YourFeature
+Create a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📬 Contact
+For any inquiries or support, please contact:
+
+Name: Ayush
+Email: ayush@example.com
+📚 Documentation for Codejeet
+🌐 Overview
+Codejeet is designed to assist developers in managing their coding tasks efficiently. This documentation provides an overview of the features, installation process, and usage guidelines.
+
+🔍 Features Detailed
+Code Snippet Management
+Add Snippets: Easily add new code snippets with a title and description.
+Edit Snippets: Modify existing snippets as needed.
+Delete Snippets: Remove snippets that are no longer required.
+Syntax Highlighting
+Supports languages such as JavaScript, Python, Java, C++, and more.
+Automatically detects the language based on the file extension.
+Version Control Integration
+Connects with Git repositories to track changes.
+Allows for easy commits and branch management.
+Collaboration Tools
+Share snippets via email or direct links.
+Collaborate in real-time with team members.
+Customizable Themes
+Choose from a variety of themes to suit your preferences.
+Option to create and upload custom themes.
+❓ Getting Help
+If you encounter any issues or have questions, please refer to the following resources:
+
+GitHub Issues: Report bugs or request features.
+Documentation: Review the documentation for detailed instructions.
+Community Forums: Join discussions with other users.
+🎉 Conclusion
+Codejeet aims to improve the coding experience for developers by providing essential tools and features. We encourage users to explore the application and contribute to its development.
