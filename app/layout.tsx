@@ -26,6 +26,9 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
+        <head>
+          <link rel="icon" href="./icon.svg" />
+        </head>
         <body className={`${font.className}`} suppressHydrationWarning>
           <LanguageProvider>
             <ThemeProvider

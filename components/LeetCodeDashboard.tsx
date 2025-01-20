@@ -82,6 +82,9 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [goToPage, setGoToPage] = useState("");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(
+    null
+  );
 
   useEffect(() => {
     setIsClient(true);
@@ -181,6 +184,28 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     selectedTopics,
   ]);
 
+  const filteredAndSortedQuestions = useMemo(() => {
+    let result = filteredQuestions;
+
+    if (sortDirection) {
+      result = [...result].sort((a, b) => {
+        const freqA = parseFloat(a["Frequency %"]);
+        const freqB = parseFloat(b["Frequency %"]);
+        return sortDirection === "asc" ? freqA - freqB : freqB - freqA;
+      });
+    }
+
+    return result;
+  }, [filteredQuestions, sortDirection]);
+
+  const handleFrequencySort = () => {
+    setSortDirection((prev) => {
+      if (prev === null) return "desc";
+      if (prev === "desc") return "asc";
+      return null;
+    });
+  };
+
   const statistics = useMemo(() => {
     const uniqueQuestions = Array.from(
       new Set(filteredQuestions.map((q) => q.ID))
@@ -240,8 +265,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const currentItems = useMemo(() => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    return filteredQuestions.slice(startIndex, endIndex);
-  }, [filteredQuestions, currentPage, itemsPerPage]);
+    return filteredAndSortedQuestions.slice(startIndex, endIndex);
+  }, [filteredAndSortedQuestions, currentPage, itemsPerPage]);
 
   const goToFirstPage = () => setCurrentPage(1);
   const goToLastPage = () => setCurrentPage(totalPages);
@@ -448,7 +473,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                       <TableHead>Difficulty</TableHead>
                       <TableHead>Topics</TableHead>
                       <TableHead className="text-right">Acceptance</TableHead>
-                      <TableHead className="text-right">Frequency</TableHead>
+                      <TableHead
+                        className="text-right cursor-pointer hover:text-primary transition-colors"
+                        onClick={handleFrequencySort}
+                      >
+                        Frequency
+                      </TableHead>
                       <TableHead className="text-center">Premium</TableHead>
                       <TableHead className="text-left">Solution</TableHead>
                     </TableRow>
