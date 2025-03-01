@@ -9,7 +9,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.5.0",
@@ -66,7 +70,10 @@
     "@types/react-dom": "^18",
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint-config-next": "15.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "postcss": "^8",
+    "prettier": "3.5.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
