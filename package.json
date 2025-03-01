@@ -10,8 +10,8 @@
     "build": "next build",
     "start": "next start",
     "heroku-postbuild": "npm run build",
-    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
+    "format": "prettier --write",
+    "format:check": "prettier --check",
     "prepare": "husky",
     "lint-staged": "lint-staged"
   },

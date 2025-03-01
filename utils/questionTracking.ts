@@ -12,8 +12,7 @@ interface StreakData {
 
 export function markQuestionAsSolved(questionId: string, companies: string[]) {
   const tracking = localStorage.getItem("leetcode-tracking") || "{}";
-  const trackingData: Record<string, QuestionTrackingData> =
-    JSON.parse(tracking);
+  const trackingData: Record<string, QuestionTrackingData> = JSON.parse(tracking);
 
   // Check if question is already solved to avoid duplicate entries
   if (!trackingData[questionId]) {
@@ -46,19 +45,22 @@ export function getQuestionTrackingData() {
   try {
     const parsed = JSON.parse(data);
     // Convert simple boolean values to objects with solvedAt property
-    const enhanced = Object.entries(parsed).reduce((acc, [id, value]) => {
-      if (typeof value === "boolean" && value === true) {
-        acc[id] = { solvedAt: new Date().toISOString() };
-      } else if (
-        typeof value === "object" &&
-        value !== null &&
-        "solvedAt" in value &&
-        typeof (value as any).solvedAt === "string"
-      ) {
-        acc[id] = value as { solvedAt: string };
-      }
-      return acc;
-    }, {} as Record<string, { solvedAt: string }>);
+    const enhanced = Object.entries(parsed).reduce(
+      (acc, [id, value]) => {
+        if (typeof value === "boolean" && value === true) {
+          acc[id] = { solvedAt: new Date().toISOString() };
+        } else if (
+          typeof value === "object" &&
+          value !== null &&
+          "solvedAt" in value &&
+          typeof (value as any).solvedAt === "string"
+        ) {
+          acc[id] = value as { solvedAt: string };
+        }
+        return acc;
+      },
+      {} as Record<string, { solvedAt: string }>
+    );
 
     return enhanced;
   } catch (err) {

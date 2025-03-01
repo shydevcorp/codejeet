@@ -13,25 +13,13 @@ interface AnimatedImageProps {
   className?: string;
 }
 
-const AnimatedImage: React.FC<AnimatedImageProps> = ({
-  src,
-  alt,
-  width,
-  height,
-  className,
-}) => {
+const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, alt, width, height, className }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
   const springConfig = { stiffness: 300, damping: 30 };
-  const rotateX = useSpring(
-    useTransform(y, [-300, 300], [5, -5]),
-    springConfig
-  );
-  const rotateY = useSpring(
-    useTransform(x, [-300, 300], [-5, 5]),
-    springConfig
-  );
+  const rotateX = useSpring(useTransform(y, [-300, 300], [5, -5]), springConfig);
+  const rotateY = useSpring(useTransform(x, [-300, 300], [-5, 5]), springConfig);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     const rect = event.currentTarget.getBoundingClientRect();

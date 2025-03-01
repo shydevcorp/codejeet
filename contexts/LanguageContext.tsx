@@ -7,9 +7,7 @@ interface LanguageContextType {
   setPreferredLanguage: (language: string) => void;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(
-  undefined
-);
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [preferredLanguage, setPreferredLanguage] = useState("cpp");
@@ -20,9 +18,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <LanguageContext.Provider
-      value={{ preferredLanguage, setPreferredLanguage }}
-    >
+    <LanguageContext.Provider value={{ preferredLanguage, setPreferredLanguage }}>
       {children}
     </LanguageContext.Provider>
   );

@@ -41,9 +41,6 @@ export async function GET() {
       companies: companies,
     });
   } catch (error) {
-    return NextResponse.json(
-      { error: "Failed to load questions" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to load questions" }, { status: 500 });
   }
 }

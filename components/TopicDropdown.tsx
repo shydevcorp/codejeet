@@ -11,11 +11,7 @@ import {
   CommandInput,
   CommandItem,
 } from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Badge } from "@/components/ui/badge";
 
 interface TopicDropdownProps {
@@ -71,9 +67,7 @@ export default function TopicDropdown({
                   <Check
                     className={cn(
                       "mr-2 h-4 w-4",
-                      selectedOptions.includes(option)
-                        ? "opacity-100"
-                        : "opacity-0"
+                      selectedOptions.includes(option) ? "opacity-100" : "opacity-0"
                     )}
                   />
                   {option}

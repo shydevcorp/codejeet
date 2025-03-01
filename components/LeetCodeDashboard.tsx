@@ -1,13 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import {
   Table,
   TableBody,
@@ -75,16 +69,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [premiumFilter, setPremiumFilter] = useState("all");
   const [selectedCompany] = useState("");
-  const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>(
-    {}
-  );
+  const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({});
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [goToPage, setGoToPage] = useState("");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
-  const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(
-    null
-  );
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -102,10 +92,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
   useEffect(() => {
     if (isClient) {
-      localStorage.setItem(
-        "leetcode-checked-items",
-        JSON.stringify(checkedItems)
-      );
+      localStorage.setItem("leetcode-checked-items", JSON.stringify(checkedItems));
     }
   }, [checkedItems, isClient]);
 
@@ -157,8 +144,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         premiumFilter === "all" ||
         (premiumFilter === "free" && question["Is Premium"] === "N") ||
         (premiumFilter === "premium" && question["Is Premium"] === "Y");
-      const matchesCompany =
-        !selectedCompany || question.company === selectedCompany;
+      const matchesCompany = !selectedCompany || question.company === selectedCompany;
       const matchesTopic =
         selectedTopics.length === 0 ||
         selectedTopics.every((topic) =>
@@ -167,22 +153,9 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             .includes(topic)
         );
 
-      return (
-        matchesSearch &&
-        matchesDifficulty &&
-        matchesPremium &&
-        matchesCompany &&
-        matchesTopic
-      );
+      return matchesSearch && matchesDifficulty && matchesPremium && matchesCompany && matchesTopic;
     });
-  }, [
-    questions,
-    searchQuery,
-    difficultyFilter,
-    premiumFilter,
-    selectedCompany,
-    selectedTopics,
-  ]);
+  }, [questions, searchQuery, difficultyFilter, premiumFilter, selectedCompany, selectedTopics]);
 
   const filteredAndSortedQuestions = useMemo(() => {
     let result = filteredQuestions;
@@ -207,9 +180,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   };
 
   const statistics = useMemo(() => {
-    const uniqueQuestions = Array.from(
-      new Set(filteredQuestions.map((q) => q.ID))
-    );
+    const uniqueQuestions = Array.from(new Set(filteredQuestions.map((q) => q.ID)));
     const total = uniqueQuestions.length;
 
     const solvedQuestions = new Set(
@@ -222,9 +193,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       filteredQuestions.filter((q) => q.Difficulty === "Easy").map((q) => q.ID)
     );
     const mediumQuestions = new Set(
-      filteredQuestions
-        .filter((q) => q.Difficulty === "Medium")
-        .map((q) => q.ID)
+      filteredQuestions.filter((q) => q.Difficulty === "Medium").map((q) => q.ID)
     );
     const hardQuestions = new Set(
       filteredQuestions.filter((q) => q.Difficulty === "Hard").map((q) => q.ID)
@@ -316,12 +285,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     <div className="p-6">
       <Card className="w-full">
         <CardHeader>
-          <CardTitle className="text-3xl font-bold">
-            Practice Questions
-          </CardTitle>
+          <CardTitle className="text-3xl font-bold">Practice Questions</CardTitle>
           <CardDescription>
-            Browse through {totalQuestions.toLocaleString()} LeetCode questions
-            asked in technical interviews
+            Browse through {totalQuestions.toLocaleString()} LeetCode questions asked in technical
+            interviews
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -331,16 +298,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
                   <div className="flex justify-between items-baseline">
-                    <div className="text-2xl font-bold">
-                      {statistics.totalSolved}
-                    </div>
-                    <div className="text-sm text-muted-foreground">
-                      / {statistics.total}
-                    </div>
+                    <div className="text-2xl font-bold">{statistics.totalSolved}</div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.total}</div>
                   </div>
-                  <div className="text-sm text-muted-foreground">
-                    Total Solved
-                  </div>
+                  <div className="text-sm text-muted-foreground">Total Solved</div>
                   <div className="mt-2">
                     <Progress
                       value={(statistics.totalSolved / statistics.total) * 100}
@@ -355,9 +316,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <div className="text-2xl font-bold text-green-600 dark:text-green-400">
                       {statistics.easySolved}
                     </div>
-                    <div className="text-sm text-muted-foreground">
-                      / {statistics.easy}
-                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.easy}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Easy</div>
                   <div className="mt-2">
@@ -374,16 +333,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <div className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">
                       {statistics.mediumSolved}
                     </div>
-                    <div className="text-sm text-muted-foreground">
-                      / {statistics.medium}
-                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.medium}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Medium</div>
                   <div className="mt-2">
                     <Progress
-                      value={
-                        (statistics.mediumSolved / statistics.medium) * 100
-                      }
+                      value={(statistics.mediumSolved / statistics.medium) * 100}
                       className="h-2 [&>div]:bg-yellow-600 dark:[&>div]:bg-yellow-400 bg-yellow-200 dark:bg-yellow-950"
                     />
                   </div>
@@ -395,9 +350,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     <div className="text-2xl font-bold text-red-600 dark:text-red-400">
                       {statistics.hardSolved}
                     </div>
-                    <div className="text-sm text-muted-foreground">
-                      / {statistics.hard}
-                    </div>
+                    <div className="text-sm text-muted-foreground">/ {statistics.hard}</div>
                   </div>
                   <div className="text-sm text-muted-foreground">Hard</div>
                   <div className="mt-2">
@@ -424,10 +377,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 />
               </div>
 
-              <Select
-                value={difficultyFilter}
-                onValueChange={setDifficultyFilter}
-              >
+              <Select value={difficultyFilter} onValueChange={setDifficultyFilter}>
                 <SelectTrigger className="w-full md:w-52">
                   <SelectValue placeholder="Difficulty" />
                 </SelectTrigger>
@@ -505,15 +455,11 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           </a>
                         </TableCell>
                         <TableCell>
-                          <div className="capitalize">
-                            {capitalizeWords(question.company)}
-                          </div>
+                          <div className="capitalize">{capitalizeWords(question.company)}</div>
                         </TableCell>
                         <TableCell>
                           <DifficultyBadge
-                            difficulty={
-                              question.Difficulty as "Easy" | "Medium" | "Hard"
-                            }
+                            difficulty={question.Difficulty as "Easy" | "Medium" | "Hard"}
                           />
                         </TableCell>
                         <TableCell>
@@ -528,12 +474,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                             ))}
                           </div>
                         </TableCell>
-                        <TableCell className="text-right">
-                          {question["Acceptance %"]}
-                        </TableCell>
-                        <TableCell className="text-right">
-                          {question["Frequency %"]}
-                        </TableCell>
+                        <TableCell className="text-right">{question["Acceptance %"]}</TableCell>
+                        <TableCell className="text-right">{question["Frequency %"]}</TableCell>
                         <TableCell className="text-center">
                           {question["Is Premium"] === "Y" ? (
                             <Check className="h-4 w-4 mx-auto text-green-600 dark:text-green-400" />
@@ -542,14 +484,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           )}
                         </TableCell>
                         <TableCell className="flex items-center gap-2">
-                          <VideoDialog
-                            id={question.ID}
-                            title={question.Title}
-                          />
-                          <SolutionDialog
-                            questionId={question.ID}
-                            title={question.Title}
-                          />
+                          <VideoDialog id={question.ID} title={question.Title} />
+                          <SolutionDialog questionId={question.ID} title={question.Title} />
                         </TableCell>
                       </TableRow>
                     ))}
@@ -579,9 +515,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
                   <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 w-full sm:w-auto">
                     <div className="flex items-center space-x-2 w-full sm:w-auto">
-                      <p className="text-sm text-muted-foreground whitespace-nowrap">
-                        Go to page
-                      </p>
+                      <p className="text-sm text-muted-foreground whitespace-nowrap">Go to page</p>
                       <Input
                         type="number"
                         min={1}

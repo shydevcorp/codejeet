@@ -42,12 +42,7 @@ export interface TweetGridProps
   className?: string;
 }
 
-export const TweetGrid: React.FC<TweetGridProps> = ({
-  tweets,
-  columns,
-  spacing,
-  className,
-}) => {
+export const TweetGrid: React.FC<TweetGridProps> = ({ tweets, columns, spacing, className }) => {
   // Calculate the number of rows needed based on total tweets and columns
   const numColumns = columns === 3 ? 3 : columns || 3;
   const rows = Math.ceil(tweets.length / numColumns);
@@ -60,10 +55,7 @@ export const TweetGrid: React.FC<TweetGridProps> = ({
   return (
     <div className={cn(tweetGridVariants({ columns }), "gap-x-8", className)}>
       {columns_array.map((columnTweets, colIndex) => (
-        <div
-          key={colIndex}
-          className="flex flex-col [&>*:not(:first-child)]:mt-[-24px]"
-        >
+        <div key={colIndex} className="flex flex-col [&>*:not(:first-child)]:mt-[-24px]">
           {columnTweets.map((tweetId) => (
             <div key={tweetId}>
               <Tweet id={tweetId} />

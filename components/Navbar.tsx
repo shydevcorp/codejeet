@@ -29,8 +29,7 @@ const Navbar = () => {
   const [geminiKey, setGeminiKey] = useState("");
   const [pendingGeminiKey, setPendingGeminiKey] = useState("");
   const [geminiVersion, setGeminiVersion] = useState("gemini 1.5 flash");
-  const [pendingGeminiVersion, setPendingGeminiVersion] =
-    useState("gemini 1.5 flash");
+  const [pendingGeminiVersion, setPendingGeminiVersion] = useState("gemini 1.5 flash");
   const { preferredLanguage, setPreferredLanguage } = useLanguage();
   const [pendingLanguage, setPendingLanguage] = useState(preferredLanguage);
   const { setTheme } = useTheme();
@@ -41,8 +40,7 @@ const Navbar = () => {
     setGeminiKey(savedKey);
     setPendingGeminiKey(savedKey);
 
-    const savedVersion =
-      localStorage.getItem("gemini-version") || "gemini 1.5 flash";
+    const savedVersion = localStorage.getItem("gemini-version") || "gemini 1.5 flash";
     setGeminiVersion(savedVersion);
     setPendingGeminiVersion(savedVersion);
 
@@ -84,9 +82,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <Button
             variant="outline"
-            onClick={() =>
-              window.open("https://www.buymeacoffee.com/shydev69", "_blank")
-            }
+            onClick={() => window.open("https://www.buymeacoffee.com/shydev69", "_blank")}
             className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
             size="icon"
           >
@@ -111,9 +107,7 @@ const Navbar = () => {
               <DropdownMenuContent className="mr-16 mt-2 border dark:border-white">
                 <div className="p-4">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">
-                      Gemini API Key
-                    </label>
+                    <label className="text-sm font-medium">Gemini API Key</label>
                     <Input
                       type="password"
                       value={pendingGeminiKey}
@@ -123,13 +117,8 @@ const Navbar = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">
-                      Preferred Language
-                    </label>
-                    <Select
-                      value={pendingLanguage}
-                      onValueChange={setPendingLanguage}
-                    >
+                    <label className="text-sm font-medium">Preferred Language</label>
+                    <Select value={pendingLanguage} onValueChange={setPendingLanguage}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select Language" />
                       </SelectTrigger>
@@ -144,23 +133,14 @@ const Navbar = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">
-                      Gemini Version
-                    </label>
-                    <Select
-                      value={pendingGeminiVersion}
-                      onValueChange={setPendingGeminiVersion}
-                    >
+                    <label className="text-sm font-medium">Gemini Version</label>
+                    <Select value={pendingGeminiVersion} onValueChange={setPendingGeminiVersion}>
                       <SelectTrigger>
                         <SelectValue placeholder="Select Gemini Version" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="gemini 1.5 flash">
-                          Gemini 1.5 Flash
-                        </SelectItem>
-                        <SelectItem value="gemini 1.5 pro">
-                          Gemini 1.5 Pro
-                        </SelectItem>
+                        <SelectItem value="gemini 1.5 flash">Gemini 1.5 Flash</SelectItem>
+                        <SelectItem value="gemini 1.5 pro">Gemini 1.5 Pro</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

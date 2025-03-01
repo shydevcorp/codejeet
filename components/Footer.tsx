@@ -13,11 +13,7 @@ const Footer = () => {
         </div>
         {/* Right Side */}
         <div className="flex items-center space-x-4">
-          <a
-            href="https://twitter.com/shydev69"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://twitter.com/shydev69" target="_blank" rel="noopener noreferrer">
             <BsTwitterX size={24} />
           </a>
         </div>

@@ -57,15 +57,13 @@ export default function Home() {
                 "absolute inset-0 z-0 [mask-image:radial-gradient(50vw_circle_at_center,white,transparent)]"
               )}
             />
-            <AnimatedGradientText>
-              🐧 | Proudly Open Source{" "}
-            </AnimatedGradientText>
+            <AnimatedGradientText>🐧 | Proudly Open Source </AnimatedGradientText>
             <motion.div variants={itemVariants}>
               <BlurIn
                 word={
                   <>
-                    Padhlo <SparkleText className="inline" text="DSA" /> kahin
-                    se, practice hogi yahi se.
+                    Padhlo <SparkleText className="inline" text="DSA" /> kahin se, practice hogi
+                    yahi se.
                   </>
                 }
                 className="font-display text-center text-4xl font-bold w-full lg:w-auto max-w-4xl mx-auto -z-10"
@@ -77,15 +75,12 @@ export default function Home() {
               variants={itemVariants}
             >
               {" "}
-              Suffer from <NumberTicker value={8000} />+ company-wise LeetCode
-              questions like a true Codejeet. Kyunki naukri ke liye sab kuch
-              chalega!
+              Suffer from <NumberTicker value={8000} />+ company-wise LeetCode questions like a true
+              Codejeet. Kyunki naukri ke liye sab kuch chalega!
             </motion.h2>
             <motion.div variants={itemVariants} className="z-20">
               <Link href="/dashboard">
-                <RainbowButton className={cn("shadow-2xl mb-4")}>
-                  Get Started
-                </RainbowButton>
+                <RainbowButton className={cn("shadow-2xl mb-4")}>Get Started</RainbowButton>
               </Link>
             </motion.div>
             <motion.div variants={itemVariants}>

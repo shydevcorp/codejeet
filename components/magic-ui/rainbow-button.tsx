@@ -1,14 +1,9 @@
 import React from "react";
 
 import { cn } from "@/lib/utils";
-interface RainbowButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+interface RainbowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
-export function RainbowButton({
-  children,
-  className,
-  ...props
-}: RainbowButtonProps) {
+export function RainbowButton({ children, className, ...props }: RainbowButtonProps) {
   return (
     <button
       className={cn(
@@ -23,7 +18,7 @@ export function RainbowButton({
         // hover effect
         "hover:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),linear-gradient(90deg,hsl(var(--color-1)),hsl(var(--color-5)),hsl(var(--color-3)),hsl(var(--color-4)),hsl(var(--color-2)))]",
 
-        className,
+        className
       )}
       {...props}
     >

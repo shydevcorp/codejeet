@@ -6,11 +6,7 @@ interface DifficultyBadgeProps {
   showCount?: boolean;
 }
 
-export function DifficultyBadge({
-  difficulty,
-  count,
-  showCount = false,
-}: DifficultyBadgeProps) {
+export function DifficultyBadge({ difficulty, count, showCount = false }: DifficultyBadgeProps) {
   const baseStyles = "px-2 py-1 rounded-full text-xs font-semibold";
 
   const difficultyStyles = {

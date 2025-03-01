@@ -9,19 +9,14 @@ export async function GET(request: Request) {
     const language = searchParams.get("language") || "cpp";
 
     if (!id) {
-      return NextResponse.json(
-        { error: "Question ID is required" },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "Question ID is required" }, { status: 400 });
     }
 
     if (!process.env.GEMINI_API_KEY) {
       throw new Error("GEMINI_API_KEY is not configured");
     }
 
-    const apiKey =
-      new Headers(request.headers).get("x-gemini-key") ||
-      process.env.GEMINI_API_KEY;
+    const apiKey = new Headers(request.headers).get("x-gemini-key") || process.env.GEMINI_API_KEY;
     if (!apiKey) {
       throw new Error("GEMINI_API_KEY is not configured");
     }
@@ -53,9 +48,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ solution });
   } catch (error: any) {
     console.error("API Error:", error.message || error);
-    const message =
-      error.message ||
-      "An unknown error occurred while generating the solution";
+    const message = error.message || "An unknown error occurred while generating the solution";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

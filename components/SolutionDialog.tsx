@@ -44,9 +44,7 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
       const contentType = response.headers.get("content-type") || "";
 
       if (!contentType.includes("application/json")) {
-        throw new Error(
-          "Unexpected response format. The server did not return valid JSON."
-        );
+        throw new Error("Unexpected response format. The server did not return valid JSON.");
       }
 
       const data = await response.json();
@@ -57,8 +55,7 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
 
       setSolution(data.solution);
     } catch (error) {
-      const message =
-        error instanceof Error ? error.message : "Failed to load solution";
+      const message = error instanceof Error ? error.message : "Failed to load solution";
       console.error("Error fetching solution:", error);
       setError(message);
       setSolution("");
@@ -115,10 +112,7 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
   return (
     <Dialog>
       <DialogTrigger>
-        <Book
-          className="h-4 w-4 cursor-pointer"
-          onClick={() => fetchSolution()}
-        />
+        <Book className="h-4 w-4 cursor-pointer" onClick={() => fetchSolution()} />
       </DialogTrigger>
       <DialogContent className="max-w-4xl max-h-[70vh] overflow-y-auto">
         <DialogHeader>
@@ -129,10 +123,7 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
           {loading && <Skeleton className="h-20 w-full" />}
           {error && <div className="text-red-500">Error: {error}</div>}
           {!loading && !error && solution && (
-            <ReactMarkdown
-              components={renderers}
-              className="prose dark:prose-invert"
-            >
+            <ReactMarkdown components={renderers} className="prose dark:prose-invert">
               {solution}
             </ReactMarkdown>
           )}
