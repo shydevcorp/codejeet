@@ -1,6 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-42,Trapping Rain Water,/problems/trapping-rain-water,N,58.8%,Hard,11.58%,No Topics Found
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,4.19%,"Array, Math, Matrix"
-221,Maximal Square,/problems/maximal-square,N,44.6%,Medium,7.40%,"Array, Dynamic Programming, Matrix"
-880,Decoded String at Index,/problems/decoded-string-at-index,N,28.3%,Medium,100.00%,"String, Stack"
-1052,Grumpy Bookstore Owner,/problems/grumpy-bookstore-owner,N,57.1%,Medium,55.79%,"Array, Sliding Window"

@@ -1,4 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-91,Decode Ways,/problems/decode-ways,N,32.3%,Medium,14.68%,"String, Dynamic Programming"
-329,Longest Increasing Path in a Matrix,/problems/longest-increasing-path-in-a-matrix,N,52.2%,Hard,57.34%,"Array, Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Topological Sort, Memoization, Matrix"
-2227,Encrypt and Decrypt Strings,/problems/encrypt-and-decrypt-strings,N,39.4%,Hard,100.00%,"Array, Hash Table, String, Design, Trie"

@@ -1,9 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-191,Number of 1 Bits,/problems/number-of-1-bits,N,65.0%,Easy,100.00%,"Divide and Conquer, Bit Manipulation"
-250,Count Univalue Subtrees,/problems/count-univalue-subtrees,N,52.0%,Medium,1.72%,No Topics Found
-965,Univalued Binary Tree,/problems/univalued-binary-tree,N,67.7%,Easy,1.25%,"Tree, Depth-First Search, Breadth-First Search, Binary Tree"
-68,Text Justification,/problems/text-justification,N,27.7%,Hard,0.78%,"Array, String, Simulation"
-935,Knight Dialer,/problems/knight-dialer,N,45.2%,Medium,0.55%,Dynamic Programming
-126,Word Ladder II,/problems/word-ladder-ii,N,22.1%,Hard,0.11%,"Hash Table, String, Backtracking, Breadth-First Search"
-1,Two Sum,/problems/two-sum,N,45.6%,Easy,0.07%,"Array, Hash Table"
-23,Merge k Sorted Lists,/problems/merge-k-sorted-lists,N,40.2%,Hard,0.03%,"Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort"

@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Check, ChevronsUpDown } from "lucide-react";
+import { Check, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -43,12 +43,14 @@ export default function TopicDropdown({
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="justify-between min-w-[200px]"
+            className="justify-between min-w-[200px] bg-transparent [&>span]:line-clamp-1"
           >
-            {selectedOptions.length === 0
-              ? "Select topics..."
-              : `${selectedOptions.length} selected`}
-            <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+            <span className="line-clamp-1">
+              {selectedOptions.length === 0
+                ? "Select topics..."
+                : `${selectedOptions.length} selected`}
+            </span>
+            <ChevronDown className="h-4 w-4 opacity-50" />
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-[300px] p-0">

@@ -1,46 +1,54 @@
 import { NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
-import { parse } from "csv-parse/sync";
+import { getQuestionsFromDatabase, getCompanies } from "@/lib/database";
 
-interface QuestionRecord {
-  company: string;
-  [key: string]: string;
-}
-
-export async function GET() {
+export async function GET(request: Request) {
   try {
-    const dataDirectory = path.join(process.cwd(), "data");
-    const files = await fs.readdir(dataDirectory);
+    const { searchParams } = new URL(request.url);
 
-    let allQuestions: QuestionRecord[] = [];
+    // Parse query parameters for filtering
+    const companies = searchParams.get("companies")?.split(",").filter(Boolean);
+    const difficulties = searchParams.get("difficulties")?.split(",").filter(Boolean) as (
+      | "Easy"
+      | "Medium"
+      | "Hard"
+    )[];
+    const topics = searchParams.get("topics")?.split(",").filter(Boolean);
+    const timeframes = searchParams.get("timeframes")?.split(",").filter(Boolean) as (
+      | "30_days"
+      | "3_months"
+      | "6_months"
+      | "more_than_6m"
+      | "all"
+    )[];
+    const isPremium =
+      searchParams.get("isPremium") === "true"
+        ? true
+        : searchParams.get("isPremium") === "false"
+          ? false
+          : undefined;
+    const search = searchParams.get("search") || undefined;
+    const limit = searchParams.get("limit") ? parseInt(searchParams.get("limit")!) : undefined;
+    const offset = searchParams.get("offset") ? parseInt(searchParams.get("offset")!) : undefined;
 
-    for (const file of files) {
-      if (file.endsWith(".csv")) {
-        const company = file.replace(".csv", "");
-        const filePath = path.join(dataDirectory, file);
-        const fileContent = await fs.readFile(filePath, "utf-8");
-        const records: Record<string, string>[] = parse(fileContent, {
-          columns: true,
-          skip_empty_lines: true,
-        });
-
-        const companyRecords: QuestionRecord[] = records.map((record) => ({
-          ...record,
-          company,
-        }));
-
-        allQuestions = [...allQuestions, ...companyRecords];
-      }
-    }
-
-    const companies = [...new Set(allQuestions.map((q) => q.company))];
+    // Fetch questions from database with filters
+    const result = await getQuestionsFromDatabase({
+      companies,
+      difficulties,
+      topics,
+      timeframes,
+      isPremium,
+      search,
+      limit,
+      offset,
+    });
 
     return NextResponse.json({
-      questions: allQuestions,
-      companies: companies,
+      questions: result.questions,
+      companies: result.companies,
+      totalCount: result.totalCount,
     });
   } catch (error) {
-    return NextResponse.json({ error: "Failed to load questions" }, { status: 500 });
+    console.error("Error fetching questions:", error);
+    return NextResponse.json({ error: "Failed to load questions from database" }, { status: 500 });
   }
 }

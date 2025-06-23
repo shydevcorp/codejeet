@@ -11,7 +11,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
-  DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
 import {
@@ -63,9 +62,7 @@ const Navbar = () => {
       <div className="flex h-16 items-center px-4 container mx-auto">
         <div className="font-bold text-2xl flex-1">
           <Link href="/" className="flex items-center">
-            <span className="inline bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg font-poppins">
-              CodeJeet🏆
-            </span>
+            <span className="inline drop-shadow-lg font-poppins">CodeJeet 🏆</span>
           </Link>
         </div>
 
@@ -94,7 +91,7 @@ const Navbar = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent className="mr-16 mt-2 border dark:border-white">
-                <div className="p-4">
+                <div className="p-4 space-y-4">
                   <div className="space-y-2">
                     <label className="text-sm font-medium">Gemini API Key</label>
                     <Input
@@ -137,8 +134,6 @@ const Navbar = () => {
                     </Select>
                   </div>
 
-                  <DropdownMenuSeparator />
-
                   <div className="space-y-2">
                     <label className="text-sm font-medium">Theme</label>
                     <div className="flex justify-between gap-2">
@@ -169,7 +164,7 @@ const Navbar = () => {
                     </div>
                   </div>
 
-                  <Button className="w-full mt-4" onClick={handleSaveSettings}>
+                  <Button className="w-full" onClick={handleSaveSettings}>
                     Save Settings
                   </Button>
                 </div>

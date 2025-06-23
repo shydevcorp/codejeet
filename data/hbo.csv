@@ -1,6 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-200,Number of Islands,/problems/number-of-islands,N,56.4%,Medium,100.00%,"Array, Depth-First Search, Breadth-First Search, Union Find, Matrix"
-722,Remove Comments,/problems/remove-comments,N,34.6%,Medium,0.06%,
-198,House Robber,/problems/house-robber,N,42.0%,Easy,0.03%,"Array, Dynamic Programming"
-146,LRU Cache,/problems/lru-cache,N,33.2%,Medium,0.01%,"Hash Table, Linked List, Design, Doubly-Linked List"
-139,Word Break,/problems/word-break,N,40.1%,Medium,0.00%,"Array, Hash Table, String, Dynamic Programming, Trie, Memoization"

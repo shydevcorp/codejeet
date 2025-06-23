@@ -1,4 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-460,LFU Cache,/problems/lfu-cache,N,40.4%,Hard,50.00%,"Hash Table, Linked List, Design, Doubly-Linked List"
-787,Cheapest Flights Within K Stops,/problems/cheapest-flights-within-k-stops,N,35.9%,Medium,100.00%,"Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), Shortest Path"
-754,Reach a Number,/problems/reach-a-number,N,34.7%,Medium,0.00%,"Math, Binary Search"

@@ -1,6 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-48,Rotate Image,/problems/rotate-image,N,70.1%,Medium,50.00%,"Array, Math, Matrix"
-504,Base 7,/problems/base-7,N,48.0%,Easy,100.00%,Math
-46,Permutations,/problems/permutations,N,63.5%,Medium,0.00%,"Array, Backtracking"
-4,Median of Two Sorted Arrays,/problems/median-of-two-sorted-arrays,N,29.6%,Hard,0.00%,"Array, Binary Search, Divide and Conquer"
-810,Chalkboard XOR Game,/problems/chalkboard-xor-game,N,48.2%,Hard,0.00%,"Array, Math, Bit Manipulation, Brainteaser, Game Theory"

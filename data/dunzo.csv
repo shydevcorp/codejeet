@@ -1,5 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-126,Word Ladder II,/problems/word-ladder-ii,N,27.6%,Hard,23.80%,"Hash Table, String, Backtracking, Breadth-First Search"
-279,Perfect Squares,/problems/perfect-squares,N,52.1%,Medium,16.62%,"Math, Dynamic Programming, Breadth-First Search"
-363,Max Sum of Rectangle No Larger Than K,/problems/max-sum-of-rectangle-no-larger-than-k,N,44.1%,Hard,61.90%,"Array, Binary Search, Matrix, Prefix Sum, Ordered Set"
-446,Arithmetic Slices II - Subsequence,/problems/arithmetic-slices-ii-subsequence,N,39.9%,Hard,100.00%,"Array, Dynamic Programming"

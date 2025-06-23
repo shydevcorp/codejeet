@@ -1,7 +1,0 @@
-ID,Title,URL,Is Premium,Acceptance %,Difficulty,Frequency %,Topics
-306,Additive Number,/problems/additive-number,N,30.9%,Medium,100.00%,"String, Backtracking"
-54,Spiral Matrix,/problems/spiral-matrix,N,34.1%,Medium,0.43%,"Array, Matrix, Simulation"
-38,Count and Say,/problems/count-and-say,N,44.6%,Easy,0.18%,String
-20,Valid Parentheses,/problems/valid-parentheses,N,39.0%,Easy,0.02%,"String, Stack"
-728,Self Dividing Numbers,/problems/self-dividing-numbers,N,74.3%,Easy,0.00%,Math
-1215,Stepping Numbers,/problems/stepping-numbers,N,41.6%,Medium,0.00%,No Topics Found

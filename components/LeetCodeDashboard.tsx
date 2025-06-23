@@ -31,10 +31,19 @@ import { DifficultyBadge } from "@/components/ui/difficulty-badge";
 import TopicDropdown from "@/components/TopicDropdown";
 
 interface Question {
+  id: number;
+  slug: string;
+  title: string;
+  difficulty: string;
+  acceptance_rate: number;
+  link: string;
+  company: string;
+  frequency: number;
+  timeframe: string;
+  topics: string[];
   ID: string;
   Title: string;
   URL: string;
-  company: string;
   Difficulty: string;
   "Acceptance %": string;
   "Frequency %": string;
@@ -75,6 +84,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [goToPage, setGoToPage] = useState("");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(null);
+  const [timeframeFilter, setTimeframeFilter] = useState("all");
 
   useEffect(() => {
     setIsClient(true);
@@ -152,10 +162,26 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             .map((t) => t.trim())
             .includes(topic)
         );
+      const matchesTimeframe = timeframeFilter === "all" || question.timeframe === timeframeFilter;
 
-      return matchesSearch && matchesDifficulty && matchesPremium && matchesCompany && matchesTopic;
+      return (
+        matchesSearch &&
+        matchesDifficulty &&
+        matchesPremium &&
+        matchesCompany &&
+        matchesTopic &&
+        matchesTimeframe
+      );
     });
-  }, [questions, searchQuery, difficultyFilter, premiumFilter, selectedCompany, selectedTopics]);
+  }, [
+    questions,
+    searchQuery,
+    difficultyFilter,
+    premiumFilter,
+    selectedCompany,
+    selectedTopics,
+    timeframeFilter,
+  ]);
 
   const filteredAndSortedQuestions = useMemo(() => {
     let result = filteredQuestions;
@@ -287,13 +313,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         <CardHeader>
           <CardTitle className="text-3xl font-bold">Practice Questions</CardTitle>
           <CardDescription>
-            Browse through {totalQuestions.toLocaleString()} LeetCode questions asked in technical
+            Browse through {totalQuestions.toLocaleString()} DSA questions asked in technical
             interviews
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="flex flex-col gap-6">
-            {/* Statistics */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <Card className="bg-background/50">
                 <CardContent className="pt-6">
@@ -363,7 +388,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
               </Card>
             </div>
 
-            {/* Filters */}
             <div className="flex flex-col md:flex-row gap-4">
               <div className="md:w-[200px]">
                 <Input
@@ -400,6 +424,19 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 </SelectContent>
               </Select>
 
+              <Select value={timeframeFilter} onValueChange={setTimeframeFilter}>
+                <SelectTrigger className="w-full md:w-56">
+                  <SelectValue placeholder="Last Appeared" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Timeframes</SelectItem>
+                  <SelectItem value="30_days">Last 30 Days</SelectItem>
+                  <SelectItem value="3_months">Last 3 Months</SelectItem>
+                  <SelectItem value="6_months">Last 6 Months</SelectItem>
+                  <SelectItem value="more_than_6m">More than 6 Months</SelectItem>
+                </SelectContent>
+              </Select>
+
               <TopicDropdown
                 options={uniqueTopics}
                 selectedOptions={selectedTopics}
@@ -407,14 +444,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
               />
             </div>
 
-            {/* Questions Table */}
             {filteredQuestions.length === 0 ? (
               <div className="p-4 text-center text-muted-foreground">
                 No questions found , try some other filters?
               </div>
             ) : (
               <>
-                {/* Desktop table view */}
                 <div className="rounded-md border hidden md:block">
                   <Table>
                     <TableHeader>
@@ -437,7 +472,9 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     </TableHeader>
                     <TableBody>
                       {currentItems.map((question) => (
-                        <TableRow key={`${question.ID}-${question.company}`}>
+                        <TableRow
+                          key={`${question.id}-${question.company}-${question.timeframe || "unknown"}`}
+                        >
                           <TableCell className="w-4">
                             <Checkbox
                               checked={checkedItems[question.ID] || false}
@@ -493,7 +530,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                       ))}
                     </TableBody>
                   </Table>
-                  {/* Desktop pagination */}
                   <div className="hidden md:flex flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4">
                     <div className="flex items-center space-x-2 w-full sm:w-auto">
                       <p className="text-sm text-muted-foreground whitespace-nowrap">
@@ -558,11 +594,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   </div>
                 </div>
 
-                {/* Mobile card view */}
                 <div className="grid gap-4 md:hidden">
                   {currentItems.map((question) => (
                     <Card
-                      key={`${question.ID}-${question.company}`}
+                      key={`${question.id}-${question.company}-${question.timeframe || "unknown"}`}
                       className="p-4 bg-background/50 border"
                     >
                       <div className="flex items-start justify-between gap-3">
@@ -610,7 +645,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     </Card>
                   ))}
 
-                  {/* Mobile pagination */}
                   <div className="flex md:hidden flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4 w-full">
                     <div className="flex items-center space-x-2 w-full sm:w-auto">
                       <p className="text-sm text-muted-foreground whitespace-nowrap">
