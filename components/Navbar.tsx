@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { UserButton, SignedIn } from "@clerk/clerk-react";
+import { UserButton, SignedIn } from "@clerk/nextjs";
 import Link from "next/link";
 import { Menu, Sun, Moon, Laptop } from "lucide-react";
 import { useState, useEffect } from "react";

@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         baseTheme: dark,
       }}
     >
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <head>
           <link rel="icon" href="./icon.svg" />
         </head>
