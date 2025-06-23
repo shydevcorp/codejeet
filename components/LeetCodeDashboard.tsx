@@ -413,119 +413,107 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 No questions found , try some other filters?
               </div>
             ) : (
-              <div className="rounded-md border">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className="w-4"></TableHead>
-                      <TableHead>Title</TableHead>
-                      <TableHead>Company</TableHead>
-                      <TableHead>Difficulty</TableHead>
-                      <TableHead>Topics</TableHead>
-                      <TableHead className="text-right">Acceptance</TableHead>
-                      <TableHead
-                        className="text-right cursor-pointer hover:text-primary transition-colors"
-                        onClick={handleFrequencySort}
-                      >
-                        Frequency
-                      </TableHead>
-                      <TableHead className="text-center">Premium</TableHead>
-                      <TableHead className="text-left">Solution</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {currentItems.map((question) => (
-                      <TableRow key={`${question.ID}-${question.company}`}>
-                        <TableCell className="w-4">
-                          <Checkbox
-                            checked={checkedItems[question.ID] || false}
-                            onCheckedChange={(value: boolean) =>
-                              handleCheckboxChange(question.ID, value)
-                            }
-                          />
-                        </TableCell>
-                        <TableCell>
-                          <a
-                            href={`https://leetcode.com${question.URL}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-foreground hover:text-primary hover:underline"
-                          >
-                            {question.Title}
-                          </a>
-                        </TableCell>
-                        <TableCell>
-                          <div className="capitalize">{capitalizeWords(question.company)}</div>
-                        </TableCell>
-                        <TableCell>
-                          <DifficultyBadge
-                            difficulty={question.Difficulty as "Easy" | "Medium" | "Hard"}
-                          />
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex flex-wrap gap-1">
-                            {question.Topics.split(",").map((topic, index) => (
-                              <span
-                                key={index}
-                                className="px-2 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-700 dark:text-blue-400"
-                              >
-                                {topic.trim()}
-                              </span>
-                            ))}
-                          </div>
-                        </TableCell>
-                        <TableCell className="text-right">{question["Acceptance %"]}</TableCell>
-                        <TableCell className="text-right">{question["Frequency %"]}</TableCell>
-                        <TableCell className="text-center">
-                          {question["Is Premium"] === "Y" ? (
-                            <Check className="h-4 w-4 mx-auto text-green-600 dark:text-green-400" />
-                          ) : (
-                            <X className="h-4 w-4 mx-auto text-red-600 dark:text-red-400" />
-                          )}
-                        </TableCell>
-                        <TableCell className="flex items-center gap-2">
-                          <VideoDialog id={question.ID} title={question.Title} />
-                          <SolutionDialog questionId={question.ID} title={question.Title} />
-                        </TableCell>
+              <>
+                {/* Desktop table view */}
+                <div className="rounded-md border hidden md:block">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead className="w-4"></TableHead>
+                        <TableHead>Title</TableHead>
+                        <TableHead>Company</TableHead>
+                        <TableHead>Difficulty</TableHead>
+                        <TableHead>Topics</TableHead>
+                        <TableHead className="text-right">Acceptance</TableHead>
+                        <TableHead
+                          className="text-right cursor-pointer hover:text-primary transition-colors"
+                          onClick={handleFrequencySort}
+                        >
+                          Frequency
+                        </TableHead>
+                        <TableHead className="text-center">Premium</TableHead>
+                        <TableHead className="text-left">Solution</TableHead>
                       </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-                <div className="flex flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4">
-                  <div className="flex items-center space-x-2 w-full sm:w-auto">
-                    <p className="text-sm text-muted-foreground whitespace-nowrap">
-                      Items per page
-                    </p>
-                    <Select
-                      value={itemsPerPage.toString()}
-                      onValueChange={handleItemsPerPageChange}
-                    >
-                      <SelectTrigger className="w-[70px]">
-                        <SelectValue placeholder={itemsPerPage} />
-                      </SelectTrigger>
-                      <SelectContent>
-                        {[5, 10, 20, 50, 100].map((size) => (
-                          <SelectItem key={size} value={size.toString()}>
-                            {size}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 w-full sm:w-auto">
+                    </TableHeader>
+                    <TableBody>
+                      {currentItems.map((question) => (
+                        <TableRow key={`${question.ID}-${question.company}`}>
+                          <TableCell className="w-4">
+                            <Checkbox
+                              checked={checkedItems[question.ID] || false}
+                              onCheckedChange={(value: boolean) =>
+                                handleCheckboxChange(question.ID, value)
+                              }
+                            />
+                          </TableCell>
+                          <TableCell>
+                            <a
+                              href={`https://leetcode.com${question.URL}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-foreground hover:text-primary hover:underline"
+                            >
+                              {question.Title}
+                            </a>
+                          </TableCell>
+                          <TableCell>
+                            <div className="capitalize">{capitalizeWords(question.company)}</div>
+                          </TableCell>
+                          <TableCell>
+                            <DifficultyBadge
+                              difficulty={question.Difficulty as "Easy" | "Medium" | "Hard"}
+                            />
+                          </TableCell>
+                          <TableCell>
+                            <div className="flex flex-wrap gap-1">
+                              {question.Topics.split(",").map((topic, index) => (
+                                <span
+                                  key={index}
+                                  className="px-2 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-700 dark:text-blue-400"
+                                >
+                                  {topic.trim()}
+                                </span>
+                              ))}
+                            </div>
+                          </TableCell>
+                          <TableCell className="text-right">{question["Acceptance %"]}</TableCell>
+                          <TableCell className="text-right">{question["Frequency %"]}</TableCell>
+                          <TableCell className="text-center">
+                            {question["Is Premium"] === "Y" ? (
+                              <Check className="h-4 w-4 mx-auto text-green-600 dark:text-green-400" />
+                            ) : (
+                              <X className="h-4 w-4 mx-auto text-red-600 dark:text-red-400" />
+                            )}
+                          </TableCell>
+                          <TableCell className="flex items-center gap-2">
+                            <VideoDialog id={question.ID} title={question.Title} />
+                            <SolutionDialog questionId={question.ID} title={question.Title} />
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                  {/* Desktop pagination */}
+                  <div className="hidden md:flex flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4">
                     <div className="flex items-center space-x-2 w-full sm:w-auto">
-                      <p className="text-sm text-muted-foreground whitespace-nowrap">Go to page</p>
-                      <Input
-                        type="number"
-                        min={1}
-                        max={totalPages}
-                        value={goToPage}
-                        onChange={(e) => setGoToPage(e.target.value)}
-                        onKeyDown={handleGoToPage}
-                        className="w-[70px]"
-                        placeholder={currentPage.toString()}
-                      />
+                      <p className="text-sm text-muted-foreground whitespace-nowrap">
+                        Items per page
+                      </p>
+                      <Select
+                        value={itemsPerPage.toString()}
+                        onValueChange={handleItemsPerPageChange}
+                      >
+                        <SelectTrigger className="w-[70px]">
+                          <SelectValue placeholder={itemsPerPage} />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {[5, 10, 20, 50, 100].map((size) => (
+                            <SelectItem key={size} value={size.toString()}>
+                              {size}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
                     </div>
 
                     <div className="flex items-center space-x-2 w-full sm:w-auto justify-center">
@@ -534,10 +522,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         size="sm"
                         onClick={goToFirstPage}
                         disabled={currentPage === 1}
-                        className="hidden sm:flex"
                       >
-                        <ChevronLeft className="h-4 w-4 mr-2" />
-                        First
+                        <ChevronLeft className="h-4 w-4" />
                       </Button>
                       <Button
                         variant="outline"
@@ -565,15 +551,112 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         size="sm"
                         onClick={goToLastPage}
                         disabled={currentPage === totalPages}
-                        className="hidden sm:flex"
                       >
-                        Last
-                        <ChevronRight className="h-4 w-4 ml-2" />
+                        <ChevronRight className="h-4 w-4" />
                       </Button>
                     </div>
                   </div>
                 </div>
-              </div>
+
+                {/* Mobile card view */}
+                <div className="grid gap-4 md:hidden">
+                  {currentItems.map((question) => (
+                    <Card
+                      key={`${question.ID}-${question.company}`}
+                      className="p-4 bg-background/50 border"
+                    >
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex items-start gap-2">
+                          <Checkbox
+                            checked={checkedItems[question.ID] || false}
+                            onCheckedChange={(value: boolean) =>
+                              handleCheckboxChange(question.ID, value)
+                            }
+                          />
+                          <div>
+                            <a
+                              href={`https://leetcode.com${question.URL}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-medium hover:underline"
+                            >
+                              {question.Title}
+                            </a>
+                            <div className="capitalize text-xs text-muted-foreground">
+                              {capitalizeWords(question.company)}
+                            </div>
+                          </div>
+                        </div>
+                        <DifficultyBadge
+                          difficulty={question.Difficulty as "Easy" | "Medium" | "Hard"}
+                        />
+                      </div>
+
+                      <div className="mt-3 flex flex-wrap gap-1">
+                        {question.Topics.split(",").map((topic, index) => (
+                          <span
+                            key={index}
+                            className="px-2 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-700 dark:text-blue-400"
+                          >
+                            {topic.trim()}
+                          </span>
+                        ))}
+                      </div>
+
+                      <div className="mt-3 flex gap-2">
+                        <VideoDialog id={question.ID} title={question.Title} />
+                        <SolutionDialog questionId={question.ID} title={question.Title} />
+                      </div>
+                    </Card>
+                  ))}
+
+                  {/* Mobile pagination */}
+                  <div className="flex md:hidden flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4 w-full">
+                    <div className="flex items-center space-x-2 w-full sm:w-auto">
+                      <p className="text-sm text-muted-foreground whitespace-nowrap">
+                        Items per page
+                      </p>
+                      <Select
+                        value={itemsPerPage.toString()}
+                        onValueChange={handleItemsPerPageChange}
+                      >
+                        <SelectTrigger className="w-[70px]">
+                          <SelectValue placeholder={itemsPerPage} />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {[5, 10, 20, 50, 100].map((size) => (
+                            <SelectItem key={size} value={size.toString()}>
+                              {size}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    <div className="flex items-center space-x-2 w-full sm:w-auto justify-center">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={goToPreviousPage}
+                        disabled={currentPage === 1}
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                      </Button>
+                      <div className="text-sm font-medium whitespace-nowrap">
+                        {currentPage} / {totalPages}
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={goToNextPage}
+                        disabled={currentPage === totalPages}
+                      >
+                        <ChevronRight className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </>
             )}
           </div>
         </CardContent>

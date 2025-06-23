@@ -26,10 +26,8 @@ import { AiFillStar } from "react-icons/ai";
 import { BiCoffee } from "react-icons/bi";
 
 const Navbar = () => {
-  const [geminiKey, setGeminiKey] = useState("");
+  const [pendingGeminiVersion, setPendingGeminiVersion] = useState("gemini-2.5-flash");
   const [pendingGeminiKey, setPendingGeminiKey] = useState("");
-  const [geminiVersion, setGeminiVersion] = useState("gemini 1.5 flash");
-  const [pendingGeminiVersion, setPendingGeminiVersion] = useState("gemini 1.5 flash");
   const { preferredLanguage, setPreferredLanguage } = useLanguage();
   const [pendingLanguage, setPendingLanguage] = useState(preferredLanguage);
   const { setTheme } = useTheme();
@@ -37,21 +35,15 @@ const Navbar = () => {
 
   useEffect(() => {
     const savedKey = localStorage.getItem("gemini-key") || "";
-    setGeminiKey(savedKey);
     setPendingGeminiKey(savedKey);
 
-    const savedVersion = localStorage.getItem("gemini-version") || "gemini 1.5 flash";
-    setGeminiVersion(savedVersion);
+    const savedVersion = localStorage.getItem("gemini-version") || "gemini-2.5-flash";
     setPendingGeminiVersion(savedVersion);
 
     setPendingLanguage(preferredLanguage);
   }, [preferredLanguage]);
 
   const handleSaveSettings = () => {
-    setGeminiKey(pendingGeminiKey);
-    setGeminiVersion(pendingGeminiVersion);
-    setPreferredLanguage(pendingLanguage);
-
     localStorage.setItem("gemini-key", pendingGeminiKey);
     localStorage.setItem("preferred-language", pendingLanguage);
     localStorage.setItem("gemini-version", pendingGeminiVersion);
@@ -69,7 +61,6 @@ const Navbar = () => {
   return (
     <div className="border-b">
       <div className="flex h-16 items-center px-4 container mx-auto">
-        {/* Left Section - Logo */}
         <div className="font-bold text-2xl flex-1">
           <Link href="/" className="flex items-center">
             <span className="inline bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg font-poppins">
@@ -78,7 +69,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Right Section - Controls */}
         <div className="flex items-center space-x-4">
           <Button
             variant="outline"
@@ -97,7 +87,6 @@ const Navbar = () => {
             Star this project
           </Button>
           <SignedIn>
-            {/* Settings Dropdown - Only visible after sign in */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -139,8 +128,11 @@ const Navbar = () => {
                         <SelectValue placeholder="Select Gemini Version" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="gemini 1.5 flash">Gemini 1.5 Flash</SelectItem>
-                        <SelectItem value="gemini 1.5 pro">Gemini 1.5 Pro</SelectItem>
+                        <SelectItem value="gemini-2.5-flash">Gemini 2.5 Flash</SelectItem>
+                        <SelectItem value="gemini-2.5-pro">Gemini 2.5 Pro</SelectItem>
+                        <SelectItem value="gemini-2.5-flash-lite-preview-06-17">
+                          Gemini 2.5 Flash Lite Preview 06-17
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

@@ -91,12 +91,14 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
             whiteSpace: "pre-wrap",
             wordBreak: "break-word",
             margin: "1em 0",
+            fontSize: "0.85rem",
           }}
           lineNumberStyle={{
             minWidth: "3em",
             paddingRight: "1em",
             textAlign: "right",
             userSelect: "none",
+            fontSize: "0.75rem",
           }}
           {...props}
         >
