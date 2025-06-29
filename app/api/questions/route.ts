@@ -42,11 +42,19 @@ export async function GET(request: Request) {
       offset,
     });
 
-    return NextResponse.json({
-      questions: result.questions,
-      companies: result.companies,
-      totalCount: result.totalCount,
-    });
+    return NextResponse.json(
+      {
+        questions: result.questions,
+        companies: result.companies,
+        totalCount: result.totalCount,
+      },
+      {
+        status: 200,
+        headers: {
+          "Cache-Control": "public, max-age=3600, stale-while-revalidate=60",
+        },
+      }
+    );
   } catch (error) {
     console.error("Error fetching questions:", error);
     return NextResponse.json({ error: "Failed to load questions from database" }, { status: 500 });
