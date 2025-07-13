@@ -90,8 +90,8 @@ const Navbar = () => {
                   <Menu className="h-5 w-5" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="mr-16 mt-2 border dark:border-white">
-                <div className="p-4 space-y-4">
+              <DropdownMenuContent className="mr-16 mt-2 w-80 bg-card border-border shadow-lg">
+                <div className="p-6 space-y-4">
                   <div className="space-y-2">
                     <label className="text-sm font-medium">Gemini API Key</label>
                     <Input
