@@ -122,7 +122,11 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
         </DialogHeader>
 
         <div className="mt-4">
-          {loading && <Skeleton className="h-20 w-full" />}
+          {loading && (
+            <div className="space-y-4">
+              <div className="h-96 w-full bg-muted animate-pulse rounded-lg border" />
+            </div>
+          )}
           {error && <div className="text-red-500">Error: {error}</div>}
           {!loading && !error && solution && (
             <ReactMarkdown components={renderers} className="prose dark:prose-invert">
