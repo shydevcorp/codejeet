@@ -417,11 +417,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                 <SelectTrigger className="w-full md:w-40">
                   <SelectValue placeholder="Premium Status" />
                 </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">All Questions</SelectItem>
-                  <SelectItem value="free">Free Only</SelectItem>
-                  <SelectItem value="premium">Premium Only</SelectItem>
-                </SelectContent>
               </Select>
 
               <Select value={timeframeFilter} onValueChange={setTimeframeFilter}>

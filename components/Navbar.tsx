@@ -21,8 +21,6 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { AiFillStar } from "react-icons/ai";
-import { BiCoffee } from "react-icons/bi";
 
 const Navbar = () => {
   const [pendingGeminiVersion, setPendingGeminiVersion] = useState("gemini-2.5-flash");
@@ -54,7 +52,7 @@ const Navbar = () => {
   };
 
   const handleStarProject = () => {
-    window.open("https://github.com/ayush-that/codejeet", "_blank");
+    window.open("https://github.com/shydevcorp/codejeet", "_blank");
   };
 
   return (
@@ -62,26 +60,17 @@ const Navbar = () => {
       <div className="flex h-16 items-center px-4 container mx-auto">
         <div className="font-bold text-2xl flex-1">
           <Link href="/" className="flex items-center">
-            <span className="inline drop-shadow-lg font-poppins">CodeJeet 🏆</span>
+            <span className="inline drop-shadow-lg font-poppins">CodeJeet</span>
           </Link>
         </div>
 
         <div className="flex items-center space-x-4">
           <Button
             variant="outline"
-            onClick={() => window.open("https://www.buymeacoffee.com/shydev69", "_blank")}
-            className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
-            size="icon"
-          >
-            <BiCoffee className="h-5 w-5" />
-          </Button>
-          <Button
-            variant="outline"
             onClick={handleStarProject}
             className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
           >
-            <AiFillStar className="mr-1" />
-            Star this project
+            Click Me!
           </Button>
           <SignedIn>
             <DropdownMenu>
