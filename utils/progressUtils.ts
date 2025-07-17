@@ -4,7 +4,7 @@ export interface ProgressData {
 
 export async function fetchUserProgress(): Promise<ProgressData> {
   try {
-    const response = await fetch("/api/progress");
+    const response = await fetch("/api/progress", { cache: 'force-cache' });
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

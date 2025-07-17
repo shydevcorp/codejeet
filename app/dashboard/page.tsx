@@ -15,7 +15,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     if (userId) {
-      fetch("/api/questions")
+      fetch("/api/questions", { cache: 'force-cache' })
         .then((res) => res.json())
         .then((data) => {
           setQuestions(data.questions);
