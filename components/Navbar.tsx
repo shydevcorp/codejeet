@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { UserButton, SignedIn } from "@clerk/nextjs";
 import Link from "next/link";
-import { Menu, Sun, Moon, Laptop } from "lucide-react";
+import { Menu, Sun, Moon, Laptop, Github } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { useToast } from "@/hooks/use-toast";
@@ -70,7 +70,7 @@ const Navbar = () => {
             onClick={handleStarProject}
             className="hidden sm:flex bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
           >
-            Click Me!
+            <Github className="h-4 w-4 mr-1" /> Star Project
           </Button>
           <SignedIn>
             <DropdownMenu>

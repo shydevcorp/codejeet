@@ -76,7 +76,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [isClient, setIsClient] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
-  const [premiumFilter, setPremiumFilter] = useState("all");
   const [selectedCompany] = useState("");
   const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({});
   const [currentPage, setCurrentPage] = useState(1);
@@ -85,20 +84,63 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(null);
   const [timeframeFilter, setTimeframeFilter] = useState("all");
+  const [progressLoading, setProgressLoading] = useState(false);
+  const { userId } = useAuth();
 
   useEffect(() => {
     setIsClient(true);
 
-    const savedItems = localStorage.getItem("leetcode-checked-items");
-    if (savedItems) {
-      try {
-        const parsed = JSON.parse(savedItems);
-        setCheckedItems(parsed);
-      } catch (err) {
-        console.error("Error parsing localStorage data:", err);
+    const loadUserProgress = async () => {
+      if (!userId) {
+        const savedItems = localStorage.getItem("leetcode-checked-items");
+        if (savedItems) {
+          try {
+            const parsed = JSON.parse(savedItems);
+            setCheckedItems(parsed);
+          } catch (err) {
+            console.error("Error parsing localStorage data:", err);
+          }
+        }
+        return;
       }
-    }
-  }, []);
+
+      setProgressLoading(true);
+      try {
+        const savedItems = localStorage.getItem("leetcode-checked-items");
+        const localProgress = savedItems ? JSON.parse(savedItems) : {};
+        const response = await fetch("/api/progress", {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ localProgress }),
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          setCheckedItems(data.progress);
+          localStorage.setItem("leetcode-checked-items", JSON.stringify(data.progress));
+        } else {
+          setCheckedItems(localProgress);
+        }
+      } catch (error) {
+        console.error("Error loading user progress:", error);
+        const savedItems = localStorage.getItem("leetcode-checked-items");
+        if (savedItems) {
+          try {
+            const parsed = JSON.parse(savedItems);
+            setCheckedItems(parsed);
+          } catch (err) {
+            console.error("Error parsing localStorage data:", err);
+          }
+        }
+      } finally {
+        setProgressLoading(false);
+      }
+    };
+
+    loadUserProgress();
+  }, [userId]);
 
   useEffect(() => {
     if (isClient) {
@@ -106,11 +148,28 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
   }, [checkedItems, isClient]);
 
-  const handleCheckboxChange = (id: string, value: boolean) => {
+  const handleCheckboxChange = async (id: string, value: boolean) => {
     setCheckedItems((prev) => ({
       ...prev,
       [id]: value,
     }));
+
+    if (userId) {
+      try {
+        await fetch("/api/progress", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            questionSlug: id,
+            completed: value,
+          }),
+        });
+      } catch (error) {
+        console.error("Error updating progress:", error);
+      }
+    }
   };
 
   const totalQuestions = questions.length;
@@ -150,10 +209,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       );
       const matchesDifficulty =
         difficultyFilter === "all" || question.Difficulty === difficultyFilter;
-      const matchesPremium =
-        premiumFilter === "all" ||
-        (premiumFilter === "free" && question["Is Premium"] === "N") ||
-        (premiumFilter === "premium" && question["Is Premium"] === "Y");
       const matchesCompany = !selectedCompany || question.company === selectedCompany;
       const matchesTopic =
         selectedTopics.length === 0 ||
@@ -165,23 +220,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       const matchesTimeframe = timeframeFilter === "all" || question.timeframe === timeframeFilter;
 
       return (
-        matchesSearch &&
-        matchesDifficulty &&
-        matchesPremium &&
-        matchesCompany &&
-        matchesTopic &&
-        matchesTimeframe
+        matchesSearch && matchesDifficulty && matchesCompany && matchesTopic && matchesTimeframe
       );
     });
-  }, [
-    questions,
-    searchQuery,
-    difficultyFilter,
-    premiumFilter,
-    selectedCompany,
-    selectedTopics,
-    timeframeFilter,
-  ]);
+  }, [questions, searchQuery, difficultyFilter, selectedCompany, selectedTopics, timeframeFilter]);
 
   const filteredAndSortedQuestions = useMemo(() => {
     let result = filteredQuestions;
@@ -279,7 +321,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const handleItemsPerPageChange = (value: string) => {
     const newItemsPerPage = parseInt(value);
     setItemsPerPage(newItemsPerPage);
-    setCurrentPage(1); // Reset to first page when changing items per page
+    setCurrentPage(1);
   };
 
   const goToNextPage = () => {
@@ -411,12 +453,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   <SelectItem value="Medium">Medium</SelectItem>
                   <SelectItem value="Hard">Hard</SelectItem>
                 </SelectContent>
-              </Select>
-
-              <Select value={premiumFilter} onValueChange={setPremiumFilter}>
-                <SelectTrigger className="w-full md:w-40">
-                  <SelectValue placeholder="Premium Status" />
-                </SelectTrigger>
               </Select>
 
               <Select value={timeframeFilter} onValueChange={setTimeframeFilter}>

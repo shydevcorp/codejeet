@@ -1,4 +1,4 @@
-import { supabase, type QuestionWithDetails, type Company } from "./supabase";
+import { supabase, type QuestionWithDetails, type Company, type UserProgress } from "./supabase";
 
 export interface QuestionFilters {
   companies?: string[];
@@ -239,4 +239,83 @@ export async function getCompanyQuestions(
 
   const result = await getQuestionsFromDatabase(filters);
   return result.questions;
+}
+
+export async function getUserProgress(userId: string): Promise<Record<string, boolean>> {
+  try {
+    const { data, error } = await supabase
+      .from("user_progress")
+      .select("question_slug, completed")
+      .eq("user_id", userId)
+      .eq("completed", true);
+
+    if (error) throw error;
+
+    const progressMap: Record<string, boolean> = {};
+    data?.forEach((item) => {
+      progressMap[item.question_slug] = item.completed;
+    });
+
+    return progressMap;
+  } catch (error) {
+    console.error("Error fetching user progress:", error);
+    return {};
+  }
+}
+
+export async function updateUserProgress(
+  userId: string,
+  questionSlug: string,
+  completed: boolean
+): Promise<void> {
+  try {
+    const { error } = await supabase.from("user_progress").upsert(
+      {
+        user_id: userId,
+        question_slug: questionSlug,
+        completed,
+        completed_at: completed ? new Date().toISOString() : null,
+        updated_at: new Date().toISOString(),
+      },
+      {
+        onConflict: "user_id,question_slug",
+      }
+    );
+
+    if (error) throw error;
+  } catch (error) {
+    console.error("Error updating user progress:", error);
+    throw error;
+  }
+}
+
+export async function syncUserProgress(
+  userId: string,
+  localProgress: Record<string, boolean>
+): Promise<Record<string, boolean>> {
+  try {
+    const remoteProgress = await getUserProgress(userId);
+    const mergedProgress = { ...remoteProgress, ...localProgress };
+
+    const updates = Object.entries(localProgress).map(([questionSlug, completed]) => ({
+      user_id: userId,
+      question_slug: questionSlug,
+      completed,
+      completed_at: completed ? new Date().toISOString() : null,
+      updated_at: new Date().toISOString(),
+    }));
+
+    if (updates.length > 0) {
+      const { error } = await supabase.from("user_progress").upsert(updates, {
+        onConflict: "user_id,question_slug",
+      });
+
+      if (error) throw error;
+    }
+
+    return mergedProgress;
+  } catch (error) {
+    console.error("Error syncing user progress:", error);
+    throw error;
+  }
 }

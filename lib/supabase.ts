@@ -24,6 +24,16 @@ export interface Topic {
   name: string;
 }
 
+export interface UserProgress {
+  id: number;
+  user_id: string;
+  question_slug: string;
+  completed: boolean;
+  completed_at: string;
+  created_at: string;
+  updated_at: string;
+}
+
 export interface CompanyQuestion {
   company_id: number;
   question_id: number;

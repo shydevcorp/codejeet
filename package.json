@@ -6,7 +6,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "heroku-postbuild": "npm run build",
@@ -25,7 +25,7 @@
     "@google/generative-ai": "^0.21.0",
     "@mui/icons-material": "^6.1.8",
     "@mui/material": "^6.1.8",
-    "@next/third-parties": "^15.3.5",
+    "@next/third-parties": "15.4.1",
     "@prisma/client": "^6.10.1",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.2",
@@ -50,13 +50,13 @@
     "drizzle-orm": "^0.44.2",
     "framer-motion": "^11.12.0",
     "lucide-react": "^0.460.0",
-    "next": "^15.3.5",
+    "next": "15.4.1",
     "next-themes": "^0.4.3",
     "node-fetch": "^3.3.2",
     "postgres": "^3.4.7",
     "prisma": "^6.10.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "react-icons": "^5.3.0",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^7.5.3",
@@ -70,11 +70,11 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
     "@types/react-syntax-highlighter": "^15.5.13",
     "drizzle-kit": "^0.31.1",
-    "eslint-config-next": "^15.3.5",
+    "eslint-config-next": "15.4.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "postcss": "^8",
@@ -85,5 +85,11 @@
   },
   "overrides": {
     "prismjs": "^1.30.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.1.8",
+      "@types/react-dom": "19.1.6"
+    }
   }
 }
