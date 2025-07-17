@@ -106,8 +106,26 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
       setProgressLoading(true);
       try {
+        // Get local progress from localStorage with error handling
         const savedItems = localStorage.getItem("leetcode-checked-items");
-        const localProgress = savedItems ? JSON.parse(savedItems) : {};
+        let localProgress = {};
+
+        if (savedItems) {
+          try {
+            localProgress = JSON.parse(savedItems);
+            // Ensure it's an object
+            if (typeof localProgress !== "object" || localProgress === null) {
+              localProgress = {};
+            }
+          } catch (parseError) {
+            console.error("Error parsing localStorage data:", parseError);
+            localProgress = {};
+            // Clear invalid localStorage data
+            localStorage.removeItem("leetcode-checked-items");
+          }
+        }
+
+        // Sync with database
         const response = await fetch("/api/progress", {
           method: "PUT",
           headers: {
@@ -125,14 +143,24 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         }
       } catch (error) {
         console.error("Error loading user progress:", error);
+        // Fallback to localStorage with proper error handling
         const savedItems = localStorage.getItem("leetcode-checked-items");
         if (savedItems) {
           try {
             const parsed = JSON.parse(savedItems);
-            setCheckedItems(parsed);
+            if (typeof parsed === "object" && parsed !== null) {
+              setCheckedItems(parsed);
+            } else {
+              setCheckedItems({});
+            }
           } catch (err) {
             console.error("Error parsing localStorage data:", err);
+            setCheckedItems({});
+            // Clear corrupted localStorage data
+            localStorage.removeItem("leetcode-checked-items");
           }
+        } else {
+          setCheckedItems({});
         }
       } finally {
         setProgressLoading(false);

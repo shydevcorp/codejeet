@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { getUserProgress, updateUserProgress, syncUserProgress } from "@/lib/database";
 
-// GET /api/progress - Get user's progress
 export async function GET() {
   try {
     const { userId } = await auth();
@@ -64,16 +63,23 @@ export async function PUT(request: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const { localProgress } = await request.json();
-
-    if (!localProgress || typeof localProgress !== "object") {
-      return NextResponse.json(
-        { error: "Invalid request body. Expected localProgress object." },
-        { status: 400 }
-      );
+    let requestBody;
+    try {
+      const requestText = await request.text();
+      if (!requestText.trim()) {
+        requestBody = { localProgress: {} };
+      } else {
+        requestBody = JSON.parse(requestText);
+      }
+    } catch (parseError) {
+      console.error("Error parsing request JSON:", parseError);
+      return NextResponse.json({ error: "Invalid JSON in request body" }, { status: 400 });
     }
 
-    const mergedProgress = await syncUserProgress(userId, localProgress);
+    const { localProgress } = requestBody;
+    const safeLocalProgress =
+      localProgress && typeof localProgress === "object" ? localProgress : {};
+    const mergedProgress = await syncUserProgress(userId, safeLocalProgress);
 
     return NextResponse.json({ progress: mergedProgress }, { status: 200 });
   } catch (error) {
