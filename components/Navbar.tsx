@@ -44,7 +44,6 @@ const Navbar = () => {
     localStorage.setItem("gemini-key", pendingGeminiKey);
     localStorage.setItem("preferred-language", pendingLanguage);
     localStorage.setItem("gemini-version", pendingGeminiVersion);
-
     setPreferredLanguage(pendingLanguage);
 
     toast({
