@@ -18,12 +18,14 @@ interface TopicDropdownProps {
   options: string[];
   selectedOptions: string[];
   setSelectedOptions: (options: string[]) => void;
+  placeholder?: string;
 }
 
 export default function TopicDropdown({
   options,
   selectedOptions,
   setSelectedOptions,
+  placeholder,
 }: TopicDropdownProps) {
   const [open, setOpen] = React.useState(false);
 
@@ -46,9 +48,7 @@ export default function TopicDropdown({
             className="justify-between min-w-[200px] bg-transparent [&>span]:line-clamp-1"
           >
             <span className="line-clamp-1">
-              {selectedOptions.length === 0
-                ? "Select topics..."
-                : `${selectedOptions.length} selected`}
+              {selectedOptions.length === 0 ? placeholder : `${selectedOptions.length} selected`}
             </span>
             <ChevronDown className="h-4 w-4 opacity-50" />
           </Button>
