@@ -66,9 +66,18 @@ export function getLocalProgress(): ProgressData {
 
   try {
     const saved = localStorage.getItem("leetcode-checked-items");
-    return saved ? JSON.parse(saved) : {};
+    if (!saved) return {};
+
+    const parsed = JSON.parse(saved);
+    if (typeof parsed === "object" && parsed !== null) {
+      return parsed;
+    } else {
+      localStorage.removeItem("leetcode-checked-items");
+      return {};
+    }
   } catch (error) {
     console.error("Error parsing local progress:", error);
+    localStorage.removeItem("leetcode-checked-items");
     return {};
   }
 }

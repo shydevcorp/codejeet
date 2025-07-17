@@ -27,7 +27,6 @@ export async function GET() {
   }
 }
 
-// POST /api/progress - Update a single question progress
 export async function POST(request: Request) {
   try {
     const { userId } = await auth();
@@ -54,7 +53,6 @@ export async function POST(request: Request) {
   }
 }
 
-// PUT /api/progress - Sync local progress with remote
 export async function PUT(request: Request) {
   try {
     const { userId } = await auth();
