@@ -39,7 +39,10 @@ export function SolutionDialog({ questionId, title }: SolutionDialogProps) {
 
       const response = await fetch(
         `/api/solutions?id=${questionId}&language=${preferredLanguage}`,
-        { headers }
+        { 
+          headers,
+          cache: 'force-cache'
+        }
       );
       const contentType = response.headers.get("content-type") || "";
 

@@ -14,7 +14,11 @@ export async function GET(request: Request) {
     const result = await model.generateContent(prompt);
     const solution = result?.response?.text?.();
 
-    return NextResponse.json({ solution });
+    return NextResponse.json({ solution }, {
+      headers: {
+        'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400'
+      }
+    });
   } catch (error: any) {
     console.error("API Error:", error.message || error);
     const message = error.message || "An unknown error occurred while generating the solution";

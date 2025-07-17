@@ -7,6 +7,10 @@ export async function GET() {
 
     return NextResponse.json({
       topics,
+    }, {
+      headers: {
+        'Cache-Control': 'public, max-age=3600, stale-while-revalidate=60'
+      }
     });
   } catch (error) {
     console.error("Error fetching topics:", error);
