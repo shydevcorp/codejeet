@@ -282,7 +282,15 @@ export async function updateUserProgress(
       }
     );
 
-    if (error) throw error;
+    if (error) {
+      console.error("Supabase error details:", error);
+      if (error.message?.includes('relation "user_progress" does not exist')) {
+        throw new Error(
+          "Database table 'user_progress' does not exist. Please run the database setup SQL script."
+        );
+      }
+      throw error;
+    }
   } catch (error) {
     console.error("Error updating user progress:", error);
     throw error;

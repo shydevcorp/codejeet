@@ -49,6 +49,28 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (error) {
     console.error("Error updating user progress:", error);
+
+    // Provide more specific error messages
+    if (error instanceof Error) {
+      if (error.message.includes('user_progress" does not exist')) {
+        return NextResponse.json(
+          {
+            error: "Database table missing. Please run the setup SQL script.",
+            details: "The user_progress table needs to be created in Supabase.",
+          },
+          { status: 500 }
+        );
+      }
+
+      return NextResponse.json(
+        {
+          error: "Failed to update user progress",
+          details: error.message,
+        },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json({ error: "Failed to update user progress" }, { status: 500 });
   }
 }

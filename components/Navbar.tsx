@@ -45,6 +45,8 @@ const Navbar = () => {
     localStorage.setItem("preferred-language", pendingLanguage);
     localStorage.setItem("gemini-version", pendingGeminiVersion);
 
+    setPreferredLanguage(pendingLanguage);
+
     toast({
       title: "Settings saved",
       description: "Your preferences have been updated successfully.",
