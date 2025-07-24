@@ -52,15 +52,13 @@ interface Question {
 }
 
 interface LeetCodeDashboardProps {
-  questions: Question[];
-  companies: string[];
+  initialQuestions?: Question[];
+  initialCompanies?: string[];
 }
 
-const ITEMS_PER_PAGE = 10;
-
 const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
-  questions = [],
-  companies = [],
+  initialQuestions = [],
+  initialCompanies = [],
 }) => {
   const router = useRouter();
   const { isSignedIn } = useAuth();
@@ -74,6 +72,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   };
 
   const [isClient, setIsClient] = useState(false);
+  const [questions, setQuestions] = useState<Question[]>(initialQuestions);
+  const [companies, setCompanies] = useState<string[]>(initialCompanies);
+  const [totalCount, setTotalCount] = useState(0);
+  const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [selectedCompany] = useState("");
@@ -86,6 +88,57 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [timeframeFilter, setTimeframeFilter] = useState("all");
   const [progressLoading, setProgressLoading] = useState(false);
   const { userId } = useAuth();
+
+  // Fetch questions with pagination
+  const fetchQuestions = async (page: number, filters: any = {}) => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({
+        limit: itemsPerPage.toString(),
+        offset: ((page - 1) * itemsPerPage).toString(),
+      });
+
+      if (filters.search) params.append('search', filters.search);
+      if (filters.difficulties && filters.difficulties.length > 0) {
+        params.append('difficulties', filters.difficulties.join(','));
+      }
+      if (filters.companies && filters.companies.length > 0) {
+        params.append('companies', filters.companies.join(','));
+      }
+      if (filters.topics && filters.topics.length > 0) {
+        params.append('topics', filters.topics.join(','));
+      }
+      if (filters.timeframes && filters.timeframes.length > 0) {
+        params.append('timeframes', filters.timeframes.join(','));
+      }
+
+      const response = await fetch(`/api/questions?${params.toString()}`);
+      const data = await response.json();
+      
+      setQuestions(data.questions || []);
+      setTotalCount(data.totalCount || 0);
+      setCompanies(data.companies || []);
+    } catch (error) {
+      console.error('Error fetching questions:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Effect to fetch questions when filters or page changes
+  useEffect(() => {
+    if (!isClient) return;
+
+    const filters = {
+      search: searchQuery,
+      difficulties: difficultyFilter !== 'all' ? [difficultyFilter] : [],
+      companies: selectedCompany ? [selectedCompany] : [],
+      topics: selectedTopics,
+      timeframes: timeframeFilter !== 'all' ? [timeframeFilter] : [],
+    };
+
+    fetchQuestions(currentPage, filters);
+  }, [isClient, currentPage, itemsPerPage, searchQuery, difficultyFilter, selectedCompany, selectedTopics, timeframeFilter]);
 
   useEffect(() => {
     setIsClient(true);
@@ -200,13 +253,13 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
   };
 
-  const totalQuestions = questions.length;
+  const totalQuestions = totalCount;
 
   const companyStats = useMemo(() => {
     return companies
       .map((company) => ({
         name: company,
-        count: questions.filter((q) => q.company === company).length,
+        count: 0, // We'll need to fetch this separately if needed
       }))
       .sort((a, b) => b.count - a.count);
   }, [questions, companies]);
@@ -224,37 +277,9 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     return Array.from(topicsSet);
   }, [questions]);
 
-  const filteredQuestions = useMemo(() => {
-    const queryWords = searchQuery.trim().toLowerCase().split(/\s+/);
-    return questions.filter((question) => {
-      const matchesSearch = queryWords.every(
-        (word) =>
-          question.Title.toLowerCase().includes(word) ||
-          question.company.toLowerCase().includes(word) ||
-          question.Topics.toLowerCase()
-            .split(",")
-            .some((topic) => topic.trim().includes(word))
-      );
-      const matchesDifficulty =
-        difficultyFilter === "all" || question.Difficulty === difficultyFilter;
-      const matchesCompany = !selectedCompany || question.company === selectedCompany;
-      const matchesTopic =
-        selectedTopics.length === 0 ||
-        selectedTopics.every((topic) =>
-          question.Topics.split(",")
-            .map((t) => t.trim())
-            .includes(topic)
-        );
-      const matchesTimeframe = timeframeFilter === "all" || question.timeframe === timeframeFilter;
-
-      return (
-        matchesSearch && matchesDifficulty && matchesCompany && matchesTopic && matchesTimeframe
-      );
-    });
-  }, [questions, searchQuery, difficultyFilter, selectedCompany, selectedTopics, timeframeFilter]);
-
+  // Since we're doing server-side filtering, we just use the questions directly
   const filteredAndSortedQuestions = useMemo(() => {
-    let result = filteredQuestions;
+    let result = questions;
 
     if (sortDirection) {
       result = [...result].sort((a, b) => {
@@ -265,7 +290,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
 
     return result;
-  }, [filteredQuestions, sortDirection]);
+  }, [questions, sortDirection]);
 
   const handleFrequencySort = () => {
     setSortDirection((prev) => {
@@ -276,39 +301,39 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   };
 
   const statistics = useMemo(() => {
-    const uniqueQuestions = Array.from(new Set(filteredQuestions.map((q) => q.ID)));
+    const uniqueQuestions = Array.from(new Set(questions.map((q) => q.ID)));
     const total = uniqueQuestions.length;
 
     const solvedQuestions = new Set(
-      filteredQuestions.filter((q) => checkedItems[q.ID]).map((q) => q.ID)
+      questions.filter((q) => checkedItems[q.ID]).map((q) => q.ID)
     );
 
     const totalSolved = solvedQuestions.size;
 
     const easyQuestions = new Set(
-      filteredQuestions.filter((q) => q.Difficulty === "Easy").map((q) => q.ID)
+      questions.filter((q) => q.Difficulty === "Easy").map((q) => q.ID)
     );
     const mediumQuestions = new Set(
-      filteredQuestions.filter((q) => q.Difficulty === "Medium").map((q) => q.ID)
+      questions.filter((q) => q.Difficulty === "Medium").map((q) => q.ID)
     );
     const hardQuestions = new Set(
-      filteredQuestions.filter((q) => q.Difficulty === "Hard").map((q) => q.ID)
+      questions.filter((q) => q.Difficulty === "Hard").map((q) => q.ID)
     );
 
     const easySolved = new Set(
-      filteredQuestions
+      questions
         .filter((q) => q.Difficulty === "Easy" && checkedItems[q.ID])
         .map((q) => q.ID)
     ).size;
 
     const mediumSolved = new Set(
-      filteredQuestions
+      questions
         .filter((q) => q.Difficulty === "Medium" && checkedItems[q.ID])
         .map((q) => q.ID)
     ).size;
 
     const hardSolved = new Set(
-      filteredQuestions
+      questions
         .filter((q) => q.Difficulty === "Hard" && checkedItems[q.ID])
         .map((q) => q.ID)
     ).size;
@@ -323,15 +348,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       hard: hardQuestions.size,
       hardSolved,
     };
-  }, [filteredQuestions, checkedItems]);
+  }, [questions, checkedItems]);
 
-  const totalPages = Math.ceil(filteredQuestions.length / itemsPerPage);
+  const totalPages = Math.ceil(totalCount / itemsPerPage);
 
-  const currentItems = useMemo(() => {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    return filteredAndSortedQuestions.slice(startIndex, endIndex);
-  }, [filteredAndSortedQuestions, currentPage, itemsPerPage]);
+  // Since we're fetching paginated data, currentItems is just the questions
+  const currentItems = filteredAndSortedQuestions;
 
   const goToFirstPage = () => setCurrentPage(1);
   const goToLastPage = () => setCurrentPage(totalPages);
@@ -369,9 +391,25 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     }
   }, [totalPages]);
 
-  useEffect(() => {
+  // Reset to page 1 when filters change
+  const handleFilterChange = (filterType: string, value: any) => {
     setCurrentPage(1);
-  }, [filteredQuestions]);
+    
+    switch (filterType) {
+      case 'search':
+        setSearchQuery(value);
+        break;
+      case 'difficulty':
+        setDifficultyFilter(value);
+        break;
+      case 'timeframe':
+        setTimeframeFilter(value);
+        break;
+      case 'topics':
+        setSelectedTopics(value);
+        break;
+    }
+  };
 
   if (!isClient) {
     return null;
@@ -503,7 +541,11 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
               />
             </div>
 
-            {filteredQuestions.length === 0 ? (
+            {loading ? (
+              <div className="p-4 text-center text-muted-foreground">
+                Loading questions...
+              </div>
+            ) : questions.length === 0 ? (
               <div className="p-4 text-center text-muted-foreground">
                 No questions found , try some other filters?
               </div>

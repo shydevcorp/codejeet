@@ -9,17 +9,18 @@ export default function DashboardPage() {
   const { userId } = useAuth();
   const router = useRouter();
 
-  const [questions, setQuestions] = useState([]);
-  const [companies, setCompanies] = useState([]);
+  const [initialQuestions, setInitialQuestions] = useState([]);
+  const [initialCompanies, setInitialCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (userId) {
-      fetch("/api/questions")
+      // Fetch initial data for the first page
+      fetch("/api/questions?limit=10&offset=0")
         .then((res) => res.json())
         .then((data) => {
-          setQuestions(data.questions);
-          setCompanies(data.companies);
+          setInitialQuestions(data.questions || []);
+          setInitialCompanies(data.companies || []);
           setLoading(false);
         })
         .catch((error) => {
@@ -132,7 +133,7 @@ export default function DashboardPage() {
 
   return (
     <div className="container mx-auto py-8">
-      <LeetCodeDashboard questions={questions} companies={companies} />
+      <LeetCodeDashboard initialQuestions={initialQuestions} initialCompanies={initialCompanies} />
     </div>
   );
 }

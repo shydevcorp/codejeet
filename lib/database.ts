@@ -68,6 +68,7 @@ export async function getQuestionsFromDatabase(
       );
     }
 
+    // Apply pagination if specified
     if (filters.limit) {
       query = query.limit(filters.limit);
       if (filters.offset) {
@@ -75,35 +76,8 @@ export async function getQuestionsFromDatabase(
       }
     }
 
-    const PAGE_SIZE = 1000;
-    let aggregatedData: any[] = [];
-    let from = 0;
-    let done = false;
-
-    if (!filters.limit) {
-      while (!done) {
-        const { data: pageData, error: pageError } = await query.range(from, from + PAGE_SIZE - 1);
-
-        if (pageError) {
-          console.error("Database error (paged):", pageError);
-          throw pageError;
-        }
-
-        if (pageData && pageData.length > 0) {
-          aggregatedData = aggregatedData.concat(pageData);
-        }
-
-        if (!pageData || pageData.length < PAGE_SIZE) {
-          done = true;
-        } else {
-          from += PAGE_SIZE;
-        }
-      }
-    }
-
-    const { data, error, count } = filters.limit
-      ? await query
-      : { data: aggregatedData, error: null, count: aggregatedData.length };
+    // Execute the query
+    const { data, error, count } = await query;
 
     if (error) {
       console.error("Database error:", error);
