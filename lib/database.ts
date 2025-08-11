@@ -1,4 +1,5 @@
-import { supabase, type QuestionWithDetails, type Company, type UserProgress } from "./supabase";
+import "server-only";
+import { supabase, type QuestionWithDetails, type Company } from "./supabase";
 
 export interface QuestionFilters {
   companies?: string[];
@@ -117,9 +118,7 @@ export async function getQuestionsFromDatabase(
     const transformedQuestions: QuestionWithDetails[] = data.map((item: any) => {
       const question = item.questions;
       const company = item.companies;
-
       const topics = question.question_topics?.map((qt: any) => qt.topics.name) || [];
-
       const urlPath = `/problems/${question.slug}/`;
 
       return {
@@ -130,12 +129,10 @@ export async function getQuestionsFromDatabase(
         Difficulty: mapDifficulty(question.difficulty),
         acceptance_rate: question.acceptance_rate,
         link: question.link,
-
         company: company.name,
         frequency: item.frequency,
         timeframe: item.timeframe,
         topics: topics,
-
         "Acceptance %": `${(question.acceptance_rate * 100).toFixed(1)}%`,
         "Frequency %": `${item.frequency.toFixed(1)}%`,
         "Is Premium": "N",
@@ -154,7 +151,6 @@ export async function getQuestionsFromDatabase(
       },
       {} as Record<string, number>
     );
-
     const dedupedMap = new Map<string, QuestionWithDetails>();
     for (const q of transformedQuestions) {
       const key = `${q.company}|${q.id}`;
@@ -170,7 +166,6 @@ export async function getQuestionsFromDatabase(
         }
       }
     }
-
     const dedupedQuestions = Array.from(dedupedMap.values());
 
     let filteredQuestions = dedupedQuestions;
@@ -239,91 +234,4 @@ export async function getCompanyQuestions(
 
   const result = await getQuestionsFromDatabase(filters);
   return result.questions;
-}
-
-export async function getUserProgress(userId: string): Promise<Record<string, boolean>> {
-  try {
-    const { data, error } = await supabase
-      .from("user_progress")
-      .select("question_slug, completed")
-      .eq("user_id", userId)
-      .eq("completed", true);
-
-    if (error) throw error;
-
-    const progressMap: Record<string, boolean> = {};
-    data?.forEach((item) => {
-      progressMap[item.question_slug] = item.completed;
-    });
-
-    return progressMap;
-  } catch (error) {
-    console.error("Error fetching user progress:", error);
-    return {};
-  }
-}
-
-export async function updateUserProgress(
-  userId: string,
-  questionSlug: string,
-  completed: boolean
-): Promise<void> {
-  try {
-    const { error } = await supabase.from("user_progress").upsert(
-      {
-        user_id: userId,
-        question_slug: questionSlug,
-        completed,
-        completed_at: completed ? new Date().toISOString() : null,
-        updated_at: new Date().toISOString(),
-      },
-      {
-        onConflict: "user_id,question_slug",
-      }
-    );
-
-    if (error) {
-      console.error("Supabase error details:", error);
-      if (error.message?.includes('relation "user_progress" does not exist')) {
-        throw new Error(
-          "Database table 'user_progress' does not exist. Please run the database setup SQL script."
-        );
-      }
-      throw error;
-    }
-  } catch (error) {
-    console.error("Error updating user progress:", error);
-    throw error;
-  }
-}
-
-export async function syncUserProgress(
-  userId: string,
-  localProgress: Record<string, boolean>
-): Promise<Record<string, boolean>> {
-  try {
-    const remoteProgress = await getUserProgress(userId);
-    const mergedProgress = { ...remoteProgress, ...localProgress };
-
-    const updates = Object.entries(localProgress).map(([questionSlug, completed]) => ({
-      user_id: userId,
-      question_slug: questionSlug,
-      completed,
-      completed_at: completed ? new Date().toISOString() : null,
-      updated_at: new Date().toISOString(),
-    }));
-
-    if (updates.length > 0) {
-      const { error } = await supabase.from("user_progress").upsert(updates, {
-        onConflict: "user_id,question_slug",
-      });
-
-      if (error) throw error;
-    }
-
-    return mergedProgress;
-  } catch (error) {
-    console.error("Error syncing user progress:", error);
-    throw error;
-  }
 }

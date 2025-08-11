@@ -25,8 +25,6 @@ import { Progress } from "@/components/ui/progress";
 import { capitalizeWords } from "@/utils/utils";
 import { VideoDialog } from "@/components/VideoDialog";
 import { SolutionDialog } from "@/components/SolutionDialog";
-import { useRouter } from "next/navigation";
-import { useAuth } from "@clerk/nextjs";
 import { DifficultyBadge } from "@/components/ui/difficulty-badge";
 import TopicDropdown from "@/components/TopicDropdown";
 
@@ -56,23 +54,10 @@ interface LeetCodeDashboardProps {
   companies: string[];
 }
 
-const ITEMS_PER_PAGE = 10;
-
 const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   questions = [],
   companies = [],
 }) => {
-  const router = useRouter();
-  const { isSignedIn } = useAuth();
-
-  const handleDashboardClick = () => {
-    if (isSignedIn) {
-      router.push("/dashboard");
-    } else {
-      router.push("/sign-in");
-    }
-  };
-
   const [isClient, setIsClient] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
@@ -80,95 +65,30 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({});
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(10);
-  const [goToPage, setGoToPage] = useState("");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc" | null>(null);
   const [timeframeFilter, setTimeframeFilter] = useState("all");
-  const [progressLoading, setProgressLoading] = useState(false);
-  const { userId } = useAuth();
 
   useEffect(() => {
     setIsClient(true);
-
-    const loadUserProgress = async () => {
-      if (!userId) {
-        const savedItems = localStorage.getItem("leetcode-checked-items");
-        if (savedItems) {
-          try {
-            const parsed = JSON.parse(savedItems);
-            setCheckedItems(parsed);
-          } catch (err) {
-            console.error("Error parsing localStorage data:", err);
-          }
-        }
-        return;
-      }
-
-      setProgressLoading(true);
+    const savedItems = localStorage.getItem("leetcode-checked-items");
+    if (savedItems) {
       try {
-        // Get local progress from localStorage with error handling
-        const savedItems = localStorage.getItem("leetcode-checked-items");
-        let localProgress = {};
-
-        if (savedItems) {
-          try {
-            localProgress = JSON.parse(savedItems);
-            // Ensure it's an object
-            if (typeof localProgress !== "object" || localProgress === null) {
-              localProgress = {};
-            }
-          } catch (parseError) {
-            console.error("Error parsing localStorage data:", parseError);
-            localProgress = {};
-            // Clear invalid localStorage data
-            localStorage.removeItem("leetcode-checked-items");
-          }
-        }
-
-        // Sync with database
-        const response = await fetch("/api/progress", {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ localProgress }),
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          setCheckedItems(data.progress);
-          localStorage.setItem("leetcode-checked-items", JSON.stringify(data.progress));
-        } else {
-          setCheckedItems(localProgress);
-        }
-      } catch (error) {
-        console.error("Error loading user progress:", error);
-        // Fallback to localStorage with proper error handling
-        const savedItems = localStorage.getItem("leetcode-checked-items");
-        if (savedItems) {
-          try {
-            const parsed = JSON.parse(savedItems);
-            if (typeof parsed === "object" && parsed !== null) {
-              setCheckedItems(parsed);
-            } else {
-              setCheckedItems({});
-            }
-          } catch (err) {
-            console.error("Error parsing localStorage data:", err);
-            setCheckedItems({});
-            // Clear corrupted localStorage data
-            localStorage.removeItem("leetcode-checked-items");
-          }
+        const parsed = JSON.parse(savedItems);
+        if (typeof parsed === "object" && parsed !== null) {
+          setCheckedItems(parsed);
         } else {
           setCheckedItems({});
         }
-      } finally {
-        setProgressLoading(false);
+      } catch (err) {
+        console.error("Error parsing localStorage data:", err);
+        setCheckedItems({});
+        localStorage.removeItem("leetcode-checked-items");
       }
-    };
-
-    loadUserProgress();
-  }, [userId]);
+    } else {
+      setCheckedItems({});
+    }
+  }, []);
 
   useEffect(() => {
     if (isClient) {
@@ -181,23 +101,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       ...prev,
       [id]: value,
     }));
-
-    if (userId) {
-      try {
-        await fetch("/api/progress", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            questionSlug: id,
-            completed: value,
-          }),
-        });
-      } catch (error) {
-        console.error("Error updating progress:", error);
-      }
-    }
   };
 
   const totalQuestions = questions.length;
@@ -335,16 +238,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
   const goToFirstPage = () => setCurrentPage(1);
   const goToLastPage = () => setCurrentPage(totalPages);
-
-  const handleGoToPage = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      const pageNumber = parseInt(goToPage);
-      if (!isNaN(pageNumber) && pageNumber >= 1 && pageNumber <= totalPages) {
-        setCurrentPage(pageNumber);
-        setGoToPage("");
-      }
-    }
-  };
 
   const handleItemsPerPageChange = (value: string) => {
     const newItemsPerPage = parseInt(value);
@@ -537,8 +430,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           <TableCell className="w-4">
                             <Checkbox
                               checked={checkedItems[question.ID] || false}
-                              onCheckedChange={(value: boolean) =>
-                                handleCheckboxChange(question.ID, value)
+                              onCheckedChange={(value) =>
+                                handleCheckboxChange(question.ID, Boolean(value))
                               }
                             />
                           </TableCell>
@@ -663,8 +556,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         <div className="flex items-start gap-2">
                           <Checkbox
                             checked={checkedItems[question.ID] || false}
-                            onCheckedChange={(value: boolean) =>
-                              handleCheckboxChange(question.ID, value)
+                            onCheckedChange={(value) =>
+                              handleCheckboxChange(question.ID, Boolean(value))
                             }
                           />
                           <div>
