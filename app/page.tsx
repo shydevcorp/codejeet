@@ -1,19 +1,16 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import BlurIn from "@/components/magic-ui/blur-in";
 import AnimatedImage from "@/components/AnimatedImage";
 import Link from "next/link";
+import Image from "next/image";
 import { DotPattern } from "@/components/magic-ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import NumberTicker from "@/components/magic-ui/number-ticker";
 import { Button } from "@/components/ui/button";
 import AnimatedGradientText from "@/components/magic-ui/animated-gradient-text";
-import { Outfit } from "next/font/google";
-
-const outfit = Outfit({ subsets: ["latin"] });
-
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
@@ -26,17 +23,39 @@ const itemVariants = {
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [focusLabel, setFocusLabel] = useState<"DSA" | "System Design">("DSA");
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"],
   });
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.3]);
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    // Disable image scale effect on small screens
+    const mq = window.matchMedia("(min-width: 640px)");
+    const handler = () => setIsDesktop(mq.matches);
+    handler();
+    if (mq.addEventListener) mq.addEventListener("change", handler);
+    else mq.addListener(handler);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener("change", handler);
+      else mq.removeListener(handler);
+    };
+  }, []);
+
+  useEffect(() => {
+    setFocusLabel(Math.random() < 0.5 ? "DSA" : "System Design");
+  }, []);
 
   return (
-    <div className={outfit.className}>
+    <div>
       <main>
-        <div ref={containerRef} className="z-0 relative min-h-screen w-full pb-40 overflow-hidden ">
+        <div
+          ref={containerRef}
+          className="z-0 relative min-h-screen w-full bg-gradient-to-b from-background to-primary/10 pb-40 overflow-hidden "
+        >
           <motion.div
             className="relative z-10 flex flex-col items-center justify-start min-h-screen space-y-4 px-4 pt-12"
             variants={containerVariants}
@@ -48,11 +67,32 @@ export default function Home() {
                 "absolute inset-0 z-0 [mask-image:radial-gradient(50vw_circle_at_center,white,transparent)]"
               )}
             />
-            <AnimatedGradientText>🐧 | Proudly Open Source </AnimatedGradientText>
+            <motion.div variants={itemVariants} className="flex items-center gap-3">
+              <AnimatedGradientText>Proudly Open Source </AnimatedGradientText>
+              <span aria-hidden className="h-6 w-[2px] bg-foreground" />
+              <div className="flex items-center gap-2">
+                <span className="text-base font-semibold leading-none text-foreground whitespace-nowrap">
+                  Backed by
+                </span>
+                <Image
+                  src="/cloudflare.png"
+                  alt="Cloudflare"
+                  width={168}
+                  height={44}
+                  className="h-9 w-auto translate-y-[1px]"
+                />
+              </div>
+            </motion.div>
             <motion.div variants={itemVariants}>
               <BlurIn
-                word={<>Padhle DSA kahin se, selection hogi yahi se.</>}
-                className="font-display text-center text-4xl font-bold w-full lg:w-auto max-w-4xl mx-auto -z-10"
+                word={
+                  <>
+                    <span className="md:whitespace-nowrap">Padhle {focusLabel} kahin se, </span>
+                    <br className="hidden md:block" />
+                    <span>selection hogi yahi se.</span>
+                  </>
+                }
+                className="text-center text-5xl md:text-7xl font-bold break-words w-full max-w-[92vw] md:max-w-[1200px] px-2 mx-auto -z-10 leading-tight"
                 duration={1}
               />
             </motion.div>
@@ -63,16 +103,36 @@ export default function Home() {
               Suffer from <NumberTicker value={8000} />+ company-wise DSA questions like a true
               Codejeet. Kyunki naukri ke liye sab kuch chalega!
             </motion.h2>
-            <motion.div variants={itemVariants} className="z-20">
+            <motion.div variants={itemVariants} className="z-20 flex gap-3">
               <Link href="/dashboard">
-                <Button size="lg" className={cn("shadow-2xl text-lg px-8 py-3")}>
+                <Button
+                  size="lg"
+                  className={cn(
+                    "shadow-2xl h-12 px-8 text-lg leading-none transition hover:-translate-y-0.5 hover:brightness-110"
+                  )}
+                >
                   Get Started
                 </Button>
               </Link>
+              <Link href="/system-design">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className={cn(
+                    "shadow-2xl h-12 px-8 text-lg leading-none transition hover:-translate-y-0.5 hover:brightness-110"
+                  )}
+                >
+                  System Design
+                </Button>
+              </Link>
             </motion.div>
-            <motion.div variants={itemVariants} style={{ scale }} className="-mt-16">
+            <motion.div
+              variants={itemVariants}
+              style={{ scale: isDesktop ? (scale as any) : 1 }}
+              className="-mt-16"
+            >
               <AnimatedImage
-                src="/image.png"
+                src={focusLabel === "DSA" ? "/image1.png" : "/image2.png"}
                 alt="Image"
                 width={2000}
                 height={1500}

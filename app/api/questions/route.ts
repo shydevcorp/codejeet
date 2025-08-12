@@ -1,11 +1,10 @@
 import { NextResponse } from "next/server";
-import { getQuestionsFromDatabase, getCompanies } from "@/lib/database";
+import { getQuestionsFromDatabase } from "@/lib/database";
 
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
 
-    // Parse query parameters for filtering
     const companies = searchParams.get("companies")?.split(",").filter(Boolean);
     const difficulties = searchParams.get("difficulties")?.split(",").filter(Boolean) as (
       | "Easy"
@@ -20,17 +19,11 @@ export async function GET(request: Request) {
       | "more_than_6m"
       | "all"
     )[];
-    const isPremium =
-      searchParams.get("isPremium") === "true"
-        ? true
-        : searchParams.get("isPremium") === "false"
-          ? false
-          : undefined;
+    const isPremium = undefined;
     const search = searchParams.get("search") || undefined;
     const limit = searchParams.get("limit") ? parseInt(searchParams.get("limit")!) : undefined;
     const offset = searchParams.get("offset") ? parseInt(searchParams.get("offset")!) : undefined;
 
-    // Fetch questions from database with filters
     const result = await getQuestionsFromDatabase({
       companies,
       difficulties,

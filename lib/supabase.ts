@@ -57,7 +57,6 @@ export interface QuestionWithDetails extends Question {
   topics: string[];
   "Acceptance %": string;
   "Frequency %": string;
-  "Is Premium": string;
   Topics: string;
   ID: string;
   Title: string;

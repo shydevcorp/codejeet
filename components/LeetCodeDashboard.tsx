@@ -18,7 +18,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Check, X, ChevronLeft, ChevronRight, ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronLeft, ChevronRight, ChevronDown, ChevronUp } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -373,7 +373,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             </div>
 
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:w-[200px]">
+              <div className="md:w-[260px] relative">
                 <Input
                   placeholder="Search companies..."
                   value={searchQuery}
@@ -383,6 +383,28 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                   }}
                   className="w-full"
                 />
+                {searchQuery && (
+                  <div className="absolute left-0 right-0 mt-1 z-20 rounded-md border bg-popover text-popover-foreground shadow-md max-h-64 overflow-y-auto">
+                    <ul className="py-1 text-sm">
+                      {companyStats
+                        .filter((c) => c.name.toLowerCase().includes(searchQuery.toLowerCase()))
+                        .slice(0, 10)
+                        .map((c) => (
+                          <li
+                            key={c.name}
+                            className="px-3 py-2 hover:bg-accent hover:text-accent-foreground cursor-pointer"
+                            onClick={() => {
+                              setSearchQuery(c.name);
+                              setCurrentPage(1);
+                            }}
+                          >
+                            {c.name}{" "}
+                            <span className="text-xs text-muted-foreground">({c.count})</span>
+                          </li>
+                        ))}
+                    </ul>
+                  </div>
+                )}
               </div>
 
               <TopicDropdown
@@ -429,10 +451,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                         <TableHead>Difficulty</TableHead>
                         <TableHead>Topics</TableHead>
                         <TableHead
-                          className="text-right cursor-pointer hover:text-primary transition-colors"
+                          className="text-center cursor-pointer hover:text-primary transition-colors"
                           onClick={handleAcceptanceSort}
                         >
-                          <div className="flex items-center justify-end gap-1">
+                          <div className="flex items-center justify-center gap-1">
                             Acceptance
                             {acceptanceSort === "desc" && <ChevronDown className="h-4 w-4" />}
                             {acceptanceSort === "asc" && <ChevronUp className="h-4 w-4" />}
@@ -442,10 +464,10 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           </div>
                         </TableHead>
                         <TableHead
-                          className="text-right cursor-pointer hover:text-primary transition-colors"
+                          className="text-center cursor-pointer hover:text-primary transition-colors"
                           onClick={handleFrequencySort}
                         >
-                          <div className="flex items-center justify-end gap-1">
+                          <div className="flex items-center justify-center gap-1">
                             Frequency
                             {frequencySort === "desc" && <ChevronDown className="h-4 w-4" />}
                             {frequencySort === "asc" && <ChevronUp className="h-4 w-4" />}
@@ -454,7 +476,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                             )}
                           </div>
                         </TableHead>
-                        <TableHead className="text-center">Premium</TableHead>
                         <TableHead className="text-left">Solution</TableHead>
                       </TableRow>
                     </TableHeader>
@@ -501,15 +522,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                               ))}
                             </div>
                           </TableCell>
-                          <TableCell className="text-right">{question["Acceptance %"]}</TableCell>
-                          <TableCell className="text-right">{question["Frequency %"]}</TableCell>
-                          <TableCell className="text-center">
-                            {question["Is Premium"] === "Y" ? (
-                              <Check className="h-4 w-4 mx-auto text-green-600 dark:text-green-400" />
-                            ) : (
-                              <X className="h-4 w-4 mx-auto text-red-600 dark:text-red-400" />
-                            )}
-                          </TableCell>
+                          <TableCell className="text-center">{question["Acceptance %"]}</TableCell>
+                          <TableCell className="text-center">{question["Frequency %"]}</TableCell>
                           <TableCell className="flex items-center gap-2">
                             <VideoDialog id={question.ID} title={question.Title} />
                             <SolutionDialog questionId={question.ID} title={question.Title} />
@@ -588,8 +602,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                       key={`${question.id}-${question.company}-${question.timeframe || "unknown"}`}
                       className="p-4 bg-background/50 border"
                     >
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="flex items-start gap-2">
+                      <div className="flex items-center justify-between gap-3">
+                        <div className="flex items-center gap-2">
                           <Checkbox
                             checked={checkedItems[question.ID] || false}
                             onCheckedChange={(value) =>

@@ -135,7 +135,6 @@ export async function getQuestionsFromDatabase(
         topics: topics,
         "Acceptance %": `${(question.acceptance_rate * 100).toFixed(1)}%`,
         "Frequency %": `${item.frequency.toFixed(1)}%`,
-        "Is Premium": "N",
         Topics: topics.join(", "),
         ID: question.slug,
         Title: question.title,

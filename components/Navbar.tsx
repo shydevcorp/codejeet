@@ -57,7 +57,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="border-b">
+    <div className="border-b sticky top-0 z-50 bg-background">
       <div className="flex h-16 items-center px-4 container mx-auto">
         <div className="font-bold text-2xl flex-1">
           <Link href="/" className="flex items-center">
@@ -76,7 +76,7 @@ const Navbar = () => {
           <SignedIn>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" className="hidden md:inline-flex">
                   <Menu className="h-5 w-5" />
                 </Button>
               </DropdownMenuTrigger>

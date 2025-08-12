@@ -53,11 +53,11 @@ export default function TopicDropdown({
             <ChevronDown className="h-4 w-4 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[300px] p-0">
+        <PopoverContent align="start" className="w-[300px] p-0">
           <Command>
             <CommandInput placeholder="Search topics..." />
             <CommandEmpty>No topic found.</CommandEmpty>
-            <CommandGroup className="max-h-[300px] overflow-auto">
+            <CommandGroup className="max-h-[300px] overflow-y-auto p-0">
               {options.map((option) => (
                 <CommandItem
                   key={option}
@@ -65,14 +65,10 @@ export default function TopicDropdown({
                   onSelect={() => {
                     toggleOption(option);
                   }}
+                  className="px-3"
                 >
-                  <Check
-                    className={cn(
-                      "mr-2 h-4 w-4",
-                      selectedOptions.includes(option) ? "opacity-100" : "opacity-0"
-                    )}
-                  />
                   {option}
+                  {selectedOptions.includes(option) && <Check className="ml-auto h-4 w-4" />}
                 </CommandItem>
               ))}
             </CommandGroup>

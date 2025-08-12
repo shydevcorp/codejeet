@@ -1,4 +1,4 @@
-import { Poppins } from "next/font/google";
+import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -9,10 +9,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 
-const font = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+const appSans = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+const appMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -25,7 +23,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <head>
           <link rel="icon" href="./icon.svg" />
         </head>
-        <body className={`${font.className}`} suppressHydrationWarning>
+        <body
+          className={`${appSans.variable} ${appMono.variable} font-sans`}
+          suppressHydrationWarning
+        >
           <LanguageProvider>
             <ThemeProvider
               attribute="class"
