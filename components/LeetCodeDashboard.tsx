@@ -647,29 +647,8 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                     </Card>
                   ))}
 
-                  <div className="flex md:hidden flex-col sm:flex-row items-center justify-between py-4 px-2 gap-4 w-full">
-                    <div className="flex items-center space-x-2 w-full sm:w-auto">
-                      <p className="text-sm text-muted-foreground whitespace-nowrap">
-                        Items per page
-                      </p>
-                      <Select
-                        value={itemsPerPage.toString()}
-                        onValueChange={handleItemsPerPageChange}
-                      >
-                        <SelectTrigger className="w-[70px]">
-                          <SelectValue placeholder={itemsPerPage} />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {[5, 10, 20, 50, 100].map((size) => (
-                            <SelectItem key={size} value={size.toString()}>
-                              {size}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    <div className="flex items-center space-x-2 w-full sm:w-auto justify-center">
+                  <div className="flex md:hidden items-center justify-center py-4 px-2 gap-4 w-full">
+                    <div className="flex items-center space-x-2">
                       <Button
                         variant="outline"
                         size="sm"
