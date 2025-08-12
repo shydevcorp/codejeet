@@ -54,7 +54,7 @@ export default function Home() {
       <main>
         <div
           ref={containerRef}
-          className="z-0 relative min-h-screen w-full bg-gradient-to-b from-background to-primary/10 pb-40 overflow-hidden "
+          className="z-0 relative w-full bg-gradient-to-b from-background to-primary/10 pb-6 md:pb-40 md:min-h-screen overflow-hidden"
         >
           <motion.div
             className="relative z-10 flex flex-col items-center justify-start min-h-screen space-y-4 px-4 pt-12"
