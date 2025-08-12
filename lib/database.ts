@@ -174,13 +174,7 @@ export async function getQuestionsFromDatabase(
       );
     }
 
-    if (filters.isPremium !== undefined) {
-      filteredQuestions = filteredQuestions.filter(
-        (q) =>
-          (filters.isPremium && q["Is Premium"] === "Y") ||
-          (!filters.isPremium && q["Is Premium"] === "N")
-      );
-    }
+    // Premium filtering removed from UI and types. Ignoring to avoid type errors.
 
     const uniqueCompanies = [...new Set(filteredQuestions.map((q) => q.company))];
 
