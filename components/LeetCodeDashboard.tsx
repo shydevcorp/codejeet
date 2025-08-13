@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import {
   Table,
@@ -60,6 +60,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 }) => {
   const [isClient, setIsClient] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [showDropdown, setShowDropdown] = useState(false);
   const [difficultyFilter, setDifficultyFilter] = useState<string[]>([]);
   const [selectedCompany] = useState("");
   const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({});
@@ -69,6 +70,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [frequencySort, setFrequencySort] = useState<"asc" | "desc" | null>(null);
   const [acceptanceSort, setAcceptanceSort] = useState<"asc" | "desc" | null>(null);
   const [timeframeFilter, setTimeframeFilter] = useState("all");
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -96,6 +98,20 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
       localStorage.setItem("leetcode-checked-items", JSON.stringify(checkedItems));
     }
   }, [checkedItems, isClient]);
+
+  // Handle click outside to close dropdown
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setShowDropdown(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const handleCheckboxChange = async (id: string, value: boolean) => {
     setCheckedItems((prev) => ({
@@ -373,17 +389,19 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             </div>
 
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:w-[260px] relative">
+              <div className="md:w-[260px] relative" ref={dropdownRef}>
                 <Input
                   placeholder="Search companies..."
                   value={searchQuery}
                   onChange={(e) => {
                     setSearchQuery(e.target.value);
                     setCurrentPage(1);
+                    setShowDropdown(true);
                   }}
+                  onFocus={() => setShowDropdown(true)}
                   className="w-full"
                 />
-                {searchQuery && (
+                {searchQuery && showDropdown && (
                   <div className="absolute left-0 right-0 mt-1 z-20 rounded-md border bg-popover text-popover-foreground shadow-md max-h-64 overflow-y-auto">
                     <ul className="py-1 text-sm">
                       {companyStats
@@ -396,6 +414,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                             onClick={() => {
                               setSearchQuery(c.name);
                               setCurrentPage(1);
+                              setShowDropdown(false);
                             }}
                           >
                             {c.name}{" "}
