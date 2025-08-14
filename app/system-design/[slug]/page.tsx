@@ -19,9 +19,12 @@ export const dynamicParams = false;
 
 const CONTENT_ROOT = path.join(process.cwd(), "public", "system-design");
 
-async function readMarkdownAndFolderBySlug(
-  slug: string
-): Promise<{ content: string; folder: string; video?: string | null } | null> {
+async function readMarkdownAndFolderBySlug(slug: string): Promise<{
+  content: string;
+  folder: string;
+  video?: string | null;
+  podcast?: string | null;
+} | null> {
   try {
     const dirents = await fs.readdir(CONTENT_ROOT, { withFileTypes: true });
     const folders = dirents.filter((d) => d.isDirectory()).map((d) => d.name);
@@ -37,7 +40,8 @@ async function readMarkdownAndFolderBySlug(
         if (!fmSlug) continue;
         if (fmSlug === slug) {
           const video = (parsed.data?.video as string | undefined)?.trim() || null;
-          return { content: parsed.content, folder, video };
+          const podcast = (parsed.data?.podcast as string | undefined)?.trim() || null;
+          return { content: parsed.content, folder, video, podcast };
         }
       } catch {
         continue;
@@ -114,7 +118,7 @@ export default async function SystemDesignDetailPage({
   const slug = decodeURIComponent(resolved.slug);
   const result = await readMarkdownAndFolderBySlug(slug);
   if (!result) return notFound();
-  const { content, folder, video } = result;
+  const { content, folder, video, podcast } = result;
 
   function toYouTubeEmbed(url: string): string | null {
     try {
@@ -126,13 +130,24 @@ export default async function SystemDesignDetailPage({
       if (m) return `https://www.youtube.com/embed/${m[1]}`;
       m = trimmed.match(/youtube\.com\/shorts\/([\w-]{6,})/i);
       if (m) return `https://www.youtube.com/embed/${m[1]}`;
-      if (/youtube\.com\/embed\//i.test(trimmed)) return trimmed;
       return null;
     } catch {
       return null;
     }
   }
   const embedUrl = video ? toYouTubeEmbed(video) : null;
+  function toSpotifyEmbed(url: string): string | null {
+    try {
+      const trimmed = url.trim();
+      if (!trimmed) return null;
+      const m = trimmed.match(/open\.spotify\.com\/episode\/([a-zA-Z0-9]+)/i);
+      if (m) return `https://open.spotify.com/embed/episode/${m[1]}?theme=0`;
+      return null;
+    } catch {
+      return null;
+    }
+  }
+  const podcastEmbed = podcast ? toSpotifyEmbed(podcast) : null;
 
   const slugger = new Slugger();
   const toc: TocItem[] = [];
@@ -239,31 +254,39 @@ export default async function SystemDesignDetailPage({
             ]}
             className="prose prose-invert dark:prose-invert max-w-none prose-headings:mt-6 prose-headings:mb-2 prose-p:my-2 prose-ul:my-2 prose-ol:my-2 prose-li:my-0 prose-pre:my-3 prose-table:my-4"
             components={{
-              h1: ({ children }) => {
-                const heading = <h1>{children}</h1>;
-                if (embedUrl) {
-                  return (
-                    <>
-                      {heading}
-                      <div className="my-4">
-                        <div
-                          className="w-full rounded-lg overflow-hidden border"
-                          style={{ aspectRatio: "16 / 9" }}
-                        >
-                          <iframe
-                            src={embedUrl}
-                            className="w-full h-full"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                          />
-                        </div>
+              h1: ({ children }) => (
+                <div>
+                  <h1>{children}</h1>
+                  {embedUrl && (
+                    <div className="my-4">
+                      <div
+                        className="w-full rounded-lg overflow-hidden border"
+                        style={{ aspectRatio: "16 / 9" }}
+                      >
+                        <iframe
+                          src={embedUrl}
+                          className="w-full h-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin"
+                          allowFullScreen
+                        />
                       </div>
-                    </>
-                  );
-                }
-                return heading;
-              },
+                    </div>
+                  )}
+                  {podcastEmbed && (
+                    <div className="my-4">
+                      <iframe
+                        src={podcastEmbed}
+                        className="w-full rounded-xl border"
+                        height={152}
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                </div>
+              ),
+              iframe: undefined,
               img: (props) => {
                 const rawSrc = (props.src ?? "").toString();
                 const isAbsolute = /^([a-z]+:)?\/\//i.test(rawSrc) || rawSrc.startsWith("/");

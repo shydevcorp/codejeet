@@ -8,25 +8,42 @@ import { useRouter } from "next/navigation";
 export default function DashboardPage() {
   const { userId } = useAuth();
   const router = useRouter();
-
   const [questions, setQuestions] = useState([]);
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (userId) {
-      fetch("/api/questions")
-        .then((res) => res.json())
-        .then((data) => {
-          setQuestions(data.questions);
-          setCompanies(data.companies);
+    if (!userId) return;
+    try {
+      const cached = localStorage.getItem("dashboard-cache-v1");
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && Array.isArray(parsed.questions) && Array.isArray(parsed.companies)) {
+          setQuestions(parsed.questions);
+          setCompanies(parsed.companies);
           setLoading(false);
-        })
-        .catch((error) => {
-          console.error("Error loading questions:", error);
-          setLoading(false);
-        });
-    }
+          return;
+        }
+      }
+    } catch {}
+
+    fetch("/api/questions")
+      .then((res) => res.json())
+      .then((data) => {
+        setQuestions(data.questions);
+        setCompanies(data.companies);
+        setLoading(false);
+        try {
+          localStorage.setItem(
+            "dashboard-cache-v1",
+            JSON.stringify({ questions: data.questions, companies: data.companies })
+          );
+        } catch {}
+      })
+      .catch((error) => {
+        console.error("Error loading questions:", error);
+        setLoading(false);
+      });
   }, [userId]);
 
   useEffect(() => {

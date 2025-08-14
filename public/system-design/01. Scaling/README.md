@@ -2,6 +2,7 @@
 slug: "scale-from-zero-to-millions-of-users"
 title: "Scale from Zero to Millions of Users"
 video: "https://www.youtube.com/watch?v=tjubQ97lxA4"
+podcast: "https://open.spotify.com/episode/23UAdtaWsCNSWq9SFIy7yK"
 ---
 
 # Chapter 1: Scale from Zero to Millions of Users
