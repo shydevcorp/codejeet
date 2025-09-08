@@ -252,7 +252,7 @@ export default async function SystemDesignDetailPage({
               [rehypeAutolinkHeadings, { behavior: "wrap" }],
               rehypeHighlight,
             ]}
-            className="prose prose-invert dark:prose-invert max-w-none prose-headings:mt-6 prose-headings:mb-2 prose-p:my-2 prose-ul:my-2 prose-ol:my-2 prose-li:my-0 prose-pre:my-3 prose-table:my-4"
+            className="prose dark:prose-invert max-w-none prose-headings:mt-6 prose-headings:mb-2 prose-p:my-2 prose-ul:my-2 prose-ol:my-2 prose-li:my-0 prose-pre:my-3 prose-table:my-4"
             components={{
               h1: ({ children }) => (
                 <div>
