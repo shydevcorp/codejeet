@@ -1,5 +1,6 @@
 import "server-only";
-import { supabase, type QuestionWithDetails, type Company } from "./supabase";
+import { db, companies, questions, topics, companyQuestions, questionTopics } from "./db";
+import { eq, and, or, ilike, inArray, desc, asc, sql } from "drizzle-orm";
 
 export interface QuestionFilters {
   companies?: string[];
@@ -12,10 +13,35 @@ export interface QuestionFilters {
   offset?: number;
 }
 
+export interface QuestionWithDetails {
+  id: number;
+  slug: string;
+  title: string;
+  difficulty: "Easy" | "Medium" | "Hard";
+  Difficulty: "Easy" | "Medium" | "Hard";
+  acceptance_rate: number;
+  link: string;
+  company: string;
+  frequency: number;
+  timeframe: string;
+  topics: string[];
+  "Acceptance %": string;
+  "Frequency %": string;
+  Topics: string;
+  ID: string;
+  Title: string;
+  URL: string;
+}
+
 export interface QuestionsResponse {
   questions: QuestionWithDetails[];
   companies: string[];
   totalCount: number;
+}
+
+export interface Company {
+  id: number;
+  name: string;
 }
 
 const mapDifficulty = (difficulty: string): "Easy" | "Medium" | "Hard" => {
@@ -30,114 +56,102 @@ export async function getQuestionsFromDatabase(
   filters: QuestionFilters = {}
 ): Promise<QuestionsResponse> {
   try {
-    let query = supabase.from("company_questions").select(
-      `
-        frequency,
-        timeframe,
-        companies!inner(id, name),
-        questions!inner(
-          id,
-          slug,
-          title,
-          difficulty,
-          acceptance_rate,
-          link,
-          question_topics(
-            topics(name)
-          )
-        )
-      `,
-      { count: "exact" }
-    );
+    // For now, let's use a simpler approach that works with the current Drizzle version
+    // We'll fetch all data and filter in memory for the initial migration
+    // This can be optimized later with proper query building
+
+    const results = await db
+      .select({
+        frequency: companyQuestions.frequency,
+        timeframe: companyQuestions.timeframe,
+        companyId: companies.id,
+        companyName: companies.name,
+        questionId: questions.id,
+        questionSlug: questions.slug,
+        questionTitle: questions.title,
+        questionDifficulty: questions.difficulty,
+        questionAcceptanceRate: questions.acceptanceRate,
+        questionLink: questions.link,
+        questionIsPremium: questions.isPremium,
+      })
+      .from(companyQuestions)
+      .innerJoin(companies, eq(companyQuestions.companyId, companies.id))
+      .innerJoin(questions, eq(companyQuestions.questionId, questions.id));
+
+    let filteredResults = results;
 
     if (filters.companies && filters.companies.length > 0) {
-      query = query.in("companies.name", filters.companies);
+      filteredResults = filteredResults.filter((r) => filters.companies!.includes(r.companyName));
     }
 
     if (filters.difficulties && filters.difficulties.length > 0) {
-      const dbDifficulties = filters.difficulties.map((d) => d.toUpperCase());
-      query = query.in("questions.difficulty", dbDifficulties);
+      filteredResults = filteredResults.filter((r) =>
+        filters.difficulties!.includes(r.questionDifficulty as "Easy" | "Medium" | "Hard")
+      );
     }
 
     if (filters.timeframes && filters.timeframes.length > 0) {
-      query = query.in("timeframe", filters.timeframes);
+      filteredResults = filteredResults.filter((r) =>
+        filters.timeframes!.includes(r.timeframe as any)
+      );
     }
 
     if (filters.search) {
-      query = query.or(
-        `questions.title.ilike.%${filters.search}%,companies.name.ilike.%${filters.search}%`
+      const searchLower = filters.search.toLowerCase();
+      filteredResults = filteredResults.filter(
+        (r) =>
+          r.questionTitle.toLowerCase().includes(searchLower) ||
+          r.companyName.toLowerCase().includes(searchLower)
       );
     }
 
     if (filters.limit) {
-      query = query.limit(filters.limit);
-      if (filters.offset) {
-        query = query.range(filters.offset, filters.offset + filters.limit - 1);
-      }
+      const offset = filters.offset || 0;
+      filteredResults = filteredResults.slice(offset, offset + filters.limit);
     }
 
-    const PAGE_SIZE = 1000;
-    let aggregatedData: any[] = [];
-    let from = 0;
-    let done = false;
+    const questionIds = [...new Set(filteredResults.map((r) => r.questionId))];
+    const questionTopicsData = await db
+      .select({
+        questionId: questionTopics.questionId,
+        topicName: topics.name,
+      })
+      .from(questionTopics)
+      .innerJoin(topics, eq(questionTopics.topicId, topics.id))
+      .where(inArray(questionTopics.questionId, questionIds));
 
-    if (!filters.limit) {
-      while (!done) {
-        const { data: pageData, error: pageError } = await query.range(from, from + PAGE_SIZE - 1);
-
-        if (pageError) {
-          console.error("Database error (paged):", pageError);
-          throw pageError;
+    const topicsByQuestion = questionTopicsData.reduce(
+      (acc, item) => {
+        if (!acc[item.questionId]) {
+          acc[item.questionId] = [];
         }
+        acc[item.questionId].push(item.topicName);
+        return acc;
+      },
+      {} as Record<number, string[]>
+    );
 
-        if (pageData && pageData.length > 0) {
-          aggregatedData = aggregatedData.concat(pageData);
-        }
-
-        if (!pageData || pageData.length < PAGE_SIZE) {
-          done = true;
-        } else {
-          from += PAGE_SIZE;
-        }
-      }
-    }
-
-    const { data, error, count } = filters.limit
-      ? await query
-      : { data: aggregatedData, error: null, count: aggregatedData.length };
-
-    if (error) {
-      console.error("Database error:", error);
-      throw error;
-    }
-
-    if (!data) {
-      return { questions: [], companies: [], totalCount: 0 };
-    }
-
-    const transformedQuestions: QuestionWithDetails[] = data.map((item: any) => {
-      const question = item.questions;
-      const company = item.companies;
-      const topics = question.question_topics?.map((qt: any) => qt.topics.name) || [];
-      const urlPath = `/problems/${question.slug}/`;
+    const transformedQuestions: QuestionWithDetails[] = filteredResults.map((item) => {
+      const questionTopics = topicsByQuestion[item.questionId] || [];
+      const urlPath = `/problems/${item.questionSlug}/`;
 
       return {
-        id: question.id,
-        slug: question.slug,
-        title: question.title,
-        difficulty: mapDifficulty(question.difficulty),
-        Difficulty: mapDifficulty(question.difficulty),
-        acceptance_rate: question.acceptance_rate,
-        link: question.link,
-        company: company.name,
-        frequency: item.frequency,
+        id: item.questionId,
+        slug: item.questionSlug,
+        title: item.questionTitle,
+        difficulty: mapDifficulty(item.questionDifficulty),
+        Difficulty: mapDifficulty(item.questionDifficulty),
+        acceptance_rate: parseFloat(item.questionAcceptanceRate),
+        link: item.questionLink,
+        company: item.companyName,
+        frequency: parseFloat(item.frequency),
         timeframe: item.timeframe,
-        topics: topics,
-        "Acceptance %": `${(question.acceptance_rate * 100).toFixed(1)}%`,
-        "Frequency %": `${item.frequency.toFixed(1)}%`,
-        Topics: topics.join(", "),
-        ID: question.slug,
-        Title: question.title,
+        topics: questionTopics,
+        "Acceptance %": `${(parseFloat(item.questionAcceptanceRate) * 100).toFixed(1)}%`,
+        "Frequency %": `${parseFloat(item.frequency).toFixed(1)}%`,
+        Topics: questionTopics.join(", "),
+        ID: item.questionSlug,
+        Title: item.questionTitle,
         URL: urlPath,
       };
     });
@@ -150,6 +164,7 @@ export async function getQuestionsFromDatabase(
       },
       {} as Record<string, number>
     );
+
     const dedupedMap = new Map<string, QuestionWithDetails>();
     for (const q of transformedQuestions) {
       const key = `${q.company}|${q.id}`;
@@ -157,31 +172,28 @@ export async function getQuestionsFromDatabase(
       if (!existing) {
         dedupedMap.set(key, q);
       } else {
-        const existingRank =
-          precedenceRank[existing.timeframe as string] ?? Number.MAX_SAFE_INTEGER;
-        const newRank = precedenceRank[q.timeframe as string] ?? Number.MAX_SAFE_INTEGER;
+        const existingRank = precedenceRank[existing.timeframe] ?? Number.MAX_SAFE_INTEGER;
+        const newRank = precedenceRank[q.timeframe] ?? Number.MAX_SAFE_INTEGER;
         if (newRank < existingRank) {
           dedupedMap.set(key, q);
         }
       }
     }
-    const dedupedQuestions = Array.from(dedupedMap.values());
 
-    let filteredQuestions = dedupedQuestions;
+    let filteredQuestions = Array.from(dedupedMap.values());
+
     if (filters.topics && filters.topics.length > 0) {
-      filteredQuestions = dedupedQuestions.filter((q) =>
+      filteredQuestions = filteredQuestions.filter((q) =>
         filters.topics!.some((topic) => q.topics.includes(topic))
       );
     }
-
-    // Premium filtering removed from UI and types. Ignoring to avoid type errors.
 
     const uniqueCompanies = [...new Set(filteredQuestions.map((q) => q.company))];
 
     return {
       questions: filteredQuestions,
       companies: uniqueCompanies,
-      totalCount: count || filteredQuestions.length,
+      totalCount: filteredQuestions.length,
     };
   } catch (error) {
     console.error("Error fetching questions from database:", error);
@@ -191,10 +203,15 @@ export async function getQuestionsFromDatabase(
 
 export async function getCompanies(): Promise<Company[]> {
   try {
-    const { data, error } = await supabase.from("companies").select("id, name").order("name");
+    const result = await db
+      .select({
+        id: companies.id,
+        name: companies.name,
+      })
+      .from(companies)
+      .orderBy(asc(companies.name));
 
-    if (error) throw error;
-    return data || [];
+    return result;
   } catch (error) {
     console.error("Error fetching companies:", error);
     return [];
@@ -203,10 +220,14 @@ export async function getCompanies(): Promise<Company[]> {
 
 export async function getTopics(): Promise<string[]> {
   try {
-    const { data, error } = await supabase.from("topics").select("name").order("name");
+    const result = await db
+      .select({
+        name: topics.name,
+      })
+      .from(topics)
+      .orderBy(asc(topics.name));
 
-    if (error) throw error;
-    return data?.map((t) => t.name) || [];
+    return result.map((t) => t.name);
   } catch (error) {
     console.error("Error fetching topics:", error);
     return [];
