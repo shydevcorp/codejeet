@@ -14,7 +14,6 @@ export function markQuestionAsSolved(questionId: string, companies: string[]) {
   const tracking = localStorage.getItem("leetcode-tracking") || "{}";
   const trackingData: Record<string, QuestionTrackingData> = JSON.parse(tracking);
 
-  // Check if question is already solved to avoid duplicate entries
   if (!trackingData[questionId]) {
     trackingData[questionId] = {
       questionId,
@@ -25,7 +24,6 @@ export function markQuestionAsSolved(questionId: string, companies: string[]) {
     localStorage.setItem("leetcode-tracking", JSON.stringify(trackingData));
     updateStreak();
 
-    // Dispatch a custom event
     if (typeof window !== "undefined") {
       window.dispatchEvent(
         new CustomEvent("questionSolved", {
@@ -44,7 +42,6 @@ export function getQuestionTrackingData() {
 
   try {
     const parsed = JSON.parse(data);
-    // Convert simple boolean values to objects with solvedAt property
     const enhanced = Object.entries(parsed).reduce(
       (acc, [id, value]) => {
         if (typeof value === "boolean" && value === true) {
@@ -83,7 +80,6 @@ export function calculateStreak(): StreakData {
   let longestStreak = 1;
   let lastDate = new Date(dates[dates.length - 1]);
 
-  // Check if the streak is still active (solved something today or yesterday)
   const today = new Date();
   const yesterday = new Date(today);
   yesterday.setDate(yesterday.getDate() - 1);
@@ -92,7 +88,6 @@ export function calculateStreak(): StreakData {
     currentStreak = 0;
   }
 
-  // Calculate streaks
   for (let i = dates.length - 2; i >= 0; i--) {
     const currentDate = new Date(dates[i]);
     const diffDays = Math.floor(

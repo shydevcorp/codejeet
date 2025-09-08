@@ -14,7 +14,7 @@ import TOC, { TocItem } from "@/components/TOC";
 import { cn } from "@/lib/utils";
 import matter from "gray-matter";
 
-export const dynamic = "error";
+export const dynamic = "force-static";
 export const dynamicParams = false;
 
 const CONTENT_ROOT = path.join(process.cwd(), "public", "system-design");
@@ -207,7 +207,6 @@ export default async function SystemDesignDetailPage({
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* Mobile controls on top, stacked */}
       <div className="md:hidden mb-4 space-y-2">
         <details className="w-full border rounded-lg">
           <summary className="cursor-pointer px-3 py-2">Chapters</summary>
