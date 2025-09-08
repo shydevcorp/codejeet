@@ -28,6 +28,8 @@ import { SolutionDialog } from "@/components/SolutionDialog";
 import { DifficultyBadge } from "@/components/ui/difficulty-badge";
 import TopicDropdown from "@/components/TopicDropdown";
 
+const LEETCODE_BASE_URL = "https://leetcode.com";
+
 interface Question {
   id: number;
   slug: string;
@@ -161,7 +163,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
     let result = [...filteredQuestions];
 
     result.sort((a, b) => {
-      // First sort by frequency if it's set
       if (frequencySort) {
         const freqA = parseFloat(a["Frequency %"]);
         const freqB = parseFloat(b["Frequency %"]);
@@ -169,7 +170,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
         if (freqResult !== 0) return freqResult;
       }
 
-      // Then sort by acceptance if it's set
       if (acceptanceSort) {
         const accA = parseFloat(a["Acceptance %"]);
         const accB = parseFloat(b["Acceptance %"]);
@@ -494,7 +494,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           </TableCell>
                           <TableCell>
                             <a
-                              href={`https://leetcode.com${question.URL}`}
+                              href={`${LEETCODE_BASE_URL}${question.URL}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="text-foreground hover:text-primary hover:underline"
@@ -612,7 +612,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           />
                           <div>
                             <a
-                              href={`https://leetcode.com${question.URL}`}
+                              href={`${LEETCODE_BASE_URL}${question.URL}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="font-medium hover:underline"

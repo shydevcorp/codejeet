@@ -43,11 +43,8 @@ export interface TweetGridProps
 }
 
 export const TweetGrid: React.FC<TweetGridProps> = ({ tweets, columns, spacing, className }) => {
-  // Calculate the number of rows needed based on total tweets and columns
   const numColumns = columns === 3 ? 3 : columns || 3;
-  const rows = Math.ceil(tweets.length / numColumns);
 
-  // Reorganize tweets into columns
   const columns_array = Array.from({ length: numColumns }, (_, colIndex) =>
     tweets.filter((_, index) => index % numColumns === colIndex)
   );

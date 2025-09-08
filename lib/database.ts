@@ -56,10 +56,6 @@ export async function getQuestionsFromDatabase(
   filters: QuestionFilters = {}
 ): Promise<QuestionsResponse> {
   try {
-    // For now, let's use a simpler approach that works with the current Drizzle version
-    // We'll fetch all data and filter in memory for the initial migration
-    // This can be optimized later with proper query building
-
     const results = await db
       .select({
         frequency: companyQuestions.frequency,

@@ -33,7 +33,6 @@ export default function Home() {
   const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    // Disable image scale effect on small screens
     const mq = window.matchMedia("(min-width: 640px)");
     const handler = () => setIsDesktop(mq.matches);
     handler();

@@ -1,4 +1,3 @@
-// components/icons.tsx
 import { BookOpen, Building, LineChart, User, Settings, Code, Search } from "lucide-react";
 
 export const Icons = {
