@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import {
   Table,
@@ -24,11 +24,34 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { capitalizeWords } from "@/utils/utils";
 import { VideoDialog } from "@/components/VideoDialog";
-import { SolutionDialog } from "@/components/SolutionDialog";
 import { DifficultyBadge } from "@/components/ui/difficulty-badge";
 import TopicDropdown from "@/components/TopicDropdown";
 
 const LEETCODE_BASE_URL = "https://leetcode.com";
+
+const useOutsideClick = (ref: React.RefObject<HTMLElement | null>, callback: () => void) => {
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (ref.current && !ref.current.contains(event.target as Node)) {
+        callback();
+      }
+    };
+
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        callback();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("keydown", handleEscapeKey);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleEscapeKey);
+    };
+  }, [ref, callback]);
+};
 
 interface Question {
   id: number;
@@ -71,6 +94,12 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
   const [frequencySort, setFrequencySort] = useState<"asc" | "desc" | null>(null);
   const [acceptanceSort, setAcceptanceSort] = useState<"asc" | "desc" | null>(null);
   const [timeframeFilter, setTimeframeFilter] = useState("all");
+  const [showCompanyDropdown, setShowCompanyDropdown] = useState(false);
+  const companySearchRef = useRef<HTMLDivElement>(null);
+
+  useOutsideClick(companySearchRef, () => {
+    setShowCompanyDropdown(false);
+  });
 
   useEffect(() => {
     setIsClient(true);
@@ -373,17 +402,19 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
             </div>
 
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:w-[260px] relative">
+              <div className="md:w-[260px] relative" ref={companySearchRef}>
                 <Input
                   placeholder="Search companies..."
                   value={searchQuery}
                   onChange={(e) => {
                     setSearchQuery(e.target.value);
+                    setShowCompanyDropdown(true);
                     setCurrentPage(1);
                   }}
+                  onFocus={() => setShowCompanyDropdown(true)}
                   className="w-full"
                 />
-                {searchQuery && (
+                {searchQuery && showCompanyDropdown && (
                   <div className="absolute left-0 right-0 mt-1 z-20 rounded-md border bg-popover text-popover-foreground shadow-md max-h-64 overflow-y-auto">
                     <ul className="py-1 text-sm">
                       {companyStats
@@ -395,6 +426,7 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                             className="px-3 py-2 hover:bg-accent hover:text-accent-foreground cursor-pointer"
                             onClick={() => {
                               setSearchQuery(c.name);
+                              setShowCompanyDropdown(false);
                               setCurrentPage(1);
                             }}
                           >
@@ -526,7 +558,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
                           <TableCell className="text-center">{question["Frequency %"]}</TableCell>
                           <TableCell className="flex items-center gap-2">
                             <VideoDialog id={question.ID} title={question.Title} />
-                            <SolutionDialog questionId={question.ID} title={question.Title} />
                           </TableCell>
                         </TableRow>
                       ))}
@@ -642,7 +673,6 @@ const LeetCodeDashboard: React.FC<LeetCodeDashboardProps> = ({
 
                       <div className="mt-3 flex gap-2">
                         <VideoDialog id={question.ID} title={question.Title} />
-                        <SolutionDialog questionId={question.ID} title={question.Title} />
                       </div>
                     </Card>
                   ))}

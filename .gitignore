@@ -45,3 +45,4 @@ next-env.d.ts
 /.clerk/
 
 /lib/generated/prisma
+/data

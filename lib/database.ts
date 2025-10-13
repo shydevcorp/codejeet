@@ -1,6 +1,6 @@
 import "server-only";
 import { db, companies, questions, topics, companyQuestions, questionTopics } from "./db";
-import { eq, and, or, ilike, inArray, desc, asc, sql } from "drizzle-orm";
+import { eq, inArray, asc } from "drizzle-orm";
 
 export interface QuestionFilters {
   companies?: string[];

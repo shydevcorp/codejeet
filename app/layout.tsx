@@ -6,7 +6,6 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
-import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const appSans = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 const appMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
@@ -26,21 +25,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           className={`${appSans.variable} ${appMono.variable} font-sans`}
           suppressHydrationWarning
         >
-          <LanguageProvider>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="dark"
-              enableSystem
-              disableTransitionOnChange
-            >
-              <div className="min-h-screen bg-background flex flex-col">
-                <Navbar />
-                <main className="flex-1">{children}</main>
-                <Footer />
-                <Toaster />
-              </div>
-            </ThemeProvider>
-          </LanguageProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <div className="min-h-screen bg-background flex flex-col">
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <Footer />
+              <Toaster />
+            </div>
+          </ThemeProvider>
         </body>
       </html>
     </ClerkProvider>
